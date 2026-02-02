@@ -1,0 +1,50 @@
+{
+  "total_intersections": 244,
+  "total_radars": 773,
+  "by_lotto": {
+    "M9.1": {
+      "intersections": 147,
+      "radars": 425
+    },
+    "M9.2": {
+      "intersections": 97,
+      "radars": 348
+    }
+  },
+  "by_system": {
+    "Tmacs": {
+      "intersections": 55,
+      "radars": 199
+    },
+    "Omnia": {
+      "intersections": 165,
+      "radars": 574
+    },
+    "Unknown": {
+      "intersections": 24,
+      "radars": 0
+    }
+  },
+  "by_stage": {
+    "installation": 220,
+    "configuration": 23,
+    "validation": 1
+  },
+  "by_stage_status": {
+    "installation_blocked": 24,
+    "configuration_in_progress": 11,
+    "installation_in_progress": 120,
+    "configuration_completed": 5,
+    "validation_in_progress": 1,
+    "installation_pending": 76,
+    "configuration_pending": 7
+  },
+  "inconsistencies": {
+    "total": 56,
+    "by_type": {
+      "radar_count_mismatch": 11,
+      "missing_from_lotto": 21,
+      "missing_from_main": 24
+    }
+  }
+}
