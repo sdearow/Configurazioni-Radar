@@ -14,7 +14,7 @@ const DataManager = {
     STORAGE_KEY_HISTORY: 'radar_history',
 
     /**
-     * Initialize data - load from localStorage or JSON file
+     * Initialize data - load from localStorage, embedded data, or JSON file
      */
     async init() {
         // Try to load from localStorage first
@@ -25,7 +25,7 @@ const DataManager = {
             this.intersections = JSON.parse(storedIntersections);
             console.log('Loaded intersections from localStorage');
         } else {
-            // Load from JSON file
+            // Load from embedded data or JSON file
             await this.loadFromFile();
         }
 
@@ -36,21 +36,33 @@ const DataManager = {
             this.tasks = [];
         }
 
-        // Load summary
-        try {
-            const response = await fetch('data/summary.json');
-            this.summary = await response.json();
-        } catch (e) {
-            this.summary = this.calculateSummary();
+        // Load summary from embedded data or calculate it
+        if (typeof EMBEDDED_DATA !== 'undefined' && EMBEDDED_DATA.summary) {
+            this.summary = EMBEDDED_DATA.summary;
+        } else {
+            try {
+                const response = await fetch('data/summary.json');
+                this.summary = await response.json();
+            } catch (e) {
+                this.summary = this.calculateSummary();
+            }
         }
 
         return this;
     },
 
     /**
-     * Load data from JSON file
+     * Load data from embedded data or JSON file
      */
     async loadFromFile() {
+        // First try embedded data (works with file:// protocol)
+        if (typeof EMBEDDED_DATA !== 'undefined' && EMBEDDED_DATA.intersections) {
+            this.intersections = EMBEDDED_DATA.intersections;
+            console.log(`Loaded ${this.intersections.length} intersections from embedded data`);
+            return;
+        }
+
+        // Fall back to fetch (works with http:// protocol)
         try {
             const response = await fetch('data/intersections.json');
             this.intersections = await response.json();

@@ -37,26 +37,85 @@ const MapManager = {
         }
     },
 
-    // Simulated coordinates for Rome intersections (will be replaced with real geocoding)
-    // This generates approximate positions based on equipment code
+    // Rome area reference coordinates for better placement
+    romeAreas: {
+        // Major streets and their approximate coordinates
+        'cassia': { lat: 41.9550, lng: 12.4600 },
+        'flaminia': { lat: 41.9400, lng: 12.4750 },
+        'salaria': { lat: 41.9300, lng: 12.5100 },
+        'nomentana': { lat: 41.9200, lng: 12.5200 },
+        'tiburtina': { lat: 41.9000, lng: 12.5400 },
+        'prenestina': { lat: 41.8900, lng: 12.5500 },
+        'casilina': { lat: 41.8700, lng: 12.5600 },
+        'tuscolana': { lat: 41.8600, lng: 12.5300 },
+        'appia': { lat: 41.8500, lng: 12.5200 },
+        'ardeatina': { lat: 41.8400, lng: 12.5000 },
+        'laurentina': { lat: 41.8300, lng: 12.4800 },
+        'ostiense': { lat: 41.8500, lng: 12.4700 },
+        'portuense': { lat: 41.8600, lng: 12.4400 },
+        'aurelia': { lat: 41.9000, lng: 12.4200 },
+        'boccea': { lat: 41.9100, lng: 12.4100 },
+        'trionfale': { lat: 41.9200, lng: 12.4400 },
+        'pineta': { lat: 41.9250, lng: 12.4300 },
+        'gregorio': { lat: 41.8950, lng: 12.4550 },
+        'trastevere': { lat: 41.8850, lng: 12.4650 },
+        'testaccio': { lat: 41.8750, lng: 12.4750 },
+        'marconi': { lat: 41.8550, lng: 12.4700 },
+        'eur': { lat: 41.8300, lng: 12.4650 },
+        'torrino': { lat: 41.8150, lng: 12.4550 },
+        'magliana': { lat: 41.8450, lng: 12.4300 },
+        'corviale': { lat: 41.8550, lng: 12.3900 },
+        'primavalle': { lat: 41.9200, lng: 12.4000 },
+        'torrevecchia': { lat: 41.9300, lng: 12.4150 },
+        'battistini': { lat: 41.9100, lng: 12.4050 },
+        'cornelia': { lat: 41.9050, lng: 12.4150 },
+        'cipro': { lat: 41.9080, lng: 12.4450 },
+        'prati': { lat: 41.9100, lng: 12.4600 },
+        'clodio': { lat: 41.9150, lng: 12.4580 },
+        'mazzini': { lat: 41.9200, lng: 12.4500 },
+        'ponte': { lat: 41.9000, lng: 12.4700 },
+        'centro': { lat: 41.8980, lng: 12.4800 },
+        'termini': { lat: 41.9010, lng: 12.5020 },
+        'esquilino': { lat: 41.8950, lng: 12.5050 },
+        'sanlorenzo': { lat: 41.8970, lng: 12.5200 },
+        'verano': { lat: 41.9050, lng: 12.5180 },
+        'pietralata': { lat: 41.9150, lng: 12.5400 },
+        'montesacro': { lat: 41.9400, lng: 12.5250 },
+        'talenti': { lat: 41.9500, lng: 12.5400 },
+        'conca': { lat: 41.9350, lng: 12.5150 },
+        'parioli': { lat: 41.9300, lng: 12.4900 },
+        'aventino': { lat: 41.8830, lng: 12.4850 },
+        'garbatella': { lat: 41.8600, lng: 12.4900 },
+        'default': { lat: 41.9028, lng: 12.4964 }
+    },
+
+    // Generate coordinates based on intersection name
     generateCoordinates(intersection) {
         // If coordinates are already set, use them
         if (intersection.coordinates) {
             return intersection.coordinates;
         }
 
-        // Generate pseudo-random but deterministic coordinates based on ID
+        const name = (intersection.name || '').toLowerCase();
         const code = parseInt(intersection.id) || 0;
-        const seed = code * 9301 + 49297;
 
-        // Rome bounding box approximately
-        const latMin = 41.82, latMax = 41.98;
-        const lngMin = 12.35, lngMax = 12.60;
+        // Try to match area from name
+        let baseCoords = this.romeAreas.default;
+        for (const [area, coords] of Object.entries(this.romeAreas)) {
+            if (name.includes(area)) {
+                baseCoords = coords;
+                break;
+            }
+        }
 
-        const lat = latMin + ((seed % 1000) / 1000) * (latMax - latMin);
-        const lng = lngMin + (((seed / 1000) % 1000) / 1000) * (lngMax - lngMin);
+        // Add small deterministic offset based on code to spread markers
+        const offsetLat = ((code * 7919) % 1000) / 100000 - 0.005;
+        const offsetLng = ((code * 104729) % 1000) / 100000 - 0.005;
 
-        return { lat, lng };
+        return {
+            lat: baseCoords.lat + offsetLat,
+            lng: baseCoords.lng + offsetLng
+        };
     },
 
     /**
