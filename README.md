@@ -1,128 +1,175 @@
-# Radar Project Management - Roma
+# Radar Configuration Dashboard - Roma
 
-A dashboard tool for managing the installation and configuration of 800 radars across ~200 road intersections in Rome.
-
-## Quick Start
-
-### Option 1: Open directly in browser
-Simply double-click `index.html` to open the dashboard in your default browser.
-
-### Option 2: Run with a local server (recommended for full functionality)
-```bash
-# Using Python (if installed)
-python -m http.server 8000
-
-# Then open http://localhost:8000 in your browser
-```
+A web-based dashboard for managing radar installation configurations in Rome. Features interactive maps with geolocation, data editing, and Excel import/export.
 
 ## Features
 
-- **Map View**: Interactive map of Rome showing all intersection locations
-  - Color-coded by stage, lotto, system, or status
-  - Filter by multiple criteria
-  - Click markers to see details
+- **Interactive Map**: View all intersections on an OpenStreetMap-based map
+- **Draggable Markers**: Manually adjust positions by dragging markers
+- **Automatic Geocoding**: Intelligent geocoding using OpenStreetMap Nominatim
+- **Data Merging**: Combines data from multiple Excel files (Lotti, Semaforica, Swarco)
+- **Full Data Editor**: View and edit all columns from source files
+- **Export**: Export to Excel or GeoJSON formats
+- **Portable**: Runs locally, easy to copy to other machines
 
-- **Progress Dashboard**: Visual overview of project progress
-  - Progress bars for each stage
-  - Charts by Lotto, System, and Stage
-  - Stage status breakdown
+## Quick Start
 
-- **Intersection List**: Searchable/filterable table of all intersections
-  - Quick access to details
-  - Jump to map location
+### 1. Install Dependencies
 
-- **Inconsistencies**: Track data discrepancies between sources
-  - Radar count mismatches
-  - Missing from main file
-  - Missing from Lotto files
+```bash
+# Create a virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-- **Tasks**: Kanban-style task management
-  - Link tasks to intersections
-  - Assign to team members or companies
-  - Track status (Pending, In Progress, Completed)
-
-- **Export**:
-  - Export to Excel (full data)
-  - Export to JSON
-  - Generate Site Visit PDFs
-  - Backup/Restore functionality
-
-## Project Structure
-
-```
-radar-dashboard/
-├── index.html              # Main dashboard
-├── css/
-│   └── styles.css          # Styling
-├── js/
-│   ├── app.js              # Main application logic
-│   ├── data.js             # Data management
-│   ├── map.js              # Leaflet map integration
-│   ├── charts.js           # Chart.js visualizations
-│   ├── tasks.js            # Task management
-│   └── export.js           # Export functionality
-├── data/
-│   ├── intersections.json  # Merged intersection data
-│   └── summary.json        # Summary statistics
-├── data-import/            # Original Excel files
-└── scripts/
-    └── merge_data.py       # Data merge script
+# Install required packages
+pip install -r requirements.txt
 ```
 
-## Data Model
+### 2. Run the Dashboard
 
-### Stages
-1. **Installation**: Planimetry sent → Installed → Issues resolved
-2. **Configuration**: Config done → Config installed on centralino
-3. **Connection**: UTC table → Interface installed → Data received
-4. **Validation**: Data correctness verified
+```bash
+python run.py
+```
 
-### Systems
-- **Omnia** (Swarco): Uses SPOT devices
-- **Tmacs** (Semaforica): Uses AUT devices
+Then open http://localhost:5000 in your browser.
 
-### Lotti
-- **M9.1**: Engin (ENG) + Sonet
-- **M9.2**: Installation company TBD
+## Usage Guide
 
-## Updating Data
+### First Run
 
-### Manual Updates
-Changes made in the dashboard are saved to browser localStorage. Use the Export feature to create backups.
+1. The system will automatically extract data from the Excel files in `data-import/`
+2. Click **"Geocode All"** to automatically find coordinates for all intersections
+3. Geocoding takes time due to API rate limiting (~1 request/second)
 
-### Re-importing from Excel
-1. Place updated Excel files in `data-import/`
-2. Run the merge script:
-   ```bash
-   python scripts/merge_data.py
-   ```
-3. Refresh the dashboard (may need to clear localStorage for fresh data)
+### Adjusting Positions
 
-## Team Members
-- GT - Giacomo Tuffanelli
-- AV - Alessandro Vangi
-- MC - Marisdea Castiglione
-- FM - Francesco Masucci
+For intersections that weren't found or are inaccurate:
 
-## Companies
-- ENG (Engin/Edison Next) - Lotto M9.1 installation
-- Sonet - Lotto M9.1 installation
-- Swarco - Omnia/SPOT system management
-- Semaforica - Tmacs/AUT system management
+1. **Drag the marker** directly on the map to the correct position
+2. The position is saved automatically
+3. Markers turn **blue** when manually positioned
 
-## Technical Notes
+### Understanding Marker Colors
 
-- Data is stored in browser localStorage for persistence
-- Map uses OpenStreetMap via Leaflet.js
-- Charts powered by Chart.js
-- Excel export via SheetJS
-- PDF export via jsPDF
+| Color | Meaning |
+|-------|---------|
+| 🟢 Green | Geocoded with high confidence |
+| 🟠 Orange | Needs review (low confidence) |
+| 🔴 Red | Not found - needs manual positioning |
+| 🔵 Blue | Manually positioned |
 
-## Portability
+### Filters
 
-To transfer to another computer:
-1. Zip the entire `radar-dashboard` folder
-2. Send via email/WeTransfer
-3. Unzip and open `index.html`
+Use the filter buttons to show:
+- **All**: All intersections
+- **Geocoded**: Successfully found
+- **Not Found**: Failed geocoding
+- **Needs Review**: Low confidence results
+- **Manual**: Manually positioned
 
-Note: Data stored in localStorage is browser-specific. Use the Backup feature to transfer data state.
+### Exporting Data
+
+- **Export Excel**: Downloads a complete Excel file with coordinates
+- **Export GeoJSON**: Downloads a GeoJSON file for GIS applications
+
+### Reloading from Excel
+
+If you update the source Excel files:
+1. Click **"Reload from Excel"**
+2. This re-reads all Excel files while preserving manual position corrections
+
+## File Structure
+
+```
+Configurazioni-Radar/
+├── data-import/              # Source Excel files
+│   ├── LOTTI M9_RADAR_v1_2026.01.28.xlsx
+│   ├── ELENCO_LOTTO_1_2026.01.23.xlsx
+│   ├── ELENCO LOTTO 2_2026.01.23.xlsx
+│   ├── Elenco IS RADAR_SEMAFORICA_...xlsx
+│   └── Swarco_Verifica stato...xlsx
+├── templates/                # HTML templates
+│   └── index.html
+├── app.py                    # Flask web application
+├── config.py                 # Configuration settings
+├── data_extractor.py         # Excel parsing and merging
+├── geocoder.py               # Geocoding logic
+├── run.py                    # Startup script
+├── requirements.txt          # Python dependencies
+├── merged_data.json          # Combined data (auto-generated)
+└── geocode_cache.json        # Geocoding cache (auto-generated)
+```
+
+## How Geocoding Works
+
+The geocoder handles various name formats:
+
+### Simple Streets
+`Via Cassia` → searches for "Via Cassia, Roma, Italia"
+
+### Intersections
+`Cassia/Grottarossa` → searches for intersection of Via Cassia and Via Grottarossa
+
+### Piazzas
+`Piazza Ungheria` → searches for the piazza directly
+
+### Abbreviations
+The system expands common abbreviations:
+- `L.re` → Lungotevere
+- `P.zza` → Piazza
+- `C.so` → Corso
+- `V.le` → Viale
+
+### Numeric Prefixes
+`101-Cassia/Grottarossa` → ID preserved, text used for geocoding
+
+## Troubleshooting
+
+### "Geocoding not working"
+- Ensure you have internet connectivity
+- Nominatim has rate limits; wait and retry
+- For VPN/proxy environments, geocoding may be blocked
+
+### "Intersection not found"
+1. Try re-geocoding with the "Re-geocode" button
+2. If still not found, drag the marker manually
+3. Some names may need clarification (the system will flag them)
+
+### "Data not loading"
+- Check that Excel files are in `data-import/` folder
+- Run `python data_extractor.py` to diagnose issues
+
+## Copying to Another Machine
+
+1. Copy the entire `Configurazioni-Radar` folder
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run: `python run.py`
+
+The `merged_data.json` file preserves all geocoded positions and manual corrections.
+
+## API Endpoints
+
+For advanced users, the following API endpoints are available:
+
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/api/intersections` | GET | Get all intersection data |
+| `/api/intersection/<id>/position` | PUT | Update position (lat, lon) |
+| `/api/intersection/<id>` | PUT | Update intersection data |
+| `/api/geocode/<id>` | POST | Re-geocode single intersection |
+| `/api/geocode/all` | POST | Geocode all pending intersections |
+| `/api/reload` | POST | Reload from Excel files |
+| `/api/export/excel` | GET | Download Excel export |
+| `/api/export/geojson` | GET | Download GeoJSON export |
+
+## Requirements
+
+- Python 3.8+
+- Flask
+- Pandas
+- Geopy
+- OpenPyXL
+
+## License
+
+Internal use only - Edison Next Government / Roma Capitale
