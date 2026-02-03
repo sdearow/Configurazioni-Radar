@@ -5,7 +5,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.96315,
+      "lng": 12.456150000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -87,7 +90,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.918350000000004,
+      "lng": 12.4406
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -148,7 +154,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.960233333333335,
+      "lng": 12.458533333333333
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -235,7 +244,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.93745,
+      "lng": 12.4722
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -316,7 +328,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9356,
+      "lng": 12.465050000000002
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -391,7 +406,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.914500000000004,
+      "lng": 12.4256
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -472,7 +490,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9123,
+      "lng": 12.4206
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -559,7 +580,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9134,
+      "lng": 12.4273
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -640,7 +664,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.904500000000006,
+      "lng": 12.414466666666668
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -721,7 +748,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.90043333333333,
+      "lng": 12.416333333333334
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -808,7 +838,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89725,
+      "lng": 12.443950000000001
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "completed",
@@ -895,7 +928,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8956,
+      "lng": 12.4495
+    },
     "planimetry_file": null,
     "current_stage": "validation",
     "stage_status": "in_progress",
@@ -982,7 +1018,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.90835,
+      "lng": 12.41225
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -1043,7 +1082,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9078,
+      "lng": 12.4067
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1124,7 +1166,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91615,
+      "lng": 12.4089
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1211,7 +1256,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.897800000000004,
+      "lng": 12.450050000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -1298,7 +1346,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89615,
+      "lng": 12.452300000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1379,7 +1430,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8967,
+      "lng": 12.4489
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1440,7 +1494,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89725,
+      "lng": 12.448350000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1501,7 +1558,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8923,
+      "lng": 12.45505
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1561,7 +1621,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8989,
+      "lng": 12.4512
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -1621,7 +1684,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1707,7 +1773,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8923,
+      "lng": 12.4689
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1781,7 +1850,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.896150000000006,
+      "lng": 12.46725
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1867,7 +1939,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89895,
+      "lng": 12.4628
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -1947,7 +2022,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2039,7 +2117,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9389,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2119,7 +2200,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9389,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2205,7 +2289,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9389,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2291,7 +2378,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -2356,7 +2446,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9156,
+      "lng": 12.4567
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -2451,7 +2544,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9156,
+      "lng": 12.4567
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -2538,7 +2634,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9134,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -2599,7 +2698,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9234,
+      "lng": 12.4723
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2680,7 +2782,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.92505,
+      "lng": 12.47395
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "completed",
@@ -2746,7 +2851,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9245,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "completed",
@@ -2812,7 +2920,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9369,
+      "lng": 12.470500000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -2887,7 +2998,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.94225,
+      "lng": 12.4695
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -2974,7 +3088,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9278,
+      "lng": 12.5078
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3040,7 +3157,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.92505,
+      "lng": 12.507249999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3106,7 +3226,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.5089
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3172,7 +3295,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.92043333333333,
+      "lng": 12.5019
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3237,7 +3363,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9295,
+      "lng": 12.49005
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3310,7 +3439,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9234,
+      "lng": 12.4934
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3383,7 +3515,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91615,
+      "lng": 12.4895
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3448,7 +3583,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9278,
+      "lng": 12.4912
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3513,7 +3651,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9312,
+      "lng": 12.4889
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3578,7 +3719,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91395,
+      "lng": 12.5134
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3643,7 +3787,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3709,7 +3856,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9112,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3774,7 +3924,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9112,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3839,7 +3992,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9034,
+      "lng": 12.5145
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3904,7 +4060,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9034,
+      "lng": 12.5145
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -3969,7 +4128,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4034,7 +4196,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.90005,
+      "lng": 12.53285
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -4099,7 +4264,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.898399999999995,
+      "lng": 12.4945
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4165,7 +4333,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9256,
+      "lng": 12.4012
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4231,7 +4402,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4297,7 +4471,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9178,
+      "lng": 12.5134
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4363,7 +4540,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4429,7 +4609,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4495,7 +4678,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4561,7 +4747,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9256,
+      "lng": 12.4012
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4627,7 +4816,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9012,
+      "lng": 12.5323
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4692,7 +4884,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9012,
+      "lng": 12.5323
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4757,7 +4952,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9012,
+      "lng": 12.5323
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4822,7 +5020,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.914500000000004,
+      "lng": 12.5456
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4887,7 +5088,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.90005,
+      "lng": 12.53285
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -4952,7 +5156,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9012,
+      "lng": 12.5323
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -5017,7 +5224,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8878,
+      "lng": 12.5567
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -5083,7 +5293,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.950649999999996,
+      "lng": 12.52835
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -5149,7 +5362,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 6,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -5215,7 +5431,10 @@
     "lotto": "M9.2",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.86615,
+      "lng": 12.5678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -5280,7 +5499,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8389,
+      "lng": 12.5712
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -5346,7 +5568,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.87779999999999,
+      "lng": 12.547799999999999
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -5412,7 +5637,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.874500000000005,
+      "lng": 12.5178
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -5478,7 +5706,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.873400000000004,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -5544,7 +5775,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -5637,7 +5871,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -5703,7 +5940,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8878,
+      "lng": 12.5078
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -5790,7 +6030,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8912,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -5851,7 +6094,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8812,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -5911,7 +6157,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8578,
+      "lng": 12.4845
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -5999,7 +6248,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.84115,
+      "lng": 12.486699999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -6079,7 +6331,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -6159,7 +6414,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8345,
+      "lng": 12.47725
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6251,7 +6509,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6337,7 +6598,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6429,7 +6693,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6515,7 +6782,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6601,7 +6871,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8317,
+      "lng": 12.47115
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -6687,7 +6960,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -6767,7 +7043,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8367,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6853,7 +7132,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 6,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.83005,
+      "lng": 12.46725
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -6947,7 +7229,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9612,
+      "lng": 12.4534
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -7013,7 +7298,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9612,
+      "lng": 12.4534
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -7079,7 +7367,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8456,
+      "lng": 12.4978
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7145,7 +7436,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.852850000000004,
+      "lng": 12.497250000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -7211,7 +7505,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.83175,
+      "lng": 12.47005
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7291,7 +7588,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8323,
+      "lng": 12.4789
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -7377,7 +7677,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8323,
+      "lng": 12.4789
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -7457,7 +7760,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8323,
+      "lng": 12.4789
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7537,7 +7843,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8323,
+      "lng": 12.4789
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7617,7 +7926,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.84895,
+      "lng": 12.47615
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7703,7 +8015,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8323,
+      "lng": 12.4789
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -7783,7 +8098,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8689,
+      "lng": 12.4378
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -7844,7 +8162,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.87005,
+      "lng": 12.4428
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -7905,7 +8226,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.87335,
+      "lng": 12.445599999999999
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "completed",
@@ -7966,7 +8290,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8745,
+      "lng": 12.450600000000001
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "completed",
@@ -8047,7 +8374,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8778,
+      "lng": 12.4534
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -8130,7 +8460,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -8225,7 +8558,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -8314,7 +8650,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -8380,7 +8719,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -8467,7 +8809,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -8554,7 +8899,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -8615,7 +8963,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 7,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -8720,7 +9071,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8673,
+      "lng": 12.4856
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -8795,7 +9149,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8856,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -8882,7 +9239,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8856,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -8963,7 +9323,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9024,7 +9387,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.87005,
+      "lng": 12.442250000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9085,7 +9451,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.86895,
+      "lng": 12.44115
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9146,7 +9515,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8612,
+      "lng": 12.4234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -9207,7 +9579,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9023,
+      "lng": 12.4145
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -9267,7 +9642,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9023,
+      "lng": 12.4145
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9353,7 +9731,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.86175,
+      "lng": 12.42285
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -9414,7 +9795,10 @@
     "lotto": "M9.1",
     "system": "Tmacs",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9023,
+      "lng": 12.4145
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -9488,7 +9872,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8589,
+      "lng": 12.4289
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9569,7 +9956,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8845,
+      "lng": 12.4934
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9630,7 +10020,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9696,7 +10089,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9762,7 +10158,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -9828,7 +10227,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8545,
+      "lng": 12.4656
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -9889,7 +10291,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.876149999999996,
+      "lng": 12.50065
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -9955,7 +10360,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8867,
+      "lng": 12.4845
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -10042,7 +10450,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8795,
+      "lng": 12.49395
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10103,7 +10514,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9089,
+      "lng": 12.4989
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10169,7 +10583,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10235,7 +10652,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10301,7 +10721,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10367,7 +10790,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10433,7 +10859,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.88395,
+      "lng": 12.46895
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10499,7 +10928,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10565,7 +10997,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10631,7 +11066,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10697,7 +11135,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -10763,7 +11204,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10829,7 +11273,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10895,7 +11342,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -10961,7 +11411,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11027,7 +11480,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 6,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11093,7 +11549,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.857299999999995,
+      "lng": 12.44505
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11174,7 +11633,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9463,
+      "lng": 12.466633333333334
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "blocked",
@@ -11261,7 +11723,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11327,7 +11792,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11393,7 +11861,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11459,7 +11930,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9112,
+      "lng": 12.4712
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11525,7 +11999,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9156,
+      "lng": 12.4689
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11591,7 +12068,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11657,7 +12137,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.948350000000005,
+      "lng": 12.526150000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11723,7 +12206,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.95285,
+      "lng": 12.531749999999999
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -11789,7 +12275,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -11855,7 +12344,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -11936,7 +12428,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12023,7 +12518,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12098,7 +12596,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9278,
+      "lng": 12.4934
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -12164,7 +12665,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 6,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12230,7 +12734,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "pending",
@@ -12296,7 +12803,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9256,
+      "lng": 12.4012
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12362,7 +12872,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9189,
+      "lng": 12.4695
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12437,7 +12950,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9212,
+      "lng": 12.4712
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12518,7 +13034,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91395,
+      "lng": 12.46725
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12599,7 +13118,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9078,
+      "lng": 12.4545
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12686,7 +13208,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8967,
+      "lng": 12.4489
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12761,7 +13286,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9034,
+      "lng": 12.4234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12830,7 +13358,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9178,
+      "lng": 12.4378
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12899,7 +13430,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91395,
+      "lng": 12.4895
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -12959,7 +13493,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 5,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.913399999999996,
+      "lng": 12.488949999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13019,7 +13556,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13079,7 +13619,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9134,
+      "lng": 12.4878
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13139,7 +13682,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.5089
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13199,7 +13745,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89834999999999,
+      "lng": 12.53285
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13259,7 +13808,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8856,
+      "lng": 12.547799999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13319,7 +13871,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8834,
+      "lng": 12.5389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13379,7 +13934,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8545,
+      "lng": 12.4656
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13439,7 +13997,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.5234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13499,7 +14060,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13554,7 +14118,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13643,7 +14210,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "in_progress",
@@ -13726,7 +14296,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.922799999999995,
+      "lng": 12.41835
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -13772,7 +14345,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91615,
+      "lng": 12.4145
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -13818,7 +14394,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.908950000000004,
+      "lng": 12.41115
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -13864,7 +14443,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91615,
+      "lng": 12.40285
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -13910,7 +14492,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9206,
+      "lng": 12.422799999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -13956,7 +14541,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.907250000000005,
+      "lng": 12.410049999999998
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14002,7 +14590,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 2,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9056,
+      "lng": 12.4117
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14048,7 +14639,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.92115,
+      "lng": 12.4089
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14094,7 +14688,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.92005,
+      "lng": 12.4078
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14140,7 +14737,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.903949999999995,
+      "lng": 12.497800000000002
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14186,7 +14786,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9045,
+      "lng": 12.497250000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14232,7 +14835,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8534,
+      "lng": 12.5167
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14292,7 +14898,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14338,7 +14947,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8912,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14384,7 +14996,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8923,
+      "lng": 12.5023
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14430,7 +15045,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9023,
+      "lng": 12.5001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14476,7 +15094,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.88835,
+      "lng": 12.5078
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14522,7 +15143,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9023,
+      "lng": 12.4878
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14568,7 +15192,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9371,
+      "lng": 12.4732
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14614,7 +15241,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8745,
+      "lng": 12.444500000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14660,7 +15290,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.87285,
+      "lng": 12.443950000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14706,7 +15339,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9078,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14752,7 +15388,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9134,
+      "lng": 12.4234
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14807,7 +15446,10 @@
     "lotto": "M9.1",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8834,
+      "lng": 12.4456
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14862,7 +15504,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8912,
+      "lng": 12.5156
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14922,7 +15567,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -14982,7 +15630,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 6,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89335,
+      "lng": 12.54505
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15042,7 +15693,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8878,
+      "lng": 12.5567
+    },
     "planimetry_file": null,
     "current_stage": "configuration",
     "stage_status": "in_progress",
@@ -15102,7 +15756,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 4,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9267,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15162,7 +15819,10 @@
     "lotto": "M9.2",
     "system": "Omnia",
     "num_radars": 3,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9189,
+      "lng": 12.5034
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15222,7 +15882,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.86835,
+      "lng": 12.43065
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15281,7 +15944,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9012,
+      "lng": 12.4589
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15340,7 +16006,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9167,
+      "lng": 12.4556
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15399,7 +16068,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8823,
+      "lng": 12.4834
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15458,7 +16130,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9156,
+      "lng": 12.4689
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15517,7 +16192,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8656,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15576,7 +16254,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9112,
+      "lng": 12.4712
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15635,7 +16316,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8645,
+      "lng": 12.4389
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15694,7 +16378,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8812,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15753,7 +16440,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.862849999999995,
+      "lng": 12.43115
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15812,7 +16502,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.892849999999996,
+      "lng": 12.46725
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15871,7 +16564,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8523,
+      "lng": 12.468350000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15930,7 +16626,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8767,
+      "lng": 12.45115
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -15989,7 +16688,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8617,
+      "lng": 12.43335
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16048,7 +16750,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.9378,
+      "lng": 12.4589
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16107,7 +16812,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.89339999999999,
+      "lng": 12.465966666666667
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16166,7 +16874,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8678,
+      "lng": 12.430050000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16225,7 +16936,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8889,
+      "lng": 12.4734
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16284,7 +16998,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.91175,
+      "lng": 12.460049999999999
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16343,7 +17060,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8839,
+      "lng": 12.4412
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16402,7 +17122,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.887249999999995,
+      "lng": 12.470600000000001
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16461,7 +17184,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8778,
+      "lng": 12.4756
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16520,7 +17246,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.852850000000004,
+      "lng": 12.4695
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
@@ -16579,7 +17308,10 @@
     "lotto": "M9.1",
     "system": "Unknown",
     "num_radars": 0,
-    "coordinates": null,
+    "coordinates": {
+      "lat": 41.8856,
+      "lng": 12.4678
+    },
     "planimetry_file": null,
     "current_stage": "installation",
     "stage_status": "pending",
