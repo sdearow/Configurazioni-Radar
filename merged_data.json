@@ -75,7 +75,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "cassia/grottarossa",
+    "semaforica_match_key": "cassia/grottarossa"
   },
   {
     "id": "102",
@@ -155,7 +157,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "barellai/trionfale",
+    "swarco_match_key": "barellai/trionfale"
   },
   {
     "id": "105",
@@ -236,7 +240,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "cassia nuova/fabbroni/pareto",
+    "swarco_match_key": "cassia nuova/fabbroni/pareto"
   },
   {
     "id": "106",
@@ -316,7 +322,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "flaminia nuova/valdagno",
+    "swarco_match_key": "flaminia nuova/valdagno"
   },
   {
     "id": "108",
@@ -327,7 +335,7 @@
       "Vigna Stelluti"
     ],
     "is_intersection": true,
-    "normalized_name": "c.so francia/vigna stelluti",
+    "normalized_name": "corso francia/vigna stelluti",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -396,7 +404,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "corso francia/vigna stelluti",
+    "swarco_match_key": "corso francia/vigna stelluti"
   },
   {
     "id": "109",
@@ -476,7 +486,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "pascucci/pineta sacchetti",
+    "swarco_match_key": "pascucci/pineta sacchetti"
   },
   {
     "id": "112",
@@ -556,7 +568,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "forte braschi/pineta sacchetti",
+    "swarco_match_key": "forte braschi/pineta sacchetti"
   },
   {
     "id": "113",
@@ -636,7 +650,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "pineta sacchetti/tardini",
+    "swarco_match_key": "pineta sacchetti/tardini"
   },
   {
     "id": "114",
@@ -717,7 +733,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "boccea/cornelia/giureconsulti",
+    "swarco_match_key": "boccea/cornelia/giureconsulti"
   },
   {
     "id": "115",
@@ -798,7 +816,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "aurelia/cornelia/irnerio",
+    "swarco_match_key": "aurelia/cornelia/irnerio"
   },
   {
     "id": "116",
@@ -809,7 +829,7 @@
       "Madonna del Riposo"
     ],
     "is_intersection": true,
-    "normalized_name": "madonna del riposo/p.zza villa carpegna",
+    "normalized_name": "madonna del riposo/piazza villa carpegna",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -878,7 +898,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "madonna del riposo/piazza villa carpegna",
+    "swarco_match_key": "madonna del riposo/piazza villa carpegna"
   },
   {
     "id": "117",
@@ -958,7 +980,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "gregorio vii/villa carpegna",
+    "swarco_match_key": "gregorio vii/villa carpegna"
   },
   {
     "id": "118",
@@ -1038,7 +1062,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "boccea/gregorio xiii",
+    "swarco_match_key": "boccea/gregorio xiii"
   },
   {
     "id": "119",
@@ -1118,7 +1144,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "battistini/boccea",
+    "swarco_match_key": "battistini/boccea"
   },
   {
     "id": "120",
@@ -1198,7 +1226,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "boccea/torrevecchia",
+    "swarco_match_key": "boccea/torrevecchia"
   },
   {
     "id": "121",
@@ -1238,7 +1268,33 @@
       "Unnamed: 19": null,
       "Unnamed: 20": null
     },
-    "lotto1_data": null,
+    "lotto1_data": {
+      "N.": 110,
+      "ID": null,
+      "cod.": 18002.0,
+      "Impianto": "Anastasio II   ",
+      "sistema": null,
+      "ODL": null,
+      "installazione": null,
+      "planimetrie ricevute": null,
+      "passaggio cavi": null,
+      "planimetria inviata a RSM": null,
+      "installazione sensori": null,
+      "cablaggio regolatore": null,
+      "Screenshoot": null,
+      "completato": null,
+      "Documentazione inviata": null,
+      "data completamento": null,
+      "ID sensore 1": null,
+      "ID sensore 2": null,
+      "ID sensore 3": null,
+      "ID sensore 4": null,
+      "ID sensore 5": null,
+      "ID sensore 6": null,
+      "ID sensore 7": null,
+      "Unnamed: 23": null,
+      "source": "lotto1"
+    },
     "lotto2_data": null,
     "semaforica_data": null,
     "swarco_data": {
@@ -1252,7 +1308,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "anastasio ii",
+    "swarco_match_key": "anastasio ii/pio xi"
   },
   {
     "id": "122",
@@ -1332,7 +1390,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "gregorio vii/pio xi",
+    "swarco_match_key": "gregorio vii/pio xi"
   },
   {
     "id": "123",
@@ -1411,7 +1471,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "anastasio ii",
+    "swarco_match_key": "anastasio ii"
   },
   {
     "id": "124",
@@ -1491,7 +1553,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "anastasio ii/savorelli",
+    "swarco_match_key": "anastasio ii/savorelli"
   },
   {
     "id": "125",
@@ -1569,7 +1633,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "gregorio vii/monte del gallo",
+    "semaforica_match_key": "gregorio vii/monte del gallo"
   },
   {
     "id": "126",
@@ -1646,7 +1712,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "largo porta cavalleggeri",
+    "semaforica_match_key": "largo porta cavalleggeri"
   },
   {
     "id": "127",
@@ -1697,7 +1765,8 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "piazza della rovere"
   },
   {
     "id": "128",
@@ -1708,7 +1777,7 @@
       "Ponte PASA"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re sangallo/ponte pasa",
+    "normalized_name": "lungotevere sangallo/ponte pasa",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -1775,7 +1844,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "lungotevere sangallo/ponte pasa",
+    "semaforica_match_key": "lungotevere sangallo/ponte pasa"
   },
   {
     "id": "129",
@@ -1786,7 +1857,7 @@
       "Ponte V.E. II"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re fiorentini/ponte v.e. ii",
+    "normalized_name": "lungotevere fiorentini/ponte viae. ii",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -1853,7 +1924,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "lungotevere fiorentini/ponte viae. ii",
+    "semaforica_match_key": "lungotevere fiorentini/ponte viae. ii"
   },
   {
     "id": "130",
@@ -1864,7 +1937,7 @@
       "Ponte V.E.II"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re in sassia/ponte v.e.ii",
+    "normalized_name": "lungotevere in sassia/ponte viae.ii",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -1931,7 +2004,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "lungotevere in sassia/ponte viae.ii",
+    "semaforica_match_key": "lungotevere in sassia/ponte viae.ii"
   },
   {
     "id": "132",
@@ -2009,7 +2084,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "crescenzio/piazza adriana",
+    "semaforica_match_key": "crescenzio/piazza adriana"
   },
   {
     "id": "133",
@@ -2020,7 +2097,7 @@
       "P.zza Tribunali"
     ],
     "is_intersection": true,
-    "normalized_name": "p.zza tribunali/ponte umberto i",
+    "normalized_name": "piazza tribunali/ponte umberto i",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2087,7 +2164,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "piazza tribunali/ponte umberto i",
+    "semaforica_match_key": "piazza tribunali/ponte umberto i"
   },
   {
     "id": "134",
@@ -2165,7 +2244,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "ponte umberto i/zanardelli",
+    "semaforica_match_key": "ponte umberto i/zanardelli"
   },
   {
     "id": "135",
@@ -2176,7 +2257,7 @@
       "L.re in Augusta"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re in augusta/ponte regina margherita",
+    "normalized_name": "lungotevere in augusta/ponte regina margherita",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2243,7 +2324,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "lungotevere in augusta/ponte regina margherita",
+    "semaforica_match_key": "lungotevere in augusta/ponte regina margherita"
   },
   {
     "id": "136",
@@ -2341,7 +2424,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "g.b. vico/piazzale flaminio",
+    "semaforica_match_key": "g.b. vico/piazzale flaminio"
   },
   {
     "id": "137",
@@ -2351,7 +2436,7 @@
       "P.le Clodio Est"
     ],
     "is_intersection": false,
-    "normalized_name": "p.le clodio est",
+    "normalized_name": "piazzale clodio est",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2420,7 +2505,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "piazzale clodio est",
+    "swarco_match_key": "piazzale clodio est"
   },
   {
     "id": "138",
@@ -2430,7 +2517,7 @@
       "P.le Clodio Ovest"
     ],
     "is_intersection": false,
-    "normalized_name": "p.le clodio ovest",
+    "normalized_name": "piazzale clodio ovest",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2499,7 +2586,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "piazzale clodio ovest",
+    "swarco_match_key": "piazzale clodio ovest"
   },
   {
     "id": "139",
@@ -2510,7 +2599,7 @@
       "L.re della Vittoria"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re della vittoria/p.le maresciallo giardino",
+    "normalized_name": "lungotevere della vittoria/piazzale maresciallo giardino",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2579,7 +2668,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "lungotevere della vittoria/piazzale maresciallo giardino",
+    "swarco_match_key": "lungotevere della vittoria/piazzale maresciallo giardino"
   },
   {
     "id": "140",
@@ -2619,7 +2710,33 @@
       "Unnamed: 19": null,
       "Unnamed: 20": null
     },
-    "lotto1_data": null,
+    "lotto1_data": {
+      "N.": 11,
+      "ID": null,
+      "cod.": 20009.0,
+      "Impianto": "Ponte Duca d'Aosta - Stadio",
+      "sistema": "Tmacs",
+      "ODL": null,
+      "installazione": "ENG",
+      "planimetrie ricevute": "si",
+      "passaggio cavi": "ok",
+      "planimetria inviata a RSM": null,
+      "installazione sensori": 3.0,
+      "cablaggio regolatore": "ok",
+      "Screenshoot": "ok",
+      "completato": "ok",
+      "Documentazione inviata": "ok",
+      "data completamento": "2023-07-05T00:00:00",
+      "ID sensore 1": "3EFD8",
+      "ID sensore 2": "3EFDC",
+      "ID sensore 3": "3EFD9",
+      "ID sensore 4": null,
+      "ID sensore 5": null,
+      "ID sensore 6": null,
+      "ID sensore 7": null,
+      "Unnamed: 23": null,
+      "source": "lotto1"
+    },
     "lotto2_data": null,
     "semaforica_data": null,
     "swarco_data": {
@@ -2633,7 +2750,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "ponte duca d'aosta/stadio",
+    "swarco_match_key": "ponte duca d'aosta/stadio"
   },
   {
     "id": "141",
@@ -2644,7 +2763,7 @@
       "P.zza Mancini"
     ],
     "is_intersection": true,
-    "normalized_name": "p.zza mancini/ponte duca d'aosta",
+    "normalized_name": "piazza mancini/ponte duca d'aosta",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2674,7 +2793,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 11.0,
+      "codice": 2064.0,
+      "indirizzo": "Ponte Duca D'aosta - Piazza Mancini cod. imp. 02064",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 130.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "94/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-07-31T00:00:00",
+      "config.RSM": "2023-07-28T00:00:00",
+      "Config.instal.": "2023-07-31T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294552/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 3.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Ponte Duca D'aosta - Piazza Mancini",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 23.0,
@@ -2687,7 +2852,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza mancini/ponte duca d'aosta",
+    "swarco_match_key": "piazza mancini/ponte duca d'aosta"
   },
   {
     "id": "142",
@@ -2697,7 +2864,7 @@
       "P.zza Gentile da Fabriano"
     ],
     "is_intersection": false,
-    "normalized_name": "p.zza gentile da fabriano",
+    "normalized_name": "piazza gentile da fabriano",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2727,7 +2894,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 8.0,
+      "codice": 2077.0,
+      "indirizzo": "Piazza Gentile Da Fabriano cod. imp. 02077",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 140.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "75/23/DIMR",
+      "numero radar": 2,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-06-19T00:00:00",
+      "config.RSM": "2023-06-13T00:00:00",
+      "Config.instal.": "2023-06-19T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294188/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 2.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Piazza Gentile Da Fabriano",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 24.0,
@@ -2740,7 +2953,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza gentile da fabriano",
+    "swarco_match_key": "piazza gentile da fabriano"
   },
   {
     "id": "143",
@@ -2751,7 +2966,7 @@
       "Flaminia"
     ],
     "is_intersection": true,
-    "normalized_name": "c.so francia/flaminia",
+    "normalized_name": "corso francia/flaminia",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -2780,7 +2995,33 @@
       "Unnamed: 19": null,
       "Unnamed: 20": null
     },
-    "lotto1_data": null,
+    "lotto1_data": {
+      "N.": 12,
+      "ID": null,
+      "cod.": 20095.0,
+      "Impianto": "Corso Francia - Flaminia",
+      "sistema": "Omnia  ",
+      "ODL": null,
+      "installazione": "ENG",
+      "planimetrie ricevute": "si",
+      "passaggio cavi": "ok",
+      "planimetria inviata a RSM": null,
+      "installazione sensori": 2.0,
+      "cablaggio regolatore": "ok",
+      "Screenshoot": "ok",
+      "completato": "ok",
+      "Documentazione inviata": "ok",
+      "data completamento": "2023-07-03T00:00:00",
+      "ID sensore 1": "3EFD6",
+      "ID sensore 2": "3EFD5",
+      "ID sensore 3": null,
+      "ID sensore 4": null,
+      "ID sensore 5": null,
+      "ID sensore 6": null,
+      "ID sensore 7": null,
+      "Unnamed: 23": null,
+      "source": "lotto1"
+    },
     "lotto2_data": null,
     "semaforica_data": null,
     "swarco_data": {
@@ -2794,7 +3035,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "corso francia/flaminia",
+    "swarco_match_key": "corso francia/flaminia"
   },
   {
     "id": "144",
@@ -2874,7 +3117,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "ponte milvio/tor di quinto",
+    "swarco_match_key": "ponte milvio/tor di quinto"
   },
   {
     "id": "145",
@@ -2915,7 +3160,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 15.0,
+      "codice": 2045.0,
+      "indirizzo": "Salaria - Somalia cod. imp. 02045",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 70.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "92/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-05T00:00:00",
+      "config.RSM": "2023-09-04T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": "si",
+      "ordine sap": "8294550/DIMR",
+      "n.radar montati senza cavi": 2,
+      "n.radar montati con cavi senza collegamento": "1 P/S vicino al regolatore",
+      "n.radar finiti": null,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Salaria - Somalia",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 27.0,
@@ -2928,7 +3219,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "salaria/somalia",
+    "swarco_match_key": "salaria/somalia"
   },
   {
     "id": "146",
@@ -2969,7 +3262,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 16.0,
+      "codice": 2044.0,
+      "indirizzo": "Salaria - Priscilla cod. imp. 02044",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 40.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "91/23/DIMR",
+      "numero radar": 2,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-12T00:00:00",
+      "config.RSM": "2023-09-04T00:00:00",
+      "Config.instal.": "ristrutturato da configurare",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294549/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Salaria - Priscilla",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 28.0,
@@ -2982,7 +3321,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "priscilla/salaria",
+    "swarco_match_key": "priscilla/salaria"
   },
   {
     "id": "147",
@@ -3024,7 +3365,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 9.0,
+      "codice": 2057.0,
+      "indirizzo": "Salaria - Panama cod. imp. 02057",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 173.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "73/23/DIMR",
+      "numero radar": 4,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-06-20T00:00:00",
+      "config.RSM": "2023-06-13T00:00:00",
+      "Config.instal.": "2024-01-11T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294182/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 4.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Salaria - Panama",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 29.0,
@@ -3037,7 +3424,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "panama/salaria",
+    "swarco_match_key": "chiana/panama/salaria"
   },
   {
     "id": "148",
@@ -3079,7 +3468,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 14.0,
+      "codice": 2052.0,
+      "indirizzo": "Regina Margherita - Salaria cod. imp. 02052",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 32.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 145.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "93/23/DIMR",
+      "numero radar": 4,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-05T00:00:00",
+      "config.RSM": "2023-09-04T00:00:00",
+      "Config.instal.": "ristrutturato da configurare",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294551/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Regina Margherita - Salaria",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 13.0,
       "Lotto": "M9.2",
@@ -3090,7 +3525,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "regina margherita/salaria",
+    "semaforica_match_key": "liegi/regina margherita/salaria"
   },
   {
     "id": "149",
@@ -3142,7 +3579,8 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "parioli/stoppani"
   },
   {
     "id": "150",
@@ -3183,7 +3621,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 17.0,
+      "codice": 2059.0,
+      "indirizzo": "Piazza Ungheria cod. imp. 02059",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 215.0,
+      "interfaccia": 2.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "239-240/23/DIMR",
+      "numero radar": 7,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-21T00:00:00",
+      "config.RSM": "2023-09-14T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": "si",
+      "ordine sap": "8297579/580/DIMR",
+      "n.radar montati senza cavi": 7,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Piazza Ungheria",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 15.0,
       "Lotto": "M9.2",
@@ -3194,7 +3678,9 @@
       "ATTIVITA' DA FARE": null,
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "piazza ungheria",
+    "semaforica_match_key": "liegi/piazza ungheria"
   },
   {
     "id": "151",
@@ -3235,7 +3721,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 19.0,
+      "codice": 2033.0,
+      "indirizzo": "Rossini - Paisiello cod. imp. 02033",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 50.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "90/23/DIMR",
+      "numero radar": 4,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-18T00:00:00",
+      "config.RSM": "2023-09-14T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": null,
+      "ordine sap": "8294548/DIMR",
+      "n.radar montati senza cavi": 4,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Rossini - Paisiello",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 16.0,
       "Lotto": "M9.2",
@@ -3246,7 +3778,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "paisiello/rossini",
+    "semaforica_match_key": "paisiello/rossini"
   },
   {
     "id": "152",
@@ -3287,7 +3821,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 20.0,
+      "codice": 2031.0,
+      "indirizzo": "Piazza Pitagora cod. imp. 02031",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 405.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "89/23/DIMR",
+      "numero radar": 5,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-18T00:00:00",
+      "config.RSM": "2023-09-14T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": null,
+      "ordine sap": "8294547/DIMR",
+      "n.radar montati senza cavi": 5,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Piazza Pitagora",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 17.0,
       "Lotto": "M9.2",
@@ -3298,7 +3878,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "piazza pitagora",
+    "semaforica_match_key": "piazza pitagora/stoppani"
   },
   {
     "id": "153",
@@ -3339,7 +3921,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 18.0,
+      "codice": 2027.0,
+      "indirizzo": "Parioli - Boccioni cod. imp. 02027",
+      "scavo marciapiede": 5.0,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 60.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "88/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-09-18T00:00:00",
+      "config.RSM": "2023-09-14T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": "si",
+      "ordine sap": "8294546/DIMR",
+      "n.radar montati senza cavi": 3,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Parioli - Boccioni",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 18.0,
       "Lotto": "M9.2",
@@ -3350,7 +3978,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "boccioni/parioli",
+    "semaforica_match_key": "boccioni/parioli"
   },
   {
     "id": "154",
@@ -3448,7 +4078,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "nomentana/regina margherita",
+    "semaforica_match_key": "nomentana/regina margherita"
   },
   {
     "id": "155",
@@ -3548,7 +4180,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/xxi aprile",
+    "swarco_match_key": "nomentana/xxi aprile"
   },
   {
     "id": "156",
@@ -3589,7 +4223,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 4.0,
+      "codice": 3017.0,
+      "indirizzo": "Regina Margherita - Morgagni cod. imp. 03017",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 105.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "100/23/DIMR",
+      "numero radar": 4,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-07-10T00:00:00",
+      "config.RSM": "2023-07-03T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": null,
+      "ordine sap": "8294561/DIMR",
+      "n.radar montati senza cavi": "1 P/S r.margherita",
+      "n.radar montati con cavi senza collegamento": 3,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Regina Margherita - Morgagni",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 20.0,
       "Lotto": "M9.2",
@@ -3600,7 +4280,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "morgagni/regina margherita",
+    "semaforica_match_key": "morgagni/regina margherita"
   },
   {
     "id": "157",
@@ -3652,7 +4334,8 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "regina margherita/universitã"
   },
   {
     "id": "158",
@@ -3704,7 +4387,8 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "regina elena/verano"
   },
   {
     "id": "159",
@@ -3756,7 +4440,8 @@
       "ATTIVITA' DA FARE": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "de lollis/verano"
   },
   {
     "id": "163",
@@ -3809,7 +4494,8 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "graf/kant/nomentana"
   },
   {
     "id": "164",
@@ -3907,7 +4593,9 @@
       "ATTIVITA' DA FARE": "AUT da aggiornare",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "portonaccio/tiburtina",
+    "semaforica_match_key": "portonaccio/tiburtina"
   },
   {
     "id": "165",
@@ -3962,7 +4650,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "aosta/monza/taranto"
   },
   {
     "id": "167",
@@ -4062,7 +4751,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "lanciani/monti tiburtini",
+    "swarco_match_key": "lanciani/monti tiburtini"
   },
   {
     "id": "168",
@@ -4163,7 +4854,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "gorizia/nibby/nomentana",
+    "swarco_match_key": "gorizia/nibby/nomentana"
   },
   {
     "id": "169",
@@ -4264,7 +4957,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/spallanzani/trieste",
+    "swarco_match_key": "nomentana/spallanzani/trieste"
   },
   {
     "id": "170",
@@ -4275,7 +4970,7 @@
       "S.Angela Merici"
     ],
     "is_intersection": true,
-    "normalized_name": "nomentana/s.angela merici",
+    "normalized_name": "nomentana/sanangela merici",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -4364,7 +5059,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/sanangela merici",
+    "swarco_match_key": "nomentana/sanangela merici"
   },
   {
     "id": "171",
@@ -4464,7 +5161,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/val d'aosta",
+    "swarco_match_key": "nomentana/val d'aosta"
   },
   {
     "id": "172",
@@ -4564,7 +5263,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/sempione",
+    "swarco_match_key": "nomentana/sempione"
   },
   {
     "id": "173",
@@ -4664,7 +5365,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "durantini/monti tiburtini",
+    "swarco_match_key": "durantini/monti tiburtini"
   },
   {
     "id": "174",
@@ -4762,7 +5465,9 @@
       "ATTIVITA' DA FARE": "AUT da SOSTITUIRE - troppo vecchia",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "ottoboni/tiburtina",
+    "semaforica_match_key": "ottoboni/tiburtina"
   },
   {
     "id": "175",
@@ -4860,7 +5565,9 @@
       "ATTIVITA' DA FARE": "AUT da aggiornare, AUT con versione recente pertanto bisognerebbe preparare solo la configurazione",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "casal bruciato/tiburtina",
+    "semaforica_match_key": "casal bruciato/tiburtina"
   },
   {
     "id": "176",
@@ -4959,7 +5666,9 @@
       "ATTIVITA' DA FARE": "AUT da SOSTITUIRE - troppo vecchia",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "durantini/galla placidia/tiburtina",
+    "semaforica_match_key": "durantini/galla placidia/tiburtina"
   },
   {
     "id": "177",
@@ -4970,7 +5679,7 @@
       "Monti Tiburtini dir. Rebibbia"
     ],
     "is_intersection": true,
-    "normalized_name": "monti tiburtini dir. rebibbia/tiburtina",
+    "normalized_name": "monti tiburtini/tiburtina",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -5001,17 +5710,17 @@
     },
     "lotto1_data": null,
     "lotto2_data": {
-      "N.progr.": 34.0,
-      "codice": 5070.0,
-      "indirizzo": "Tiburtina/Monti Tiburtini Dir. Rebibbia  cod. imp. 05070",
-      "scavo marciapiede": 5.0,
+      "N.progr.": 35.0,
+      "codice": 5009.0,
+      "indirizzo": "Tiburtina/Monti Tiburtini Dir. Portonaccio  cod. imp. 05009",
+      "scavo marciapiede": null,
       "scavo carreggiata": null,
       "1.1.1.1.120": null,
       "1.1.1.1.080": null,
-      "m.cavo": 265.0,
+      "m.cavo": 120.0,
       "interfaccia": 1.0,
       "M.1.3.1.1.182.a": null,
-      "ordine di lavoro": "155/23/DIMR",
+      "ordine di lavoro": "124/23/DIMR",
       "numero radar": 3,
       "M.1.1.2.1.020": null,
       "M.1.3.1.1.182": null,
@@ -5037,27 +5746,29 @@
       "Config.instal.": null,
       "da scavare": "si",
       "planimetria": "si",
-      "ordine sap": "8297057/DIMR",
+      "ordine sap": "8295348/DIMR",
       "n.radar montati senza cavi": 3,
       "n.radar montati con cavi senza collegamento": null,
       "n.radar finiti": null,
       "centralizzati": "SI TMACS",
       "manca SIM": null,
       "seriali": null,
-      "indirizzo_clean": "Tiburtina/Monti Tiburtini Dir. Rebibbia",
+      "indirizzo_clean": "Tiburtina/Monti Tiburtini Dir. Portonaccio",
       "source": "lotto2"
     },
     "semaforica_data": {
-      "Progr.": 29.0,
+      "Progr.": 30.0,
       "Lotto": "M9.2",
-      "Numero-Nome Postazione": "177-Tiburtina/Monti Tiburtini dir. Rebibbia ",
-      "Codice Impianto": "05070",
+      "Numero-Nome Postazione": "178-Tiburtina/Monti Tiburtini dir. Portonaccio ",
+      "Codice Impianto": "05009",
       "Sistema": "Tmacs",
       "AUT": "SI",
-      "ATTIVITA' DA FARE": "AUT da SOSTITUIRE - troppo vecchia",
+      "ATTIVITA' DA FARE": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "monti tiburtini/tiburtina",
+    "semaforica_match_key": "monti tiburtini/tiburtina"
   },
   {
     "id": "178",
@@ -5068,7 +5779,7 @@
       "Monti Tiburtini dir. Portonaccio"
     ],
     "is_intersection": true,
-    "normalized_name": "monti tiburtini dir. portonaccio/tiburtina",
+    "normalized_name": "monti tiburtini/tiburtina",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -5155,7 +5866,9 @@
       "ATTIVITA' DA FARE": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "monti tiburtini/tiburtina",
+    "semaforica_match_key": "monti tiburtini/tiburtina"
   },
   {
     "id": "179",
@@ -5166,7 +5879,7 @@
       "S.M. Soccorso"
     ],
     "is_intersection": true,
-    "normalized_name": "s.m. soccorso/tiburtina",
+    "normalized_name": "sanm. soccorso/tiburtina",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -5253,7 +5966,9 @@
       "ATTIVITA' DA FARE": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "sanm. soccorso/tiburtina",
+    "semaforica_match_key": "sanm. soccorso/tiburtina"
   },
   {
     "id": "182",
@@ -5353,7 +6068,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "prenestina/togliatti",
+    "swarco_match_key": "prenestina/togliatti"
   },
   {
     "id": "183",
@@ -5394,7 +6111,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 74.0,
+      "codice": 4014.0,
+      "indirizzo": "Jonio - Col Di Rezia cod. imp. 04014",
+      "scavo marciapiede": 5.0,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 150.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "108/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": null,
+      "config.RSM": null,
+      "Config.instal.": null,
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294792/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": null,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Jonio - Col Di Rezia",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 40.0,
@@ -5407,7 +6170,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "col di rezia/jonio",
+    "swarco_match_key": "col di rezia/jonio"
   },
   {
     "id": "184",
@@ -5506,7 +6271,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza primoli",
+    "swarco_match_key": "piazza primoli"
   },
   {
     "id": "192",
@@ -5548,7 +6315,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 12.0,
+      "codice": 8009.0,
+      "indirizzo": "Casilina - Torre Spaccata cod. imp. 08009",
+      "scavo marciapiede": null,
+      "scavo carreggiata": 10.0,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 150.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "165/23/DIMR",
+      "numero radar": 4,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-08-08T00:00:00",
+      "config.RSM": "2023-07-28T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": "si",
+      "ordine sap": "8297068/DIMR",
+      "n.radar montati senza cavi": "2 palina torre spaccata e P/S casilina",
+      "n.radar montati con cavi senza collegamento": 2,
+      "n.radar finiti": null,
+      "centralizzati": "SI TMACS",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Casilina - Torre Spaccata",
+      "source": "lotto2"
+    },
     "semaforica_data": {
       "Progr.": 32.0,
       "Lotto": "M9.2",
@@ -5559,7 +6372,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "casilina/torre spaccata",
+    "semaforica_match_key": "casilina/tor tre teste/torre spaccata"
   },
   {
     "id": "195",
@@ -5660,7 +6475,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "anagni/delpino/tor de schiavi",
+    "swarco_match_key": "anagni/delpino/tor de schiavi"
   },
   {
     "id": "199",
@@ -5714,7 +6531,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "casilina/pigneto"
   },
   {
     "id": "200",
@@ -5815,7 +6633,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "monza/nola/spezia",
+    "swarco_match_key": "monza/nola/spezia"
   },
   {
     "id": "201",
@@ -5915,7 +6735,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "caltagirone/spezia",
+    "swarco_match_key": "caltagirone/spezia"
   },
   {
     "id": "204",
@@ -5925,7 +6747,7 @@
       "P.le Appio"
     ],
     "is_intersection": false,
-    "normalized_name": "p.le appio",
+    "normalized_name": "piazzale appio",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -5994,7 +6816,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "piazzale appio",
+    "swarco_match_key": "piazzale appio"
   },
   {
     "id": "205",
@@ -6093,7 +6917,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza tuscolo",
+    "swarco_match_key": "piazza tuscolo"
   },
   {
     "id": "206",
@@ -6104,7 +6930,7 @@
       "E.Filiberto"
     ],
     "is_intersection": true,
-    "normalized_name": "e.filiberto/porta s.giovanni",
+    "normalized_name": "e.filiberto/porta sangiovanni",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -6173,7 +6999,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "e.filiberto/porta sangiovanni",
+    "swarco_match_key": "e.filiberto/porta sangiovanni"
   },
   {
     "id": "207",
@@ -6184,7 +7012,7 @@
       "Merulana"
     ],
     "is_intersection": true,
-    "normalized_name": "merulana/s.giovanni laterano",
+    "normalized_name": "merulana/sangiovanni laterano",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -6253,7 +7081,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "merulana/sangiovanni laterano",
+    "swarco_match_key": "merulana/sangiovanni laterano"
   },
   {
     "id": "208",
@@ -6330,7 +7160,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "porta metronia",
+    "semaforica_match_key": "porta metronia"
   },
   {
     "id": "209",
@@ -6383,7 +7215,8 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "semaforica_match_key": "caracalla/colombo/druso"
   },
   {
     "id": "210",
@@ -6461,7 +7294,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/porta ardeatina",
+    "semaforica_match_key": "colombo/porta ardeatina"
   },
   {
     "id": "211",
@@ -6539,7 +7374,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/navigatori",
+    "semaforica_match_key": "colombo/navigatori"
   },
   {
     "id": "212",
@@ -6617,7 +7454,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/laurentina",
+    "semaforica_match_key": "colombo/laurentina"
   },
   {
     "id": "213",
@@ -6695,7 +7534,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "civiltã del lavoro/colombo",
+    "semaforica_match_key": "civiltã del lavoro/colombo"
   },
   {
     "id": "214",
@@ -6773,7 +7614,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/genocchi",
+    "semaforica_match_key": "colombo/genocchi"
   },
   {
     "id": "215",
@@ -6851,7 +7694,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "agiati/colombo",
+    "semaforica_match_key": "agiati/colombo"
   },
   {
     "id": "216",
@@ -6929,7 +7774,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/leonori",
+    "semaforica_match_key": "colombo/leonori"
   },
   {
     "id": "217",
@@ -7007,7 +7854,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/europa",
+    "semaforica_match_key": "colombo/europa"
   },
   {
     "id": "218",
@@ -7018,7 +7867,7 @@
       "Umanesimo dir. GRA"
     ],
     "is_intersection": true,
-    "normalized_name": "colombo/umanesimo dir. gra",
+    "normalized_name": "colombo/umanesimo",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -7048,44 +7897,46 @@
       "Unnamed: 20": null
     },
     "lotto1_data": {
-      "N.": 24,
+      "N.": 25,
       "ID": null,
-      "cod.": 12060.0,
-      "Impianto": "Colombo/Umanesimo dir. GRA  ",
+      "cod.": 12062.0,
+      "Impianto": "Colombo/Umanesimo dir. Centro  ",
       "sistema": "Tmacs",
       "ODL": null,
       "installazione": "ENG",
       "planimetrie ricevute": "si",
-      "passaggio cavi": "ok",
-      "planimetria inviata a RSM": null,
-      "installazione sensori": 3.0,
+      "passaggio cavi": "parziale",
+      "planimetria inviata a RSM": "ok",
+      "installazione sensori": 4.0,
       "cablaggio regolatore": "ok",
-      "Screenshoot": "parziale",
+      "Screenshoot": "ok",
       "completato": null,
       "Documentazione inviata": null,
-      "data completamento": "2023-09-25T00:00:00",
-      "ID sensore 1": "3EFB9",
-      "ID sensore 2": "3EFBB",
-      "ID sensore 3": "3DC4F",
-      "ID sensore 4": null,
+      "data completamento": "2023-09-21T00:00:00",
+      "ID sensore 1": "3EFBC",
+      "ID sensore 2": "3EFBD",
+      "ID sensore 3": "3EFBA",
+      "ID sensore 4": "3DC45",
       "ID sensore 5": null,
       "ID sensore 6": null,
       "ID sensore 7": null,
-      "Unnamed: 23": "da fare alzata su PS con lanterna singola e configuraresensori e regolatore",
+      "Unnamed: 23": "configurato solo 1 sensore",
       "source": "lotto1"
     },
     "lotto2_data": null,
     "semaforica_data": {
-      "Progr.": 43.0,
+      "Progr.": 44.0,
       "Lotto": "M9.1",
-      "Numero-Nome Postazione": "218-Colombo/Umanesimo dir. GRA  ",
-      "Codice Impianto": "12060",
+      "Numero-Nome Postazione": "219-Colombo/Umanesimo dir. Centro  ",
+      "Codice Impianto": "12062",
       "Sistema": "Tmacs",
       "AUT": "SI",
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/umanesimo",
+    "semaforica_match_key": "colombo/umanesimo"
   },
   {
     "id": "219",
@@ -7096,7 +7947,7 @@
       "Umanesimo dir. Centro"
     ],
     "is_intersection": true,
-    "normalized_name": "colombo/umanesimo dir. centro",
+    "normalized_name": "colombo/umanesimo",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -7163,7 +8014,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/umanesimo",
+    "semaforica_match_key": "colombo/umanesimo"
   },
   {
     "id": "220",
@@ -7241,7 +8094,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "colombo/oceani",
+    "semaforica_match_key": "colombo/oceani"
   },
   {
     "id": "221",
@@ -7341,7 +8196,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "ambrosini/grotta perfetta",
+    "swarco_match_key": "ambrosini/grotta perfetta"
   },
   {
     "id": "222",
@@ -7441,7 +8298,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "calderon de la barca/grotta perfetta",
+    "swarco_match_key": "calderon de la barca/grotta perfetta"
   },
   {
     "id": "224",
@@ -7482,7 +8341,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 10.0,
+      "codice": 11092.0,
+      "indirizzo": "Ardeatina - Fotografia cod. imp. 11092",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 86.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "83/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": null,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-06-21T00:00:00",
+      "config.RSM": "2023-06-13T00:00:00",
+      "Config.instal.": "2023-11-30T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294200/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 3.0,
+      "centralizzati": "OMNIA",
+      "manca SIM": "X",
+      "seriali": null,
+      "indirizzo_clean": "Ardeatina - Fotografia",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 52.0,
@@ -7495,7 +8400,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "ardeatina/fotografia",
+    "swarco_match_key": "ardeatina/fotografia"
   },
   {
     "id": "225",
@@ -7595,7 +8502,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "bompiani/sette chiese",
+    "swarco_match_key": "bompiani/sette chiese"
   },
   {
     "id": "226",
@@ -7673,7 +8582,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "laurentina/umanesimo",
+    "semaforica_match_key": "laurentina/umanesimo"
   },
   {
     "id": "227",
@@ -7751,7 +8662,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "laurentina/vigna murata",
+    "semaforica_match_key": "laurentina/vigna murata"
   },
   {
     "id": "228",
@@ -7829,7 +8742,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "laurentina/serafico",
+    "semaforica_match_key": "laurentina/serafico"
   },
   {
     "id": "229",
@@ -7907,7 +8822,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "ardigò/laurentina",
+    "semaforica_match_key": "ardigò/laurentina"
   },
   {
     "id": "230",
@@ -7985,7 +8902,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "laurentina/silone",
+    "semaforica_match_key": "laurentina/silone"
   },
   {
     "id": "231",
@@ -8063,7 +8982,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "acqua acetosa ostiense/laurentina",
+    "semaforica_match_key": "acqua acetosa ostiense/laurentina"
   },
   {
     "id": "232",
@@ -8141,7 +9062,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "laurentina/tor pagnotta",
+    "semaforica_match_key": "laurentina/tor pagnotta"
   },
   {
     "id": "234",
@@ -8221,7 +9144,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "colli portuensi/morelli",
+    "swarco_match_key": "colli portuensi/morelli"
   },
   {
     "id": "235",
@@ -8301,7 +9226,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "colli portuensi/monteverde",
+    "swarco_match_key": "colli portuensi/monteverde"
   },
   {
     "id": "236",
@@ -8381,7 +9308,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "colli portuensi/gianicolense",
+    "swarco_match_key": "colli portuensi/gianicolense"
   },
   {
     "id": "238",
@@ -8461,7 +9390,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "gianicolense/monteverde",
+    "swarco_match_key": "gianicolense/monteverde"
   },
   {
     "id": "239",
@@ -8541,7 +9472,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "dunant/gianicolense",
+    "swarco_match_key": "dunant/gianicolense"
   },
   {
     "id": "240",
@@ -8620,7 +9553,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "piazzale biondo",
+    "swarco_match_key": "piazzale biondo"
   },
   {
     "id": "241",
@@ -8699,7 +9634,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "piazzale della radio",
+    "swarco_match_key": "piazzale della radio"
   },
   {
     "id": "242",
@@ -8710,7 +9647,7 @@
       "S.Tarcisio"
     ],
     "is_intersection": true,
-    "normalized_name": "appia pignatelli/s.tarcisio",
+    "normalized_name": "appia pignatelli/santarcisio",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -8799,7 +9736,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "appia pignatelli/santarcisio",
+    "swarco_match_key": "appia pignatelli/santarcisio"
   },
   {
     "id": "243",
@@ -8810,7 +9749,7 @@
       "L.re Pietrapapa"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re pietrapapa/marconi",
+    "normalized_name": "lungotevere pietrapapa/marconi",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -8853,7 +9792,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "lungotevere pietrapapa/marconi"
   },
   {
     "id": "244",
@@ -8933,7 +9873,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "edison/marconi",
+    "swarco_match_key": "edison/marconi"
   },
   {
     "id": "245",
@@ -9013,7 +9955,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "marconi/temistocle calzecchi onesti",
+    "swarco_match_key": "marconi/temistocle calzecchi onesti"
   },
   {
     "id": "246",
@@ -9093,7 +10037,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "bortolotti/marconi",
+    "swarco_match_key": "bortolotti/marconi"
   },
   {
     "id": "248",
@@ -9173,7 +10119,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "marconi/metro",
+    "swarco_match_key": "marconi/metro"
   },
   {
     "id": "250",
@@ -9253,7 +10201,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "induno/trastevere",
+    "swarco_match_key": "induno/trastevere"
   },
   {
     "id": "251",
@@ -9333,7 +10283,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "glorioso/trastevere",
+    "swarco_match_key": "glorioso/trastevere"
   },
   {
     "id": "252",
@@ -9387,7 +10339,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "porta portese/portuense"
   },
   {
     "id": "256",
@@ -9467,7 +10420,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "folchi/portuense",
+    "swarco_match_key": "folchi/portuense"
   },
   {
     "id": "257",
@@ -9547,7 +10502,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "portuense/ramazzini",
+    "swarco_match_key": "portuense/ramazzini"
   },
   {
     "id": "261",
@@ -9627,7 +10584,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "casetta mattei/poggio verde",
+    "swarco_match_key": "casetta mattei/poggio verde"
   },
   {
     "id": "262",
@@ -9705,7 +10664,9 @@
       "ATTIVITA' DA FARE": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "bravetta/scaligeri",
+    "semaforica_match_key": "bravetta/scaligeri"
   },
   {
     "id": "263",
@@ -9784,7 +10745,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "bravetta/consolata/silvestri",
+    "semaforica_match_key": "bravetta/consolata/silvestri"
   },
   {
     "id": "264",
@@ -9864,7 +10827,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "grimaldi/pisana",
+    "swarco_match_key": "grimaldi/pisana"
   },
   {
     "id": "265",
@@ -9942,7 +10907,9 @@
       "ATTIVITA' DA FARE": "Installare AUT",
       "source": "semaforica"
     },
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto1_match_key": "bravetta/feltreschi",
+    "semaforica_match_key": "bravetta/feltreschi"
   },
   {
     "id": "266",
@@ -10021,7 +10988,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "largo don guanella",
+    "swarco_match_key": "largo don guanella"
   },
   {
     "id": "267",
@@ -10100,7 +11069,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "porta capena",
+    "swarco_match_key": "porta capena"
   },
   {
     "id": "269",
@@ -10155,7 +11126,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "matteucci/ostiense/porto fluviale"
   },
   {
     "id": "270",
@@ -10209,7 +11181,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "ostiense/spizzichina"
   },
   {
     "id": "271",
@@ -10221,7 +11194,7 @@
       "Rocco"
     ],
     "is_intersection": true,
-    "normalized_name": "ostiense/rocco/s.paolo",
+    "normalized_name": "ostiense/rocco/sanpaolo",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -10264,7 +11237,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "ostiense/rocco/sanpaolo"
   },
   {
     "id": "272",
@@ -10344,7 +11318,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "beccari/marco polo",
+    "swarco_match_key": "beccari/marco polo"
   },
   {
     "id": "273",
@@ -10444,7 +11420,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "cilicia/piazza galeria",
+    "swarco_match_key": "cilicia/piazza galeria"
   },
   {
     "id": "276",
@@ -10524,7 +11502,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "bocca della verità/greca",
+    "swarco_match_key": "bocca della verità/greca"
   },
   {
     "id": "278",
@@ -10604,7 +11584,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "caracalla/largo vittime del terrorismo",
+    "swarco_match_key": "caracalla/largo vittime del terrorismo"
   },
   {
     "id": "284",
@@ -10703,7 +11685,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza di porta pia",
+    "swarco_match_key": "piazza di porta pia"
   },
   {
     "id": "285",
@@ -10803,7 +11787,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "alberone/appia",
+    "swarco_match_key": "alberone/appia"
   },
   {
     "id": "287",
@@ -10904,7 +11890,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "arco di travertino/porta furba/tuscolana",
+    "swarco_match_key": "arco di travertino/porta furba/tuscolana"
   },
   {
     "id": "288",
@@ -11004,7 +11992,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "cave/tuscolana",
+    "swarco_match_key": "cave/tuscolana"
   },
   {
     "id": "289",
@@ -11105,7 +12095,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "gela/monselice/tuscolana",
+    "swarco_match_key": "gela/monselice/tuscolana"
   },
   {
     "id": "290",
@@ -11206,7 +12198,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "furio camillo/nocera umbra/tuscolana",
+    "swarco_match_key": "furio camillo/nocera umbra/tuscolana"
   },
   {
     "id": "292",
@@ -11260,7 +12254,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "appia/arco di travertino"
   },
   {
     "id": "293",
@@ -11314,7 +12309,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "capannelle/tuscolana"
   },
   {
     "id": "294",
@@ -11415,7 +12411,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "labieno/pulvillo/tuscolana",
+    "swarco_match_key": "labieno/pulvillo/tuscolana"
   },
   {
     "id": "295",
@@ -11515,7 +12513,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "giulio agricola/tuscolana",
+    "swarco_match_key": "giulio agricola/tuscolana"
   },
   {
     "id": "296",
@@ -11615,7 +12615,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "lucio sestio/tuscolana",
+    "swarco_match_key": "lucio sestio/tuscolana"
   },
   {
     "id": "297",
@@ -11715,7 +12717,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "quadraro/tuscolana",
+    "swarco_match_key": "quadraro/tuscolana"
   },
   {
     "id": "298",
@@ -11815,7 +12819,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "buon consiglio/tuscolana",
+    "swarco_match_key": "buon consiglio/tuscolana"
   },
   {
     "id": "299",
@@ -11856,7 +12862,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 44.0,
+      "codice": 10012.0,
+      "indirizzo": "Tuscolana/Metro Porta Furba/Fulvi   cod. imp. 10012",
+      "scavo marciapiede": 5.0,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 215.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": "190/23/DIMR",
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-10-03T00:00:00",
+      "config.RSM": "2023-10-02T00:00:00",
+      "Config.instal.": "2024-01-04T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8297663/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 3.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Tuscolana/Metro Porta Furba/Fulvi",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 96.0,
@@ -11869,7 +12921,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "fulvi/metro porta furba/tuscolana",
+    "swarco_match_key": "metro porta furba/tuscolana"
   },
   {
     "id": "300",
@@ -11969,7 +13023,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "appia/capannellle",
+    "swarco_match_key": "appia/capannellle"
   },
   {
     "id": "301",
@@ -12049,7 +13105,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "grimaldi/marconi",
+    "swarco_match_key": "grimaldi/marconi"
   },
   {
     "id": "302",
@@ -12061,7 +13119,7 @@
       "C.so Francia"
     ],
     "is_intersection": true,
-    "normalized_name": "c.so francia/cassia/flaminia",
+    "normalized_name": "cassia/corso francia/flaminia",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -12130,7 +13188,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "cassia/corso francia/flaminia",
+    "swarco_match_key": "cassia/corso francia/flaminia"
   },
   {
     "id": "303",
@@ -12184,7 +13244,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "appia nuova/appia pignatelli"
   },
   {
     "id": "304",
@@ -12284,7 +13345,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "appia nuova/quarto miglio",
+    "swarco_match_key": "appia nuova/quarto miglio"
   },
   {
     "id": "305",
@@ -12384,7 +13447,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "appia nuova/quadraro",
+    "swarco_match_key": "appia nuova/quadraro"
   },
   {
     "id": "306",
@@ -12395,7 +13460,7 @@
       "L.re Navi"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re navi/ponte matteotti",
+    "normalized_name": "lungotevere navi/ponte matteotti",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -12438,7 +13503,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "lungotevere navi/ponte matteotti"
   },
   {
     "id": "307",
@@ -12449,7 +13515,7 @@
       "P.le Belle Arti"
     ],
     "is_intersection": true,
-    "normalized_name": "p.le belle arti/ponte risorgimento",
+    "normalized_name": "piazzale belle arti/ponte risorgimento",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -12492,7 +13558,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "piazzale belle arti/ponte risorgimento"
   },
   {
     "id": "401",
@@ -12592,7 +13659,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "nomentana/villini",
+    "swarco_match_key": "nomentana/villini"
   },
   {
     "id": "402",
@@ -12692,7 +13761,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "val di cogne/val di lanzo",
+    "swarco_match_key": "val di cogne/val di lanzo"
   },
   {
     "id": "403",
@@ -12746,7 +13817,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "tirreno/valle scrivia"
   },
   {
     "id": "404",
@@ -12845,7 +13917,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza capri",
+    "swarco_match_key": "piazza capri"
   },
   {
     "id": "405",
@@ -12899,7 +13973,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "portuense/vigna pia"
   },
   {
     "id": "406",
@@ -12953,7 +14028,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "imbrecciato/portuense"
   },
   {
     "id": "407",
@@ -13007,7 +14083,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Impossibile connettersi con SSH. Serve verifica sul posto",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "belluzzo/portuense"
   },
   {
     "id": "408",
@@ -13018,7 +14095,7 @@
       "S.Valentino"
     ],
     "is_intersection": true,
-    "normalized_name": "m.llo pilsudski/s.valentino",
+    "normalized_name": "maresciallo pilsudski/sanvalentino",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -13107,7 +14184,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "maresciallo pilsudski/sanvalentino",
+    "swarco_match_key": "maresciallo pilsudski/sanvalentino"
   },
   {
     "id": "409",
@@ -13148,7 +14227,53 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 58.0,
+      "codice": 2011.0,
+      "indirizzo": "Piazza Fiume cod. imp. 02011",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 150.0,
+      "interfaccia": 2.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": null,
+      "numero radar": 6,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-12-29T00:00:00",
+      "config.RSM": "2023-10-09T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "galleria",
+      "planimetria": null,
+      "ordine sap": null,
+      "n.radar montati senza cavi": "2 richiedere apertura galleria",
+      "n.radar montati con cavi senza collegamento": 1,
+      "n.radar finiti": 2.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Piazza Fiume",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
     "swarco_data": {
       "Progr.": 113.0,
@@ -13161,7 +14286,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "piazza fiume",
+    "swarco_match_key": "calabria/piazza fiume"
   },
   {
     "id": "410",
@@ -13215,7 +14342,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "nomentana/val dossola"
   },
   {
     "id": "411",
@@ -13315,7 +14443,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto2_match_key": "feronia/monti tiburtini",
+    "swarco_match_key": "feronia/monti tiburtini"
   },
   {
     "id": "412",
@@ -13326,7 +14456,7 @@
       "Morra di Lavriano"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re cadorna/morra di lavriano",
+    "normalized_name": "lungotevere cadorna/morra di lavriano",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -13369,7 +14499,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "lungotevere cadorna/morra di lavriano"
   },
   {
     "id": "413",
@@ -13380,7 +14511,7 @@
       "Largo M.llo Diaz"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re m.llo diaz/largo m.llo diaz",
+    "normalized_name": "largo maresciallo diaz/lungotevere maresciallo diaz",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -13423,7 +14554,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "largo maresciallo diaz/lungotevere maresciallo diaz"
   },
   {
     "id": "414",
@@ -13434,7 +14566,7 @@
       "Timavo"
     ],
     "is_intersection": true,
-    "normalized_name": "l.re della vittoria/timavo",
+    "normalized_name": "lungotevere della vittoria/timavo",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -13477,7 +14609,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "lungotevere della vittoria/timavo"
   },
   {
     "id": "415",
@@ -13531,7 +14664,8 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "swarco_match_key": "ammiragli/cipro"
   },
   {
     "id": "416",
@@ -13571,7 +14705,33 @@
       "Unnamed: 19": null,
       "Unnamed: 20": null
     },
-    "lotto1_data": null,
+    "lotto1_data": {
+      "N.": 110,
+      "ID": null,
+      "cod.": 18002.0,
+      "Impianto": "Anastasio II   ",
+      "sistema": null,
+      "ODL": null,
+      "installazione": null,
+      "planimetrie ricevute": null,
+      "passaggio cavi": null,
+      "planimetria inviata a RSM": null,
+      "installazione sensori": null,
+      "cablaggio regolatore": null,
+      "Screenshoot": null,
+      "completato": null,
+      "Documentazione inviata": null,
+      "data completamento": null,
+      "ID sensore 1": null,
+      "ID sensore 2": null,
+      "ID sensore 3": null,
+      "ID sensore 4": null,
+      "ID sensore 5": null,
+      "ID sensore 6": null,
+      "ID sensore 7": null,
+      "Unnamed: 23": null,
+      "source": "lotto1"
+    },
     "lotto2_data": null,
     "semaforica_data": null,
     "swarco_data": {
@@ -13585,7 +14745,9 @@
       "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Idoneo",
       "Unnamed: 8": null,
       "source": "swarco"
-    }
+    },
+    "lotto1_match_key": "anastasio ii",
+    "swarco_match_key": "anastasio ii/uscita centro commerciale"
   },
   {
     "id": "417",
@@ -13712,9 +14874,56 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 59.0,
+      "codice": 2028.0,
+      "indirizzo": "Pinciana - Puccini cod. imp. 02028",
+      "scavo marciapiede": 5.0,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 155.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": null,
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2024-01-11T00:00:00",
+      "config.RSM": "2023-10-17T00:00:00",
+      "Config.instal.": null,
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": null,
+      "n.radar montati senza cavi": "da montare 2 radar cavi non passano",
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 1.0,
+      "centralizzati": "OMNIA",
+      "manca SIM": "X",
+      "seriali": null,
+      "indirizzo_clean": "Pinciana - Puccini",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "pinciana/puccini"
   },
   {
     "id": "420",
@@ -13755,9 +14964,56 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 60.0,
+      "codice": 2029.0,
+      "indirizzo": "Pinciana - Allegri cod. imp. 02029",
+      "scavo marciapiede": 5.0,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 155.0,
+      "interfaccia": 2.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": null,
+      "numero radar": 5,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-11-14T00:00:00",
+      "config.RSM": "2023-10-17T00:00:00",
+      "Config.instal.": null,
+      "da scavare": "si",
+      "planimetria": null,
+      "ordine sap": null,
+      "n.radar montati senza cavi": "1 via raimondi",
+      "n.radar montati con cavi senza collegamento": 4,
+      "n.radar finiti": null,
+      "centralizzati": "OMNIA",
+      "manca SIM": "X",
+      "seriali": null,
+      "indirizzo_clean": "Pinciana - Allegri",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "allegri/pinciana"
   },
   {
     "id": "421",
@@ -13768,7 +15024,7 @@
       "Po"
     ],
     "is_intersection": true,
-    "normalized_name": "c.so italia/po",
+    "normalized_name": "corso italia/po",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -13811,7 +15067,7 @@
       "Puccini"
     ],
     "is_intersection": true,
-    "normalized_name": "c.so italia/puccini",
+    "normalized_name": "corso italia/puccini",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -14099,9 +15355,56 @@
       "Unnamed: 20": null
     },
     "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto2_data": {
+      "N.progr.": 68.0,
+      "codice": 10099.0,
+      "indirizzo": "Tuscolana - Occorsio cod. imp. 10099",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 150.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": null,
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-10-26T00:00:00",
+      "config.RSM": "2023-10-17T00:00:00",
+      "Config.instal.": "2023-11-02T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": null,
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 3.0,
+      "centralizzati": "OMNIA",
+      "manca SIM": "X",
+      "seriali": null,
+      "indirizzo_clean": "Tuscolana - Occorsio",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "occorsio/tuscolana"
   },
   {
     "id": "429",
@@ -14153,7 +15456,7 @@
       "Piazza S.Croce Gerusalemme"
     ],
     "is_intersection": false,
-    "normalized_name": "piazza s.croce gerusalemme",
+    "normalized_name": "piazza sancroce gerusalemme",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -14196,7 +15499,7 @@
       "Sessoriana"
     ],
     "is_intersection": true,
-    "normalized_name": "piazza s.croce gerusalemme/sessoriana",
+    "normalized_name": "piazza sancroce gerusalemme/sessoriana",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -14790,7 +16093,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "appia pignatelli/erode attico"
   },
   {
     "id": "444",
@@ -14929,7 +16233,7 @@
       "S.Martino della Battaglia"
     ],
     "is_intersection": true,
-    "normalized_name": "piazza indipendenza/s.martino della battaglia",
+    "normalized_name": "piazza indipendenza/sanmartino della battaglia",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -15229,7 +16533,7 @@
       "S.Cleto Papa"
     ],
     "is_intersection": true,
-    "normalized_name": "pineta sacchetti/s.cleto papa",
+    "normalized_name": "pineta sacchetti/sancleto papa",
     "latitude": null,
     "longitude": null,
     "geocode_status": "pending",
@@ -15392,7 +16696,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "piazza porta maggiore"
   },
   {
     "id": "457",
@@ -15480,7 +16785,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "piazzale labicano"
   },
   {
     "id": "458",
@@ -15569,7 +16875,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "portonaccio/prenestina"
   },
   {
     "id": "459",
@@ -15658,7 +16965,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "prenestina/tor de schiavi"
   },
   {
     "id": "460",
@@ -15746,7 +17054,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "piazza gondar"
   },
   {
     "id": "461",
@@ -15835,7 +17144,8 @@
       "source": "lotto2"
     },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": null,
+    "lotto2_match_key": "chiana/corso trieste"
   },
   {
     "id": null,
@@ -15916,10 +17226,96 @@
       "Unnamed: 19": null,
       "Unnamed: 20": null
     },
-    "lotto1_data": null,
-    "lotto2_data": null,
+    "lotto1_data": {
+      "N.": 14,
+      "ID": null,
+      "cod.": 20029.0,
+      "Impianto": "Cassia Nuova/Fabbroni/Pareto   ",
+      "sistema": "Omnia  ",
+      "ODL": null,
+      "installazione": "ENG",
+      "planimetrie ricevute": "si",
+      "passaggio cavi": "ok",
+      "planimetria inviata a RSM": null,
+      "installazione sensori": 4.0,
+      "cablaggio regolatore": "ok",
+      "Screenshoot": "ok",
+      "completato": "ok",
+      "Documentazione inviata": "ok",
+      "data completamento": "2023-08-02T00:00:00",
+      "ID sensore 1": "3FOE4",
+      "ID sensore 2": "3FOE5",
+      "ID sensore 3": "3EFC5",
+      "ID sensore 4": "3EFC3",
+      "ID sensore 5": null,
+      "ID sensore 6": null,
+      "ID sensore 7": null,
+      "Unnamed: 23": null,
+      "source": "lotto1"
+    },
+    "lotto2_data": {
+      "N.progr.": 46.0,
+      "codice": 10014.0,
+      "indirizzo": "Appia Nuova/Quarto Miglio   cod. imp. 10014",
+      "scavo marciapiede": null,
+      "scavo carreggiata": null,
+      "1.1.1.1.120": null,
+      "1.1.1.1.080": null,
+      "m.cavo": 150.0,
+      "interfaccia": 1.0,
+      "M.1.3.1.1.182.a": null,
+      "ordine di lavoro": null,
+      "numero radar": 3,
+      "M.1.1.2.1.020": null,
+      "M.1.3.1.1.182": null,
+      "M.3.1.1.2.142": null,
+      "M.3.1.1.2.150": null,
+      "M.8.1.7.090": null,
+      "M.8.1.7.090.1": 75.9,
+      "1.1.1.1.130": null,
+      "1.1.2.1.010": null,
+      "1.1.2.1.020": null,
+      "1.1.2.1.030": null,
+      "1.1.2.1.040": null,
+      "1.1.2.1.050": null,
+      "7.1.1.1.030": null,
+      "7.1.1.1.010": null,
+      "B01.01.001.B": null,
+      "B01.05.014.B": null,
+      "A03.01.015.J": null,
+      "B01.05.005": null,
+      "totale": null,
+      "data installaz": "2023-10-02T00:00:00",
+      "config.RSM": "2023-10-02T00:00:00",
+      "Config.instal.": "2023-12-06T00:00:00",
+      "da scavare": null,
+      "planimetria": null,
+      "ordine sap": "8294113/DIMR",
+      "n.radar montati senza cavi": null,
+      "n.radar montati con cavi senza collegamento": null,
+      "n.radar finiti": 3.0,
+      "centralizzati": "SI OMNIA",
+      "manca SIM": null,
+      "seriali": null,
+      "indirizzo_clean": "Appia Nuova/Quarto Miglio",
+      "source": "lotto2"
+    },
     "semaforica_data": null,
-    "swarco_data": null
+    "swarco_data": {
+      "Progr.": 2.0,
+      "Lotto": "M9.1",
+      "Numero-Nome Postazione": "105-Cassia Nuova/Fabbroni/Pareto   ",
+      "Codice Impianto": 20029.0,
+      "Sistema": "Omnia",
+      "Centralino SCAE": null,
+      "Centralizzati recenti: SPOT presente? No SIM?": null,
+      "SPOT: Su scheda (centralino SCAE)? Con firmware vecchio (da sostituire)? Con firmware recente (aggiornabile da remoto)?": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "Unnamed: 8": null,
+      "source": "swarco"
+    },
+    "lotto1_match_key": "cassia nuova/fabbroni/pareto",
+    "lotto2_match_key": "appia nuova/quarto miglio",
+    "swarco_match_key": "cassia nuova/fabbroni/pareto"
   },
   {
     "id": null,
