@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Configuration Dashboard - Roma</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary { background: #3182ce; color: white; }
+        .btn-primary:hover { background: #2c5282; }
+        .btn-success { background: #38a169; color: white; }
+        .btn-success:hover { background: #2f855a; }
+        .btn-warning { background: #dd6b20; color: white; }
+        .btn-warning:hover { background: #c05621; }
+        .btn-secondary { background: #718096; color: white; }
+        .btn-secondary:hover { background: #4a5568; }
+        .btn-danger { background: #e53e3e; color: white; }
+        .btn-danger:hover { background: #c53030; }
+
+        .stats-bar {
+            background: #2d3748;
+            color: white;
+            padding: 0.75rem 2rem;
+            display: flex;
+            gap: 2rem;
+            font-size: 0.875rem;
+            flex-wrap: wrap;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .stat-label { color: #a0aec0; }
+        .stat-value { font-weight: bold; }
+        .stat-value.success { color: #68d391; }
+        .stat-value.warning { color: #fbd38d; }
+        .stat-value.danger { color: #fc8181; }
+
+        .main-container {
+            display: flex;
+            height: calc(100vh - 120px);
+        }
+
+        .sidebar {
+            width: 400px;
+            background: white;
+            border-right: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-box {
+            padding: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            font-size: 0.875rem;
+        }
+
+        .filter-box {
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+        }
+
+        .filter-btn.active {
+            background: #3182ce;
+            color: white;
+            border-color: #3182ce;
+        }
+
+        .intersection-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .intersection-item {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .intersection-item:hover { background: #f7fafc; }
+        .intersection-item.selected { background: #ebf8ff; border-left: 3px solid #3182ce; }
+        .intersection-item.not-geocoded { border-left: 3px solid #fc8181; }
+        .intersection-item.needs-review { border-left: 3px solid #fbd38d; }
+        .intersection-item.manual { border-left: 3px solid #68d391; }
+
+        .intersection-name { font-weight: 500; margin-bottom: 0.25rem; }
+        .intersection-meta { font-size: 0.75rem; color: #718096; }
+
+        .intersection-status {
+            display: inline-block;
+            padding: 0.125rem 0.375rem;
+            border-radius: 8px;
+            font-size: 0.625rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .status-found { background: #c6f6d5; color: #22543d; }
+        .status-not-found { background: #fed7d7; color: #822727; }
+        .status-review { background: #fefcbf; color: #744210; }
+        .status-manual { background: #c3dafe; color: #3c366b; }
+
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #map { width: 100%; height: 100%; }
+
+        .detail-panel {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 350px;
+            max-height: calc(100% - 2rem);
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: none;
+            z-index: 1000;
+        }
+
+        .detail-panel.visible { display: block; }
+
+        .detail-header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .detail-header h3 { font-size: 1rem; }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .detail-content {
+            padding: 1rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .detail-section { margin-bottom: 1rem; }
+
+        .detail-section h4 {
+            font-size: 0.875rem;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+            font-size: 0.75rem;
+        }
+
+        .detail-label { color: #718096; }
+
+        .detail-value {
+            color: #2d3748;
+            font-weight: 500;
+            text-align: right;
+            max-width: 60%;
+            word-break: break-word;
+        }
+
+        .detail-actions {
+            padding: 1rem;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .coords-display {
+            background: #f7fafc;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        .loading-overlay.visible { display: flex; }
+
+        .loading-spinner {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #3182ce;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2d3748;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            z-index: 9999;
+            display: none;
+        }
+
+        .toast.visible { display: block; }
+        .toast.success { background: #38a169; }
+        .toast.error { background: #e53e3e; }
+
+        .legend {
+            position: absolute;
+            bottom: 2rem;
+            left: 1rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 0.75rem;
+            z-index: 1000;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .legend-marker {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .legend-marker.green { background: #38a169; }
+        .legend-marker.orange { background: #dd6b20; }
+        .legend-marker.red { background: #e53e3e; }
+        .legend-marker.blue { background: #3182ce; }
+
+        .progress-bar {
+            width: 100%;
+            height: 4px;
+            background: #e2e8f0;
+            border-radius: 2px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: #3182ce;
+            transition: width 0.3s;
+        }
+
+        .data-table {
+            width: 100%;
+            font-size: 0.7rem;
+            border-collapse: collapse;
+        }
+
+        .data-table th, .data-table td {
+            padding: 0.25rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .data-table th {
+            background: #f7fafc;
+            font-weight: 600;
+        }
+
+        .collapsible-header {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .collapsible-header:hover { color: #3182ce; }
+
+        .collapsible-content {
+            display: none;
+            padding-top: 0.5rem;
+        }
+
+        .collapsible-content.expanded { display: block; }
+
+        .expand-icon { transition: transform 0.2s; }
+        .expand-icon.expanded { transform: rotate(90deg); }
+
+        @media (max-width: 768px) {
+            .sidebar { width: 100%; height: 40vh; }
+            .main-container { flex-direction: column; height: auto; }
+            .map-container { height: 60vh; }
+        }
+
+        /* File input styling */
+        .file-input-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .file-input-wrapper input[type=file] {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Radar Configuration Dashboard - Roma</h1>
+        <div class="header-actions">
+            <button class="btn btn-primary" onclick="geocodeAll()">Geocode All</button>
+            <button class="btn btn-success" onclick="downloadData()">Download JSON</button>
+            <div class="file-input-wrapper">
+                <button class="btn btn-warning">Load JSON</button>
+                <input type="file" accept=".json" onchange="loadDataFile(event)">
+            </div>
+        </div>
+    </header>
+
+    <div class="stats-bar">
+        <div class="stat">
+            <span class="stat-label">Total:</span>
+            <span class="stat-value" id="stat-total">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Geocoded:</span>
+            <span class="stat-value success" id="stat-geocoded">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Not Found:</span>
+            <span class="stat-value danger" id="stat-not-found">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Needs Review:</span>
+            <span class="stat-value warning" id="stat-review">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Manual:</span>
+            <span class="stat-value" id="stat-manual">0</span>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search intersections..." oninput="filterIntersections()">
+            </div>
+            <div class="filter-box">
+                <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
+                <button class="filter-btn" data-filter="geocoded" onclick="setFilter('geocoded')">Geocoded</button>
+                <button class="filter-btn" data-filter="not-found" onclick="setFilter('not-found')">Not Found</button>
+                <button class="filter-btn" data-filter="needs-review" onclick="setFilter('needs-review')">Needs Review</button>
+                <button class="filter-btn" data-filter="manual" onclick="setFilter('manual')">Manual</button>
+            </div>
+            <div class="intersection-list" id="intersection-list"></div>
+        </aside>
+
+        <main class="map-container">
+            <div id="map"></div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-marker green"></div>
+                    <span>Geocoded</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker orange"></div>
+                    <span>Needs review</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker red"></div>
+                    <span>Not found</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker blue"></div>
+                    <span>Manual</span>
+                </div>
+            </div>
+
+            <div class="detail-panel" id="detail-panel">
+                <div class="detail-header">
+                    <h3 id="detail-title">Intersection Details</h3>
+                    <button class="close-btn" onclick="closeDetailPanel()">&times;</button>
+                </div>
+                <div class="detail-content" id="detail-content"></div>
+                <div class="detail-actions">
+                    <button class="btn btn-primary" onclick="geocodeSelected()">Re-geocode</button>
+                    <button class="btn btn-secondary" onclick="centerOnSelected()">Center Map</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <div id="loading-text">Loading...</div>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill" style="width: 0%"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Global state
+        let map;
+        let markers = {};
+        let intersections = [];
+        let selectedIndex = null;
+        let currentFilter = 'all';
+
+        const ROME_CENTER = { lat: 41.9028, lon: 12.4964 };
+        const ROME_BOUNDS = { min_lat: 41.7, max_lat: 42.1, min_lon: 12.2, max_lon: 12.8 };
+
+        // Initialize map
+        function initMap() {
+            map = L.map('map').setView([ROME_CENTER.lat, ROME_CENTER.lon], 12);
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+        }
+
+        // Get marker color based on status
+        function getMarkerColor(intersection) {
+            if (intersection.manual_position) return 'blue';
+            if (intersection.geocode_status === 'not_found') return 'red';
+            if (intersection.geocode_needs_review) return 'orange';
+            if (intersection.latitude && intersection.longitude) return 'green';
+            return 'gray';
+        }
+
+        // Create custom marker icon
+        function createMarkerIcon(color) {
+            const colors = {
+                green: '#38a169',
+                orange: '#dd6b20',
+                red: '#e53e3e',
+                blue: '#3182ce',
+                gray: '#718096'
+            };
+
+            return L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="
+                    width: 24px;
+                    height: 24px;
+                    background: ${colors[color] || colors.gray};
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+                "></div>`,
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
+        }
+
+        // Add markers to map
+        function addMarkers() {
+            Object.values(markers).forEach(m => map.removeLayer(m));
+            markers = {};
+
+            intersections.forEach((intersection, index) => {
+                if (intersection.latitude && intersection.longitude) {
+                    const color = getMarkerColor(intersection);
+                    const marker = L.marker(
+                        [intersection.latitude, intersection.longitude],
+                        { icon: createMarkerIcon(color), draggable: true }
+                    );
+
+                    marker.on('click', () => selectIntersection(index));
+                    marker.on('dragend', (e) => updateMarkerPosition(index, e.target.getLatLng()));
+
+                    marker.bindTooltip(intersection.raw_name || `Intersection ${index}`, {
+                        permanent: false,
+                        direction: 'top'
+                    });
+
+                    marker.addTo(map);
+                    markers[index] = marker;
+                }
+            });
+        }
+
+        // Update marker position after drag
+        function updateMarkerPosition(index, latlng) {
+            intersections[index].latitude = latlng.lat;
+            intersections[index].longitude = latlng.lng;
+            intersections[index].manual_position = true;
+            intersections[index].geocode_needs_review = false;
+            intersections[index].geocode_status = 'manual';
+
+            const color = getMarkerColor(intersections[index]);
+            markers[index].setIcon(createMarkerIcon(color));
+
+            renderIntersectionList();
+            updateStats();
+            saveToLocalStorage();
+            showToast('Position saved', 'success');
+
+            if (selectedIndex === index) {
+                showDetailPanel(index);
+            }
+        }
+
+        // Render intersection list
+        function renderIntersectionList() {
+            const list = document.getElementById('intersection-list');
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+
+            let filtered = intersections.map((intersection, index) => ({ ...intersection, originalIndex: index }))
+                .filter(intersection => {
+                    const name = (intersection.raw_name || '').toLowerCase();
+                    if (searchTerm && !name.includes(searchTerm)) return false;
+
+                    if (currentFilter === 'geocoded') {
+                        return intersection.latitude && intersection.longitude && !intersection.geocode_needs_review;
+                    }
+                    if (currentFilter === 'not-found') {
+                        return intersection.geocode_status === 'not_found' || (!intersection.latitude && intersection.geocode_status !== 'pending');
+                    }
+                    if (currentFilter === 'needs-review') {
+                        return intersection.geocode_needs_review;
+                    }
+                    if (currentFilter === 'manual') {
+                        return intersection.manual_position;
+                    }
+                    return true;
+                });
+
+            list.innerHTML = filtered.map(intersection => {
+                const index = intersection.originalIndex;
+                const statusClass = intersection.manual_position ? 'manual' :
+                                   intersection.geocode_status === 'not_found' ? 'not-geocoded' :
+                                   intersection.geocode_needs_review ? 'needs-review' : '';
+
+                const statusBadge = intersection.manual_position ?
+                    '<span class="intersection-status status-manual">Manual</span>' :
+                    intersection.geocode_status === 'not_found' ?
+                    '<span class="intersection-status status-not-found">Not Found</span>' :
+                    intersection.geocode_needs_review ?
+                    '<span class="intersection-status status-review">Review</span>' :
+                    intersection.latitude ?
+                    '<span class="intersection-status status-found">Found</span>' : '';
+
+                return `
+                    <div class="intersection-item ${statusClass} ${selectedIndex === index ? 'selected' : ''}"
+                         onclick="selectIntersection(${index})">
+                        <div class="intersection-name">${intersection.raw_name || 'Unknown'}</div>
+                        <div class="intersection-meta">
+                            ${statusBadge}
+                            ${intersection.id ? `ID: ${intersection.id}` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Select intersection
+        function selectIntersection(index) {
+            selectedIndex = index;
+            renderIntersectionList();
+            showDetailPanel(index);
+
+            if (markers[index]) {
+                map.setView(markers[index].getLatLng(), 15);
+            }
+        }
+
+        // Show detail panel
+        function showDetailPanel(index) {
+            const intersection = intersections[index];
+            const panel = document.getElementById('detail-panel');
+            const title = document.getElementById('detail-title');
+            const content = document.getElementById('detail-content');
+
+            title.textContent = intersection.raw_name || 'Unknown';
+
+            let html = `<div class="detail-section">
+                <h4>Location</h4>
+                <div class="coords-display">
+                    Lat: ${intersection.latitude?.toFixed(6) || 'N/A'}<br>
+                    Lon: ${intersection.longitude?.toFixed(6) || 'N/A'}
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Status:</span>
+                    <span class="detail-value">${intersection.geocode_status || 'pending'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Manual:</span>
+                    <span class="detail-value">${intersection.manual_position ? 'Yes' : 'No'}</span>
+                </div>
+            </div>`;
+
+            if (intersection.streets && intersection.streets.length > 0) {
+                html += `<div class="detail-section">
+                    <h4>Streets</h4>
+                    ${intersection.streets.map(s => `<div class="detail-row"><span class="detail-value">${s}</span></div>`).join('')}
+                </div>`;
+            }
+
+            // Show source data
+            ['main_data', 'lotto1_data', 'lotto2_data', 'semaforica_data', 'swarco_data'].forEach(key => {
+                if (intersection[key]) {
+                    const title = key.replace('_data', '').replace('_', ' ').toUpperCase();
+                    html += renderDataSection(title, intersection[key], key);
+                }
+            });
+
+            content.innerHTML = html;
+            panel.classList.add('visible');
+        }
+
+        function renderDataSection(title, data, id) {
+            const entries = Object.entries(data).filter(([k, v]) => v !== null && v !== '');
+            if (entries.length === 0) return '';
+
+            return `<div class="detail-section">
+                <h4 class="collapsible-header" onclick="toggleSection('${id}')">
+                    ${title} (${entries.length})
+                    <span class="expand-icon" id="icon-${id}">&#9656;</span>
+                </h4>
+                <div class="collapsible-content" id="section-${id}">
+                    <table class="data-table">
+                        ${entries.slice(0, 20).map(([key, value]) => `
+                            <tr><th>${key}</th><td>${value}</td></tr>
+                        `).join('')}
+                        ${entries.length > 20 ? `<tr><td colspan="2">... and ${entries.length - 20} more</td></tr>` : ''}
+                    </table>
+                </div>
+            </div>`;
+        }
+
+        function toggleSection(id) {
+            const content = document.getElementById(`section-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            content.classList.toggle('expanded');
+            icon.classList.toggle('expanded');
+        }
+
+        function closeDetailPanel() {
+            document.getElementById('detail-panel').classList.remove('visible');
+            selectedIndex = null;
+            renderIntersectionList();
+        }
+
+        function setFilter(filter) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === filter);
+            });
+            renderIntersectionList();
+        }
+
+        function filterIntersections() {
+            renderIntersectionList();
+        }
+
+        function updateStats() {
+            const stats = {
+                total: intersections.length,
+                geocoded: intersections.filter(i => i.latitude && i.longitude).length,
+                notFound: intersections.filter(i => i.geocode_status === 'not_found').length,
+                needsReview: intersections.filter(i => i.geocode_needs_review).length,
+                manual: intersections.filter(i => i.manual_position).length
+            };
+
+            document.getElementById('stat-total').textContent = stats.total;
+            document.getElementById('stat-geocoded').textContent = stats.geocoded;
+            document.getElementById('stat-not-found').textContent = stats.notFound;
+            document.getElementById('stat-review').textContent = stats.needsReview;
+            document.getElementById('stat-manual').textContent = stats.manual;
+        }
+
+        // Geocoding with Nominatim
+        async function geocodeAddress(query) {
+            const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&viewbox=${ROME_BOUNDS.min_lon},${ROME_BOUNDS.min_lat},${ROME_BOUNDS.max_lon},${ROME_BOUNDS.max_lat}&bounded=1&limit=1`;
+
+            try {
+                const response = await fetch(url, {
+                    headers: { 'User-Agent': 'RadarConfigDashboard/1.0' }
+                });
+                const data = await response.json();
+
+                if (data && data.length > 0) {
+                    return {
+                        lat: parseFloat(data[0].lat),
+                        lon: parseFloat(data[0].lon),
+                        found: true
+                    };
+                }
+            } catch (error) {
+                console.error('Geocoding error:', error);
+            }
+            return { found: false };
+        }
+
+        function normalizeStreetName(name) {
+            if (!name) return '';
+            let n = name.toLowerCase();
+            n = n.replace(/^\d+\s*[-–—]\s*/, '');
+            n = n.replace(/\s*cod\.?\s*imp\.?\s*\d+\s*$/, '');
+            n = n.replace(/\bl\.re\b/g, 'lungotevere');
+            n = n.replace(/\bp\.zza\b/g, 'piazza');
+            n = n.replace(/\bp\.le\b/g, 'piazzale');
+            n = n.replace(/\bc\.so\b/g, 'corso');
+            n = n.replace(/\s+[-–—]\s+/g, '/');
+            return n.trim();
+        }
+
+        async function geocodeSingle(index) {
+            const intersection = intersections[index];
+            const name = normalizeStreetName(intersection.raw_name || '');
+
+            const queries = [
+                `${name}, Roma, Italia`,
+                `${name}, Rome, Italy`
+            ];
+
+            for (const query of queries) {
+                const result = await geocodeAddress(query);
+                if (result.found) {
+                    intersection.latitude = result.lat;
+                    intersection.longitude = result.lon;
+                    intersection.geocode_status = 'found';
+                    intersection.geocode_needs_review = false;
+                    return true;
+                }
+                await sleep(1100); // Rate limiting
+            }
+
+            intersection.geocode_status = 'not_found';
+            intersection.geocode_needs_review = true;
+            return false;
+        }
+
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+
+        async function geocodeAll() {
+            const toGeocode = intersections.filter((i, idx) =>
+                !i.latitude && !i.manual_position
+            );
+
+            if (toGeocode.length === 0) {
+                showToast('All intersections already geocoded', 'success');
+                return;
+            }
+
+            showLoading(`Geocoding ${toGeocode.length} intersections...`);
+
+            let completed = 0;
+            for (let i = 0; i < intersections.length; i++) {
+                if (!intersections[i].latitude && !intersections[i].manual_position) {
+                    await geocodeSingle(i);
+                    completed++;
+                    updateProgress((completed / toGeocode.length) * 100);
+                    document.getElementById('loading-text').textContent =
+                        `Geocoding ${completed}/${toGeocode.length}...`;
+                }
+            }
+
+            addMarkers();
+            renderIntersectionList();
+            updateStats();
+            saveToLocalStorage();
+            hideLoading();
+            showToast(`Geocoded ${completed} intersections`, 'success');
+        }
+
+        async function geocodeSelected() {
+            if (selectedIndex === null) return;
+
+            showLoading('Geocoding...');
+            intersections[selectedIndex].latitude = null;
+            intersections[selectedIndex].longitude = null;
+            intersections[selectedIndex].manual_position = false;
+
+            await geocodeSingle(selectedIndex);
+
+            addMarkers();
+            renderIntersectionList();
+            showDetailPanel(selectedIndex);
+            updateStats();
+            saveToLocalStorage();
+            hideLoading();
+        }
+
+        function centerOnSelected() {
+            if (selectedIndex !== null && markers[selectedIndex]) {
+                map.setView(markers[selectedIndex].getLatLng(), 16);
+            }
+        }
+
+        function downloadData() {
+            const dataStr = JSON.stringify(intersections, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `radar_intersections_${new Date().toISOString().slice(0,10)}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            showToast('Data downloaded', 'success');
+        }
+
+        function loadDataFile(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                try {
+                    intersections = JSON.parse(e.target.result);
+                    addMarkers();
+                    renderIntersectionList();
+                    updateStats();
+                    saveToLocalStorage();
+                    showToast(`Loaded ${intersections.length} intersections`, 'success');
+
+                    // Fit map to markers
+                    if (Object.keys(markers).length > 0) {
+                        const group = L.featureGroup(Object.values(markers));
+                        map.fitBounds(group.getBounds().pad(0.1));
+                    }
+                } catch (error) {
+                    showToast('Error loading file: ' + error.message, 'error');
+                }
+            };
+            reader.readAsText(file);
+        }
+
+        function saveToLocalStorage() {
+            try {
+                localStorage.setItem('radar_intersections', JSON.stringify(intersections));
+            } catch (e) {
+                console.warn('Could not save to localStorage:', e);
+            }
+        }
+
+        function loadFromLocalStorage() {
+            try {
+                const saved = localStorage.getItem('radar_intersections');
+                if (saved) {
+                    intersections = JSON.parse(saved);
+                    return true;
+                }
+            } catch (e) {
+                console.warn('Could not load from localStorage:', e);
+            }
+            return false;
+        }
+
+        function showLoading(text) {
+            document.getElementById('loading-text').textContent = text;
+            document.getElementById('progress-fill').style.width = '0%';
+            document.getElementById('loading-overlay').classList.add('visible');
+        }
+
+        function hideLoading() {
+            document.getElementById('loading-overlay').classList.remove('visible');
+        }
+
+        function updateProgress(percent) {
+            document.getElementById('progress-fill').style.width = `${percent}%`;
+        }
+
+        function showToast(message, type = '') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast visible ' + type;
+            setTimeout(() => toast.classList.remove('visible'), 3000);
+        }
+
+        // Load data from embedded JSON or fetch from file
+        async function loadData() {
+            showLoading('Loading data...');
+
+            // Try localStorage first
+            if (loadFromLocalStorage() && intersections.length > 0) {
+                initMap();
+                addMarkers();
+                renderIntersectionList();
+                updateStats();
+                hideLoading();
+
+                if (Object.keys(markers).length > 0) {
+                    const group = L.featureGroup(Object.values(markers));
+                    map.fitBounds(group.getBounds().pad(0.1));
+                }
+                return;
+            }
+
+            // Try to fetch merged_data.json
+            try {
+                const response = await fetch('merged_data.json');
+                if (response.ok) {
+                    intersections = await response.json();
+                }
+            } catch (e) {
+                console.log('No merged_data.json found, starting with empty data');
+                intersections = [];
+            }
+
+            initMap();
+            addMarkers();
+            renderIntersectionList();
+            updateStats();
+            hideLoading();
+
+            if (Object.keys(markers).length > 0) {
+                const group = L.featureGroup(Object.values(markers));
+                map.fitBounds(group.getBounds().pad(0.1));
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
