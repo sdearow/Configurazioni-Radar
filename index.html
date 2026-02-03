@@ -107,6 +107,18 @@
                         <label><input type="checkbox" id="show-blocked-only"> Show only blocked</label>
                     </div>
 
+                    <div class="filter-group">
+                        <label><input type="checkbox" id="show-unverified-only"> Show only unverified positions</label>
+                    </div>
+
+                    <div class="filter-group edit-mode-controls">
+                        <button id="edit-mode-btn" class="btn btn-secondary btn-full">Edit Positions</button>
+                        <div id="edit-mode-info" class="edit-mode-info" style="display:none;">
+                            <p>Drag markers to correct positions</p>
+                            <span id="pending-changes-count">0 changes pending</span>
+                        </div>
+                    </div>
+
                     <h3>Legend</h3>
                     <div id="map-legend" class="map-legend"></div>
 
