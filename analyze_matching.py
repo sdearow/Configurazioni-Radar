@@ -19,21 +19,100 @@ def clean_column_name(name):
     return name
 
 def normalize_name(name):
-    """Normalize intersection name for matching."""
+    """
+    Normalize intersection name for matching.
+    Enhanced version that handles variations like:
+    - 'Anastasio II - Centro comm.' vs '123-Anastasio II'
+    - 'Ponte Duca d'Aosta - Stadio' vs '140-Ponte Duca d'Aosta/Stadio'
+    """
     if pd.isna(name):
         return ""
     name = str(name).lower().strip()
+
     # Remove numeric prefix
     name = re.sub(r'^\d+\s*[-–—]\s*', '', name)
+
     # Remove "cod. imp. XXXXX" suffix
     name = re.sub(r'\s*cod\.?\s*imp\.?\s*\d+\s*$', '', name)
+
+    # Expand common abbreviations
+    abbreviations = {
+        r'\bl\.re\b': 'lungotevere',
+        r'\bl\.go\b': 'largo',
+        r'\blgo\b': 'largo',
+        r'\bp\.le\b': 'piazzale',
+        r'\bple\b': 'piazzale',
+        r'\bp\.zza\b': 'piazza',
+        r'\bpza\b': 'piazza',
+        r'\bp\.\b': 'piazza',
+        r'\bc\.so\b': 'corso',
+        r'\bcso\b': 'corso',
+        r'\bv\.le\b': 'viale',
+        r'\bvle\b': 'viale',
+        r'\bv\.\b': 'via',
+        r'\blgt\b': 'lungotevere',
+        r'\bl\.mare\b': 'lungomare',
+        r'\bm\.llo\b': 'maresciallo',
+        r'\bs\.\b': 'san',
+    }
+    for abbrev, expansion in abbreviations.items():
+        name = re.sub(abbrev, expansion, name, flags=re.IGNORECASE)
+
+    # Normalize separators: convert " - " to "/" for intersection detection
+    name = re.sub(r'\s+[-–—]\s+', '/', name)
+
+    # Remove common words that vary
+    name = re.sub(r'\bvia\b', '', name)
+    name = re.sub(r'\bviale\b', '', name)
+    name = re.sub(r'\bdir\.\s*\w+', '', name)
+    name = re.sub(r'\bdir\s+\w+', '', name)
+
     # Normalize whitespace
     name = re.sub(r'\s+', ' ', name).strip()
+
     # Sort streets in intersection names
     if '/' in name:
-        streets = sorted([s.strip() for s in name.split('/')])
+        streets = sorted([s.strip() for s in name.split('/') if s.strip()])
         name = '/'.join(streets)
+
+    name = re.sub(r'\s+', ' ', name).strip()
     return name
+
+
+def fuzzy_match(name1, name2):
+    """Calculate similarity between two normalized names."""
+    if not name1 or not name2:
+        return 0.0
+    if name1 == name2:
+        return 1.0
+    if name1 in name2 or name2 in name1:
+        return 0.8
+
+    streets1 = set(name1.split('/'))
+    streets2 = set(name2.split('/'))
+    if streets1 and streets2:
+        intersection = streets1 & streets2
+        union = streets1 | streets2
+        if union:
+            return len(intersection) / len(union)
+    return 0.0
+
+
+def find_best_match(name, lookup, threshold=0.5):
+    """Find best matching key in lookup."""
+    norm = normalize_name(name)
+    if norm in lookup:
+        return norm, 1.0
+
+    best_match = None
+    best_score = 0.0
+    for key in lookup.keys():
+        score = fuzzy_match(norm, key)
+        if score > best_score and score >= threshold:
+            best_score = score
+            best_match = key
+
+    return best_match, best_score
 
 # ============================================================================
 # LOAD ALL DATA SOURCES
@@ -205,14 +284,31 @@ match_counts = {
 }
 
 results = []
+# Track which source records get matched (for orphan detection)
+lotto1_matched = set()
+lotto2_matched = set()
+semaforica_matched = set()
+swarco_matched = set()
+
 for intersection in main_intersections:
-    norm = intersection['normalized']
     raw = intersection['raw_name']
 
-    has_lotto1 = norm in lotto1_lookup
-    has_lotto2 = norm in lotto2_lookup
-    has_semaforica = norm in semaforica_lookup
-    has_swarco = norm in swarco_lookup
+    # Use fuzzy matching
+    lotto1_match, l1_score = find_best_match(raw, lotto1_lookup, threshold=0.5)
+    lotto2_match, l2_score = find_best_match(raw, lotto2_lookup, threshold=0.5)
+    semaforica_match, sem_score = find_best_match(raw, semaforica_lookup, threshold=0.5)
+    swarco_match, sw_score = find_best_match(raw, swarco_lookup, threshold=0.5)
+
+    has_lotto1 = lotto1_match is not None
+    has_lotto2 = lotto2_match is not None
+    has_semaforica = semaforica_match is not None
+    has_swarco = swarco_match is not None
+
+    # Track matched keys
+    if lotto1_match: lotto1_matched.add(lotto1_match)
+    if lotto2_match: lotto2_matched.add(lotto2_match)
+    if semaforica_match: semaforica_matched.add(semaforica_match)
+    if swarco_match: swarco_matched.add(swarco_match)
 
     if has_lotto1: match_counts['lotto1'] += 1
     if has_lotto2: match_counts['lotto2'] += 1
@@ -232,7 +328,9 @@ for intersection in main_intersections:
         'lotto2': 'YES' if has_lotto2 else '-',
         'semaforica': 'YES' if has_semaforica else '-',
         'swarco': 'YES' if has_swarco else '-',
-        'total': total_matches
+        'total': total_matches,
+        'lotto1_match': lotto1_match,
+        'lotto2_match': lotto2_match,
     })
 
 # Print summary
@@ -264,10 +362,10 @@ print("\n" + "=" * 80)
 print("PART 2: ORPHAN RECORDS (in source files but NOT in main file)")
 print("=" * 80)
 
-# Lotto 1 orphans
+# Lotto 1 orphans (records not matched by fuzzy matching)
 lotto1_orphans = []
 for intersection in lotto1_intersections:
-    if intersection['normalized'] not in main_lookup:
+    if intersection['normalized'] not in lotto1_matched:
         lotto1_orphans.append(intersection['raw_name'])
 
 print(f"\n--- LOTTO 1 ORPHANS ({len(lotto1_orphans)} records) ---")
@@ -280,7 +378,7 @@ else:
 # Lotto 2 orphans
 lotto2_orphans = []
 for intersection in lotto2_intersections:
-    if intersection['normalized'] not in main_lookup:
+    if intersection['normalized'] not in lotto2_matched:
         lotto2_orphans.append(intersection['raw_name'])
 
 print(f"\n--- LOTTO 2 ORPHANS ({len(lotto2_orphans)} records) ---")
@@ -293,7 +391,7 @@ else:
 # Semaforica orphans
 semaforica_orphans = []
 for intersection in semaforica_intersections:
-    if intersection['normalized'] not in main_lookup:
+    if intersection['normalized'] not in semaforica_matched:
         semaforica_orphans.append(intersection['raw_name'])
 
 print(f"\n--- SEMAFORICA ORPHANS ({len(semaforica_orphans)} records) ---")
@@ -306,7 +404,7 @@ else:
 # Swarco orphans
 swarco_orphans = []
 for intersection in swarco_intersections:
-    if intersection['normalized'] not in main_lookup:
+    if intersection['normalized'] not in swarco_matched:
         swarco_orphans.append(intersection['raw_name'])
 
 print(f"\n--- SWARCO ORPHANS ({len(swarco_orphans)} records) ---")

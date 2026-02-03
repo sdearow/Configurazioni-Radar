@@ -163,27 +163,128 @@ def extract_swarco_data() -> pd.DataFrame:
 
 
 def normalize_intersection_name(name: str) -> str:
-    """Normalize intersection name for matching across files."""
+    """
+    Normalize intersection name for matching across files.
+
+    Handles variations like:
+    - 'Anastasio II - Centro comm.' vs '123-Anastasio II'
+    - 'Ponte Duca d'Aosta - Stadio' vs '140-Ponte Duca d'Aosta/Stadio'
+    - 'Nomentana-Graf-Kant' vs '163-Nomentana/Graf/Kant'
+    - 'L.re Cadorna' vs 'Lungotevere Cadorna'
+    """
     if pd.isna(name):
         return ""
 
-    name = str(name).lower()
+    name = str(name).lower().strip()
 
-    # Remove numeric prefix
+    # Remove numeric prefix (e.g., "101-", "452-")
     name = re.sub(r'^\d+\s*[-–—]\s*', '', name)
 
     # Remove "cod. imp. XXXXX" suffix
     name = re.sub(r'\s*cod\.?\s*imp\.?\s*\d+\s*$', '', name)
+
+    # Expand common abbreviations BEFORE splitting
+    abbreviations = {
+        r'\bl\.re\b': 'lungotevere',
+        r'\bl\.go\b': 'largo',
+        r'\blgo\b': 'largo',
+        r'\bp\.le\b': 'piazzale',
+        r'\bple\b': 'piazzale',
+        r'\bp\.zza\b': 'piazza',
+        r'\bpza\b': 'piazza',
+        r'\bp\.\b': 'piazza',
+        r'\bc\.so\b': 'corso',
+        r'\bcso\b': 'corso',
+        r'\bv\.le\b': 'viale',
+        r'\bvle\b': 'viale',
+        r'\bv\.\b': 'via',
+        r'\blgt\b': 'lungotevere',
+        r'\bl\.mare\b': 'lungomare',
+        r'\bm\.llo\b': 'maresciallo',
+        r'\bs\.\b': 'san',
+        r'\bs\.m\.\b': 'santa maria',
+    }
+    for abbrev, expansion in abbreviations.items():
+        name = re.sub(abbrev, expansion, name, flags=re.IGNORECASE)
+
+    # Normalize separators: convert " - " to "/" for intersection detection
+    # But be careful not to convert compound names like "Santa Maria del Soccorso"
+    name = re.sub(r'\s+[-–—]\s+', '/', name)
+
+    # Remove common words that vary between sources
+    name = re.sub(r'\bvia\b', '', name)
+    name = re.sub(r'\bviale\b', '', name)
+    name = re.sub(r'\bdir\.\s*\w+', '', name)  # Remove direction indicators
+    name = re.sub(r'\bdir\s+\w+', '', name)
 
     # Normalize whitespace
     name = re.sub(r'\s+', ' ', name).strip()
 
     # Sort streets in intersection names for consistent matching
     if '/' in name:
-        streets = sorted([s.strip() for s in name.split('/')])
+        streets = sorted([s.strip() for s in name.split('/') if s.strip()])
         name = '/'.join(streets)
 
+    # Final cleanup
+    name = re.sub(r'\s+', ' ', name).strip()
+
     return name
+
+
+def fuzzy_match_name(name1: str, name2: str) -> float:
+    """
+    Calculate similarity score between two normalized names.
+    Returns a score between 0 and 1.
+    """
+    if not name1 or not name2:
+        return 0.0
+
+    # Exact match
+    if name1 == name2:
+        return 1.0
+
+    # Check if one contains the other (partial match)
+    if name1 in name2 or name2 in name1:
+        return 0.8
+
+    # Check street overlap for intersection names
+    streets1 = set(name1.split('/'))
+    streets2 = set(name2.split('/'))
+
+    if streets1 and streets2:
+        # Calculate Jaccard similarity
+        intersection = streets1 & streets2
+        union = streets1 | streets2
+        if union:
+            jaccard = len(intersection) / len(union)
+            if jaccard >= 0.5:  # At least half the streets match
+                return jaccard
+
+    return 0.0
+
+
+def find_best_match(name: str, lookup: Dict[str, Any], threshold: float = 0.6) -> Optional[str]:
+    """
+    Find the best matching key in lookup for the given name.
+    Returns the matching key or None if no good match found.
+    """
+    norm_name = normalize_intersection_name(name)
+
+    # Try exact match first
+    if norm_name in lookup:
+        return norm_name
+
+    # Try fuzzy matching
+    best_match = None
+    best_score = 0.0
+
+    for key in lookup.keys():
+        score = fuzzy_match_name(norm_name, key)
+        if score > best_score and score >= threshold:
+            best_score = score
+            best_match = key
+
+    return best_match
 
 
 def merge_all_data() -> List[Dict[str, Any]]:
@@ -257,7 +358,7 @@ def merge_all_data() -> List[Dict[str, Any]]:
 
         intersections.append(record)
 
-    # Match and merge Lotto 1 data
+    # Match and merge Lotto 1 data (with fuzzy matching)
     if not lotto1_df.empty and 'Impianto' in lotto1_df.columns:
         lotto1_lookup = {}
         for idx, row in lotto1_df.iterrows():
@@ -267,11 +368,13 @@ def merge_all_data() -> List[Dict[str, Any]]:
                 lotto1_lookup[norm_name] = row_dict
 
         for intersection in intersections:
-            norm_name = intersection["normalized_name"]
-            if norm_name in lotto1_lookup:
-                intersection["lotto1_data"] = lotto1_lookup[norm_name]
+            raw_name = intersection.get("raw_name", "")
+            match_key = find_best_match(raw_name, lotto1_lookup, threshold=0.5)
+            if match_key:
+                intersection["lotto1_data"] = lotto1_lookup[match_key]
+                intersection["lotto1_match_key"] = match_key
 
-    # Match and merge Lotto 2 data
+    # Match and merge Lotto 2 data (with fuzzy matching)
     if not lotto2_df.empty and 'indirizzo_clean' in lotto2_df.columns:
         lotto2_lookup = {}
         for idx, row in lotto2_df.iterrows():
@@ -281,11 +384,13 @@ def merge_all_data() -> List[Dict[str, Any]]:
                 lotto2_lookup[norm_name] = row_dict
 
         for intersection in intersections:
-            norm_name = intersection["normalized_name"]
-            if norm_name in lotto2_lookup:
-                intersection["lotto2_data"] = lotto2_lookup[norm_name]
+            raw_name = intersection.get("raw_name", "")
+            match_key = find_best_match(raw_name, lotto2_lookup, threshold=0.5)
+            if match_key:
+                intersection["lotto2_data"] = lotto2_lookup[match_key]
+                intersection["lotto2_match_key"] = match_key
 
-    # Match and merge Semaforica data
+    # Match and merge Semaforica data (with fuzzy matching)
     if not semaforica_df.empty:
         name_col = None
         for col in semaforica_df.columns:
@@ -302,11 +407,13 @@ def merge_all_data() -> List[Dict[str, Any]]:
                     semaforica_lookup[norm_name] = row_dict
 
             for intersection in intersections:
-                norm_name = intersection["normalized_name"]
-                if norm_name in semaforica_lookup:
-                    intersection["semaforica_data"] = semaforica_lookup[norm_name]
+                raw_name = intersection.get("raw_name", "")
+                match_key = find_best_match(raw_name, semaforica_lookup, threshold=0.5)
+                if match_key:
+                    intersection["semaforica_data"] = semaforica_lookup[match_key]
+                    intersection["semaforica_match_key"] = match_key
 
-    # Match and merge Swarco data
+    # Match and merge Swarco data (with fuzzy matching)
     if not swarco_df.empty:
         name_col = None
         for col in swarco_df.columns:
@@ -323,9 +430,11 @@ def merge_all_data() -> List[Dict[str, Any]]:
                     swarco_lookup[norm_name] = row_dict
 
             for intersection in intersections:
-                norm_name = intersection["normalized_name"]
-                if norm_name in swarco_lookup:
-                    intersection["swarco_data"] = swarco_lookup[norm_name]
+                raw_name = intersection.get("raw_name", "")
+                match_key = find_best_match(raw_name, swarco_lookup, threshold=0.5)
+                if match_key:
+                    intersection["swarco_data"] = swarco_lookup[match_key]
+                    intersection["swarco_match_key"] = match_key
 
     return intersections
 
