@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated files
+geocode_cache.json
+export_*.xlsx
+export_*.geojson
+
+# OS files
+.DS_Store
+Thumbs.db
