@@ -156,6 +156,11 @@ const DataManager = {
                 if (!intersection.installation.blocked_conduits) return false;
             }
 
+            // Filter by unverified positions (not manually corrected)
+            if (filters.isUnverified) {
+                if (intersection.coordinates_manual) return false;
+            }
+
             // Filter by search term
             if (filters.search) {
                 const searchLower = filters.search.toLowerCase();

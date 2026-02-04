@@ -11,7 +11,8 @@ const App = {
         stage: ['installation', 'configuration', 'connection', 'validation'],
         search: '',
         hasInconsistencies: false,
-        isBlocked: false
+        isBlocked: false,
+        isUnverified: false
     },
     colorBy: 'stage',
 
@@ -80,6 +81,20 @@ const App = {
         document.getElementById('show-blocked-only')?.addEventListener('change', (e) => {
             this.currentFilters.isBlocked = e.target.checked;
             this.renderMap();
+        });
+
+        document.getElementById('show-unverified-only')?.addEventListener('change', (e) => {
+            this.currentFilters.isUnverified = e.target.checked;
+            this.renderMap();
+        });
+
+        // Edit mode button for map markers
+        document.getElementById('edit-mode-btn')?.addEventListener('click', () => {
+            MapManager.toggleEditMode();
+            const editInfo = document.getElementById('edit-mode-info');
+            if (editInfo) {
+                editInfo.style.display = MapManager.editMode ? 'block' : 'none';
+            }
         });
 
         // Search

@@ -1,12 +1,15 @@
 /**
  * Map Module
  * Handles Leaflet map integration for visualizing intersection locations
+ * Supports draggable markers for position correction
  */
 
 const MapManager = {
     map: null,
     markers: [],
     markerLayer: null,
+    editMode: false,
+    pendingChanges: {},  // Track unsaved coordinate changes
 
     // Rome center coordinates
     ROME_CENTER: [41.9028, 12.4964],
@@ -39,7 +42,6 @@ const MapManager = {
 
     // Rome area reference coordinates for better placement
     romeAreas: {
-        // Major streets and their approximate coordinates
         'cassia': { lat: 41.9550, lng: 12.4600 },
         'flaminia': { lat: 41.9400, lng: 12.4750 },
         'salaria': { lat: 41.9300, lng: 12.5100 },
@@ -89,9 +91,8 @@ const MapManager = {
         'default': { lat: 41.9028, lng: 12.4964 }
     },
 
-    // Generate coordinates based on intersection name
+    // Generate coordinates based on intersection name (fallback)
     generateCoordinates(intersection) {
-        // If coordinates are already set, use them
         if (intersection.coordinates) {
             return intersection.coordinates;
         }
@@ -99,7 +100,6 @@ const MapManager = {
         const name = (intersection.name || '').toLowerCase();
         const code = parseInt(intersection.id) || 0;
 
-        // Try to match area from name
         let baseCoords = this.romeAreas.default;
         for (const [area, coords] of Object.entries(this.romeAreas)) {
             if (name.includes(area)) {
@@ -108,7 +108,6 @@ const MapManager = {
             }
         }
 
-        // Add small deterministic offset based on code to spread markers
         const offsetLat = ((code * 7919) % 1000) / 100000 - 0.005;
         const offsetLng = ((code * 104729) % 1000) / 100000 - 0.005;
 
@@ -122,46 +121,172 @@ const MapManager = {
      * Initialize the map
      */
     init() {
-        // Create map
         this.map = L.map('map').setView(this.ROME_CENTER, this.DEFAULT_ZOOM);
 
-        // Add OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(this.map);
 
-        // Create marker layer group
         this.markerLayer = L.layerGroup().addTo(this.map);
-
-        // Update legend
         this.updateLegend('stage');
 
         return this;
     },
 
     /**
-     * Create a colored circle marker
+     * Toggle edit mode for draggable markers
+     */
+    toggleEditMode() {
+        this.editMode = !this.editMode;
+
+        // Update button state
+        const editBtn = document.getElementById('edit-mode-btn');
+        if (editBtn) {
+            editBtn.classList.toggle('active', this.editMode);
+            editBtn.textContent = this.editMode ? 'Exit Edit Mode (Save)' : 'Edit Positions';
+        }
+
+        // Update edit info display
+        const editInfo = document.getElementById('edit-mode-info');
+        if (editInfo) {
+            editInfo.style.display = this.editMode ? 'block' : 'none';
+        }
+
+        // Reset pending counter when entering edit mode
+        if (this.editMode) {
+            const pendingCount = document.getElementById('pending-changes-count');
+            if (pendingCount) {
+                pendingCount.textContent = '0 changes pending';
+            }
+        }
+
+        // If exiting edit mode, save changes
+        if (!this.editMode && Object.keys(this.pendingChanges).length > 0) {
+            this.savePositionChanges();
+        }
+
+        // Re-render markers with draggable state
+        const intersections = DataManager.filterIntersections(App.currentFilters);
+        this.renderMarkers(intersections, App.colorBy);
+
+        // Show notification
+        if (this.editMode) {
+            this.showNotification('Edit mode enabled. Drag markers to correct positions.', 'info');
+        }
+    },
+
+    /**
+     * Save pending position changes
+     */
+    savePositionChanges() {
+        const changeCount = Object.keys(this.pendingChanges).length;
+        if (changeCount === 0) return;
+
+        // Update each intersection with new coordinates
+        for (const [id, coords] of Object.entries(this.pendingChanges)) {
+            DataManager.updateIntersection(id, {
+                coordinates: coords,
+                coordinates_manual: true  // Flag as manually corrected
+            });
+        }
+
+        this.pendingChanges = {};
+
+        // Reset pending counter
+        const pendingCount = document.getElementById('pending-changes-count');
+        if (pendingCount) {
+            pendingCount.textContent = '0 changes pending';
+        }
+
+        this.showNotification(`Saved ${changeCount} position correction(s).`, 'success');
+
+        // Export corrected coordinates to console for manual update
+        this.exportCorrectedCoordinates();
+    },
+
+    /**
+     * Export corrected coordinates to console for manual update
+     */
+    exportCorrectedCoordinates() {
+        const manuallyAdjusted = DataManager.getIntersections()
+            .filter(i => i.coordinates_manual)
+            .map(i => ({
+                id: i.id,
+                name: i.name,
+                coordinates: i.coordinates
+            }));
+
+        if (manuallyAdjusted.length > 0) {
+            console.log('Manually adjusted coordinates:', JSON.stringify(manuallyAdjusted, null, 2));
+        }
+    },
+
+    /**
+     * Create a marker (draggable in edit mode)
      */
     createMarker(intersection, colorBy = 'stage') {
         const coords = this.generateCoordinates(intersection);
         const color = this.getColor(intersection, colorBy);
         const hasIssues = intersection.inconsistencies && intersection.inconsistencies.length > 0;
         const isBlocked = intersection.installation && intersection.installation.blocked_conduits;
+        const isManuallySet = intersection.coordinates_manual;
 
-        // Create circle marker
-        const marker = L.circleMarker([coords.lat, coords.lng], {
-            radius: 8,
-            fillColor: color,
-            color: hasIssues ? '#f59e0b' : (isBlocked ? '#ef4444' : '#ffffff'),
-            weight: hasIssues || isBlocked ? 3 : 2,
-            opacity: 1,
-            fillOpacity: 0.8
-        });
+        let marker;
 
-        // Bind popup
+        if (this.editMode) {
+            // Use regular marker for dragging
+            const icon = L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="
+                    width: 20px;
+                    height: 20px;
+                    background-color: ${color};
+                    border: 3px solid ${isManuallySet ? '#22c55e' : (hasIssues ? '#f59e0b' : '#ffffff')};
+                    border-radius: 50%;
+                    cursor: move;
+                "></div>`,
+                iconSize: [20, 20],
+                iconAnchor: [10, 10]
+            });
+
+            marker = L.marker([coords.lat, coords.lng], {
+                icon: icon,
+                draggable: true
+            });
+
+            // Handle drag events
+            marker.on('dragend', (e) => {
+                const newPos = e.target.getLatLng();
+                this.pendingChanges[intersection.id] = {
+                    lat: newPos.lat,
+                    lng: newPos.lng
+                };
+
+                // Update pending changes counter
+                const pendingCount = document.getElementById('pending-changes-count');
+                if (pendingCount) {
+                    const count = Object.keys(this.pendingChanges).length;
+                    pendingCount.textContent = `${count} change${count !== 1 ? 's' : ''} pending`;
+                }
+
+                // Update popup with new coordinates
+                marker.setPopupContent(this.createPopupContent(intersection, newPos));
+
+                this.showNotification(`Position updated for ${intersection.name}`, 'info');
+            });
+        } else {
+            // Use circle marker for normal view
+            marker = L.circleMarker([coords.lat, coords.lng], {
+                radius: 8,
+                fillColor: color,
+                color: isManuallySet ? '#22c55e' : (hasIssues ? '#f59e0b' : (isBlocked ? '#ef4444' : '#ffffff')),
+                weight: isManuallySet || hasIssues || isBlocked ? 3 : 2,
+                opacity: 1,
+                fillOpacity: 0.8
+            });
+        }
+
         marker.bindPopup(this.createPopupContent(intersection));
-
-        // Store reference to intersection
         marker.intersectionId = intersection.id;
 
         return marker;
@@ -188,9 +313,11 @@ const MapManager = {
     /**
      * Create popup content for marker
      */
-    createPopupContent(intersection) {
+    createPopupContent(intersection, newCoords = null) {
         const hasIssues = intersection.inconsistencies && intersection.inconsistencies.length > 0;
         const isBlocked = intersection.installation && intersection.installation.blocked_conduits;
+        const isManuallySet = intersection.coordinates_manual;
+        const coords = newCoords || intersection.coordinates;
 
         return `
             <div class="popup-content">
@@ -201,6 +328,8 @@ const MapManager = {
                     <span><strong>System:</strong> ${intersection.system}</span>
                     <span><strong>Radars:</strong> ${intersection.num_radars}</span>
                     <span><strong>Stage:</strong> ${intersection.current_stage}</span>
+                    ${coords ? `<span><strong>Coords:</strong> ${coords.lat.toFixed(5)}, ${coords.lng.toFixed(5)}</span>` : ''}
+                    ${isManuallySet ? '<span class="text-success"><strong>Position verified</strong></span>' : ''}
                     ${hasIssues ? '<span class="text-warning"><strong>Has inconsistencies</strong></span>' : ''}
                     ${isBlocked ? '<span class="text-danger"><strong>Blocked conduits</strong></span>' : ''}
                 </div>
@@ -208,30 +337,48 @@ const MapManager = {
                     <button class="btn btn-primary btn-small" onclick="App.showIntersectionDetail('${intersection.id}')">
                         View Details
                     </button>
+                    ${this.editMode ? `
+                    <button class="btn btn-secondary btn-small" onclick="MapManager.searchLocation('${intersection.id}')">
+                        Search Location
+                    </button>
+                    ` : ''}
                 </div>
             </div>
         `;
     },
 
     /**
+     * Search for a location using the intersection name
+     */
+    searchLocation(intersectionId) {
+        const intersection = DataManager.getIntersection(intersectionId);
+        if (!intersection) return;
+
+        // Clean the name for search
+        let searchName = intersection.name
+            .replace(/^\d+[-\s]*/, '')  // Remove leading numbers
+            .replace(/\//g, ' e ')       // Replace / with " e " (and)
+            .trim();
+
+        // Open Google Maps search in new tab
+        const searchUrl = `https://www.google.com/maps/search/${encodeURIComponent(searchName + ', Roma, Italia')}`;
+        window.open(searchUrl, '_blank');
+    },
+
+    /**
      * Render markers on map
      */
     renderMarkers(intersections, colorBy = 'stage') {
-        // Clear existing markers
         this.markerLayer.clearLayers();
         this.markers = [];
 
-        // Add markers for each intersection
         intersections.forEach(intersection => {
             const marker = this.createMarker(intersection, colorBy);
             marker.addTo(this.markerLayer);
             this.markers.push(marker);
         });
 
-        // Update legend
         this.updateLegend(colorBy);
-
-        // Update stats
         this.updateStats(intersections);
     },
 
@@ -255,9 +402,12 @@ const MapManager = {
             `;
         }
 
-        // Add special indicators
         legendHTML += `
             <div class="legend-item" style="margin-top: 0.5rem;">
+                <span class="legend-color" style="background-color: #fff; border: 3px solid #22c55e;"></span>
+                <span>Position verified</span>
+            </div>
+            <div class="legend-item">
                 <span class="legend-color" style="background-color: #fff; border: 3px solid #f59e0b;"></span>
                 <span>Has inconsistencies</span>
             </div>
@@ -277,11 +427,15 @@ const MapManager = {
         const statsContainer = document.getElementById('map-stats');
         if (!statsContainer) return;
 
+        const allIntersections = DataManager.getIntersections();
+        const verified = allIntersections.filter(i => i.coordinates_manual).length;
+
         const stats = {
             total: intersections.length,
             radars: intersections.reduce((sum, i) => sum + (i.num_radars || 0), 0),
             blocked: intersections.filter(i => i.installation && i.installation.blocked_conduits).length,
-            inconsistencies: intersections.filter(i => i.inconsistencies && i.inconsistencies.length > 0).length
+            inconsistencies: intersections.filter(i => i.inconsistencies && i.inconsistencies.length > 0).length,
+            verified: verified
         };
 
         statsContainer.innerHTML = `
@@ -292,6 +446,10 @@ const MapManager = {
             <div class="stat-row">
                 <span>Total radars</span>
                 <span><strong>${stats.radars}</strong></span>
+            </div>
+            <div class="stat-row">
+                <span>Positions verified</span>
+                <span class="text-success"><strong>${stats.verified}</strong>/${allIntersections.length}</span>
             </div>
             <div class="stat-row">
                 <span>Blocked</span>
@@ -305,6 +463,34 @@ const MapManager = {
     },
 
     /**
+     * Show notification
+     */
+    showNotification(message, type = 'info') {
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = `notification notification-${type}`;
+        notification.textContent = message;
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 12px 20px;
+            background: ${type === 'success' ? '#22c55e' : type === 'error' ? '#ef4444' : '#3b82f6'};
+            color: white;
+            border-radius: 6px;
+            z-index: 10000;
+            animation: slideIn 0.3s ease;
+        `;
+
+        document.body.appendChild(notification);
+
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.remove();
+        }, 3000);
+    },
+
+    /**
      * Focus on a specific intersection
      */
     focusIntersection(id) {
@@ -314,7 +500,6 @@ const MapManager = {
         const coords = this.generateCoordinates(intersection);
         this.map.setView([coords.lat, coords.lng], 16);
 
-        // Find and open marker popup
         const marker = this.markers.find(m => m.intersectionId === id);
         if (marker) {
             marker.openPopup();

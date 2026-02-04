@@ -612,6 +612,60 @@ body {
     font-size: 0.75rem;
 }
 
+.btn-full {
+    width: 100%;
+}
+
+/* Edit Mode Styles */
+.edit-mode-controls {
+    padding: 0.75rem;
+    background: var(--bg-color);
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+#edit-mode-btn.active {
+    background: var(--warning-color);
+    color: white;
+    border-color: var(--warning-color);
+}
+
+#edit-mode-btn.active:hover {
+    background: #d97706;
+}
+
+.edit-mode-info {
+    margin-top: 0.75rem;
+    padding: 0.5rem;
+    background: #fef3c7;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.edit-mode-info p {
+    margin-bottom: 0.25rem;
+    color: #92400e;
+}
+
+.edit-mode-info span {
+    color: var(--warning-color);
+    font-weight: 600;
+}
+
+/* Draggable marker pulse animation */
+.leaflet-marker-draggable {
+    cursor: move !important;
+}
+
+.marker-dragging {
+    filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.8));
+}
+
+/* Geocoding uncertain marker */
+.geocoding-uncertain {
+    border: 3px dashed #f59e0b !important;
+}
+
 /* Modal */
 .modal {
     display: none;

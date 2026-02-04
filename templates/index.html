@@ -1,0 +1,1026 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radar Configuration Dashboard - Roma</title>
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f5f5;
+        }
+
+        .header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            font-size: 1.5rem;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: background-color 0.2s;
+        }
+
+        .btn-primary {
+            background: #3182ce;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2c5282;
+        }
+
+        .btn-success {
+            background: #38a169;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #2f855a;
+        }
+
+        .btn-warning {
+            background: #dd6b20;
+            color: white;
+        }
+
+        .btn-warning:hover {
+            background: #c05621;
+        }
+
+        .btn-secondary {
+            background: #718096;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #4a5568;
+        }
+
+        .stats-bar {
+            background: #2d3748;
+            color: white;
+            padding: 0.75rem 2rem;
+            display: flex;
+            gap: 2rem;
+            font-size: 0.875rem;
+        }
+
+        .stat {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .stat-label {
+            color: #a0aec0;
+        }
+
+        .stat-value {
+            font-weight: bold;
+        }
+
+        .stat-value.success { color: #68d391; }
+        .stat-value.warning { color: #fbd38d; }
+        .stat-value.danger { color: #fc8181; }
+
+        .main-container {
+            display: flex;
+            height: calc(100vh - 120px);
+        }
+
+        .sidebar {
+            width: 400px;
+            background: white;
+            border-right: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-box {
+            padding: 1rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            font-size: 0.875rem;
+        }
+
+        .filter-box {
+            padding: 0.5rem 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.25rem 0.5rem;
+            font-size: 0.75rem;
+            border-radius: 12px;
+            border: 1px solid #e2e8f0;
+            background: white;
+            cursor: pointer;
+        }
+
+        .filter-btn.active {
+            background: #3182ce;
+            color: white;
+            border-color: #3182ce;
+        }
+
+        .intersection-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .intersection-item {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid #e2e8f0;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .intersection-item:hover {
+            background: #f7fafc;
+        }
+
+        .intersection-item.selected {
+            background: #ebf8ff;
+            border-left: 3px solid #3182ce;
+        }
+
+        .intersection-item.not-geocoded {
+            border-left: 3px solid #fc8181;
+        }
+
+        .intersection-item.needs-review {
+            border-left: 3px solid #fbd38d;
+        }
+
+        .intersection-item.manual {
+            border-left: 3px solid #68d391;
+        }
+
+        .intersection-name {
+            font-weight: 500;
+            margin-bottom: 0.25rem;
+        }
+
+        .intersection-meta {
+            font-size: 0.75rem;
+            color: #718096;
+        }
+
+        .intersection-status {
+            display: inline-block;
+            padding: 0.125rem 0.375rem;
+            border-radius: 8px;
+            font-size: 0.625rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .status-found { background: #c6f6d5; color: #22543d; }
+        .status-not-found { background: #fed7d7; color: #822727; }
+        .status-review { background: #fefcbf; color: #744210; }
+        .status-manual { background: #c3dafe; color: #3c366b; }
+
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        .detail-panel {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            width: 350px;
+            max-height: calc(100% - 2rem);
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            display: none;
+        }
+
+        .detail-panel.visible {
+            display: block;
+        }
+
+        .detail-header {
+            background: #1a365d;
+            color: white;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .detail-header h3 {
+            font-size: 1rem;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .detail-content {
+            padding: 1rem;
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .detail-section {
+            margin-bottom: 1rem;
+        }
+
+        .detail-section h4 {
+            font-size: 0.875rem;
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+            padding-bottom: 0.25rem;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.25rem 0;
+            font-size: 0.75rem;
+        }
+
+        .detail-label {
+            color: #718096;
+        }
+
+        .detail-value {
+            color: #2d3748;
+            font-weight: 500;
+            text-align: right;
+            max-width: 60%;
+            word-break: break-word;
+        }
+
+        .detail-actions {
+            padding: 1rem;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .coords-display {
+            background: #f7fafc;
+            padding: 0.5rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.75rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            display: none;
+        }
+
+        .loading-overlay.visible {
+            display: flex;
+        }
+
+        .loading-spinner {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #e2e8f0;
+            border-top: 4px solid #3182ce;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #2d3748;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            z-index: 9999;
+            display: none;
+        }
+
+        .toast.visible {
+            display: block;
+        }
+
+        .toast.success {
+            background: #38a169;
+        }
+
+        .toast.error {
+            background: #e53e3e;
+        }
+
+        /* Custom marker styles */
+        .marker-cluster {
+            background-clip: padding-box;
+            border-radius: 20px;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 2rem;
+            left: 1rem;
+            background: white;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            font-size: 0.75rem;
+            z-index: 1000;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .legend-marker {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .legend-marker.green { background: #38a169; }
+        .legend-marker.orange { background: #dd6b20; }
+        .legend-marker.red { background: #e53e3e; }
+        .legend-marker.blue { background: #3182ce; }
+
+        /* Data tables styling */
+        .data-table {
+            width: 100%;
+            font-size: 0.7rem;
+            border-collapse: collapse;
+        }
+
+        .data-table th, .data-table td {
+            padding: 0.25rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .data-table th {
+            background: #f7fafc;
+            font-weight: 600;
+        }
+
+        .collapsible-header {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .collapsible-header:hover {
+            color: #3182ce;
+        }
+
+        .collapsible-content {
+            display: none;
+            padding-top: 0.5rem;
+        }
+
+        .collapsible-content.expanded {
+            display: block;
+        }
+
+        .expand-icon {
+            transition: transform 0.2s;
+        }
+
+        .expand-icon.expanded {
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Radar Configuration Dashboard - Roma</h1>
+        <div class="header-actions">
+            <button class="btn btn-primary" onclick="geocodeAll()">Geocode All</button>
+            <button class="btn btn-success" onclick="exportExcel()">Export Excel</button>
+            <button class="btn btn-secondary" onclick="exportGeoJSON()">Export GeoJSON</button>
+            <button class="btn btn-warning" onclick="reloadData()">Reload from Excel</button>
+        </div>
+    </header>
+
+    <div class="stats-bar">
+        <div class="stat">
+            <span class="stat-label">Total:</span>
+            <span class="stat-value" id="stat-total">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Geocoded:</span>
+            <span class="stat-value success" id="stat-geocoded">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Not Found:</span>
+            <span class="stat-value danger" id="stat-not-found">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Needs Review:</span>
+            <span class="stat-value warning" id="stat-review">0</span>
+        </div>
+        <div class="stat">
+            <span class="stat-label">Manual:</span>
+            <span class="stat-value" id="stat-manual">0</span>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search intersections..." oninput="filterIntersections()">
+            </div>
+            <div class="filter-box">
+                <button class="filter-btn active" data-filter="all" onclick="setFilter('all')">All</button>
+                <button class="filter-btn" data-filter="geocoded" onclick="setFilter('geocoded')">Geocoded</button>
+                <button class="filter-btn" data-filter="not-found" onclick="setFilter('not-found')">Not Found</button>
+                <button class="filter-btn" data-filter="needs-review" onclick="setFilter('needs-review')">Needs Review</button>
+                <button class="filter-btn" data-filter="manual" onclick="setFilter('manual')">Manual</button>
+            </div>
+            <div class="intersection-list" id="intersection-list">
+                <!-- Populated by JavaScript -->
+            </div>
+        </aside>
+
+        <main class="map-container">
+            <div id="map"></div>
+
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-marker green"></div>
+                    <span>Geocoded (high confidence)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker orange"></div>
+                    <span>Needs review</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker red"></div>
+                    <span>Not found</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-marker blue"></div>
+                    <span>Manually positioned</span>
+                </div>
+            </div>
+
+            <div class="detail-panel" id="detail-panel">
+                <div class="detail-header">
+                    <h3 id="detail-title">Intersection Details</h3>
+                    <button class="close-btn" onclick="closeDetailPanel()">&times;</button>
+                </div>
+                <div class="detail-content" id="detail-content">
+                    <!-- Populated by JavaScript -->
+                </div>
+                <div class="detail-actions">
+                    <button class="btn btn-primary btn-small" onclick="geocodeSelected()">Re-geocode</button>
+                    <button class="btn btn-secondary btn-small" onclick="centerOnSelected()">Center Map</button>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <div class="loading-overlay" id="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <div id="loading-text">Loading...</div>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Global state
+        let map;
+        let markers = {};
+        let intersections = [];
+        let selectedIndex = null;
+        let currentFilter = 'all';
+
+        // Initialize map
+        function initMap(center) {
+            map = L.map('map').setView([center.lat, center.lon], 12);
+
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; OpenStreetMap contributors'
+            }).addTo(map);
+        }
+
+        // Get marker color based on status
+        function getMarkerColor(intersection) {
+            if (intersection.manual_position) return 'blue';
+            if (intersection.geocode_status === 'not_found') return 'red';
+            if (intersection.geocode_needs_review) return 'orange';
+            if (intersection.latitude && intersection.longitude) return 'green';
+            return 'gray';
+        }
+
+        // Create custom marker icon
+        function createMarkerIcon(color) {
+            const colors = {
+                green: '#38a169',
+                orange: '#dd6b20',
+                red: '#e53e3e',
+                blue: '#3182ce',
+                gray: '#718096'
+            };
+
+            return L.divIcon({
+                className: 'custom-marker',
+                html: `<div style="
+                    width: 24px;
+                    height: 24px;
+                    background: ${colors[color] || colors.gray};
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+                "></div>`,
+                iconSize: [24, 24],
+                iconAnchor: [12, 12]
+            });
+        }
+
+        // Add markers to map
+        function addMarkers() {
+            // Clear existing markers
+            Object.values(markers).forEach(m => map.removeLayer(m));
+            markers = {};
+
+            intersections.forEach((intersection, index) => {
+                if (intersection.latitude && intersection.longitude) {
+                    const color = getMarkerColor(intersection);
+                    const marker = L.marker(
+                        [intersection.latitude, intersection.longitude],
+                        {
+                            icon: createMarkerIcon(color),
+                            draggable: true
+                        }
+                    );
+
+                    marker.on('click', () => selectIntersection(index));
+                    marker.on('dragend', (e) => updateMarkerPosition(index, e.target.getLatLng()));
+
+                    marker.bindTooltip(intersection.raw_name || `Intersection ${index}`, {
+                        permanent: false,
+                        direction: 'top'
+                    });
+
+                    marker.addTo(map);
+                    markers[index] = marker;
+                }
+            });
+        }
+
+        // Update marker position after drag
+        async function updateMarkerPosition(index, latlng) {
+            showLoading('Saving position...');
+
+            try {
+                const response = await fetch(`/api/intersection/${index}/position`, {
+                    method: 'PUT',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ lat: latlng.lat, lon: latlng.lng })
+                });
+
+                const data = await response.json();
+                if (data.success) {
+                    intersections[index] = data.intersection;
+                    updateMarkerStyle(index);
+                    renderIntersectionList();
+                    updateStats();
+                    showToast('Position saved', 'success');
+
+                    if (selectedIndex === index) {
+                        showDetailPanel(index);
+                    }
+                }
+            } catch (error) {
+                showToast('Error saving position', 'error');
+            }
+
+            hideLoading();
+        }
+
+        // Update marker style
+        function updateMarkerStyle(index) {
+            if (markers[index]) {
+                const color = getMarkerColor(intersections[index]);
+                markers[index].setIcon(createMarkerIcon(color));
+            }
+        }
+
+        // Render intersection list
+        function renderIntersectionList() {
+            const list = document.getElementById('intersection-list');
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+
+            let filtered = intersections.filter((intersection, index) => {
+                // Apply search filter
+                const name = (intersection.raw_name || '').toLowerCase();
+                if (searchTerm && !name.includes(searchTerm)) return false;
+
+                // Apply status filter
+                if (currentFilter === 'geocoded') {
+                    return intersection.latitude && intersection.longitude && !intersection.geocode_needs_review;
+                }
+                if (currentFilter === 'not-found') {
+                    return intersection.geocode_status === 'not_found';
+                }
+                if (currentFilter === 'needs-review') {
+                    return intersection.geocode_needs_review;
+                }
+                if (currentFilter === 'manual') {
+                    return intersection.manual_position;
+                }
+
+                return true;
+            });
+
+            list.innerHTML = filtered.map((intersection, i) => {
+                const index = intersections.indexOf(intersection);
+                const statusClass = intersection.manual_position ? 'manual' :
+                                   intersection.geocode_status === 'not_found' ? 'not-geocoded' :
+                                   intersection.geocode_needs_review ? 'needs-review' : '';
+
+                const statusBadge = intersection.manual_position ?
+                    '<span class="intersection-status status-manual">Manual</span>' :
+                    intersection.geocode_status === 'not_found' ?
+                    '<span class="intersection-status status-not-found">Not Found</span>' :
+                    intersection.geocode_needs_review ?
+                    '<span class="intersection-status status-review">Review</span>' :
+                    intersection.latitude ?
+                    '<span class="intersection-status status-found">Found</span>' : '';
+
+                return `
+                    <div class="intersection-item ${statusClass} ${selectedIndex === index ? 'selected' : ''}"
+                         onclick="selectIntersection(${index})">
+                        <div class="intersection-name">${intersection.raw_name || 'Unknown'}</div>
+                        <div class="intersection-meta">
+                            ${statusBadge}
+                            ${intersection.id ? `ID: ${intersection.id}` : ''}
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        // Select intersection
+        function selectIntersection(index) {
+            selectedIndex = index;
+            renderIntersectionList();
+            showDetailPanel(index);
+
+            // Center map on marker if it exists
+            if (markers[index]) {
+                map.setView(markers[index].getLatLng(), 15);
+            }
+        }
+
+        // Show detail panel
+        function showDetailPanel(index) {
+            const intersection = intersections[index];
+            const panel = document.getElementById('detail-panel');
+            const title = document.getElementById('detail-title');
+            const content = document.getElementById('detail-content');
+
+            title.textContent = intersection.raw_name || 'Unknown';
+
+            let html = '';
+
+            // Coordinates
+            html += `<div class="detail-section">
+                <h4>Location</h4>
+                <div class="coords-display">
+                    Lat: ${intersection.latitude?.toFixed(6) || 'N/A'}<br>
+                    Lon: ${intersection.longitude?.toFixed(6) || 'N/A'}
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Status:</span>
+                    <span class="detail-value">${intersection.geocode_status || 'pending'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Confidence:</span>
+                    <span class="detail-value">${intersection.geocode_confidence || 'N/A'}</span>
+                </div>
+                <div class="detail-row">
+                    <span class="detail-label">Manual Position:</span>
+                    <span class="detail-value">${intersection.manual_position ? 'Yes' : 'No'}</span>
+                </div>
+            </div>`;
+
+            // Streets
+            if (intersection.streets && intersection.streets.length > 0) {
+                html += `<div class="detail-section">
+                    <h4>Streets</h4>
+                    ${intersection.streets.map(s => `<div class="detail-row"><span class="detail-value">${s}</span></div>`).join('')}
+                </div>`;
+            }
+
+            // Main data (collapsible)
+            if (intersection.main_data) {
+                html += renderDataSection('Main Data', intersection.main_data, 'main');
+            }
+
+            // Lotto1 data
+            if (intersection.lotto1_data) {
+                html += renderDataSection('Lotto 1 Data', intersection.lotto1_data, 'lotto1');
+            }
+
+            // Lotto2 data
+            if (intersection.lotto2_data) {
+                html += renderDataSection('Lotto 2 Data', intersection.lotto2_data, 'lotto2');
+            }
+
+            // Semaforica data
+            if (intersection.semaforica_data) {
+                html += renderDataSection('Semaforica Data', intersection.semaforica_data, 'semaforica');
+            }
+
+            // Swarco data
+            if (intersection.swarco_data) {
+                html += renderDataSection('Swarco Data', intersection.swarco_data, 'swarco');
+            }
+
+            content.innerHTML = html;
+            panel.classList.add('visible');
+        }
+
+        // Render collapsible data section
+        function renderDataSection(title, data, id) {
+            const entries = Object.entries(data).filter(([k, v]) => v !== null && v !== '');
+
+            if (entries.length === 0) return '';
+
+            return `<div class="detail-section">
+                <h4 class="collapsible-header" onclick="toggleSection('${id}')">
+                    ${title} (${entries.length})
+                    <span class="expand-icon" id="icon-${id}">&#9656;</span>
+                </h4>
+                <div class="collapsible-content" id="section-${id}">
+                    <table class="data-table">
+                        ${entries.map(([key, value]) => `
+                            <tr>
+                                <th>${key}</th>
+                                <td>${value}</td>
+                            </tr>
+                        `).join('')}
+                    </table>
+                </div>
+            </div>`;
+        }
+
+        // Toggle collapsible section
+        function toggleSection(id) {
+            const content = document.getElementById(`section-${id}`);
+            const icon = document.getElementById(`icon-${id}`);
+            content.classList.toggle('expanded');
+            icon.classList.toggle('expanded');
+        }
+
+        // Close detail panel
+        function closeDetailPanel() {
+            document.getElementById('detail-panel').classList.remove('visible');
+            selectedIndex = null;
+            renderIntersectionList();
+        }
+
+        // Filter intersections
+        function setFilter(filter) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.filter === filter);
+            });
+            renderIntersectionList();
+        }
+
+        function filterIntersections() {
+            renderIntersectionList();
+        }
+
+        // Update statistics
+        function updateStats() {
+            const stats = {
+                total: intersections.length,
+                geocoded: intersections.filter(i => i.latitude && i.longitude).length,
+                notFound: intersections.filter(i => i.geocode_status === 'not_found').length,
+                needsReview: intersections.filter(i => i.geocode_needs_review).length,
+                manual: intersections.filter(i => i.manual_position).length
+            };
+
+            document.getElementById('stat-total').textContent = stats.total;
+            document.getElementById('stat-geocoded').textContent = stats.geocoded;
+            document.getElementById('stat-not-found').textContent = stats.notFound;
+            document.getElementById('stat-review').textContent = stats.needsReview;
+            document.getElementById('stat-manual').textContent = stats.manual;
+        }
+
+        // API calls
+        async function loadData() {
+            showLoading('Loading data...');
+
+            try {
+                const response = await fetch('/api/intersections');
+                const data = await response.json();
+
+                intersections = data.intersections;
+
+                if (!map) {
+                    initMap(data.rome_center);
+                }
+
+                addMarkers();
+                renderIntersectionList();
+                updateStats();
+
+            } catch (error) {
+                showToast('Error loading data', 'error');
+            }
+
+            hideLoading();
+        }
+
+        async function geocodeAll() {
+            showLoading('Geocoding all intersections... This may take several minutes.');
+
+            try {
+                const response = await fetch('/api/geocode/all', { method: 'POST' });
+                const data = await response.json();
+
+                if (data.success) {
+                    showToast(data.message, 'success');
+                    await loadData();
+                } else {
+                    showToast(data.error || 'Geocoding failed', 'error');
+                }
+            } catch (error) {
+                showToast('Error during geocoding', 'error');
+            }
+
+            hideLoading();
+        }
+
+        async function geocodeSelected() {
+            if (selectedIndex === null) return;
+
+            showLoading('Geocoding...');
+
+            try {
+                const response = await fetch(`/api/geocode/${selectedIndex}`, { method: 'POST' });
+                const data = await response.json();
+
+                if (data.success) {
+                    intersections[selectedIndex] = data.intersection;
+                    addMarkers();
+                    renderIntersectionList();
+                    showDetailPanel(selectedIndex);
+                    updateStats();
+                    showToast('Geocoding complete', 'success');
+                }
+            } catch (error) {
+                showToast('Error geocoding', 'error');
+            }
+
+            hideLoading();
+        }
+
+        function centerOnSelected() {
+            if (selectedIndex !== null && markers[selectedIndex]) {
+                map.setView(markers[selectedIndex].getLatLng(), 16);
+            }
+        }
+
+        async function exportExcel() {
+            window.location.href = '/api/export/excel';
+            showToast('Downloading Excel file...', 'success');
+        }
+
+        async function exportGeoJSON() {
+            window.location.href = '/api/export/geojson';
+            showToast('Downloading GeoJSON file...', 'success');
+        }
+
+        async function reloadData() {
+            if (!confirm('This will reload all data from Excel files. Any manual position changes will be preserved. Continue?')) {
+                return;
+            }
+
+            showLoading('Reloading from Excel files...');
+
+            try {
+                const response = await fetch('/api/reload', { method: 'POST' });
+                const data = await response.json();
+
+                if (data.success) {
+                    showToast(data.message, 'success');
+                    await loadData();
+                }
+            } catch (error) {
+                showToast('Error reloading data', 'error');
+            }
+
+            hideLoading();
+        }
+
+        // UI helpers
+        function showLoading(text) {
+            document.getElementById('loading-text').textContent = text;
+            document.getElementById('loading-overlay').classList.add('visible');
+        }
+
+        function hideLoading() {
+            document.getElementById('loading-overlay').classList.remove('visible');
+        }
+
+        function showToast(message, type = '') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = 'toast visible ' + type;
+
+            setTimeout(() => {
+                toast.classList.remove('visible');
+            }, 3000);
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
+</html>
