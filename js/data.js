@@ -141,31 +141,30 @@ const DataManager = {
                 if (!filters.system.includes(intersection.system)) return false;
             }
 
-            // Filter by Stage
-            if (filters.stage && filters.stage.length > 0) {
-                if (!filters.stage.includes(intersection.current_stage)) return false;
+            // Filter by overall status
+            if (filters.overallStatus) {
+                if (intersection.overall_status !== filters.overallStatus) return false;
             }
 
-            // Filter by inconsistencies
-            if (filters.hasInconsistencies) {
-                if (intersection.inconsistencies.length === 0) return false;
+            // Filter by issues (data issues)
+            if (filters.hasIssues) {
+                if (!intersection.inconsistencies || intersection.inconsistencies.length === 0) return false;
             }
 
-            // Filter by blocked status
-            if (filters.isBlocked) {
-                if (!intersection.installation.blocked_conduits) return false;
-            }
-
-            // Filter by unverified positions (not manually corrected)
-            if (filters.isUnverified) {
-                if (intersection.coordinates_manual) return false;
+            // Filter by active tasks
+            if (filters.showActiveTasks) {
+                const hasTasks = this.tasks.some(t =>
+                    t.intersection_id === intersection.id &&
+                    (t.status === 'pending' || t.status === 'in_progress')
+                );
+                if (!hasTasks) return false;
             }
 
             // Filter by search term
             if (filters.search) {
                 const searchLower = filters.search.toLowerCase();
-                const nameMatch = intersection.name.toLowerCase().includes(searchLower);
-                const idMatch = intersection.id.toLowerCase().includes(searchLower);
+                const nameMatch = (intersection.name || '').toLowerCase().includes(searchLower);
+                const idMatch = (intersection.id || '').toLowerCase().includes(searchLower);
                 if (!nameMatch && !idMatch) return false;
             }
 
@@ -174,15 +173,30 @@ const DataManager = {
     },
 
     /**
-     * Get intersections with inconsistencies
+     * Get summary statistics
      */
-    getInconsistencies() {
+    getSummary() {
+        if (this.summary) return this.summary;
+        return this.calculateSummary();
+    },
+
+    /**
+     * Get intersections with issues (renamed from inconsistencies)
+     */
+    getIssues() {
         return this.intersections
             .filter(i => i.inconsistencies && i.inconsistencies.length > 0)
             .map(i => ({
                 intersection: i,
-                inconsistencies: i.inconsistencies
+                issues: i.inconsistencies
             }));
+    },
+
+    /**
+     * Get intersections with inconsistencies (alias for backward compatibility)
+     */
+    getInconsistencies() {
+        return this.getIssues();
     },
 
     /**

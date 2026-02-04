@@ -1,6 +1,7 @@
 /**
  * Charts Module
  * Handles Chart.js visualizations for the dashboard
+ * Updated for 4 independent stages with individual status tracking
  */
 
 const ChartsManager = {
@@ -23,11 +24,18 @@ const ChartsManager = {
             'Unknown': '#6b7280'
         },
         status: {
-            pending: '#94a3b8',
-            in_progress: '#3b82f6',
-            completed: '#22c55e',
-            blocked: '#ef4444'
+            completed: '#22c55e',      // Green
+            in_progress: '#3b82f6',    // Blue
+            blocked: '#ef4444',        // Red
+            not_started: '#9ca3af'     // Grey
         }
+    },
+
+    statusLabels: {
+        completed: 'Completed',
+        in_progress: 'In Progress',
+        blocked: 'Blocked',
+        not_started: 'Not Started'
     },
 
     /**
@@ -42,94 +50,128 @@ const ChartsManager = {
      * Render all dashboard charts
      */
     renderDashboard(intersections) {
-        this.updateProgressBars(intersections);
-        this.renderLottoChart(intersections);
-        this.renderSystemChart(intersections);
-        this.renderStageChart(intersections);
-        this.renderStatusChart(intersections);
+        this.updateStageProgressCards(intersections);
+        this.updateOverallProgress(intersections);
+        this.renderCompactLottoChart(intersections);
+        this.renderCompactSystemChart(intersections);
+        this.renderStageStatusChart(intersections);
     },
 
     /**
-     * Update progress bars
+     * Calculate status counts for a specific stage
      */
-    updateProgressBars(intersections) {
-        const total = intersections.length;
-        if (total === 0) return;
-
-        const stages = {
-            installation: 0,
-            configuration: 0,
-            connection: 0,
-            validation: 0
+    getStageStatusCounts(intersections, stageName) {
+        const counts = {
+            completed: 0,
+            in_progress: 0,
+            blocked: 0,
+            not_started: 0
         };
 
-        // Count intersections that have reached or passed each stage
-        intersections.forEach(intersection => {
-            const stage = intersection.current_stage;
-            const stageOrder = ['installation', 'configuration', 'connection', 'validation'];
-            const stageIndex = stageOrder.indexOf(stage);
+        const statusField = `${stageName}_status`;
 
-            // Mark previous stages as complete
-            for (let i = 0; i <= stageIndex; i++) {
-                if (i < stageIndex || intersection.stage_status === 'completed') {
-                    stages[stageOrder[i]]++;
-                }
+        intersections.forEach(i => {
+            const status = i[statusField] || 'not_started';
+            if (counts.hasOwnProperty(status)) {
+                counts[status]++;
+            } else {
+                counts.not_started++;
             }
         });
 
-        // For installation, count those that have moved past it
-        const pastInstallation = intersections.filter(i =>
-            ['configuration', 'connection', 'validation'].includes(i.current_stage)
-        ).length;
-
-        const pastConfiguration = intersections.filter(i =>
-            ['connection', 'validation'].includes(i.current_stage)
-        ).length;
-
-        const pastConnection = intersections.filter(i =>
-            ['validation'].includes(i.current_stage)
-        ).length;
-
-        const completed = intersections.filter(i =>
-            i.current_stage === 'validation' && i.stage_status === 'completed'
-        ).length;
-
-        // Update bars
-        this.updateProgressBar('installation', pastInstallation, total);
-        this.updateProgressBar('configuration', pastConfiguration, total);
-        this.updateProgressBar('connection', pastConnection, total);
-        this.updateProgressBar('validation', completed, total);
+        return counts;
     },
 
     /**
-     * Update a single progress bar
+     * Update stage progress cards with per-stage status breakdown
      */
-    updateProgressBar(stage, count, total) {
-        const percentage = total > 0 ? Math.round((count / total) * 100) : 0;
-        const fill = document.getElementById(`progress-${stage}`);
-        const value = document.getElementById(`progress-${stage}-value`);
+    updateStageProgressCards(intersections) {
+        const total = intersections.length;
+        if (total === 0) return;
 
-        if (fill) {
-            fill.style.width = `${percentage}%`;
+        const stages = ['installation', 'configuration', 'connection', 'validation'];
+
+        stages.forEach(stage => {
+            const counts = this.getStageStatusCounts(intersections, stage);
+            const completedPct = Math.round((counts.completed / total) * 100);
+            const inProgressPct = Math.round((counts.in_progress / total) * 100);
+            const blockedPct = Math.round((counts.blocked / total) * 100);
+            const notStartedPct = 100 - completedPct - inProgressPct - blockedPct;
+
+            // Update progress bar segments
+            const container = document.getElementById(`progress-${stage}`);
+            if (container) {
+                container.innerHTML = `
+                    <div class="progress-segment completed" style="width: ${completedPct}%" title="Completed: ${counts.completed}"></div>
+                    <div class="progress-segment in-progress" style="width: ${inProgressPct}%" title="In Progress: ${counts.in_progress}"></div>
+                    <div class="progress-segment blocked" style="width: ${blockedPct}%" title="Blocked: ${counts.blocked}"></div>
+                    <div class="progress-segment not-started" style="width: ${notStartedPct}%" title="Not Started: ${counts.not_started}"></div>
+                `;
+            }
+
+            // Update status breakdown text
+            const valueEl = document.getElementById(`progress-${stage}-value`);
+            if (valueEl) {
+                valueEl.innerHTML = `
+                    <span class="status-count completed">${counts.completed}</span>
+                    <span class="status-count in-progress">${counts.in_progress}</span>
+                    <span class="status-count blocked">${counts.blocked}</span>
+                    <span class="status-count not-started">${counts.not_started}</span>
+                `;
+            }
+        });
+    },
+
+    /**
+     * Update overall progress (Fully Working = all 4 stages completed)
+     */
+    updateOverallProgress(intersections) {
+        const total = intersections.length;
+        if (total === 0) return;
+
+        // Count fully working intersections (all 4 stages completed)
+        const fullyWorking = intersections.filter(i =>
+            i.installation_status === 'completed' &&
+            i.configuration_status === 'completed' &&
+            i.connection_status === 'completed' &&
+            i.validation_status === 'completed'
+        ).length;
+
+        const percentage = Math.round((fullyWorking / total) * 100);
+
+        // Update circular progress
+        const circle = document.getElementById('overall-progress-circle');
+        if (circle) {
+            const circumference = 2 * Math.PI * 45; // radius = 45
+            const offset = circumference - (percentage / 100) * circumference;
+            circle.style.strokeDasharray = circumference;
+            circle.style.strokeDashoffset = offset;
         }
-        if (value) {
-            value.textContent = `${percentage}% (${count}/${total})`;
+
+        // Update percentage text
+        const pctEl = document.getElementById('overall-progress-pct');
+        if (pctEl) {
+            pctEl.textContent = `${percentage}%`;
+        }
+
+        // Update count text
+        const countEl = document.getElementById('overall-progress-count');
+        if (countEl) {
+            countEl.textContent = `${fullyWorking} / ${total}`;
         }
     },
 
     /**
-     * Render Lotto chart
+     * Render compact Lotto chart
      */
-    renderLottoChart(intersections) {
+    renderCompactLottoChart(intersections) {
         const ctx = document.getElementById('chart-lotto');
         if (!ctx) return;
 
-        // Destroy existing chart
         if (this.charts.lotto) {
             this.charts.lotto.destroy();
         }
 
-        // Calculate data
         const data = {};
         intersections.forEach(i => {
             const lotto = i.lotto || 'Unknown';
@@ -142,41 +184,40 @@ const ChartsManager = {
 
         const labels = Object.keys(data);
         const intersectionCounts = labels.map(l => data[l].intersections);
-        const radarCounts = labels.map(l => data[l].radars);
         const colors = labels.map(l => this.colors.lotto[l] || '#6b7280');
 
         this.charts.lotto = new Chart(ctx, {
-            type: 'bar',
+            type: 'doughnut',
             data: {
                 labels: labels,
-                datasets: [
-                    {
-                        label: 'Intersections',
-                        data: intersectionCounts,
-                        backgroundColor: colors.map(c => c + '80'),
-                        borderColor: colors,
-                        borderWidth: 1
-                    },
-                    {
-                        label: 'Radars',
-                        data: radarCounts,
-                        backgroundColor: colors.map(c => c + '40'),
-                        borderColor: colors,
-                        borderWidth: 1
-                    }
-                ]
+                datasets: [{
+                    data: intersectionCounts,
+                    backgroundColor: colors,
+                    borderWidth: 2,
+                    borderColor: '#ffffff'
+                }]
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false,
+                maintainAspectRatio: true,
+                aspectRatio: 1.5,
+                cutout: '60%',
                 plugins: {
                     legend: {
-                        position: 'bottom'
-                    }
-                },
-                scales: {
-                    y: {
-                        beginAtZero: true
+                        position: 'right',
+                        labels: {
+                            boxWidth: 12,
+                            padding: 8,
+                            font: { size: 11 }
+                        }
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: (context) => {
+                                const lotto = labels[context.dataIndex];
+                                return `${lotto}: ${data[lotto].intersections} intersections, ${data[lotto].radars} radars`;
+                            }
+                        }
                     }
                 }
             }
@@ -184,9 +225,9 @@ const ChartsManager = {
     },
 
     /**
-     * Render System chart
+     * Render compact System chart
      */
-    renderSystemChart(intersections) {
+    renderCompactSystemChart(intersections) {
         const ctx = document.getElementById('chart-system');
         if (!ctx) return;
 
@@ -220,10 +261,17 @@ const ChartsManager = {
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false,
+                maintainAspectRatio: true,
+                aspectRatio: 1.5,
+                cutout: '60%',
                 plugins: {
                     legend: {
-                        position: 'bottom'
+                        position: 'right',
+                        labels: {
+                            boxWidth: 12,
+                            padding: 8,
+                            font: { size: 11 }
+                        }
                     }
                 }
             }
@@ -231,117 +279,62 @@ const ChartsManager = {
     },
 
     /**
-     * Render Stage chart
+     * Render stage status chart (stacked horizontal bars)
      */
-    renderStageChart(intersections) {
-        const ctx = document.getElementById('chart-stage');
+    renderStageStatusChart(intersections) {
+        const ctx = document.getElementById('chart-stage-status');
         if (!ctx) return;
 
-        if (this.charts.stage) {
-            this.charts.stage.destroy();
+        if (this.charts.stageStatus) {
+            this.charts.stageStatus.destroy();
         }
 
-        const data = {
-            installation: 0,
-            configuration: 0,
-            connection: 0,
-            validation: 0
-        };
-
-        intersections.forEach(i => {
-            const stage = i.current_stage || 'installation';
-            if (data.hasOwnProperty(stage)) {
-                data[stage]++;
-            }
-        });
-
-        const labels = Object.keys(data).map(s => s.charAt(0).toUpperCase() + s.slice(1));
-        const counts = Object.values(data);
-        const colors = Object.keys(data).map(s => this.colors.stage[s]);
-
-        this.charts.stage = new Chart(ctx, {
-            type: 'pie',
-            data: {
-                labels: labels,
-                datasets: [{
-                    data: counts,
-                    backgroundColor: colors,
-                    borderWidth: 2,
-                    borderColor: '#ffffff'
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    }
-                }
-            }
-        });
-    },
-
-    /**
-     * Render Status breakdown chart
-     */
-    renderStatusChart(intersections) {
-        const ctx = document.getElementById('chart-status');
-        if (!ctx) return;
-
-        if (this.charts.status) {
-            this.charts.status.destroy();
-        }
-
-        // Group by stage and status
-        const data = {};
         const stages = ['installation', 'configuration', 'connection', 'validation'];
-        const statuses = ['pending', 'in_progress', 'completed', 'blocked'];
+        const statuses = ['completed', 'in_progress', 'blocked', 'not_started'];
 
+        // Calculate data for each stage
+        const data = {};
         stages.forEach(stage => {
-            data[stage] = {
-                pending: 0,
-                in_progress: 0,
-                completed: 0,
-                blocked: 0
-            };
-        });
-
-        intersections.forEach(i => {
-            const stage = i.current_stage || 'installation';
-            const status = i.stage_status || 'pending';
-            if (data[stage] && data[stage].hasOwnProperty(status)) {
-                data[stage][status]++;
-            }
+            data[stage] = this.getStageStatusCounts(intersections, stage);
         });
 
         const datasets = statuses.map(status => ({
-            label: status.charAt(0).toUpperCase() + status.slice(1).replace('_', ' '),
+            label: this.statusLabels[status],
             data: stages.map(stage => data[stage][status]),
-            backgroundColor: this.colors.status[status]
+            backgroundColor: this.colors.status[status],
+            borderWidth: 0
         }));
 
-        this.charts.status = new Chart(ctx, {
+        this.charts.stageStatus = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: stages.map(s => s.charAt(0).toUpperCase() + s.slice(1)),
                 datasets: datasets
             },
             options: {
+                indexAxis: 'y',
                 responsive: true,
-                maintainAspectRatio: false,
+                maintainAspectRatio: true,
+                aspectRatio: 2,
                 plugins: {
                     legend: {
-                        position: 'bottom'
+                        position: 'bottom',
+                        labels: {
+                            boxWidth: 12,
+                            padding: 8,
+                            font: { size: 10 }
+                        }
                     }
                 },
                 scales: {
                     x: {
-                        stacked: true
+                        stacked: true,
+                        beginAtZero: true,
+                        grid: { display: false }
                     },
                     y: {
                         stacked: true,
-                        beginAtZero: true
+                        grid: { display: false }
                     }
                 }
             }

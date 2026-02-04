@@ -1,50 +1,47 @@
 {
-  "total_intersections": 244,
-  "total_radars": 773,
-  "by_lotto": {
-    "M9.1": {
-      "intersections": 147,
-      "radars": 425
+  "total_intersections": 298,
+  "total_radars": 768,
+  "fully_working": 0,
+  "overall_status": {
+    "fully_working": 0,
+    "in_progress": 126,
+    "blocked": 24,
+    "not_started": 148
+  },
+  "stage_status": {
+    "installation": {
+      "completed": 156,
+      "in_progress": 9,
+      "blocked": 24,
+      "not_started": 109
     },
-    "M9.2": {
-      "intersections": 97,
-      "radars": 348
+    "configuration": {
+      "completed": 39,
+      "in_progress": 91,
+      "blocked": 0,
+      "not_started": 168
+    },
+    "connection": {
+      "completed": 0,
+      "in_progress": 50,
+      "blocked": 0,
+      "not_started": 248
+    },
+    "validation": {
+      "completed": 0,
+      "in_progress": 1,
+      "blocked": 0,
+      "not_started": 297
     }
+  },
+  "total_inconsistencies": 309,
+  "geocoding_issues": 298,
+  "by_lotto": {
+    "M9.1": 181,
+    "M9.2": 116
   },
   "by_system": {
-    "Tmacs": {
-      "intersections": 55,
-      "radars": 199
-    },
-    "Omnia": {
-      "intersections": 165,
-      "radars": 574
-    },
-    "Unknown": {
-      "intersections": 24,
-      "radars": 0
-    }
-  },
-  "by_stage": {
-    "installation": 220,
-    "configuration": 23,
-    "validation": 1
-  },
-  "by_stage_status": {
-    "installation_blocked": 24,
-    "configuration_in_progress": 11,
-    "installation_in_progress": 120,
-    "configuration_completed": 5,
-    "validation_in_progress": 1,
-    "installation_pending": 76,
-    "configuration_pending": 7
-  },
-  "inconsistencies": {
-    "total": 56,
-    "by_type": {
-      "radar_count_mismatch": 11,
-      "missing_from_lotto": 21,
-      "missing_from_main": 24
-    }
+    "Omnia": 164,
+    "Tmacs": 54
   }
 }

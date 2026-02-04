@@ -3,44 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Radar Project Management - Roma</title>
+    <title>Radar Installation Project Management</title>
 
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
-    <!-- Chart.js -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-    <!-- SheetJS for Excel export -->
-    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
-
-    <!-- jsPDF for PDF export -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-
     <!-- Main CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <div class="header-left">
-            <h1>Radar Project Management</h1>
-            <span class="subtitle">Roma - 800 Radar Installation</span>
+        <div class="header-title">
+            <h1>Radar Installation Project Management</h1>
         </div>
-        <div class="header-right">
-            <div class="header-stats">
-                <div class="stat">
-                    <span class="stat-value" id="total-intersections">0</span>
-                    <span class="stat-label">Intersections</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-value" id="total-radars">0</span>
-                    <span class="stat-label">Radars</span>
-                </div>
-                <div class="stat warning" id="inconsistencies-stat">
-                    <span class="stat-value" id="total-inconsistencies">0</span>
-                    <span class="stat-label">Inconsistencies</span>
-                </div>
+        <div class="header-stats">
+            <div class="stat">
+                <span class="stat-value" id="total-intersections">0</span>
+                <span class="stat-label">Intersections</span>
+            </div>
+            <div class="stat">
+                <span class="stat-value" id="total-radars">0</span>
+                <span class="stat-label">Radars</span>
+            </div>
+            <div class="stat success">
+                <span class="stat-value" id="fully-working">0</span>
+                <span class="stat-label">Fully Working</span>
             </div>
         </div>
     </header>
@@ -50,7 +38,7 @@
         <button class="nav-tab active" data-tab="map">Map View</button>
         <button class="nav-tab" data-tab="dashboard">Progress Dashboard</button>
         <button class="nav-tab" data-tab="list">Intersection List</button>
-        <button class="nav-tab" data-tab="inconsistencies">Inconsistencies</button>
+        <button class="nav-tab" data-tab="issues">Data Issues</button>
         <button class="nav-tab" data-tab="tasks">Tasks</button>
         <button class="nav-tab" data-tab="export">Export</button>
     </nav>
@@ -60,21 +48,21 @@
         <!-- Map View -->
         <section id="map-tab" class="tab-content active">
             <div class="map-container">
-                <div class="map-sidebar">
+                <aside class="map-sidebar">
                     <h3>Filters</h3>
 
                     <div class="filter-group">
-                        <label>Color by:</label>
-                        <select id="color-by">
-                            <option value="stage">Stage</option>
-                            <option value="lotto">Lotto</option>
-                            <option value="system">System</option>
-                            <option value="status">Status</option>
+                        <label>Color by Stage</label>
+                        <select id="color-by-stage">
+                            <option value="installation">Installation Status</option>
+                            <option value="configuration">Configuration Status</option>
+                            <option value="connection">Connection Status</option>
+                            <option value="validation">Validation Status</option>
                         </select>
                     </div>
 
                     <div class="filter-group">
-                        <label>Lotto:</label>
+                        <label>Lotto</label>
                         <div class="checkbox-group">
                             <label><input type="checkbox" name="lotto" value="M9.1" checked> M9.1</label>
                             <label><input type="checkbox" name="lotto" value="M9.2" checked> M9.2</label>
@@ -82,33 +70,19 @@
                     </div>
 
                     <div class="filter-group">
-                        <label>System:</label>
+                        <label>System</label>
                         <div class="checkbox-group">
-                            <label><input type="checkbox" name="system" value="Omnia" checked> Omnia (Swarco)</label>
-                            <label><input type="checkbox" name="system" value="Tmacs" checked> Tmacs (Semaforica)</label>
+                            <label><input type="checkbox" name="system" value="Omnia" checked> Omnia</label>
+                            <label><input type="checkbox" name="system" value="Tmacs" checked> Tmacs</label>
                         </div>
                     </div>
 
                     <div class="filter-group">
-                        <label>Stage:</label>
-                        <div class="checkbox-group">
-                            <label><input type="checkbox" name="stage" value="installation" checked> Installation</label>
-                            <label><input type="checkbox" name="stage" value="configuration" checked> Configuration</label>
-                            <label><input type="checkbox" name="stage" value="connection" checked> Connection</label>
-                            <label><input type="checkbox" name="stage" value="validation" checked> Validation</label>
-                        </div>
+                        <label><input type="checkbox" id="show-issues-only"> Show only with issues</label>
                     </div>
 
                     <div class="filter-group">
-                        <label><input type="checkbox" id="show-inconsistencies-only"> Show only with inconsistencies</label>
-                    </div>
-
-                    <div class="filter-group">
-                        <label><input type="checkbox" id="show-blocked-only"> Show only blocked</label>
-                    </div>
-
-                    <div class="filter-group">
-                        <label><input type="checkbox" id="show-unverified-only"> Show only unverified positions</label>
+                        <label><input type="checkbox" id="show-active-tasks"> Show active tasks</label>
                     </div>
 
                     <div class="filter-group edit-mode-controls">
@@ -122,9 +96,9 @@
                     <h3>Legend</h3>
                     <div id="map-legend" class="map-legend"></div>
 
-                    <h3>Quick Stats</h3>
+                    <h3>Statistics</h3>
                     <div id="map-stats" class="map-stats"></div>
-                </div>
+                </aside>
 
                 <div id="map" class="map"></div>
             </div>
@@ -132,160 +106,180 @@
 
         <!-- Progress Dashboard -->
         <section id="dashboard-tab" class="tab-content">
-            <div class="dashboard-grid">
-                <div class="dashboard-card full-width">
+            <div class="dashboard-grid compact">
+                <!-- Overall Progress Card -->
+                <div class="dashboard-card">
                     <h3>Overall Progress</h3>
-                    <div class="progress-bars">
-                        <div class="progress-item">
-                            <span class="progress-label">Installation</span>
-                            <div class="progress-bar">
-                                <div class="progress-fill installation" id="progress-installation"></div>
+                    <div class="overall-progress">
+                        <div class="progress-circle-container">
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-bg" cx="50" cy="50" r="45" />
+                                <circle class="progress-ring" id="overall-progress-circle" cx="50" cy="50" r="45" />
+                            </svg>
+                            <div class="progress-center">
+                                <span class="progress-percent" id="overall-progress-pct">0%</span>
+                                <span class="progress-count" id="overall-progress-count">0 / 0</span>
                             </div>
-                            <span class="progress-value" id="progress-installation-value">0%</span>
                         </div>
-                        <div class="progress-item">
-                            <span class="progress-label">Configuration</span>
-                            <div class="progress-bar">
-                                <div class="progress-fill configuration" id="progress-configuration"></div>
+                        <span class="progress-label">Fully Working</span>
+                    </div>
+                </div>
+
+                <!-- Stage Progress Cards -->
+                <div class="dashboard-card stage-progress-card">
+                    <h3>Stage Progress</h3>
+                    <div class="progress-legend">
+                        <span class="legend-item"><span class="dot completed"></span> Completed</span>
+                        <span class="legend-item"><span class="dot in-progress"></span> In Progress</span>
+                        <span class="legend-item"><span class="dot blocked"></span> Blocked</span>
+                        <span class="legend-item"><span class="dot not-started"></span> Not Started</span>
+                    </div>
+                    <div class="stage-progress-bars">
+                        <div class="stage-progress-item">
+                            <div class="stage-header">
+                                <span class="stage-name">Installation</span>
+                                <span class="stage-counts" id="progress-installation-value"></span>
                             </div>
-                            <span class="progress-value" id="progress-configuration-value">0%</span>
+                            <div class="progress-bar segmented" id="progress-installation"></div>
                         </div>
-                        <div class="progress-item">
-                            <span class="progress-label">Connection</span>
-                            <div class="progress-bar">
-                                <div class="progress-fill connection" id="progress-connection"></div>
+                        <div class="stage-progress-item">
+                            <div class="stage-header">
+                                <span class="stage-name">Configuration</span>
+                                <span class="stage-counts" id="progress-configuration-value"></span>
                             </div>
-                            <span class="progress-value" id="progress-connection-value">0%</span>
+                            <div class="progress-bar segmented" id="progress-configuration"></div>
                         </div>
-                        <div class="progress-item">
-                            <span class="progress-label">Validation</span>
-                            <div class="progress-bar">
-                                <div class="progress-fill validation" id="progress-validation"></div>
+                        <div class="stage-progress-item">
+                            <div class="stage-header">
+                                <span class="stage-name">Connection</span>
+                                <span class="stage-counts" id="progress-connection-value"></span>
                             </div>
-                            <span class="progress-value" id="progress-validation-value">0%</span>
+                            <div class="progress-bar segmented" id="progress-connection"></div>
+                        </div>
+                        <div class="stage-progress-item">
+                            <div class="stage-header">
+                                <span class="stage-name">Validation</span>
+                                <span class="stage-counts" id="progress-validation-value"></span>
+                            </div>
+                            <div class="progress-bar segmented" id="progress-validation"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="dashboard-card">
+                <!-- Charts Row -->
+                <div class="dashboard-card chart-card">
                     <h3>By Lotto</h3>
-                    <canvas id="chart-lotto"></canvas>
+                    <div class="chart-container compact">
+                        <canvas id="chart-lotto"></canvas>
+                    </div>
                 </div>
 
-                <div class="dashboard-card">
+                <div class="dashboard-card chart-card">
                     <h3>By System</h3>
-                    <canvas id="chart-system"></canvas>
+                    <div class="chart-container compact">
+                        <canvas id="chart-system"></canvas>
+                    </div>
                 </div>
 
-                <div class="dashboard-card">
-                    <h3>By Stage</h3>
-                    <canvas id="chart-stage"></canvas>
-                </div>
-
-                <div class="dashboard-card">
+                <!-- Stage Status Chart -->
+                <div class="dashboard-card full-width">
                     <h3>Stage Status Breakdown</h3>
-                    <canvas id="chart-status"></canvas>
+                    <div class="chart-container wide">
+                        <canvas id="chart-stage-status"></canvas>
+                    </div>
+                </div>
+
+                <!-- Issues Summary -->
+                <div class="dashboard-card full-width">
+                    <h3>Issues Summary</h3>
+                    <div class="issues-summary">
+                        <div class="issue-stat">
+                            <span class="issue-count blocked" id="blocked-count">0</span>
+                            <span class="issue-label">Blocked</span>
+                        </div>
+                        <div class="issue-stat">
+                            <span class="issue-count warning" id="data-issues-count">0</span>
+                            <span class="issue-label">Data Issues</span>
+                        </div>
+                        <div class="issue-stat">
+                            <span class="issue-count info" id="geocoding-issues-count">0</span>
+                            <span class="issue-label">Geocoding Issues</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Intersection List -->
         <section id="list-tab" class="tab-content">
-            <div class="list-controls">
-                <input type="text" id="search-input" placeholder="Search by name or code...">
+            <div class="list-toolbar">
+                <input type="text" id="search-input" placeholder="Search by name or code..." class="search-input">
                 <select id="list-filter-lotto">
-                    <option value="">All Lotti</option>
+                    <option value="">All Lottos</option>
                     <option value="M9.1">M9.1</option>
                     <option value="M9.2">M9.2</option>
-                </select>
-                <select id="list-filter-stage">
-                    <option value="">All Stages</option>
-                    <option value="installation">Installation</option>
-                    <option value="configuration">Configuration</option>
-                    <option value="connection">Connection</option>
-                    <option value="validation">Validation</option>
                 </select>
                 <select id="list-filter-system">
                     <option value="">All Systems</option>
                     <option value="Omnia">Omnia</option>
                     <option value="Tmacs">Tmacs</option>
                 </select>
+                <select id="list-filter-status">
+                    <option value="">All Statuses</option>
+                    <option value="fully_working">Fully Working</option>
+                    <option value="in_progress">In Progress</option>
+                    <option value="blocked">Blocked</option>
+                    <option value="not_started">Not Started</option>
+                </select>
             </div>
-            <div class="list-container">
-                <table class="intersection-table">
+            <div class="table-container">
+                <table class="data-table">
                     <thead>
                         <tr>
                             <th>Code</th>
                             <th>Name</th>
                             <th>Lotto</th>
-                            <th>System</th>
                             <th>Radars</th>
-                            <th>Stage</th>
-                            <th>Status</th>
+                            <th>Installation</th>
+                            <th>Configuration</th>
+                            <th>Connection</th>
+                            <th>Validation</th>
                             <th>Issues</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
-                    <tbody id="intersection-list">
-                        <!-- Populated by JS -->
-                    </tbody>
+                    <tbody id="intersection-list"></tbody>
                 </table>
             </div>
         </section>
 
-        <!-- Inconsistencies Tab -->
-        <section id="inconsistencies-tab" class="tab-content">
-            <div class="inconsistencies-header">
-                <h2>Data Inconsistencies</h2>
-                <p>These items have been flagged due to differences between data sources. Review and resolve as needed.</p>
-            </div>
-
-            <div class="inconsistencies-filters">
-                <select id="inconsistency-type-filter">
-                    <option value="">All Types</option>
+        <!-- Data Issues -->
+        <section id="issues-tab" class="tab-content">
+            <div class="issues-toolbar">
+                <select id="issue-type-filter">
+                    <option value="">All Issue Types</option>
                     <option value="radar_count_mismatch">Radar Count Mismatch</option>
-                    <option value="missing_from_lotto">Missing from Lotto Files</option>
-                    <option value="missing_from_main">Missing from Main File</option>
+                    <option value="missing_coordinates">Missing Coordinates</option>
+                    <option value="geocoding_uncertain">Geocoding Uncertain</option>
+                    <option value="blocked_no_solution">Blocked Without Solution</option>
                 </select>
+                <button class="btn btn-secondary" id="show-geocoding-issues">
+                    Show Geocoding Issues Only
+                </button>
             </div>
-
-            <div class="inconsistencies-list" id="inconsistencies-list">
-                <!-- Populated by JS -->
-            </div>
+            <div id="issues-list" class="issues-list"></div>
         </section>
 
-        <!-- Tasks Tab -->
+        <!-- Tasks -->
         <section id="tasks-tab" class="tab-content">
-            <div class="tasks-header">
-                <h2>Task Management</h2>
-                <button class="btn btn-primary" id="add-task-btn">+ Add Task</button>
+            <div class="tasks-toolbar">
+                <button class="btn btn-primary" id="add-task-btn">Add Task</button>
+                <button class="btn btn-secondary" id="batch-task-btn">Batch Add Tasks</button>
             </div>
-
-            <div class="tasks-filters">
-                <select id="task-filter-status">
-                    <option value="">All Status</option>
-                    <option value="pending">Pending</option>
-                    <option value="in_progress">In Progress</option>
-                    <option value="completed">Completed</option>
-                </select>
-                <select id="task-filter-assignee">
-                    <option value="">All Assignees</option>
-                    <option value="GT">GT - Giacomo Tuffanelli</option>
-                    <option value="AV">AV - Alessandro Vangi</option>
-                    <option value="MC">MC - Marisdea Castiglione</option>
-                    <option value="FM">FM - Francesco Masucci</option>
-                    <option value="ENG">ENG - Engin</option>
-                    <option value="Sonet">Sonet</option>
-                    <option value="M9.2">Lotto M9.2</option>
-                    <option value="Swarco">Swarco</option>
-                    <option value="Semaforica">Semaforica</option>
-                </select>
-            </div>
-
             <div class="tasks-columns">
                 <div class="task-column">
-                    <h3>Pending</h3>
-                    <div class="task-list" id="tasks-pending"></div>
+                    <h3>To Do</h3>
+                    <div class="task-list" id="tasks-todo"></div>
                 </div>
                 <div class="task-column">
                     <h3>In Progress</h3>
@@ -298,47 +292,61 @@
             </div>
         </section>
 
-        <!-- Export Tab -->
+        <!-- Export -->
         <section id="export-tab" class="tab-content">
             <div class="export-options">
-                <h2>Export Data</h2>
-
                 <div class="export-card">
                     <h3>Full Data Export</h3>
-                    <p>Export all intersection data to Excel or JSON.</p>
+                    <p>Export all intersection data with complete stage details</p>
                     <div class="export-buttons">
-                        <button class="btn btn-primary" id="export-excel">Export to Excel</button>
-                        <button class="btn btn-secondary" id="export-json">Export to JSON</button>
+                        <button class="btn btn-primary" onclick="ExportManager.exportFullExcel()">Export to Excel</button>
+                        <button class="btn btn-secondary" onclick="ExportManager.exportFullPDF()">Export to PDF</button>
                     </div>
                 </div>
 
                 <div class="export-card">
                     <h3>Site Visit Sheet</h3>
-                    <p>Generate a printable PDF for field work.</p>
-                    <div class="export-form">
-                        <label>Select Intersection:</label>
-                        <select id="export-intersection-select">
-                            <!-- Populated by JS -->
-                        </select>
-                        <button class="btn btn-primary" id="export-site-visit">Generate PDF</button>
+                    <p>Generate detailed site visit sheet for field work</p>
+                    <select id="export-intersection-select">
+                        <option value="">Select intersection...</option>
+                    </select>
+                    <div class="export-buttons">
+                        <button class="btn btn-primary" onclick="ExportManager.exportSiteVisitSheet()">Generate Sheet</button>
+                    </div>
+                </div>
+
+                <div class="export-card">
+                    <h3>Filtered Export</h3>
+                    <p>Export based on current filters</p>
+                    <div class="filter-options">
+                        <label><input type="checkbox" id="export-filter-lotto-m91"> M9.1 only</label>
+                        <label><input type="checkbox" id="export-filter-lotto-m92"> M9.2 only</label>
+                        <label><input type="checkbox" id="export-filter-blocked"> Blocked only</label>
+                        <label><input type="checkbox" id="export-filter-issues"> With issues only</label>
+                    </div>
+                    <div class="export-buttons">
+                        <button class="btn btn-secondary" onclick="ExportManager.exportFiltered()">Export Filtered</button>
                     </div>
                 </div>
 
                 <div class="export-card">
                     <h3>Import Data</h3>
-                    <p>Import updated data from Excel files.</p>
-                    <div class="import-area">
-                        <input type="file" id="import-file" accept=".xlsx,.xls,.json">
-                        <button class="btn btn-secondary" id="import-btn">Import</button>
-                    </div>
-                </div>
-
-                <div class="export-card">
-                    <h3>Backup & Restore</h3>
-                    <p>Save or restore your current data state.</p>
-                    <div class="export-buttons">
-                        <button class="btn btn-secondary" id="backup-data">Create Backup</button>
-                        <button class="btn btn-secondary" id="restore-data">Restore from Backup</button>
+                    <p>Import files for intersections</p>
+                    <div class="import-options">
+                        <select id="import-intersection-select">
+                            <option value="">Select intersection...</option>
+                        </select>
+                        <div class="file-inputs">
+                            <label class="file-input-label">
+                                <span>Planimetry File</span>
+                                <input type="file" id="import-planimetry" accept="image/*,.pdf">
+                            </label>
+                            <label class="file-input-label">
+                                <span>Photos</span>
+                                <input type="file" id="import-photos" accept="image/*" multiple>
+                            </label>
+                        </div>
+                        <button class="btn btn-primary" onclick="ExportManager.importFiles()">Import Files</button>
                     </div>
                 </div>
             </div>
@@ -347,14 +355,12 @@
 
     <!-- Intersection Detail Modal -->
     <div id="intersection-modal" class="modal">
-        <div class="modal-content">
+        <div class="modal-content modal-large">
             <div class="modal-header">
                 <h2 id="modal-title">Intersection Details</h2>
                 <button class="modal-close">&times;</button>
             </div>
-            <div class="modal-body" id="modal-body">
-                <!-- Populated by JS -->
-            </div>
+            <div class="modal-body" id="modal-body"></div>
             <div class="modal-footer">
                 <button class="btn btn-secondary modal-close">Close</button>
                 <button class="btn btn-primary" id="modal-save">Save Changes</button>
@@ -362,73 +368,151 @@
         </div>
     </div>
 
-    <!-- Task Modal -->
+    <!-- Add Task Modal -->
     <div id="task-modal" class="modal">
-        <div class="modal-content modal-small">
+        <div class="modal-content">
             <div class="modal-header">
                 <h2 id="task-modal-title">Add Task</h2>
                 <button class="modal-close">&times;</button>
             </div>
             <div class="modal-body">
-                <form id="task-form">
-                    <div class="form-group">
-                        <label>Title:</label>
-                        <input type="text" id="task-title" required>
-                    </div>
-                    <div class="form-group">
-                        <label>Description:</label>
-                        <textarea id="task-description" rows="3"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label>Link to Intersection:</label>
-                        <select id="task-intersection">
-                            <option value="">None</option>
-                            <!-- Populated by JS -->
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Assigned To:</label>
-                        <select id="task-assignee">
-                            <option value="">Unassigned</option>
-                            <option value="GT">GT - Giacomo Tuffanelli</option>
-                            <option value="AV">AV - Alessandro Vangi</option>
-                            <option value="MC">MC - Marisdea Castiglione</option>
-                            <option value="FM">FM - Francesco Masucci</option>
-                            <option value="ENG">ENG - Engin</option>
-                            <option value="Sonet">Sonet</option>
-                            <option value="M9.2">Lotto M9.2</option>
-                            <option value="Swarco">Swarco</option>
-                            <option value="Semaforica">Semaforica</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label>Due Date:</label>
-                        <input type="date" id="task-due-date">
-                    </div>
-                    <div class="form-group">
-                        <label>Priority:</label>
-                        <select id="task-priority">
-                            <option value="low">Low</option>
-                            <option value="medium" selected>Medium</option>
-                            <option value="high">High</option>
-                        </select>
-                    </div>
-                </form>
+                <div class="form-group">
+                    <label>Intersection</label>
+                    <select id="task-intersection"></select>
+                </div>
+                <div class="form-group">
+                    <label>Stage</label>
+                    <select id="task-stage">
+                        <option value="">Select stage...</option>
+                        <option value="installation">Installation</option>
+                        <option value="configuration">Configuration</option>
+                        <option value="connection">Connection</option>
+                        <option value="validation">Validation</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Substage</label>
+                    <select id="task-substage">
+                        <option value="">Select substage...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Title</label>
+                    <input type="text" id="task-title" placeholder="Task title">
+                </div>
+                <div class="form-group">
+                    <label>Description</label>
+                    <textarea id="task-description" rows="3" placeholder="Task description..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Priority</label>
+                    <select id="task-priority">
+                        <option value="low">Low</option>
+                        <option value="medium" selected>Medium</option>
+                        <option value="high">High</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Assignee</label>
+                    <input type="text" id="task-assignee" placeholder="Assignee name">
+                </div>
             </div>
             <div class="modal-footer">
                 <button class="btn btn-secondary modal-close">Cancel</button>
-                <button class="btn btn-primary" id="task-save">Save Task</button>
+                <button class="btn btn-primary" id="save-task-btn">Save Task</button>
             </div>
         </div>
     </div>
 
-    <!-- Leaflet JS -->
+    <!-- Batch Task Modal -->
+    <div id="batch-task-modal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h2>Batch Add Tasks</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="batch-task-layout">
+                    <div class="batch-task-left">
+                        <h4>Select Intersections</h4>
+                        <div class="batch-select-actions">
+                            <button class="btn btn-small" onclick="TasksManager.selectAllBatch()">Select All</button>
+                            <button class="btn btn-small" onclick="TasksManager.selectNoneBatch()">Select None</button>
+                        </div>
+                        <div class="batch-intersection-list" id="batch-intersection-list"></div>
+                    </div>
+                    <div class="batch-task-right">
+                        <h4>Task Details</h4>
+                        <div class="form-group">
+                            <label>Stage</label>
+                            <select id="batch-task-stage">
+                                <option value="">Select stage...</option>
+                                <option value="installation">Installation</option>
+                                <option value="configuration">Configuration</option>
+                                <option value="connection">Connection</option>
+                                <option value="validation">Validation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input type="text" id="batch-task-title" placeholder="Task title">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea id="batch-task-description" rows="3" placeholder="Task description..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Assignee</label>
+                            <input type="text" id="batch-task-assignee" placeholder="Assignee name">
+                        </div>
+                        <p class="batch-count"><span id="batch-selected-count">0</span> intersections selected</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close">Cancel</button>
+                <button class="btn btn-primary" id="save-batch-tasks-btn">Create Tasks</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Issue Modal -->
+    <div id="edit-issue-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Edit Data Issue</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body" id="edit-issue-body"></div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary modal-close">Cancel</button>
+                <button class="btn btn-primary" id="save-issue-btn">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Planimetry Modal -->
+    <div id="planimetry-modal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h2 id="planimetry-modal-title">Planimetry</h2>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body planimetry-viewer" id="planimetry-body">
+                <p class="no-planimetry">No planimetry file available</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- External Libraries -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.31/jspdf.plugin.autotable.min.js"></script>
 
-    <!-- Embedded Data (for file:// protocol compatibility) -->
+    <!-- Application Scripts -->
     <script src="js/embedded-data.js"></script>
-
-    <!-- Main JS -->
     <script src="js/data.js"></script>
     <script src="js/map.js"></script>
     <script src="js/charts.js"></script>

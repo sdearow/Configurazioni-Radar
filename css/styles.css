@@ -372,7 +372,162 @@ body {
 .badge-warning { background: rgba(245, 158, 11, 0.1); color: var(--warning-color); }
 .badge-danger { background: rgba(239, 68, 68, 0.1); color: var(--danger-color); }
 
-/* Inconsistencies */
+/* Status Badges for 4 stages */
+.status-badge {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-completed {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-in_progress {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-blocked {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-not_started {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+/* Stage badges in popup */
+.popup-stages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+.stage-badge {
+    padding: 0.15rem 0.35rem;
+    border-radius: 3px;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.stage-completed { background: #dcfce7; color: #166534; }
+.stage-in_progress { background: #dbeafe; color: #1e40af; }
+.stage-blocked { background: #fee2e2; color: #991b1b; }
+.stage-not_started { background: #f3f4f6; color: #6b7280; }
+
+/* Data Issues Tab */
+.issues-toolbar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.issues-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.issue-card {
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 1rem;
+    border-left: 4px solid var(--warning-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.issue-card.issue-type-missing_coordinates,
+.issue-card.issue-type-geocoding_uncertain {
+    border-left-color: var(--info-color);
+}
+
+.issue-card.issue-type-radar_count_mismatch {
+    border-left-color: var(--warning-color);
+}
+
+.issue-card.issue-type-blocked_no_solution {
+    border-left-color: var(--danger-color);
+}
+
+.issue-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.issue-title {
+    font-weight: 600;
+}
+
+.issue-type-badge {
+    padding: 0.25rem 0.5rem;
+    background: var(--bg-color);
+    border-radius: 4px;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+}
+
+.issue-details {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+}
+
+.issue-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.issue-item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.empty-state {
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+}
+
+/* Issues Summary in Dashboard */
+.issues-summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+}
+
+.issue-stat {
+    text-align: center;
+}
+
+.issue-count {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.issue-count.blocked { color: var(--danger-color); }
+.issue-count.warning { color: var(--warning-color); }
+.issue-count.info { color: var(--info-color); }
+
+.issue-label {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* Inconsistencies (legacy) */
 .inconsistencies-header {
     margin-bottom: 1.5rem;
 }
@@ -522,6 +677,57 @@ body {
     color: var(--text-muted);
     display: flex;
     gap: 1rem;
+}
+
+.task-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0.5rem;
+}
+
+.task-delete-btn {
+    padding: 0 0.4rem;
+    font-size: 1rem;
+    line-height: 1;
+    opacity: 0.5;
+}
+
+.task-delete-btn:hover {
+    opacity: 1;
+    background: var(--danger-color);
+    color: white;
+}
+
+.task-stage {
+    margin: 0.25rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.task-substage {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.task-location {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+}
+
+.task-actions {
+    margin-top: 0.5rem;
+}
+
+.task-status-select {
+    width: 100%;
+    padding: 0.25rem;
+    font-size: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
 }
 
 /* Export */
@@ -697,6 +903,92 @@ body {
 
 .modal-content.modal-small {
     max-width: 500px;
+}
+
+.modal-content.modal-large {
+    max-width: 900px;
+}
+
+/* Batch Task Modal */
+.batch-task-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.batch-task-left,
+.batch-task-right {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.batch-task-left h4,
+.batch-task-right h4 {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.batch-select-actions {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.batch-intersection-list {
+    max-height: 350px;
+    overflow-y: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 0.5rem;
+}
+
+.batch-intersection-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+}
+
+.batch-intersection-item:last-child {
+    border-bottom: none;
+}
+
+.batch-intersection-item:hover {
+    background: var(--bg-color);
+}
+
+.batch-intersection-checkbox {
+    margin-top: 0.25rem;
+}
+
+.batch-intersection-info {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+
+.batch-intersection-meta {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+}
+
+.batch-count {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 0.5rem;
+    background: var(--bg-color);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .batch-task-layout {
+        grid-template-columns: 1fr;
+    }
 }
 
 .modal-header {
@@ -902,6 +1194,223 @@ body {
     }
 
     .detail-section.full-width {
+        grid-column: span 1;
+    }
+}
+
+/* Dashboard Compact Layout */
+.dashboard-grid.compact {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.dashboard-grid.compact .dashboard-card {
+    padding: 1rem;
+}
+
+.dashboard-grid.compact .dashboard-card h3 {
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+}
+
+.dashboard-grid.compact .full-width {
+    grid-column: span 4;
+}
+
+.dashboard-grid.compact .stage-progress-card {
+    grid-column: span 2;
+}
+
+.dashboard-grid.compact .chart-card {
+    grid-column: span 1;
+}
+
+/* SVG Circular Progress */
+.progress-circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.progress-svg {
+    width: 120px;
+    height: 120px;
+    transform: rotate(-90deg);
+}
+
+.progress-bg {
+    fill: none;
+    stroke: var(--bg-color);
+    stroke-width: 8;
+}
+
+.progress-ring {
+    fill: none;
+    stroke: var(--success-color);
+    stroke-width: 8;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.progress-percent {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--success-color);
+}
+
+.progress-count {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
+.progress-label {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+/* Segmented Progress Bars */
+.progress-bar.segmented {
+    display: flex;
+    height: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: transparent;
+}
+
+.progress-segment {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.progress-segment.completed { background: var(--success-color); }
+.progress-segment.in-progress { background: var(--info-color); }
+.progress-segment.blocked { background: var(--danger-color); }
+.progress-segment.not-started { background: #d1d5db; }
+
+/* Progress Legend */
+.progress-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    font-size: 0.7rem;
+}
+
+.progress-legend .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.progress-legend .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.progress-legend .dot.completed { background: var(--success-color); }
+.progress-legend .dot.in-progress { background: var(--info-color); }
+.progress-legend .dot.blocked { background: var(--danger-color); }
+.progress-legend .dot.not-started { background: #d1d5db; }
+
+/* Stage Progress Items */
+.stage-progress-bars {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.stage-progress-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stage-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stage-name {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.stage-counts {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.7rem;
+}
+
+/* Status Count Badges */
+.status-count {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 20px;
+    height: 18px;
+    padding: 0 4px;
+    border-radius: 9px;
+    font-size: 0.65rem;
+    font-weight: 600;
+}
+
+.status-count.completed { background: #dcfce7; color: #166534; }
+.status-count.in-progress { background: #dbeafe; color: #1e40af; }
+.status-count.blocked { background: #fee2e2; color: #991b1b; }
+.status-count.not-started { background: #f3f4f6; color: #6b7280; }
+
+/* Compact Chart Containers */
+.chart-container.compact {
+    height: 150px;
+}
+
+.chart-container.wide {
+    height: 180px;
+}
+
+/* Header stat success */
+.header-stats .stat.success .stat-value {
+    color: var(--success-color);
+}
+
+/* Responsive adjustments for compact dashboard */
+@media (max-width: 1200px) {
+    .dashboard-grid.compact {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dashboard-grid.compact .full-width,
+    .dashboard-grid.compact .stage-progress-card {
+        grid-column: span 2;
+    }
+
+    .dashboard-grid.compact .chart-card {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .dashboard-grid.compact {
+        grid-template-columns: 1fr;
+    }
+
+    .dashboard-grid.compact .full-width,
+    .dashboard-grid.compact .stage-progress-card,
+    .dashboard-grid.compact .chart-card {
         grid-column: span 1;
     }
 }
