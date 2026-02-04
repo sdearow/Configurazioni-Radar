@@ -10,6 +10,17 @@ from difflib import SequenceMatcher
 
 DATA_DIR = '/home/user/Configurazioni-Radar/data-import'
 
+# Confirmed manual matches from user review
+# Maps Lotto 1 name -> Master postazione code
+MANUAL_LOTTO1_MATCHES = {
+    'Emo - Bus': '417',
+    'L.RE Diaz - Largo Mllo Diaz': '413',
+    'Via Cristoforo Colombo - Via Druso': '209',
+    'Via Cernaia - Via Goito': '442',
+    'Via Anastasio II - Pio XI': '121',
+    'Piazza di porta Portese': '252',
+}
+
 def normalize_name(name):
     if pd.isna(name) or not isinstance(name, str):
         return ''
@@ -81,14 +92,30 @@ def main():
         lotto1_match = None
         lotto1_match_score = 0
         if lotto == 'M9.1':
-            for _, l1_row in lotto1_df.iterrows():
-                l1_name = l1_row.get('Impianto')
-                if pd.isna(l1_name):
-                    continue
-                score = similarity_ratio(name, str(l1_name))
-                if score > lotto1_match_score:
-                    lotto1_match_score = score
-                    lotto1_match = l1_row
+            # First check manual matches
+            for l1_name_key, master_code in MANUAL_LOTTO1_MATCHES.items():
+                if code == master_code:
+                    # Find the Lotto 1 row with this name
+                    for _, l1_row in lotto1_df.iterrows():
+                        l1_name = l1_row.get('Impianto')
+                        if pd.isna(l1_name):
+                            continue
+                        if normalize_name(str(l1_name)) == normalize_name(l1_name_key):
+                            lotto1_match = l1_row
+                            lotto1_match_score = 1.0  # Manual match = perfect score
+                            break
+                    break
+
+            # If no manual match, use fuzzy matching
+            if lotto1_match is None:
+                for _, l1_row in lotto1_df.iterrows():
+                    l1_name = l1_row.get('Impianto')
+                    if pd.isna(l1_name):
+                        continue
+                    score = similarity_ratio(name, str(l1_name))
+                    if score > lotto1_match_score:
+                        lotto1_match_score = score
+                        lotto1_match = l1_row
 
         # Find matching Lotto 2 data (for M9.2)
         lotto2_match = None
