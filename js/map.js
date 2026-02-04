@@ -15,30 +15,16 @@ const MapManager = {
     ROME_CENTER: [41.9028, 12.4964],
     DEFAULT_ZOOM: 12,
 
-    // Color schemes
-    colors: {
-        stage: {
-            installation: '#f59e0b',
-            configuration: '#3b82f6',
-            connection: '#8b5cf6',
-            validation: '#22c55e'
-        },
-        lotto: {
-            'M9.1': '#2563eb',
-            'M9.2': '#dc2626'
-        },
-        system: {
-            'Omnia': '#059669',
-            'Tmacs': '#7c3aed',
-            'Unknown': '#6b7280'
-        },
-        status: {
-            pending: '#6b7280',
-            in_progress: '#3b82f6',
-            completed: '#22c55e',
-            blocked: '#ef4444'
-        }
+    // Color schemes for stage statuses
+    statusColors: {
+        completed: '#22c55e',      // Green
+        in_progress: '#3b82f6',    // Blue
+        blocked: '#ef4444',        // Red
+        not_started: '#9ca3af'     // Grey
     },
+
+    // Default grey color for all markers
+    defaultColor: '#9ca3af',
 
     // Rome area reference coordinates for better placement
     romeAreas: {
@@ -128,7 +114,7 @@ const MapManager = {
         }).addTo(this.map);
 
         this.markerLayer = L.layerGroup().addTo(this.map);
-        this.updateLegend('stage');
+        this.updateLegend('installation');
 
         return this;
     },
@@ -293,21 +279,15 @@ const MapManager = {
     },
 
     /**
-     * Get color based on coloring scheme
+     * Get color based on selected stage status
+     * colorByStage is one of: installation, configuration, connection, validation
      */
-    getColor(intersection, colorBy) {
-        switch (colorBy) {
-            case 'stage':
-                return this.colors.stage[intersection.current_stage] || '#6b7280';
-            case 'lotto':
-                return this.colors.lotto[intersection.lotto] || '#6b7280';
-            case 'system':
-                return this.colors.system[intersection.system] || '#6b7280';
-            case 'status':
-                return this.colors.status[intersection.stage_status] || '#6b7280';
-            default:
-                return '#6b7280';
-        }
+    getColor(intersection, colorByStage) {
+        const stage = intersection[colorByStage];
+        if (!stage) return this.defaultColor;
+
+        const status = stage.status || 'not_started';
+        return this.statusColors[status] || this.defaultColor;
     },
 
     /**
@@ -319,20 +299,30 @@ const MapManager = {
         const isManuallySet = intersection.coordinates_manual;
         const coords = newCoords || intersection.coordinates;
 
+        const instStatus = intersection.installation?.status || 'not_started';
+        const confStatus = intersection.configuration?.status || 'not_started';
+        const connStatus = intersection.connection?.status || 'not_started';
+        const valStatus = intersection.validation?.status || 'not_started';
+
         return `
             <div class="popup-content">
                 <div class="popup-title">${intersection.name}</div>
                 <div class="popup-info">
                     <span><strong>Code:</strong> ${intersection.id}</span>
-                    <span><strong>Lotto:</strong> ${intersection.lotto}</span>
-                    <span><strong>System:</strong> ${intersection.system}</span>
-                    <span><strong>Radars:</strong> ${intersection.num_radars}</span>
-                    <span><strong>Stage:</strong> ${intersection.current_stage}</span>
-                    ${coords ? `<span><strong>Coords:</strong> ${coords.lat.toFixed(5)}, ${coords.lng.toFixed(5)}</span>` : ''}
-                    ${isManuallySet ? '<span class="text-success"><strong>Position verified</strong></span>' : ''}
-                    ${hasIssues ? '<span class="text-warning"><strong>Has inconsistencies</strong></span>' : ''}
-                    ${isBlocked ? '<span class="text-danger"><strong>Blocked conduits</strong></span>' : ''}
+                    <span><strong>Lotto:</strong> ${intersection.lotto || '-'}</span>
+                    <span><strong>System:</strong> ${intersection.system || '-'}</span>
+                    <span><strong>Radars:</strong> ${intersection.num_radars || 0}</span>
                 </div>
+                <div class="popup-stages">
+                    <span class="stage-badge stage-${instStatus}">I: ${this.formatStatus(instStatus)}</span>
+                    <span class="stage-badge stage-${confStatus}">C: ${this.formatStatus(confStatus)}</span>
+                    <span class="stage-badge stage-${connStatus}">Cn: ${this.formatStatus(connStatus)}</span>
+                    <span class="stage-badge stage-${valStatus}">V: ${this.formatStatus(valStatus)}</span>
+                </div>
+                ${coords ? `<div class="popup-coords">Coords: ${coords.lat.toFixed(5)}, ${coords.lng.toFixed(5)}</div>` : ''}
+                ${isManuallySet ? '<div class="text-success">Position verified</div>' : ''}
+                ${hasIssues ? '<div class="text-warning">Has data issues</div>' : ''}
+                ${isBlocked ? '<div class="text-danger">Blocked conduits</div>' : ''}
                 <div class="popup-actions">
                     <button class="btn btn-primary btn-small" onclick="App.showIntersectionDetail('${intersection.id}')">
                         View Details
@@ -345,6 +335,19 @@ const MapManager = {
                 </div>
             </div>
         `;
+    },
+
+    /**
+     * Format status for display
+     */
+    formatStatus(status) {
+        const labels = {
+            'completed': 'OK',
+            'in_progress': 'In Prog',
+            'blocked': 'Blocked',
+            'not_started': 'N/A'
+        };
+        return labels[status] || status;
     },
 
     /**
@@ -383,37 +386,44 @@ const MapManager = {
     },
 
     /**
-     * Update the legend based on color scheme
+     * Update the legend to show status colors
      */
-    updateLegend(colorBy) {
+    updateLegend(colorByStage) {
         const legendContainer = document.getElementById('map-legend');
         if (!legendContainer) return;
 
-        let legendHTML = '';
-        const colorScheme = this.colors[colorBy];
+        const stageLabels = {
+            installation: 'Installation',
+            configuration: 'Configuration',
+            connection: 'Connection',
+            validation: 'Validation'
+        };
 
-        for (const [key, color] of Object.entries(colorScheme)) {
-            const label = key.charAt(0).toUpperCase() + key.slice(1).replace('_', ' ');
-            legendHTML += `
-                <div class="legend-item">
-                    <span class="legend-color" style="background-color: ${color}"></span>
-                    <span>${label}</span>
-                </div>
-            `;
-        }
-
-        legendHTML += `
-            <div class="legend-item" style="margin-top: 0.5rem;">
+        let legendHTML = `
+            <div class="legend-title">${stageLabels[colorByStage] || colorByStage} Status:</div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: ${this.statusColors.completed}"></span>
+                <span>Completed</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: ${this.statusColors.in_progress}"></span>
+                <span>In Progress</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: ${this.statusColors.blocked}"></span>
+                <span>Blocked</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-color" style="background-color: ${this.statusColors.not_started}"></span>
+                <span>Not Started</span>
+            </div>
+            <div class="legend-item" style="margin-top: 0.5rem; border-top: 1px solid #e2e8f0; padding-top: 0.5rem;">
                 <span class="legend-color" style="background-color: #fff; border: 3px solid #22c55e;"></span>
                 <span>Position verified</span>
             </div>
             <div class="legend-item">
                 <span class="legend-color" style="background-color: #fff; border: 3px solid #f59e0b;"></span>
-                <span>Has inconsistencies</span>
-            </div>
-            <div class="legend-item">
-                <span class="legend-color" style="background-color: #fff; border: 3px solid #ef4444;"></span>
-                <span>Blocked conduits</span>
+                <span>Has data issues</span>
             </div>
         `;
 
