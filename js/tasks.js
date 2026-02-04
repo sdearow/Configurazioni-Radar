@@ -1,12 +1,50 @@
 /**
  * Tasks Module
- * Handles task management functionality
+ * Handles task management functionality with stage/substage selection
+ * and batch task creation
  */
 
 const TasksManager = {
     currentFilter: {
         status: '',
         assignee: ''
+    },
+
+    // Batch task selection
+    batchSelectedIntersections: new Set(),
+
+    // Stage substages definition
+    substages: {
+        installation: [
+            'Planimetrie ricevute',
+            'Passaggio cavi',
+            'Planimetria scavi inviata a RSM',
+            'Installazione sensori',
+            'Cablaggio regolatore',
+            'Screenshot',
+            'Completato',
+            'Documentazione inviata',
+            'Data completamento'
+        ],
+        configuration: [
+            'Configurazione base',
+            'Configurazione Definitiva - Assegnata',
+            'Configurazione Definitiva - Da Verificare',
+            'Configurazione Definitiva - Implementata in sito'
+        ],
+        connection: [
+            'SPOT STATUS',
+            'AUT STATUS',
+            'Tabella Interfaccia UTC',
+            'Connessione UTC attiva',
+            'Verifica comunicazione'
+        ],
+        validation: [
+            'Data lake sending',
+            'Verifica dati di traffic',
+            'Interfaccia Visum/Optima',
+            'Validazione finale'
+        ]
     },
 
     assignees: [
@@ -39,28 +77,60 @@ const TasksManager = {
             addBtn.addEventListener('click', () => this.openTaskModal());
         }
 
-        // Task form save
-        const saveBtn = document.getElementById('task-save');
+        // Batch task button
+        const batchBtn = document.getElementById('batch-task-btn');
+        if (batchBtn) {
+            batchBtn.addEventListener('click', () => this.openBatchTaskModal());
+        }
+
+        // Save task button
+        const saveBtn = document.getElementById('save-task-btn');
         if (saveBtn) {
             saveBtn.addEventListener('click', () => this.saveTask());
         }
 
-        // Filter changes
-        const statusFilter = document.getElementById('task-filter-status');
-        if (statusFilter) {
-            statusFilter.addEventListener('change', (e) => {
-                this.currentFilter.status = e.target.value;
-                this.render();
+        // Save batch tasks button
+        const saveBatchBtn = document.getElementById('save-batch-tasks-btn');
+        if (saveBatchBtn) {
+            saveBatchBtn.addEventListener('click', () => this.saveBatchTasks());
+        }
+
+        // Stage selection - update substage options
+        const stageSelect = document.getElementById('task-stage');
+        if (stageSelect) {
+            stageSelect.addEventListener('change', (e) => {
+                this.updateSubstageOptions(e.target.value, 'task-substage');
             });
         }
 
-        const assigneeFilter = document.getElementById('task-filter-assignee');
-        if (assigneeFilter) {
-            assigneeFilter.addEventListener('change', (e) => {
-                this.currentFilter.assignee = e.target.value;
-                this.render();
+        // Batch stage selection
+        const batchStageSelect = document.getElementById('batch-task-stage');
+        if (batchStageSelect) {
+            batchStageSelect.addEventListener('change', (e) => {
+                this.updateSubstageOptions(e.target.value, 'batch-task-substage');
             });
         }
+
+        // Modal close buttons
+        document.querySelectorAll('.modal-close').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const modal = btn.closest('.modal');
+                if (modal) modal.classList.remove('active');
+            });
+        });
+    },
+
+    /**
+     * Update substage options based on selected stage
+     */
+    updateSubstageOptions(stage, selectId) {
+        const select = document.getElementById(selectId);
+        if (!select) return;
+
+        const substages = this.substages[stage] || [];
+
+        select.innerHTML = '<option value="">Select substage...</option>' +
+            substages.map(s => `<option value="${s}">${s}</option>`).join('');
     },
 
     /**
@@ -84,7 +154,7 @@ const TasksManager = {
         const completed = filteredTasks.filter(t => t.status === 'completed');
 
         // Render columns
-        this.renderColumn('tasks-pending', pending);
+        this.renderColumn('tasks-todo', pending);
         this.renderColumn('tasks-in-progress', inProgress);
         this.renderColumn('tasks-completed', completed);
     },
@@ -109,6 +179,23 @@ const TasksManager = {
                 this.openTaskModal(card.dataset.taskId);
             });
         });
+
+        // Status change dropdown
+        container.querySelectorAll('.task-status-select').forEach(select => {
+            select.addEventListener('click', (e) => e.stopPropagation());
+            select.addEventListener('change', (e) => {
+                const taskId = e.target.dataset.taskId;
+                this.updateTaskStatus(taskId, e.target.value);
+            });
+        });
+
+        // Delete button
+        container.querySelectorAll('.task-delete-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                this.deleteTask(btn.dataset.taskId);
+            });
+        });
     },
 
     /**
@@ -121,17 +208,30 @@ const TasksManager = {
         const intersection = task.intersection_id ?
             DataManager.getIntersection(task.intersection_id) : null;
 
-        const dueDate = task.due_date ?
-            new Date(task.due_date).toLocaleDateString('it-IT') : '';
+        const stageBadge = task.stage ?
+            `<span class="badge badge-${task.stage}">${this.capitalizeFirst(task.stage)}</span>` : '';
+
+        const substageText = task.substage ?
+            `<span class="task-substage">${task.substage}</span>` : '';
 
         return `
             <div class="task-card priority-${task.priority || 'medium'}" data-task-id="${task.id}">
-                <div class="task-title">${this.escapeHtml(task.title)}</div>
+                <div class="task-header">
+                    <div class="task-title">${this.escapeHtml(task.title)}</div>
+                    <button class="btn btn-small task-delete-btn" data-task-id="${task.id}" title="Delete">&times;</button>
+                </div>
+                ${stageBadge ? `<div class="task-stage">${stageBadge} ${substageText}</div>` : ''}
                 <div class="task-meta">
                     ${assigneeName ? `<span>${assigneeName}</span>` : ''}
-                    ${dueDate ? `<span>${dueDate}</span>` : ''}
                 </div>
-                ${intersection ? `<div class="task-meta"><span>@ ${intersection.name}</span></div>` : ''}
+                ${intersection ? `<div class="task-location">@ ${intersection.name}</div>` : ''}
+                <div class="task-actions">
+                    <select class="task-status-select" data-task-id="${task.id}">
+                        <option value="pending" ${task.status === 'pending' ? 'selected' : ''}>To Do</option>
+                        <option value="in_progress" ${task.status === 'in_progress' ? 'selected' : ''}>In Progress</option>
+                        <option value="completed" ${task.status === 'completed' ? 'selected' : ''}>Completed</option>
+                    </select>
+                </div>
             </div>
         `;
     },
@@ -142,10 +242,18 @@ const TasksManager = {
     openTaskModal(taskId = null) {
         const modal = document.getElementById('task-modal');
         const title = document.getElementById('task-modal-title');
-        const form = document.getElementById('task-form');
 
         // Populate intersection dropdown
-        this.populateIntersectionSelect();
+        this.populateIntersectionSelect('task-intersection');
+
+        // Reset form
+        document.getElementById('task-title').value = '';
+        document.getElementById('task-description').value = '';
+        document.getElementById('task-intersection').value = '';
+        document.getElementById('task-stage').value = '';
+        document.getElementById('task-substage').innerHTML = '<option value="">Select substage...</option>';
+        document.getElementById('task-priority').value = 'medium';
+        document.getElementById('task-assignee').value = '';
 
         if (taskId) {
             // Edit mode
@@ -156,48 +264,143 @@ const TasksManager = {
             document.getElementById('task-title').value = task.title || '';
             document.getElementById('task-description').value = task.description || '';
             document.getElementById('task-intersection').value = task.intersection_id || '';
-            document.getElementById('task-assignee').value = task.assignee || '';
-            document.getElementById('task-due-date').value = task.due_date || '';
+            document.getElementById('task-stage').value = task.stage || '';
+            if (task.stage) {
+                this.updateSubstageOptions(task.stage, 'task-substage');
+                document.getElementById('task-substage').value = task.substage || '';
+            }
             document.getElementById('task-priority').value = task.priority || 'medium';
+            document.getElementById('task-assignee').value = task.assignee || '';
 
-            form.dataset.taskId = taskId;
+            modal.dataset.taskId = taskId;
         } else {
             // Create mode
             title.textContent = 'Add Task';
-            form.reset();
-            delete form.dataset.taskId;
+            delete modal.dataset.taskId;
         }
 
         modal.classList.add('active');
     },
 
     /**
+     * Open batch task modal
+     */
+    openBatchTaskModal() {
+        const modal = document.getElementById('batch-task-modal');
+        if (!modal) return;
+
+        // Clear selections
+        this.batchSelectedIntersections.clear();
+
+        // Populate intersection list
+        this.populateBatchIntersectionList();
+
+        // Reset form fields
+        document.getElementById('batch-task-stage').value = '';
+        document.getElementById('batch-task-title').value = '';
+        document.getElementById('batch-task-description').value = '';
+        document.getElementById('batch-task-assignee').value = '';
+
+        // Update count
+        this.updateBatchSelectedCount();
+
+        modal.classList.add('active');
+    },
+
+    /**
+     * Populate batch intersection list
+     */
+    populateBatchIntersectionList() {
+        const container = document.getElementById('batch-intersection-list');
+        if (!container) return;
+
+        const intersections = DataManager.getIntersections();
+
+        container.innerHTML = intersections.map(i => `
+            <label class="batch-intersection-item">
+                <input type="checkbox" value="${i.id}" class="batch-intersection-checkbox">
+                <span class="batch-intersection-info">
+                    <strong>${i.id}</strong> - ${i.name || 'Unknown'}
+                    <span class="batch-intersection-meta">${i.lotto || ''} | ${i.system || ''}</span>
+                </span>
+            </label>
+        `).join('');
+
+        // Bind checkbox events
+        container.querySelectorAll('.batch-intersection-checkbox').forEach(checkbox => {
+            checkbox.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    this.batchSelectedIntersections.add(e.target.value);
+                } else {
+                    this.batchSelectedIntersections.delete(e.target.value);
+                }
+                this.updateBatchSelectedCount();
+            });
+        });
+    },
+
+    /**
+     * Select all batch intersections
+     */
+    selectAllBatch() {
+        const checkboxes = document.querySelectorAll('.batch-intersection-checkbox');
+        checkboxes.forEach(cb => {
+            cb.checked = true;
+            this.batchSelectedIntersections.add(cb.value);
+        });
+        this.updateBatchSelectedCount();
+    },
+
+    /**
+     * Select none batch intersections
+     */
+    selectNoneBatch() {
+        const checkboxes = document.querySelectorAll('.batch-intersection-checkbox');
+        checkboxes.forEach(cb => {
+            cb.checked = false;
+        });
+        this.batchSelectedIntersections.clear();
+        this.updateBatchSelectedCount();
+    },
+
+    /**
+     * Update batch selected count
+     */
+    updateBatchSelectedCount() {
+        const countEl = document.getElementById('batch-selected-count');
+        if (countEl) {
+            countEl.textContent = this.batchSelectedIntersections.size;
+        }
+    },
+
+    /**
      * Populate intersection select dropdown
      */
-    populateIntersectionSelect() {
-        const select = document.getElementById('task-intersection');
+    populateIntersectionSelect(selectId) {
+        const select = document.getElementById(selectId);
         if (!select) return;
 
         const intersections = DataManager.getIntersections();
 
         select.innerHTML = '<option value="">None</option>' +
-            intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name}</option>`).join('');
+            intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name || 'Unknown'}</option>`).join('');
     },
 
     /**
      * Save task (create or update)
      */
     saveTask() {
-        const form = document.getElementById('task-form');
-        const taskId = form.dataset.taskId;
+        const modal = document.getElementById('task-modal');
+        const taskId = modal.dataset.taskId;
 
         const taskData = {
             title: document.getElementById('task-title').value,
             description: document.getElementById('task-description').value,
             intersection_id: document.getElementById('task-intersection').value || null,
-            assignee: document.getElementById('task-assignee').value || null,
-            due_date: document.getElementById('task-due-date').value || null,
-            priority: document.getElementById('task-priority').value
+            stage: document.getElementById('task-stage').value || null,
+            substage: document.getElementById('task-substage').value || null,
+            priority: document.getElementById('task-priority').value,
+            assignee: document.getElementById('task-assignee').value || null
         };
 
         if (!taskData.title) {
@@ -214,8 +417,47 @@ const TasksManager = {
         }
 
         // Close modal and refresh
-        document.getElementById('task-modal').classList.remove('active');
+        modal.classList.remove('active');
         this.render();
+    },
+
+    /**
+     * Save batch tasks
+     */
+    saveBatchTasks() {
+        const title = document.getElementById('batch-task-title').value;
+        const description = document.getElementById('batch-task-description').value;
+        const stage = document.getElementById('batch-task-stage').value || null;
+        const assignee = document.getElementById('batch-task-assignee').value || null;
+
+        if (!title) {
+            alert('Title is required');
+            return;
+        }
+
+        if (this.batchSelectedIntersections.size === 0) {
+            alert('Please select at least one intersection');
+            return;
+        }
+
+        // Create a task for each selected intersection
+        this.batchSelectedIntersections.forEach(intersectionId => {
+            DataManager.addTask({
+                title: title,
+                description: description,
+                intersection_id: intersectionId,
+                stage: stage,
+                assignee: assignee,
+                priority: 'medium',
+                status: 'pending'
+            });
+        });
+
+        // Close modal and refresh
+        document.getElementById('batch-task-modal').classList.remove('active');
+        this.render();
+
+        alert(`Created ${this.batchSelectedIntersections.size} tasks successfully!`);
     },
 
     /**
@@ -239,15 +481,25 @@ const TasksManager = {
     /**
      * Create task from intersection (quick add)
      */
-    createTaskForIntersection(intersectionId, defaultTitle = '') {
+    createTaskForIntersection(intersectionId, defaultTitle = '', stage = null) {
         const intersection = DataManager.getIntersection(intersectionId);
         if (!intersection) return;
 
         // Pre-fill form
+        this.openTaskModal();
         document.getElementById('task-title').value = defaultTitle || `Work on ${intersection.name}`;
         document.getElementById('task-intersection').value = intersectionId;
+        if (stage) {
+            document.getElementById('task-stage').value = stage;
+            this.updateSubstageOptions(stage, 'task-substage');
+        }
+    },
 
-        this.openTaskModal();
+    /**
+     * Capitalize first letter
+     */
+    capitalizeFirst(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
     },
 
     /**

@@ -106,80 +106,86 @@
 
         <!-- Progress Dashboard -->
         <section id="dashboard-tab" class="tab-content">
-            <div class="dashboard-grid">
+            <div class="dashboard-grid compact">
                 <!-- Overall Progress Card -->
                 <div class="dashboard-card">
                     <h3>Overall Progress</h3>
                     <div class="overall-progress">
                         <div class="progress-circle-container">
-                            <div class="progress-circle" id="overall-progress-circle">
-                                <span class="progress-percent">0%</span>
+                            <svg class="progress-svg" viewBox="0 0 100 100">
+                                <circle class="progress-bg" cx="50" cy="50" r="45" />
+                                <circle class="progress-ring" id="overall-progress-circle" cx="50" cy="50" r="45" />
+                            </svg>
+                            <div class="progress-center">
+                                <span class="progress-percent" id="overall-progress-pct">0%</span>
+                                <span class="progress-count" id="overall-progress-count">0 / 0</span>
                             </div>
-                            <span class="progress-label">Fully Working</span>
                         </div>
+                        <span class="progress-label">Fully Working</span>
                     </div>
                 </div>
 
                 <!-- Stage Progress Cards -->
-                <div class="dashboard-card">
+                <div class="dashboard-card stage-progress-card">
                     <h3>Stage Progress</h3>
+                    <div class="progress-legend">
+                        <span class="legend-item"><span class="dot completed"></span> Completed</span>
+                        <span class="legend-item"><span class="dot in-progress"></span> In Progress</span>
+                        <span class="legend-item"><span class="dot blocked"></span> Blocked</span>
+                        <span class="legend-item"><span class="dot not-started"></span> Not Started</span>
+                    </div>
                     <div class="stage-progress-bars">
                         <div class="stage-progress-item">
                             <div class="stage-header">
                                 <span class="stage-name">Installation</span>
-                                <span class="stage-count" id="installation-count">0/0</span>
+                                <span class="stage-counts" id="progress-installation-value"></span>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill installation" id="installation-progress"></div>
-                            </div>
-                            <div class="stage-breakdown" id="installation-breakdown"></div>
+                            <div class="progress-bar segmented" id="progress-installation"></div>
                         </div>
                         <div class="stage-progress-item">
                             <div class="stage-header">
                                 <span class="stage-name">Configuration</span>
-                                <span class="stage-count" id="configuration-count">0/0</span>
+                                <span class="stage-counts" id="progress-configuration-value"></span>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill configuration" id="configuration-progress"></div>
-                            </div>
-                            <div class="stage-breakdown" id="configuration-breakdown"></div>
+                            <div class="progress-bar segmented" id="progress-configuration"></div>
                         </div>
                         <div class="stage-progress-item">
                             <div class="stage-header">
                                 <span class="stage-name">Connection</span>
-                                <span class="stage-count" id="connection-count">0/0</span>
+                                <span class="stage-counts" id="progress-connection-value"></span>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill connection" id="connection-progress"></div>
-                            </div>
-                            <div class="stage-breakdown" id="connection-breakdown"></div>
+                            <div class="progress-bar segmented" id="progress-connection"></div>
                         </div>
                         <div class="stage-progress-item">
                             <div class="stage-header">
                                 <span class="stage-name">Validation</span>
-                                <span class="stage-count" id="validation-count">0/0</span>
+                                <span class="stage-counts" id="progress-validation-value"></span>
                             </div>
-                            <div class="progress-bar">
-                                <div class="progress-fill validation" id="validation-progress"></div>
-                            </div>
-                            <div class="stage-breakdown" id="validation-breakdown"></div>
+                            <div class="progress-bar segmented" id="progress-validation"></div>
                         </div>
                     </div>
                 </div>
 
-                <!-- By Lotto Chart -->
-                <div class="dashboard-card">
+                <!-- Charts Row -->
+                <div class="dashboard-card chart-card">
                     <h3>By Lotto</h3>
                     <div class="chart-container compact">
-                        <canvas id="lotto-chart"></canvas>
+                        <canvas id="chart-lotto"></canvas>
                     </div>
                 </div>
 
-                <!-- By System Chart -->
-                <div class="dashboard-card">
+                <div class="dashboard-card chart-card">
                     <h3>By System</h3>
                     <div class="chart-container compact">
-                        <canvas id="system-chart"></canvas>
+                        <canvas id="chart-system"></canvas>
+                    </div>
+                </div>
+
+                <!-- Stage Status Chart -->
+                <div class="dashboard-card full-width">
+                    <h3>Stage Status Breakdown</h3>
+                    <div class="chart-container wide">
+                        <canvas id="chart-stage-status"></canvas>
                     </div>
                 </div>
 
