@@ -68,10 +68,15 @@ const ChartsManager = {
             not_started: 0
         };
 
-        const statusField = `${stageName}_status`;
-
         intersections.forEach(i => {
-            const status = i[statusField] || 'not_started';
+            // Support both nested format (i.installation.status) and flat format (i.installation_status)
+            let status = 'not_started';
+            if (i[stageName] && i[stageName].status) {
+                status = i[stageName].status;
+            } else if (i[`${stageName}_status`]) {
+                status = i[`${stageName}_status`];
+            }
+
             if (counts.hasOwnProperty(status)) {
                 counts[status]++;
             } else {
@@ -129,12 +134,18 @@ const ChartsManager = {
         const total = intersections.length;
         if (total === 0) return;
 
+        // Helper to get status (supports both nested and flat formats)
+        const getStatus = (i, stage) => {
+            if (i[stage] && i[stage].status) return i[stage].status;
+            return i[`${stage}_status`] || 'not_started';
+        };
+
         // Count fully working intersections (all 4 stages completed)
         const fullyWorking = intersections.filter(i =>
-            i.installation_status === 'completed' &&
-            i.configuration_status === 'completed' &&
-            i.connection_status === 'completed' &&
-            i.validation_status === 'completed'
+            getStatus(i, 'installation') === 'completed' &&
+            getStatus(i, 'configuration') === 'completed' &&
+            getStatus(i, 'connection') === 'completed' &&
+            getStatus(i, 'validation') === 'completed'
         ).length;
 
         const percentage = Math.round((fullyWorking / total) * 100);
