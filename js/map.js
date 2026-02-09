@@ -103,6 +103,8 @@ const MapManager = {
         };
     },
 
+    searchMarker: null,  // Temporary marker for search results
+
     /**
      * Initialize the map
      */
@@ -116,7 +118,144 @@ const MapManager = {
         this.markerLayer = L.layerGroup().addTo(this.map);
         this.updateLegend('installation');
 
+        // Bind search events
+        this.bindSearchEvents();
+
         return this;
+    },
+
+    /**
+     * Bind search input events
+     */
+    bindSearchEvents() {
+        const searchInput = document.getElementById('location-search-input');
+        const searchBtn = document.getElementById('location-search-btn');
+
+        if (searchBtn) {
+            searchBtn.addEventListener('click', () => this.performSearch());
+        }
+
+        if (searchInput) {
+            searchInput.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    this.performSearch();
+                }
+            });
+        }
+    },
+
+    /**
+     * Perform location search using Nominatim
+     */
+    async performSearch() {
+        const input = document.getElementById('location-search-input');
+        const resultsContainer = document.getElementById('location-search-results');
+
+        if (!input || !resultsContainer) return;
+
+        const query = input.value.trim();
+        if (!query) return;
+
+        // Add Roma, Italia to improve results
+        const searchQuery = query.includes('Roma') ? query : `${query}, Roma, Italia`;
+
+        resultsContainer.innerHTML = '<div class="search-loading">Searching...</div>';
+
+        try {
+            const response = await fetch(
+                `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(searchQuery)}&limit=5&countrycodes=it`,
+                {
+                    headers: {
+                        'Accept': 'application/json',
+                        'User-Agent': 'RadarProjectManagement/1.0'
+                    }
+                }
+            );
+
+            const results = await response.json();
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = '<div class="search-no-results">No results found. Try a different search.</div>';
+                return;
+            }
+
+            resultsContainer.innerHTML = results.map((r, idx) => `
+                <div class="search-result-item" data-lat="${r.lat}" data-lng="${r.lon}">
+                    <strong>${r.display_name.split(',')[0]}</strong>
+                    <small>${r.display_name.split(',').slice(1, 3).join(',')}</small>
+                </div>
+            `).join('');
+
+            // Bind click events to results
+            resultsContainer.querySelectorAll('.search-result-item').forEach(item => {
+                item.addEventListener('click', () => {
+                    const lat = parseFloat(item.dataset.lat);
+                    const lng = parseFloat(item.dataset.lng);
+                    this.jumpToLocation(lat, lng);
+                });
+            });
+
+        } catch (error) {
+            console.error('Search error:', error);
+            resultsContainer.innerHTML = '<div class="search-error">Search failed. Please try again.</div>';
+        }
+    },
+
+    /**
+     * Jump to a location and show a temporary marker
+     */
+    jumpToLocation(lat, lng) {
+        // Remove previous search marker
+        if (this.searchMarker) {
+            this.map.removeLayer(this.searchMarker);
+        }
+
+        // Zoom to location
+        this.map.setView([lat, lng], 17);
+
+        // Add temporary marker
+        this.searchMarker = L.marker([lat, lng], {
+            icon: L.divIcon({
+                className: 'search-marker',
+                html: `<div style="
+                    width: 30px;
+                    height: 30px;
+                    background-color: #ef4444;
+                    border: 3px solid white;
+                    border-radius: 50%;
+                    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                ">?</div>`,
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            })
+        }).addTo(this.map);
+
+        this.searchMarker.bindPopup(`
+            <div class="search-popup">
+                <strong>Search Result</strong><br>
+                <small>Lat: ${lat.toFixed(5)}, Lng: ${lng.toFixed(5)}</small><br>
+                <button class="btn btn-small btn-primary" onclick="MapManager.copyCoordinates(${lat}, ${lng})">Copy Coordinates</button>
+            </div>
+        `).openPopup();
+
+        this.showNotification(`Jumped to ${lat.toFixed(5)}, ${lng.toFixed(5)}`, 'info');
+    },
+
+    /**
+     * Copy coordinates to clipboard
+     */
+    copyCoordinates(lat, lng) {
+        const text = `${lat}, ${lng}`;
+        navigator.clipboard.writeText(text).then(() => {
+            this.showNotification('Coordinates copied to clipboard', 'success');
+        }).catch(() => {
+            this.showNotification('Failed to copy coordinates', 'error');
+        });
     },
 
     /**
@@ -138,6 +277,12 @@ const MapManager = {
             editInfo.style.display = this.editMode ? 'block' : 'none';
         }
 
+        // Show/hide search panel
+        const searchPanel = document.getElementById('location-search-panel');
+        if (searchPanel) {
+            searchPanel.style.display = this.editMode ? 'block' : 'none';
+        }
+
         // Reset pending counter when entering edit mode
         if (this.editMode) {
             const pendingCount = document.getElementById('pending-changes-count');
@@ -146,9 +291,21 @@ const MapManager = {
             }
         }
 
-        // If exiting edit mode, save changes
-        if (!this.editMode && Object.keys(this.pendingChanges).length > 0) {
-            this.savePositionChanges();
+        // If exiting edit mode, save changes and remove search marker
+        if (!this.editMode) {
+            if (Object.keys(this.pendingChanges).length > 0) {
+                this.savePositionChanges();
+            }
+            // Remove search marker
+            if (this.searchMarker) {
+                this.map.removeLayer(this.searchMarker);
+                this.searchMarker = null;
+            }
+            // Clear search results
+            const resultsContainer = document.getElementById('location-search-results');
+            if (resultsContainer) {
+                resultsContainer.innerHTML = '';
+            }
         }
 
         // Re-render markers with draggable state
@@ -157,7 +314,7 @@ const MapManager = {
 
         // Show notification
         if (this.editMode) {
-            this.showNotification('Edit mode enabled. Drag markers to correct positions.', 'info');
+            this.showNotification('Edit mode enabled. Drag markers to correct positions. Use Search to find locations.', 'info');
         }
     },
 
