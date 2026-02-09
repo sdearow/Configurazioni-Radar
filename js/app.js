@@ -290,13 +290,14 @@ const App = {
         if (!tbody) return;
 
         tbody.innerHTML = intersections.map(i => {
-            const instStatus = i.installation?.status || 'not_started';
-            const confStatus = i.configuration?.status || 'not_started';
-            const connStatus = i.connection?.status || 'not_started';
-            const valStatus = i.validation?.status || 'not_started';
+            // Support both nested format and flat format
+            const instStatus = (i.installation?.status) || i.installation_status || 'not_started';
+            const confStatus = (i.configuration?.status) || i.configuration_status || 'not_started';
+            const connStatus = (i.connection?.status) || i.connection_status || 'not_started';
+            const valStatus = (i.validation?.status) || i.validation_status || 'not_started';
 
             const issueCount = i.inconsistencies?.length || 0;
-            const isBlocked = i.installation?.blocked_conduits;
+            const isBlocked = i.installation?.blocked_conduits || i.blocked_conduits;
 
             return `
                 <tr>

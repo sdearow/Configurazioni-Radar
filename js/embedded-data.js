@@ -1,10 +1,7761 @@
 /**
- * Embedded Data - Full substage data model
- * Generated: 2026-02-04 09:08:20
- * Total intersections: 298
+ * Embedded Data - Generated from intersection status analysis
+ * Generated: 2026-02-09 14:47:18
+ * Total intersections: 220
  */
 
 const EMBEDDED_DATA = {
-    intersections: [{"id": "01004", "name": "210-Colombo/Porta Ardeatina", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01031", "name": "127-Piazza della Rovere", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01048", "name": "209-Caracalla/Colombo/Druso", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01052", "name": "208-Porta Metronia", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01055", "name": "128-L.re Sangallo/Ponte PASA", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01073", "name": "134-Ponte Umberto I/Zanardelli", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "01077", "name": "129-L.re Fiorentini/Ponte V.E. II", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02027", "name": "153-Parioli/Boccioni", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02031", "name": "152-Piazza Pitagora/Stoppani", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02033", "name": "151-Rossini/Paisiello", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02035", "name": "135-Ponte Regina Margherita/L.re in Augusta", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02052", "name": "148-Regina Margherita/Salaria/Liegi", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02059", "name": "149-Parioli/Stoppani", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "02198", "name": "136-Piazzale Flaminio/G.B. Vico", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "03008", "name": "154-Regina Margherita/Nomentana", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "03015", "name": "157-Regina Margherita/UniversitÃ", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "03017", "name": "156-Regina Margherita/Morgagni", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "03019", "name": "158-Regina Elena/Verano", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "03027", "name": "159-Verano/De Lollis", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "04027", "name": "163-Nomentana/Graf/Kant", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05002", "name": "164-Tiburtina/Portonaccio", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da aggiornare"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05003", "name": "176-Tiburtina/Galla Placidia/Durantini", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da SOSTITUIRE - troppo vecchia"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05004", "name": "175-Tiburtina/Casal Bruciato", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da aggiornare, AUT con versione recente pertanto bisognerebbe preparare solo la configurazione"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05009", "name": "178-Tiburtina/Monti Tiburtini dir. Portonaccio", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05010", "name": "179-Tiburtina/S.M. Soccorso", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05012", "name": "174-Tiburtina/Ottoboni", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da SOSTITUIRE - troppo vecchia"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "05070", "name": "177-Tiburtina/Monti Tiburtini dir. Rebibbia", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "AUT da SOSTITUIRE - troppo vecchia"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "08009", "name": "192-Casilina/Torre Spaccata/Tor Tre Teste", "lotto": "M9.2", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10002.0", "name": "293-Tuscolana/Capannelle", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-18 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10006.0", "name": "295-Tuscolana/Giulio Agricola", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-29 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 350.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10007.0", "name": "443-Appia Pignatelli/Erode Attico", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-10 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10008.0", "name": "296-Tuscolana/Lucio Sestio", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-03 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 230.0, "to_excavate": null, "radars_no_cables": "2 P/S tuscolana angolo l.sestio", "radars_no_connection": 2, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1001.0", "name": "250-Trastevere/Induno", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-30 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B023", "ip": null, "position": null, "status": "installed"}, {"id": "3B0FA", "ip": null, "position": null, "status": "installed"}, {"id": "3B0F6", "ip": null, "position": null, "status": "installed"}, {"id": "3B00D", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10010.0", "name": "298-Tuscolana/Buon Consiglio", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-02 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 210.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-04 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10012.0", "name": "299-Tuscolana/Metro Porta Furba", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-03 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 215.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2024-01-04 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10013.0", "name": "297-Tuscolana/Quadraro", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-03 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 250.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": 4, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10014.0", "name": "304-Appia Nuova/Quarto Miglio", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-02 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-06 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10017.0", "name": "305-Appia Nuova/Quadraro", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-02 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-01 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10019.0", "name": "300-Appia/Capannellle", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 6, "installation": {"planimetry_sent": "SI", "devices_installed": 6, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-02 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 220.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 6.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-06 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-02 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 6, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10022.0", "name": "303-Appia Nuova/Appia Pignatelli", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10026.0", "name": "294-Tuscolana/Pulvillo/Labieno", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-29 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 225.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": "4 manca configurazione", "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1003.0", "name": "449-Largo del Tritone", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1004.0", "name": "210-Colombo/Porta Ardeatina", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-22 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3AECC", "ip": null, "position": null, "status": "installed"}, {"id": "3AFFE", "ip": null, "position": null, "status": "installed"}, {"id": "3AFAA", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10054.0", "name": "242-Appia Pignatelli/S.Tarcisio", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2024-04-16 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "2024-04-15 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2024-04-03 00:00:00"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "10099.0", "name": "428-Tuscolana/Occorsio", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-26 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-02 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1017.0", "name": "Aventino/Circo Massimo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1020.0", "name": "276-Greca/Bocca della Verità", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "no", "completed": "no", "documentation_sent": "ok", "completion_date": "2023-07-10 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3FOFO", "ip": null, "position": null, "status": "installed"}, {"id": "3FOE3", "ip": null, "position": null, "status": "installed"}, {"id": "3FOFF", "ip": null, "position": null, "status": "installed"}, {"id": "3FOEE", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1023.0", "name": "441-Cernaia/Volturno", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-11 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B262", "ip": null, "position": null, "status": "installed"}, {"id": "3AEC9", "ip": null, "position": null, "status": "installed"}, {"id": "3AEFB", "ip": null, "position": null, "status": "installed"}, {"id": "3B138", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 3, "lotto_value": 4, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1024.0", "name": "442-Cernaia/Goito", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-11 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3BOB9", "ip": null, "position": null, "status": "installed"}, {"id": "3BOF2", "ip": null, "position": null, "status": "installed"}, {"id": "3BOBF", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 3, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1031.0", "name": "127-Piazza della Rovere", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "daINVIARE", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC1A", "ip": null, "position": null, "status": "installed"}, {"id": "3DD07", "ip": null, "position": null, "status": "installed"}, {"id": "3DC1B", "ip": null, "position": null, "status": "installed"}, {"id": "3DC21", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1038.0", "name": "Ponte Garibaldi/Trastevere", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1041.0", "name": "Ponte Mazzini/Lungara/L.re Farnesina", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1042.0", "name": "Ponte Mazzini/L.re Tebaldi/L.re San Gallo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1044.0", "name": "448-Manzoni/Conte Verde", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1047.0", "name": "Galvani/Marmorata/Gelsomini", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1048.0", "name": "209-Caracalla/Colombo/Druso", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-08-28 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3F152", "ip": null, "position": null, "status": "installed"}, {"id": "3F150", "ip": null, "position": null, "status": "installed"}, {"id": "3F14E", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 3, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1050.0", "name": "Piazzale Ostiense", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1051.0", "name": "267-Porta Capena", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B01D", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 1, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 1, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1052.0", "name": "208-Porta Metronia", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3F156", "ip": null, "position": null, "status": "installed"}, {"id": "3F153", "ip": null, "position": null, "status": "installed"}, {"id": "3F14D", "ip": null, "position": null, "status": "installed"}, {"id": "3F14F", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1053.0", "name": "252-Portuense/Porta Portese", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-01-31 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "da prendere", "ip": "da prendere", "position": null, "status": "installed"}, {"id": "da prendere", "ip": "da prendere", "position": null, "status": "installed"}, {"id": "da prendere", "ip": "da prendere", "position": null, "status": "installed"}, {"id": "da prendere", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1054.0", "name": "206-Porta S.Giovanni/E.Filiberto", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-02 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0EE", "ip": null, "position": null, "status": "installed"}, {"id": 36717, "ip": null, "position": null, "status": "installed"}, {"id": "3B026", "ip": null, "position": null, "status": "installed"}, {"id": 36704, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1055.0", "name": "128-L.re Sangallo/Ponte PASA", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-07-16 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3EFDE", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFD7", "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1058.0", "name": "430-Piazza S.Croce Gerusalemme", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-10 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36793, "ip": null, "position": null, "status": "installed"}, {"id": "3665C", "ip": null, "position": null, "status": "installed"}, {"id": 36630, "ip": null, "position": null, "status": "installed"}, {"id": "3663C", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 3, "lotto_value": 4, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1059.0", "name": "431-Piazza S.Croce Gerusalemme/Sessoriana", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-10 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36632, "ip": null, "position": null, "status": "installed"}, {"id": "3AEB4", "ip": null, "position": null, "status": "installed"}, {"id": 36633, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 3, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1062.0", "name": "207-S.Giovanni Laterano/Merulana", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2025-05-17 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0F7", "ip": "192.168.1.3", "position": null, "status": "installed"}, {"id": "3B0CE", "ip": "192.168.1.4", "position": null, "status": "installed"}, {"id": "3B043", "ip": "192.168.1.5", "position": null, "status": "installed"}, {"id": "3B020", "ip": "192.168.1.6", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1070.0", "name": "251-Trastevere/Glorioso", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 3.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (2/3) su altre paline", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-25 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0F5", "ip": null, "position": null, "status": "installed"}, {"id": "3B021", "ip": null, "position": null, "status": "installed"}, {"id": "3B0F8", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1073.0", "name": "134-Ponte Umberto I/Zanardelli", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-08 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DAE8", "ip": null, "position": null, "status": "installed"}, {"id": "3DAEC", "ip": null, "position": null, "status": "installed"}, {"id": "3DAF1", "ip": null, "position": null, "status": "installed"}, {"id": "3DAEA", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1077.0", "name": "129-L.re Fiorentini/Ponte V.E. II", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale ripassare", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-07 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC20", "ip": null, "position": null, "status": "installed"}, {"id": "3DC1F", "ip": null, "position": null, "status": "installed"}, {"id": "3DC22", "ip": null, "position": null, "status": "installed"}, {"id": "3DB02", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1093.0", "name": "447-Piazza Indipendenza/S.Martino della Battaglia", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-14 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1096.0", "name": "Ponte Sublicio", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11002", "name": "212-Colombo/Laurentina", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11002.0", "name": "212-Colombo/Laurentina", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 5.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "RISTRUTTURATO 01/2026", "planimetry_sent_rsm": "ok", "sensor_installation": 5, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-23 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": "VERIFICARE SE RADAR COLLEGATI DOPO RISTRUTT.", "radars": [{"id": "3DCDB", "ip": null, "position": null, "status": "installed"}, {"id": "3DCDA", "ip": null, "position": null, "status": "installed"}, {"id": "3DCD9", "ip": null, "position": null, "status": "installed"}, {"id": "3DCEO", "ip": null, "position": null, "status": "installed"}, {"id": "3DCBD", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 5, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11005", "name": "211-Colombo/Navigatori", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11005.0", "name": "211-Colombo/Navigatori", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-08-07 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3F158", "ip": null, "position": null, "status": "installed"}, {"id": "3F15A", "ip": null, "position": null, "status": "installed"}, {"id": "3F157", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11006", "name": "214-Colombo/Genocchi", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11006.0", "name": "214-Colombo/Genocchi", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 5.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (3/5) su altro sbraccio o paline o su altro IS", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 5, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-20 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": "VERIFICA CON LOTTO1 QUALI COLLEGATI", "radars": [{"id": "3B185", "ip": null, "position": null, "status": "installed"}, {"id": "3B1ED", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F5", "ip": null, "position": null, "status": "installed"}, {"id": "3B1EF", "ip": null, "position": null, "status": "installed"}, {"id": "3AFA3", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 5, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11009", "name": "215-Colombo/Agiati", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11009.0", "name": "215-Colombo/Agiati", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (1/4) su altro sbraccio", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-19 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "36BE4", "ip": null, "position": null, "status": "installed"}, {"id": "3B18F", "ip": null, "position": null, "status": "installed"}, {"id": "3B19C", "ip": null, "position": null, "status": "installed"}, {"id": "3B188", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11010", "name": "216-Colombo/Leonori", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11010.0", "name": "216-Colombo/Leonori", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "?!?!?!?", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-14 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3B1EC", "ip": null, "position": null, "status": "installed"}, {"id": "3B1FA", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F4", "ip": null, "position": null, "status": "installed"}, {"id": "3B1EE", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11012.0", "name": "244-Marconi/Edison", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-09 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F095", "ip": null, "position": null, "status": "installed"}, {"id": "3DAED", "ip": null, "position": null, "status": "installed"}, {"id": "3F097", "ip": null, "position": null, "status": "installed"}, {"id": "3FDAEE", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11013.0", "name": "Marconi/Pincherle", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11014.0", "name": "269-Ostiense/Porto Fluviale/Matteucci", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-12-12 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 0.0, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-13 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-19 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11015.0", "name": "271-Ostiense/S.Paolo/Rocco", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-12-19 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": "1 via ostiense direz piramide", "radars_no_connection": 2, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-18 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-19 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11019.0", "name": "246-Marconi/Bortolotti", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 7, "installation": {"planimetry_sent": "SI", "devices_installed": 7, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 7, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-09 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3DAE9", "ip": null, "position": null, "status": "installed"}, {"id": "3DCD7", "ip": null, "position": null, "status": "installed"}, {"id": "3DB01", "ip": null, "position": null, "status": "installed"}, {"id": "3DCE1", "ip": null, "position": null, "status": "installed"}, {"id": "3DAEF", "ip": null, "position": null, "status": "installed"}, {"id": "3DB03", "ip": null, "position": null, "status": "installed"}, {"id": "3DAFO", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 7, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11021.0", "name": "221-Grotta Perfetta/Ambrosini", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-11 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11026", "name": "229-Laurentina/Ardigò", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11026.0", "name": "229-Laurentina/Ardigò", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": 1.0, "blocked_conduits": false, "blocked_solution": "Spostamento radar (1/3) su altro sbraccio", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "parziale", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-19 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC4A", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFC2", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3D4CB", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11037.0", "name": "270-Ostiense/Spizzichina", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-12-19 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-19 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1104.0", "name": "446-Largo Brancaccio", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3678D", "ip": null, "position": null, "status": "installed"}, {"id": "36AE6", "ip": null, "position": null, "status": "installed"}, {"id": 36765, "ip": null, "position": null, "status": "installed"}, {"id": "36AF6", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11040.0", "name": "245-Marconi/Temistocle Calzecchi Onesti", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11049.0", "name": "222-Grotta Perfetta/Calderon de la Barca", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-11 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11059.0", "name": "225-Sette Chiese/Bompiani", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-11 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 2, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "11092.0", "name": "224-Ardeatina/Fotografia", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-21 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 86.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-30 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-06-13 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1117.0", "name": "456-Piazza Porta Maggiore", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-17 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1130.0", "name": "Ponte Garibaldi/Arenula", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1138.0", "name": "272-Marco Polo/Beccari", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1144.0", "name": "Manzoni - Conte verde", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-14 00:00:00", "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "completed"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1153.0", "name": "278-Largo Vittime del Terrorismo/Caracalla", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3F155", "ip": null, "position": null, "status": "installed"}, {"id": "3F0B8", "ip": null, "position": null, "status": "installed"}, {"id": "3F154", "ip": null, "position": null, "status": "installed"}, {"id": "3F14C", "ip": null, "position": null, "status": "installed"}, {"id": "3F159", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 5, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12001", "name": "213-Colombo/CiviltÃ  del Lavoro", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12001.0", "name": "213-Colombo/CiviltÃ  del Lavoro", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su paline", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-15 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3AE9F", "ip": null, "position": null, "status": "installed"}, {"id": "3B007", "ip": null, "position": null, "status": "installed"}, {"id": "3AEBC", "ip": null, "position": null, "status": "installed"}, {"id": "3AFF6", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12002", "name": "217-Colombo/Europa", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12002.0", "name": "217-Colombo/Europa", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": "Spostamento radar non collegati su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": null, "documentation_sent": "ok", "completion_date": "2025-02-07 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3DC4E", "ip": "192.168.1.2", "position": null, "status": "installed"}, {"id": "3DC46", "ip": "192.168.1.3", "position": null, "status": "installed"}, {"id": "3DC49", "ip": null, "position": null, "status": "installed"}, {"id": "3DC48", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12005", "name": "227-Laurentina/Vigna Murata", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12005.0", "name": "227-Laurentina/Vigna Murata", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "?!?!?!?", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-19 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3B1F2", "ip": null, "position": null, "status": "installed"}, {"id": "3B191", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F6", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F0", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12010", "name": "228-Laurentina/Serafico", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12010.0", "name": "228-Laurentina/Serafico", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 3.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (1/3) su altro sbraccio", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-15 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3B1F1", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F9", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F7", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12020", "name": "226-Laurentina/Umanesimo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12020.0", "name": "226-Laurentina/Umanesimo", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-14 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3B190", "ip": null, "position": null, "status": "installed"}, {"id": "3B184", "ip": null, "position": null, "status": "installed"}, {"id": "3B1F3", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12028.0", "name": "P.le Umanesimo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12030", "name": "231-Laurentina/Acqua Acetosa Ostiense", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12030.0", "name": "231-Laurentina/Acqua Acetosa Ostiense", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": "Spostamento radar (2/4) su altre paline", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "parziale", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-19 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC44", "ip": null, "position": null, "status": "installed"}, {"id": "3EFBF", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3EFB7", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3EFB8", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12039.0", "name": "Viale Camillo Sabatini", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12044.0", "name": "248-Marconi/Metro", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2024-04-17 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "36BEC", "ip": "192.168.1.3", "position": "A dir. GRA", "status": "installed"}, {"id": "36BE3", "ip": "192.168.1.4", "position": "A dir. Centro", "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12047", "name": "230-Laurentina/Silone", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12047.0", "name": "230-Laurentina/Silone", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-18 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3EFC1", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFCO", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3EFBE", "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12055", "name": "220-Colombo/Oceani", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12055.0", "name": "220-Colombo/Oceani", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 6, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 6.0, "blocked_conduits": true, "blocked_solution": "DA RISTRUTTURARE IIN OFFERTA TECNICA / PROGETTO BLACKPOINTS", "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": "ok", "sensor_installation": 6, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3DCDF", "ip": null, "position": null, "status": "installed"}, {"id": "3DC4D", "ip": null, "position": null, "status": "installed"}, {"id": "3DCD8", "ip": null, "position": null, "status": "installed"}, {"id": "3DC43", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 6, "lotto_value": 4, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12060", "name": "218-Colombo/Umanesimo dir. GRA", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12060.0", "name": "218-Colombo/Umanesimo dir. GRA", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "parziale", "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3DC4F", "ip": null, "position": null, "status": "installed"}, {"id": "3EFBB", "ip": "192.168.11.3", "position": null, "status": "installed"}, {"id": "3EFB9", "ip": "192.168.11.4", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12062", "name": "219-Colombo/Umanesimo dir. Centro", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12062.0", "name": "219-Colombo/Umanesimo dir. Centro", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (2/3) su altre paline", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": null, "documentation_sent": null, "completion_date": "2023-09-21 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": "Verificare numero radar, su mappa Lotto1 trovati 3", "radars": [{"id": "3EFBA", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFBD", "ip": null, "position": null, "status": "installed"}, {"id": "3EFBC", "ip": null, "position": null, "status": "installed"}, {"id": "3DC45", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12104", "name": "232-Laurentina/Tor Pagnotta", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "12104.0", "name": "232-Laurentina/Tor Pagnotta", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-21 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC4C", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3DC41", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3DC47", "ip": "192.168.11.13", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "1218.0", "name": "445-Merulana/Macchiavelli", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "36AE4", "ip": "192.168.1.3", "position": null, "status": "installed"}, {"id": "36AE7", "ip": "192.168.1.4", "position": null, "status": "installed"}, {"id": "36B43", "ip": "192.168.1.5", "position": null, "status": "installed"}, {"id": "36B45", "ip": "192.168.1.6", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15004.0", "name": "301-Marconi/Grimaldi", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-10 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F08A", "ip": null, "position": null, "status": "installed"}, {"id": "3F094", "ip": null, "position": null, "status": "installed"}, {"id": "3F08F", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15006.0", "name": "243-Marconi/L.re Pietrapapa", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-10 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F08D", "ip": null, "position": null, "status": "installed"}, {"id": "3F0BE", "ip": null, "position": null, "status": "installed"}, {"id": "3F089", "ip": null, "position": null, "status": "installed"}, {"id": "3F090", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15009.0", "name": "241-Piazzale della Radio", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-10 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3663D", "ip": null, "position": null, "status": "installed"}, {"id": "3664C", "ip": null, "position": null, "status": "installed"}, {"id": 36736, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 3, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15010.0", "name": "Marconi/Cardano", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15011.0", "name": "257-Portuense/Ramazzini", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AE8F", "ip": null, "position": null, "status": "installed"}, {"id": "3AE8D", "ip": null, "position": null, "status": "installed"}, {"id": "3AE93", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15014.0", "name": "444-Piazza Antonio Meucci/Oderisi da Gubbio", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15016.0", "name": "256-Portuense/Folchi", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AE86", "ip": null, "position": null, "status": "installed"}, {"id": "3AE88", "ip": null, "position": null, "status": "installed"}, {"id": "3AE92", "ip": null, "position": null, "status": "installed"}, {"id": "3AE89", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15018.0", "name": "Portuense/La Loggia", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15026.0", "name": "Portuense/Trullo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15034.0", "name": "Portuense/Casetta Mattei", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15065.0", "name": "261-Casetta Mattei/Poggio Verde", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15071.0", "name": "405-Portuense/Vigna Pia", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-13 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3A38E", "ip": null, "position": null, "status": "installed"}, {"id": "3B046", "ip": null, "position": null, "status": "installed"}, {"id": "3AE8A", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15076.0", "name": "407-Portuense/Belluzzo", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-11 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AE87", "ip": null, "position": null, "status": "installed"}, {"id": "3AE8B", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "15080.0", "name": "406-Portuense/Imbrecciato", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-17 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0EF", "ip": null, "position": null, "status": "installed"}, {"id": "3B01F", "ip": null, "position": null, "status": "installed"}, {"id": "3AE94", "ip": null, "position": null, "status": "installed"}, {"id": "3AE91", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16004.0", "name": "239-Gianicolense/Dunant", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "parziale", "documentation_sent": "ok", "completion_date": "2024-04-19 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "36BE6", "ip": "10.134.72.26", "position": "A dir.Casaletto", "status": "installed"}, {"id": "3665A", "ip": "10.134.72.27", "position": "A dir. Trastevere", "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 4, "lotto_value": 2, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16006.0", "name": "238-Gianicolense/Monteverde", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2024-04-22 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "INST.", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "ok", "utc_interface": "Inv.SWARCO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B010", "ip": "10.134.71.154", "position": "A dir.Casaletto", "status": "installed"}, {"id": "36C3B", "ip": "10.134.71.155", "position": "A dir. Monteverde", "status": "installed"}, {"id": "36BE5", "ip": "10.134.71.156", "position": "A dir. Trastevere", "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16008.0", "name": "Gianicolense/Jenner", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16009.0", "name": "236-Colli Portuensi/Gianicolense", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2024-05-09 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "INST.", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "ok", "utc_interface": "Inv.SWARCO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B260", "ip": "10.134.71.43", "position": "dir. Casaletto", "status": "installed"}, {"id": "36BE8", "ip": "10.134.71.44", "position": "dir. Colli Portuensi", "status": "installed"}, {"id": "3B256", "ip": "10.134.71.45", "position": "DIR Via Gasparri", "status": "installed"}, {"id": "36C40", "ip": "10.134.71.46", "position": "dir. Trastevere", "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16015.0", "name": "240-Piazzale Biondo", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2024-11-06 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AFE5", "ip": "10.134.72.74", "position": null, "status": "installed"}, {"id": "3B13F", "ip": "10.134.72.75", "position": null, "status": "installed"}, {"id": "36C44", "ip": "10.134.72.76", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16018.0", "name": "Rolli/Porta", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16020.0", "name": "Trastevere/Ippocrate", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16022.0", "name": "235-Colli Portuensi/Monteverde", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16025.0", "name": "Rolli/Pascarella", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16026.0", "name": "451-Bernardo Ramazzini/Folchi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16027.0", "name": "452-Bernardo Ramazzini/Val Tellina", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16033.0", "name": "234-Colli Portuensi/Morelli", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16040.0", "name": "Rolli/Stradivari", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16041", "name": "262-Bravetta/Scaligeri", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16041.0", "name": "262-Bravetta/Scaligeri", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16044.0", "name": "266-Largo Don Guanella", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-10-30 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3AF07", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3AF0C", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3AF05", "ip": "192.168.11.13", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16067", "name": "263-Bravetta/Silvestri/Consolata", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16067.0", "name": "263-Bravetta/Silvestri/Consolata", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-10-30 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3AF08", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3AF0A", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3AF00", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3AF04", "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16086", "name": "265-Bravetta/Feltreschi", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16086.0", "name": "265-Bravetta/Feltreschi", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-06-28 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3FOEC", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFDF", "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "16091.0", "name": "264-Pisana/Grimaldi", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17007.0", "name": "429-Piazzale degli Eroi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17008.0", "name": "Piazza Pia/Conciliazione", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17009.0", "name": "Ponte Matteotti/P.zza delle Cinque Giornate", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17010.0", "name": "139-P.le Maresciallo Giardino/L.re della Vittoria", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 5.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (1/5) su altro sbraccio", "planimetry_received": "si", "cable_passage": "non passa 2/3", "planimetry_sent_rsm": "ok", "sensor_installation": 5, "regulator_wiring": "ok", "screenshot": "parziale", "completed": null, "documentation_sent": null, "completion_date": "2023-09-15 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17011.0", "name": "Ponte Risorgimento/P.zza Monte Grappa", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17016", "name": "133-Ponte Umberto I/P.zza Tribunali", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17016.0", "name": "133-Ponte Umberto I/P.zza Tribunali", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DC15", "ip": null, "position": null, "status": "installed"}, {"id": "3DC18", "ip": null, "position": null, "status": "installed"}, {"id": "3DC14", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17017", "name": "130-L.re in Sassia/Ponte V.E.II", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17017.0", "name": "130-L.re in Sassia/Ponte V.E.II", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-08 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3DB04", "ip": null, "position": null, "status": "installed"}, {"id": "3DBAO", "ip": null, "position": null, "status": "installed"}, {"id": "3DAEB", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17024", "name": "132-Piazza Adriana/Crescenzio", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "NO", "scae_panel": null, "status": "not_started", "aut_action": "Installare AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17024.0", "name": "132-Piazza Adriana/Crescenzio", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "galleria", "planimetry_sent_rsm": null, "sensor_installation": 5, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-03 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3B028", "ip": null, "position": null, "status": "installed"}, {"id": 36698, "ip": null, "position": null, "status": "installed"}, {"id": "3B022", "ip": null, "position": null, "status": "installed"}, {"id": 36666, "ip": null, "position": null, "status": "installed"}, {"id": "3B029", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 5, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17032.0", "name": "Milizie/Angelico", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17041.0", "name": "138-P.le Clodio Ovest", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-06-27 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36679, "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": 36671, "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3FOE8", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3FOF1", "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17047.0", "name": "415-Cipro/Ammiragli", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-27 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "366F2", "ip": null, "position": null, "status": "installed"}, {"id": "366D2", "ip": null, "position": null, "status": "installed"}, {"id": "367BE", "ip": null, "position": null, "status": "installed"}, {"id": "366BO", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17061.0", "name": "414-L.re della Vittoria/Timavo", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "SFILARE PS PER ALZATA", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-11 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F08C", "ip": null, "position": null, "status": "installed"}, {"id": "36C41", "ip": null, "position": null, "status": "installed"}, {"id": "3F091", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "17114.0", "name": "453-Piazza Cavour/Cicerone", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18001.0", "name": "124-Anastasio II/Savorelli", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3DD08", "ip": null, "position": null, "status": "installed"}, {"id": "3DD05", "ip": null, "position": null, "status": "installed"}, {"id": "3DD06", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18002.0", "name": "123-Anastasio II", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3DD0B", "ip": null, "position": null, "status": "installed"}, {"id": "3DD11", "ip": null, "position": null, "status": "installed"}, {"id": "3DD04", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18004", "name": "126-Largo Porta Cavalleggeri", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18004.0", "name": "126-Largo Porta Cavalleggeri", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (2/4) su altre paline", "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "daINVIARE", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": "ok", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": "Inviati file configurazione a Semaforica", "radars": [{"id": "3DC1E", "ip": null, "position": null, "status": "installed"}, {"id": "3DC17", "ip": null, "position": null, "status": "installed"}, {"id": "3DC1D", "ip": null, "position": null, "status": "installed"}, {"id": "3DC19", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18005.0", "name": "121-Pio XI/Anastasio II", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (2/4) su altro sbraccio", "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-24 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3DCDC", "ip": null, "position": null, "status": "installed"}, {"id": "3DCE3", "ip": null, "position": null, "status": "installed"}, {"id": "3DCDE", "ip": null, "position": null, "status": "installed"}, {"id": "3DCE4", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18009.0", "name": "114-Boccea/Cornelia/Giureconsulti", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 3.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-26 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AFD7", "ip": null, "position": null, "status": "installed"}, {"id": "3AFA8", "ip": null, "position": null, "status": "installed"}, {"id": "3AFAE", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18015.0", "name": "115-Aurelia/Cornelia/Irnerio", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B1F8", "ip": null, "position": null, "status": "installed"}, {"id": "3AFD2", "ip": null, "position": null, "status": "installed"}, {"id": "3AFA1", "ip": null, "position": null, "status": "installed"}, {"id": "3B009", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18016.0", "name": "117-Gregorio VII/Villa Carpegna", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-06-27 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "INST.", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": "ok", "utc_interface": "INST.", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": "VRF UTC", "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "in_progress"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3FOED", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3FOEA", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3666F", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3666D", "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18019.0", "name": "438-Boccea/Bra", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Omnia", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18020.0", "name": "120-Boccea/Torrevecchia", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-06-26 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3EDFA", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFE1", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3EFE3", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3EFE2", "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18022.0", "name": "122-Pio XI/Gregorio VII", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-24 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3DD0C", "ip": null, "position": null, "status": "installed"}, {"id": "3DCE3", "ip": null, "position": null, "status": "installed"}, {"id": "3DCDD", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18037", "name": "125-Gregorio VII/Monte del Gallo", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18037.0", "name": "125-Gregorio VII/Monte del Gallo", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3DDOE", "ip": null, "position": null, "status": "installed"}, {"id": "3DD09", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18038.0", "name": "437-Boccea/Don Carlo Gnocchi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18039.0", "name": "113-Pineta Sacchetti/Tardini", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3AFA1", "ip": null, "position": null, "status": "installed"}, {"id": "3AE90", "ip": null, "position": null, "status": "installed"}, {"id": "3AF96", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18042.0", "name": "119-Boccea/Battistini", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-07-04 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3EFDB", "ip": "192.168.11.11", "position": "192.168.11.12", "status": "installed"}, {"id": "3EFE0", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3EFDD", "ip": "192.168.11.13", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18074.0", "name": "116-P.zza Villa Carpegna/Madonna del Riposo", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-05-30 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "INST.", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": "ok", "utc_interface": "Inv.SWARCO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "366F7", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3667A", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": 36672, "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": 36674, "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18080.0", "name": "118-Boccea/Gregorio XIII", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18098.0", "name": "416-Anastasio II/Uscita Centro Commerciale", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-10-17 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36654, "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "366D6", "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "18099.0", "name": "417-Angelo Emo/Capolinea Bus", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-10-17 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36681, "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": 36713, "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19006.0", "name": "436-Trionfale/Fratelli Gualandi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19013.0", "name": "454-Pineta Sacchetti/S.Cleto Papa", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "si", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-15 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "XXXX", "ip": null, "position": null, "status": "installed"}, {"id": "36AF7", "ip": null, "position": null, "status": "installed"}, {"id": "36AE3", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19014.0", "name": "455-Pineta Sacchetti/Marconi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": 36755, "ip": null, "position": null, "status": "installed"}, {"id": "3B025", "ip": null, "position": null, "status": "installed"}, {"id": "3B024", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19015.0", "name": "434-Battistini/Forte Braschi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3672O", "ip": null, "position": null, "status": "installed"}, {"id": "3672E", "ip": null, "position": null, "status": "installed"}, {"id": 36670, "ip": null, "position": null, "status": "installed"}, {"id": 36790, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19017.0", "name": "435-Battistini/Monti di Primavalle", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": 36763, "ip": null, "position": null, "status": "installed"}, {"id": "3678F", "ip": null, "position": null, "status": "installed"}, {"id": 36792, "ip": null, "position": null, "status": "installed"}, {"id": "3675E", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19028.0", "name": "439-Torrevecchia/Cardinale Costantini", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19029.0", "name": "440-Torrevecchia/Aloisi Masella", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19054.0", "name": "112-Pineta Sacchetti/Forte Braschi", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-30 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3AEFF", "ip": null, "position": null, "status": "installed"}, {"id": "3AF6B", "ip": null, "position": null, "status": "installed"}, {"id": "3AF02", "ip": null, "position": null, "status": "installed"}, {"id": "3AF03", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19055.0", "name": "433-Pineta Sacchetti/Calasanziane", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 2.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "no", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed"}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "366DA", "ip": null, "position": null, "status": "installed"}, {"id": 36734, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19057.0", "name": "109-Pineta Sacchetti/Pascucci", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "30/10/20223", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [{"id": "3AEFE", "ip": null, "position": null, "status": "installed"}, {"id": "3AF06", "ip": null, "position": null, "status": "installed"}, {"id": "3AF09", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19062.0", "name": "432-Trionfale/Ipogeo degli Ottavi", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19066.0", "name": "102-Trionfale/Barellai", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress"}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "19077.0", "name": "418-Trionfale/Università Sacro Cuore", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-27 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3666C", "ip": null, "position": null, "status": "installed"}, {"id": 36638, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20008.0", "name": "302-Cassia/Flaminia/C.so Francia", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Scavo su marciapiede corto", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-04 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B187", "ip": null, "position": null, "status": "installed"}, {"id": "3B18C", "ip": null, "position": null, "status": "installed"}, {"id": "3B183", "ip": null, "position": null, "status": "installed"}, {"id": "3B18A", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20009.0", "name": "140-Ponte Duca d'Aosta/Stadio", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-07-05 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3EFD8", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFDC", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3EFD9", "ip": "192.168.11.13", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20010.0", "name": "144-Ponte Milvio/Tor di Quinto", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (1/4) su altro sbraccio", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-06 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0F0", "ip": null, "position": null, "status": "installed"}, {"id": 36795, "ip": null, "position": null, "status": "installed"}, {"id": "3663E", "ip": null, "position": null, "status": "installed"}, {"id": 36634, "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20012.0", "name": "106-Flaminia Nuova/Valdagno", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 3.0, "blocked_conduits": true, "blocked_solution": "Scavo su marciapiede corto", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": "ok", "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": "parziale", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-14 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": 36748, "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": 36678, "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3B18E", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20028.0", "name": "108-C.so Francia/Vigna Stelluti", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-09-13 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "003FOE9", "ip": "192.168.11.1", "position": null, "status": "installed"}, {"id": "003EFC4", "ip": "192.168.11.2", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20029.0", "name": "105-Cassia Nuova/Fabbroni/Pareto", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-08-02 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3EFC5", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFC3", "ip": "192.168.11.12", "position": null, "status": "installed"}, {"id": "3F0E5", "ip": "192.168.11.13", "position": null, "status": "installed"}, {"id": "3F0E4", "ip": "192.168.11.14", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20034", "name": "101-Cassia/Grottarossa", "lotto": "M9.1", "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": "SI", "scae_panel": null, "status": "in_progress", "aut_action": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20034.0", "name": "101-Cassia/Grottarossa", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 3.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": "si", "cable_passage": "non passa", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": "ok", "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-26 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [{"id": "3DDOF", "ip": null, "position": null, "status": "installed"}, {"id": "3DCE2", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 3, "lotto_value": 2, "source": "lotto1"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20036.0", "name": "413-L.re M.llo Diaz/Largo M.llo Diaz", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 3, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-11 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F093", "ip": null, "position": null, "status": "installed"}, {"id": "3F096", "ip": null, "position": null, "status": "installed"}, {"id": "36BE1", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20061.0", "name": "412-L.re Cadorna/Morra di Lavriano", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-07 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3F092", "ip": null, "position": null, "status": "installed"}, {"id": "36BEB", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2009.0", "name": "307-Ponte Risorgimento/P.le Belle Arti", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-19 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": 10.0, "cable_meters": 100.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-29 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-06-13 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "20095.0", "name": "143-C.so Francia/Flaminia", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 2, "regulator_wiring": "ok", "screenshot": "ok", "completed": "ok", "documentation_sent": "ok", "completion_date": "2023-07-03 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3EFD6", "ip": "192.168.11.11", "position": null, "status": "installed"}, {"id": "3EFD5", "ip": "192.168.11.12", "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2011.0", "name": "409-Piazza Fiume/Calabria", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 6, "installation": {"planimetry_sent": "SI", "devices_installed": 6, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-12-29 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "galleria", "radars_no_cables": "2 richiedere apertura galleria", "radars_no_connection": 1, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-09 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 6, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2016.0", "name": "460-Piazza Gondar", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2019.0", "name": "306-Ponte Matteotti/L.re Navi", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-09 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 31.0, "cable_meters": 110.0, "to_excavate": "si", "radars_no_cables": null, "radars_no_connection": 3, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-07-28 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2023.0", "name": "170-Nomentana/S.Angela Merici", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 16.0, "cable_meters": 180.0, "to_excavate": "galleria", "radars_no_cables": "4 da richiedere aperture gallerie", "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-20 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2027.0", "name": "153-Parioli/Boccioni", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-18 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 60.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-09-14 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2028.0", "name": "419-Pinciana/Puccini", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2024-01-11 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 155.0, "to_excavate": null, "radars_no_cables": "da montare 2 radar cavi non passano", "radars_no_connection": null, "radars_finished": 1.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2029.0", "name": "420-Pinciana/Allegri", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-14 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 155.0, "to_excavate": "si", "radars_no_cables": "1 via raimondi", "radars_no_connection": 4, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 5, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2031.0", "name": "152-Piazza Pitagora/Stoppani", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-18 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 405.0, "to_excavate": "si", "radars_no_cables": 5, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-09-14 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 5, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2033.0", "name": "151-Rossini/Paisiello", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-18 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 50.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-09-14 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2035.0", "name": "135-Ponte Regina Margherita/L.re in Augusta", "lotto": "M9.1", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": "ok", "planimetry_sent_rsm": null, "sensor_installation": 4, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-15 00:00:00", "status": "completed"}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [{"id": "3AF01", "ip": null, "position": null, "status": "installed"}, {"id": "3B01B", "ip": null, "position": null, "status": "installed"}, {"id": "3B01C", "ip": null, "position": null, "status": "installed"}, {"id": "36BED", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2044.0", "name": "146-Salaria/Priscilla", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-12 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 40.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DA VRF", "config_installed": "ristrutturato da configurare", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-04 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2045.0", "name": "145-Salaria/Somalia", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-05 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 70.0, "to_excavate": "si", "radars_no_cables": 2, "radars_no_connection": "1 P/S vicino al regolatore", "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-04 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2052.0", "name": "148-Regina Margherita/Salaria/Liegi", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-05 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 32.0, "cable_meters": 145.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DA VRF", "config_installed": "ristrutturato da configurare", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-04 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2057.0", "name": "147-Salaria/Panama/Chiana", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-20 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 173.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DA VRF", "config_installed": "2024-01-11 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-06-13 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2059.0", "name": "150-Piazza Ungheria/Liegi", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-21 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 215.0, "to_excavate": "si", "radars_no_cables": 7, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-14 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "radar_count_mismatch", "field": "num_radars", "main_value": 5, "lotto_value": 7, "source": "lotto2"}, {"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 7, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2064.0", "name": "141-Ponte Duca d'Aosta/P.zza Mancini", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-07-31 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 130.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-07-31 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-07-28 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": "Cfg. Radar e IP da verificare dopo Inst.Interfaccia", "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2066.0", "name": "421-C.so Italia/Po", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-12-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-27 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2074.0", "name": "461-Corso Trieste/Chiana", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2077.0", "name": "142-P.zza Gentile da Fabriano", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-19 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 140.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-06-19 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-06-13 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": "Cfg. Radar e IP da verificare dopo Inst.Interfaccia", "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2079.0", "name": "408-M.llo Pilsudski/S.Valentino", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-10 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-10-13 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-10-09 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2083.0", "name": "422-C.so Italia/Puccini", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-14 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "galleria", "radars_no_cables": "1 palina pz5-galleria via campania", "radars_no_connection": 2, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2092.0", "name": "450-Flaminia/Piazza dei Carracci", "lotto": "M9.1", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started"}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "2198.0", "name": "136-Piazzale Flaminio/G.B. Vico", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Da inviare", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "TMACS", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3005.0", "name": "168-Nomentana/Gorizia/Nibby", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 180.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-20 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3007.0", "name": "155-Nomentana/XXI Aprile", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 220.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-09-15 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3008.0", "name": "154-Regina Margherita/Nomentana", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-26 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": 10.0, "cable_meters": 200.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-09-15 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3009.0", "name": "169-Nomentana/Trieste/Spallanzani", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-26 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 170.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "2023-12-29 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-21 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3011.0", "name": "284-Piazza di Porta Pia", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 5.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Da inviare", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 5, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3015.0", "name": "157-Regina Margherita/UniversitÃ", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-07-12 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 240.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-07-03 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3017.0", "name": "156-Regina Margherita/Morgagni", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-07-10 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 105.0, "to_excavate": "si", "radars_no_cables": "1 P/S r.margherita", "radars_no_connection": 3, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-07-03 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3019.0", "name": "158-Regina Elena/Verano", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-07-04 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": 35.0, "cable_meters": 250.0, "to_excavate": "si", "radars_no_cables": 2, "radars_no_connection": "2 P/S vicino al regolatore", "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-07-03 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3027.0", "name": "159-Verano/De Lollis", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-07-04 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 60.0, "to_excavate": "si", "radars_no_cables": 2, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-07-03 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3033.0", "name": "167-Monti TIburtini/Lanciani", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-28 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 180.0, "to_excavate": "si tubi diam 40", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "3097.0", "name": "401-Nomentana/Villini", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-21 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-05 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4003.0", "name": "172-Nomentana/Sempione", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 210.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "2024-03-20 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-20 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4006.0", "name": "404-Piazza Capri", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-10-13 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-10-05 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4014.0", "name": "183-Jonio/Col di Rezia", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Da inviare", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Da inviare", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4020.0", "name": "423-Salaria/Aeroporto Urbe", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-11-02 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-02 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4021.0", "name": "171-Nomentana/Val d'Aosta", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-25 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 75.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "2024-01-02 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-20 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4027.0", "name": "163-Nomentana/Graf/Kant", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-13 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 11.0, "cable_meters": 70.0, "to_excavate": "si", "radars_no_cables": "2 P/S via nomentana", "radars_no_connection": 2, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-06-07 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4031.0", "name": "184-Piazza Primoli", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 6, "installation": {"planimetry_sent": "SI", "devices_installed": 6, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-06-14 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 300.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 6.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-28 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-06-07 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 6, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4123.0", "name": "402-Val di Cogne/Val di Lanzo", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-07 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-05 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4124.0", "name": "403-Tirreno/Valle Scrivia", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-06 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-10-16 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-10-05 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "4140.0", "name": "410-Nomentana/Val dOssola", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-10 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "ok", "config_installed": "2023-10-10 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2023-10-09 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5002.0", "name": "164-Tiburtina/Portonaccio", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 4.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar su altro IS (Scavi su strada lunghi)", "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-28 00:00:00", "status": "blocked", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5003.0", "name": "176-Tiburtina/Galla Placidia/Durantini", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 270.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5004.0", "name": "175-Tiburtina/Casal Bruciato", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 105.0, "to_excavate": "si", "radars_no_cables": null, "radars_no_connection": 3, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5006.0", "name": "173-Monti Tiburtini/Durantini", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-28 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 230.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "2023-12-20 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5009.0", "name": "178-Tiburtina/Monti Tiburtini dir. Portonaccio", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 120.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5010.0", "name": "179-Tiburtina/S.M. Soccorso", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 110.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5012.0", "name": "174-Tiburtina/Ottoboni", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 210.0, "to_excavate": "si", "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5070.0", "name": "177-Tiburtina/Monti Tiburtini dir. Rebibbia", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-27 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 265.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-09-22 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "5106.0", "name": "411-Monti Tiburtini/Feronia", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-11 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-10-11 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-09 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "6008.0", "name": "458-Prenestina/Portonaccio", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 6, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 6.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-10 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 6, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 6, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "6018.0", "name": "195-Tor de Schiavi/Anagni/Delpino", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2024-04-08 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "2024-04-08 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2024-04-03 00:00:00"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE - NO SIM"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "6019.0", "name": "459-Prenestina/Tor de Schiavi", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2024-04-03 00:00:00"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "6020.0", "name": "199-Casilina/Pigneto", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2024-04-15 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": "2024-04-15 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2024-04-03 00:00:00"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "OMNIA", "missing_sim": "X", "spot_present": "SPOT PRESENTE? - NO SIM?"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "6061.0", "name": "424-Portonaccio/Silvio Latino", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 2, "installation": {"planimetry_sent": "SI", "devices_installed": 2, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-25 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 2.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-10-30 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 2, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "7005.0", "name": "182-Togliatti/Prenestina", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "INVIATA", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2024-04-03 00:00:00"}, "connection": {"utc_table": "daCOMPL", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "7057.0", "name": "425-Prenestina/Centro Servizi Prenestino", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-26 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-04 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "7060.0", "name": "426-Togliatti/Centro Servizi Prenestino", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 3, "installation": {"planimetry_sent": "SI", "devices_installed": 3, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-26 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 3.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-12-04 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "8009.0", "name": "192-Casilina/Torre Spaccata/Tor Tre Teste", "lotto": "M9.2", "system": "Tmacs", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-08-08 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": "2 palina torre spaccata e P/S casilina", "radars_no_connection": 2, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-07-28 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI TMACS", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "AUT da install.", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9001.0", "name": "292-Appia/Arco di Travertino", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9004.0", "name": "457-Piazzale Labicano", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-17 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9005.0", "name": "287-Tuscolana/Arco di Travertino/Porta Furba", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-03 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 180.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9006.0", "name": "165-Taranto/Aosta/Monza", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2024-01-09 00:00:00", "status": "completed", "sidewalk_excavation": 6.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "2024-01-10 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2023-10-19 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9011.0", "name": "289-Tuscolana/Monselice/Gela", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9013.0", "name": "290-Tuscolana/Nocera Umbra/Furio Camillo", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-12 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9014.0", "name": "288-Tuscolana/Cave", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": 5, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "not_started", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 5, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9024.0", "name": "200-Spezia/Nola/Monza", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "RadarINST", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "status": "in_progress", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": null, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "RadarINST", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9028.0", "name": "201-Spezia/Caltagirone", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "RadarINST", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-09-29 00:00:00", "status": "completed", "sidewalk_excavation": 5.0, "road_excavation": null, "cable_meters": 130.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "RadarINST", "config_status": "daINVIARE", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": null}, "connection": {"utc_table": "ass.Mauro", "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "in_progress", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9036.0", "name": "285-Appia/Alberone", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 3, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 3.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-18 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "DA VRF", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 3, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9042.0", "name": "204-P.le Appio", "lotto": "M9.1", "system": "Omnia", "position_type": "OdS", "num_radars": 5, "installation": {"planimetry_sent": "SI", "devices_installed": "BLOCCATI", "devices_to_install": 5.0, "blocked_conduits": true, "blocked_solution": "Spostamento radar (3/5) su paline", "planimetry_received": "si", "cable_passage": "parziale", "planimetry_sent_rsm": null, "sensor_installation": 5, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-31 00:00:00", "status": "blocked"}, "configuration": {"config_sent": "SI", "config_status": "Ass.FM/MC", "config_installed": "NO", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [{"id": "3B0F4", "ip": null, "position": null, "status": "installed"}, {"id": "3B00F", "ip": null, "position": null, "status": "installed"}, {"id": 36639, "ip": null, "position": null, "status": "installed"}, {"id": "3B0ED", "ip": null, "position": null, "status": "installed"}, {"id": "3665B", "ip": null, "position": null, "status": "installed"}], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto1", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto1_radar_count": 5, "overall_status": "blocked", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9043.0", "name": "205-Piazza Tuscolo", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": "si", "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-17 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": 10.0, "cable_meters": 150.0, "to_excavate": "si", "radars_no_cables": 3, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Idoneo", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9047.0", "name": "273-Cilicia/Piazza Galeria", "lotto": "M9.2", "system": "Omnia", "position_type": "OdS", "num_radars": 4, "installation": {"planimetry_sent": "Invio_12/25", "devices_installed": null, "devices_to_install": 4.0, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2025-12-18 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": 4, "radars_no_connection": null, "radars_finished": null}, "configuration": {"config_sent": "Invio_12/25", "config_status": "aff.GO", "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "completed", "config_rsm": "2025-12-01 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": "Impossibile connettersi con SSH. Serve verifica sul posto", "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "SI OMNIA", "missing_sim": null, "spot_present": null}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2", "swarco"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "9081.0", "name": "427-Arco di Travertino/Carroceto", "lotto": "M9.2", "system": "Omnia", "position_type": "Nuova", "num_radars": 4, "installation": {"planimetry_sent": "SI", "devices_installed": 4, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": "2023-10-27 00:00:00", "status": "completed", "sidewalk_excavation": null, "road_excavation": null, "cable_meters": 150.0, "to_excavate": null, "radars_no_cables": null, "radars_no_connection": null, "radars_finished": 4.0}, "configuration": {"config_sent": "SI", "config_status": "DaFare", "config_installed": "2023-11-02 00:00:00", "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "in_progress", "config_rsm": "2023-10-17 00:00:00"}, "connection": {"utc_table": null, "utc_interface": "NO", "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": null, "scae_panel": null, "status": "not_started", "centralized": "OMNIA", "missing_sim": "X"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": "Centralizzato", "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["main", "lotto2"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "lotto2_radar_count": 4, "overall_status": "in_progress", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}, {"id": "Totale Impianti", "name": "", "lotto": null, "system": null, "position_type": null, "num_radars": 0, "installation": {"planimetry_sent": null, "planimetry_received": null, "cable_passage": null, "planimetry_sent_rsm": null, "sensor_installation": null, "regulator_wiring": null, "screenshot": null, "completed": null, "documentation_sent": null, "completion_date": null, "devices_installed": null, "devices_to_install": null, "blocked_conduits": false, "blocked_solution": null, "status": "not_started"}, "configuration": {"config_sent": null, "config_status": null, "config_installed": null, "base_config": null, "definitive_config": null, "definitive_config_status": null, "status": "not_started"}, "connection": {"utc_table": null, "utc_interface": null, "utc_table_sent": null, "utc_interface_configured": null, "spot_status": null, "spot_on_board": null, "spot_firmware": null, "aut_status": 26, "scae_panel": null, "status": "not_started", "aut_action": "Con AUT"}, "validation": {"data_verified": null, "sending_to_datalake": null, "traffic_data_verified": null, "visum_optima_interface": null, "status": "not_started"}, "aut_to_install": null, "notes": null, "radars": [], "files": {"planimetry": null, "photos": []}, "data_sources": ["semaforica"], "inconsistencies": [{"type": "missing_coordinates", "message": "Location not geocoded"}], "coordinates": null, "coordinates_manual": false, "geocode_confidence": null, "overall_status": "not_started", "created_at": "2026-02-04T09:08:07.508126", "updated_at": "2026-02-04T09:08:07.508126"}],
-    summary: {"total_intersections": 298, "total_radars": 768, "fully_working": 0, "overall_status": {"fully_working": 0, "in_progress": 126, "blocked": 24, "not_started": 148}, "stage_status": {"installation": {"completed": 156, "in_progress": 9, "blocked": 24, "not_started": 109}, "configuration": {"completed": 39, "in_progress": 91, "blocked": 0, "not_started": 168}, "connection": {"completed": 0, "in_progress": 50, "blocked": 0, "not_started": 248}, "validation": {"completed": 0, "in_progress": 1, "blocked": 0, "not_started": 297}}, "total_inconsistencies": 309, "geocoding_issues": 298, "by_lotto": {"M9.1": 181, "M9.2": 116}, "by_system": {"Omnia": 164, "Tmacs": 54}}
+    intersections: [
+  {
+    "id": "101",
+    "name": "101-Cassia/Grottarossa",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "20034",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.650828",
+    "updated_at": "2026-02-09T14:47:18.650839"
+  },
+  {
+    "id": "102",
+    "name": "102-Trionfale/Barellai",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19066",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=2.0, cabl=, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.650935",
+    "updated_at": "2026-02-09T14:47:18.650938"
+  },
+  {
+    "id": "105",
+    "name": "105-Cassia Nuova/Fabbroni/Pareto",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20029",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651042",
+    "updated_at": "2026-02-09T14:47:18.651045"
+  },
+  {
+    "id": "106",
+    "name": "106-Flaminia Nuova/Valdagno",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20012",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651116",
+    "updated_at": "2026-02-09T14:47:18.651117"
+  },
+  {
+    "id": "108",
+    "name": "108-C.so Francia/Vigna Stelluti",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20028",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651172",
+    "updated_at": "2026-02-09T14:47:18.651174"
+  },
+  {
+    "id": "109",
+    "name": "109-Pineta Sacchetti/Pascucci",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19057",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651237",
+    "updated_at": "2026-02-09T14:47:18.651239"
+  },
+  {
+    "id": "112",
+    "name": "112-Pineta Sacchetti/Forte Braschi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19054",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651289",
+    "updated_at": "2026-02-09T14:47:18.651291"
+  },
+  {
+    "id": "113",
+    "name": "113-Pineta Sacchetti/Tardini",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18039",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651342",
+    "updated_at": "2026-02-09T14:47:18.651344"
+  },
+  {
+    "id": "114",
+    "name": "114-Boccea/Cornelia/Giureconsulti",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18009",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651402",
+    "updated_at": "2026-02-09T14:47:18.651404"
+  },
+  {
+    "id": "115",
+    "name": "115-Aurelia/Cornelia/Irnerio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18015",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651455",
+    "updated_at": "2026-02-09T14:47:18.651457"
+  },
+  {
+    "id": "116",
+    "name": "116-P.zza Villa Carpegna/Madonna del Riposo",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18074",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651510",
+    "updated_at": "2026-02-09T14:47:18.651512"
+  },
+  {
+    "id": "117",
+    "name": "117-Gregorio VII/Villa Carpegna",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18016",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "in_progress",
+      "status_detail": "IN_VERIFICATION",
+      "data": "vrf=VRF UTC"
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651573",
+    "updated_at": "2026-02-09T14:47:18.651574"
+  },
+  {
+    "id": "118",
+    "name": "118-Boccea/Gregorio XIII",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18080",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=2.0, cabl=, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651624",
+    "updated_at": "2026-02-09T14:47:18.651625"
+  },
+  {
+    "id": "119",
+    "name": "119-Boccea/Battistini",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18042",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651671",
+    "updated_at": "2026-02-09T14:47:18.651673"
+  },
+  {
+    "id": "120",
+    "name": "120-Boccea/Torrevecchia",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18020",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651720",
+    "updated_at": "2026-02-09T14:47:18.651721"
+  },
+  {
+    "id": "121",
+    "name": "121-Pio XI/Anastasio II",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18005",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651766",
+    "updated_at": "2026-02-09T14:47:18.651767"
+  },
+  {
+    "id": "122",
+    "name": "122-Pio XI/Gregorio VII",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18022",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651815",
+    "updated_at": "2026-02-09T14:47:18.651816"
+  },
+  {
+    "id": "123",
+    "name": "123-Anastasio II",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18002",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651880",
+    "updated_at": "2026-02-09T14:47:18.651882"
+  },
+  {
+    "id": "124",
+    "name": "124-Anastasio II/Savorelli",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18001",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651930",
+    "updated_at": "2026-02-09T14:47:18.651932"
+  },
+  {
+    "id": "125",
+    "name": "125-Gregorio VII/Monte del Gallo",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "18037",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=, cabl=, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.651983",
+    "updated_at": "2026-02-09T14:47:18.651984"
+  },
+  {
+    "id": "126",
+    "name": "126-Largo Porta Cavalleggeri",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "18004",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652064",
+    "updated_at": "2026-02-09T14:47:18.652067"
+  },
+  {
+    "id": "127",
+    "name": "127-Piazza della Rovere",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1031",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652128",
+    "updated_at": "2026-02-09T14:47:18.652129"
+  },
+  {
+    "id": "128",
+    "name": "128-L.re Sangallo/Ponte PASA",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1055",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652180",
+    "updated_at": "2026-02-09T14:47:18.652181"
+  },
+  {
+    "id": "129",
+    "name": "129-L.re Fiorentini/Ponte V.E. II",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1077",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652240",
+    "updated_at": "2026-02-09T14:47:18.652242"
+  },
+  {
+    "id": "130",
+    "name": "130-L.re in Sassia/Ponte V.E.II",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "17017",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652291",
+    "updated_at": "2026-02-09T14:47:18.652293"
+  },
+  {
+    "id": "132",
+    "name": "132-Piazza Adriana/Crescenzio",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "17024",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=, blocc=5",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652340",
+    "updated_at": "2026-02-09T14:47:18.652342"
+  },
+  {
+    "id": "133",
+    "name": "133-Ponte Umberto I/P.zza Tribunali",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "17016",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652391",
+    "updated_at": "2026-02-09T14:47:18.652393"
+  },
+  {
+    "id": "134",
+    "name": "134-Ponte Umberto I/Zanardelli",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1073",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652451",
+    "updated_at": "2026-02-09T14:47:18.652453"
+  },
+  {
+    "id": "135",
+    "name": "135-Ponte Regina Margherita/L.re in Augusta",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "2035",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652504",
+    "updated_at": "2026-02-09T14:47:18.652505"
+  },
+  {
+    "id": "137",
+    "name": "137-P.le Clodio Est",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17041",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652557",
+    "updated_at": "2026-02-09T14:47:18.652559"
+  },
+  {
+    "id": "138",
+    "name": "138-P.le Clodio Ovest",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17041",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652653",
+    "updated_at": "2026-02-09T14:47:18.652655"
+  },
+  {
+    "id": "139",
+    "name": "139-P.le Maresciallo Giardino/L.re della Vittoria",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17010",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652707",
+    "updated_at": "2026-02-09T14:47:18.652709"
+  },
+  {
+    "id": "140",
+    "name": "140-Ponte Duca d'Aosta/Stadio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20009",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652781",
+    "updated_at": "2026-02-09T14:47:18.652783"
+  },
+  {
+    "id": "143",
+    "name": "143-C.so Francia/Flaminia",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20095",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652834",
+    "updated_at": "2026-02-09T14:47:18.652836"
+  },
+  {
+    "id": "144",
+    "name": "144-Ponte Milvio/Tor di Quinto",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20010",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652890",
+    "updated_at": "2026-02-09T14:47:18.652892"
+  },
+  {
+    "id": "204",
+    "name": "204-P.le Appio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "9042",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.652957",
+    "updated_at": "2026-02-09T14:47:18.652959"
+  },
+  {
+    "id": "206",
+    "name": "206-Porta S.Giovanni/E.Filiberto",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1054",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653080",
+    "updated_at": "2026-02-09T14:47:18.653083"
+  },
+  {
+    "id": "207",
+    "name": "207-S.Giovanni Laterano/Merulana",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1062",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653146",
+    "updated_at": "2026-02-09T14:47:18.653148"
+  },
+  {
+    "id": "208",
+    "name": "208-Porta Metronia",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1052",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653205",
+    "updated_at": "2026-02-09T14:47:18.653207"
+  },
+  {
+    "id": "209",
+    "name": "209-Caracalla/Colombo/Druso",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1048",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653260",
+    "updated_at": "2026-02-09T14:47:18.653261"
+  },
+  {
+    "id": "210",
+    "name": "210-Colombo/Porta Ardeatina",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "1004",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653309",
+    "updated_at": "2026-02-09T14:47:18.653310"
+  },
+  {
+    "id": "211",
+    "name": "211-Colombo/Navigatori",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11005",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653356",
+    "updated_at": "2026-02-09T14:47:18.653358"
+  },
+  {
+    "id": "212",
+    "name": "212-Colombo/Laurentina",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11002",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653404",
+    "updated_at": "2026-02-09T14:47:18.653406"
+  },
+  {
+    "id": "213",
+    "name": "213-Colombo/CiviltÃ  del Lavoro",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12001",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653467",
+    "updated_at": "2026-02-09T14:47:18.653468"
+  },
+  {
+    "id": "214",
+    "name": "214-Colombo/Genocchi",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11006",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653532",
+    "updated_at": "2026-02-09T14:47:18.653534"
+  },
+  {
+    "id": "215",
+    "name": "215-Colombo/Agiati",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11009",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653587",
+    "updated_at": "2026-02-09T14:47:18.653589"
+  },
+  {
+    "id": "216",
+    "name": "216-Colombo/Leonori",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11010",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653636",
+    "updated_at": "2026-02-09T14:47:18.653638"
+  },
+  {
+    "id": "217",
+    "name": "217-Colombo/Europa",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12002",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653686",
+    "updated_at": "2026-02-09T14:47:18.653687"
+  },
+  {
+    "id": "218",
+    "name": "218-Colombo/Umanesimo dir. GRA",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12060",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653746",
+    "updated_at": "2026-02-09T14:47:18.653748"
+  },
+  {
+    "id": "219",
+    "name": "219-Colombo/Umanesimo dir. Centro",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12062",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653796",
+    "updated_at": "2026-02-09T14:47:18.653798"
+  },
+  {
+    "id": "220",
+    "name": "220-Colombo/Oceani",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12055",
+    "num_radars": 6,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=6.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653846",
+    "updated_at": "2026-02-09T14:47:18.653848"
+  },
+  {
+    "id": "226",
+    "name": "226-Laurentina/Umanesimo",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12020",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653895",
+    "updated_at": "2026-02-09T14:47:18.653896"
+  },
+  {
+    "id": "227",
+    "name": "227-Laurentina/Vigna Murata",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12005",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653946",
+    "updated_at": "2026-02-09T14:47:18.653948"
+  },
+  {
+    "id": "228",
+    "name": "228-Laurentina/Serafico",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12010",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.653997",
+    "updated_at": "2026-02-09T14:47:18.653999"
+  },
+  {
+    "id": "229",
+    "name": "229-Laurentina/Ardigò",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "11026",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654080",
+    "updated_at": "2026-02-09T14:47:18.654083"
+  },
+  {
+    "id": "230",
+    "name": "230-Laurentina/Silone",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12047",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654151",
+    "updated_at": "2026-02-09T14:47:18.654153"
+  },
+  {
+    "id": "231",
+    "name": "231-Laurentina/Acqua Acetosa Ostiense",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12030",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654224",
+    "updated_at": "2026-02-09T14:47:18.654227"
+  },
+  {
+    "id": "232",
+    "name": "232-Laurentina/Tor Pagnotta",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "12104",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654302",
+    "updated_at": "2026-02-09T14:47:18.654304"
+  },
+  {
+    "id": "234",
+    "name": "234-Colli Portuensi/Morelli",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16033",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654354",
+    "updated_at": "2026-02-09T14:47:18.654356"
+  },
+  {
+    "id": "235",
+    "name": "235-Colli Portuensi/Monteverde",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16022",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654404",
+    "updated_at": "2026-02-09T14:47:18.654406"
+  },
+  {
+    "id": "236",
+    "name": "236-Colli Portuensi/Gianicolense",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16009",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654454",
+    "updated_at": "2026-02-09T14:47:18.654455"
+  },
+  {
+    "id": "238",
+    "name": "238-Gianicolense/Monteverde",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16006",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654511",
+    "updated_at": "2026-02-09T14:47:18.654514"
+  },
+  {
+    "id": "239",
+    "name": "239-Gianicolense/Dunant",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16004",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "PARTIAL",
+      "data": "compl=parziale, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654584",
+    "updated_at": "2026-02-09T14:47:18.654586"
+  },
+  {
+    "id": "240",
+    "name": "240-Piazzale Biondo",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16015",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654654",
+    "updated_at": "2026-02-09T14:47:18.654657"
+  },
+  {
+    "id": "241",
+    "name": "241-Piazzale della Radio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15009",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654717",
+    "updated_at": "2026-02-09T14:47:18.654718"
+  },
+  {
+    "id": "243",
+    "name": "243-Marconi/L.re Pietrapapa",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15006",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654766",
+    "updated_at": "2026-02-09T14:47:18.654767"
+  },
+  {
+    "id": "244",
+    "name": "244-Marconi/Edison",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "11012",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654815",
+    "updated_at": "2026-02-09T14:47:18.654816"
+  },
+  {
+    "id": "245",
+    "name": "245-Marconi/Temistocle Calzecchi Onesti",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "11040",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654863",
+    "updated_at": "2026-02-09T14:47:18.654865"
+  },
+  {
+    "id": "246",
+    "name": "246-Marconi/Bortolotti",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "11019",
+    "num_radars": 7,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=7.0, cabl=ok, blocc=7",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654912",
+    "updated_at": "2026-02-09T14:47:18.654913"
+  },
+  {
+    "id": "248",
+    "name": "248-Marconi/Metro",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "12044",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.654965",
+    "updated_at": "2026-02-09T14:47:18.654967"
+  },
+  {
+    "id": "250",
+    "name": "250-Trastevere/Induno",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1001",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655014",
+    "updated_at": "2026-02-09T14:47:18.655016"
+  },
+  {
+    "id": "251",
+    "name": "251-Trastevere/Glorioso",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1070",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655103",
+    "updated_at": "2026-02-09T14:47:18.655105"
+  },
+  {
+    "id": "252",
+    "name": "252-Portuense/Porta Portese",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1053",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655158",
+    "updated_at": "2026-02-09T14:47:18.655160"
+  },
+  {
+    "id": "256",
+    "name": "256-Portuense/Folchi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15016",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655216",
+    "updated_at": "2026-02-09T14:47:18.655217"
+  },
+  {
+    "id": "257",
+    "name": "257-Portuense/Ramazzini",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15011",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655269",
+    "updated_at": "2026-02-09T14:47:18.655270"
+  },
+  {
+    "id": "261",
+    "name": "261-Casetta Mattei/Poggio Verde",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15065",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655328",
+    "updated_at": "2026-02-09T14:47:18.655330"
+  },
+  {
+    "id": "262",
+    "name": "262-Bravetta/Scaligeri",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "16041",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655387",
+    "updated_at": "2026-02-09T14:47:18.655389"
+  },
+  {
+    "id": "263",
+    "name": "263-Bravetta/Silvestri/Consolata",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "16067",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655439",
+    "updated_at": "2026-02-09T14:47:18.655441"
+  },
+  {
+    "id": "264",
+    "name": "264-Pisana/Grimaldi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16091",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655490",
+    "updated_at": "2026-02-09T14:47:18.655492"
+  },
+  {
+    "id": "265",
+    "name": "265-Bravetta/Feltreschi",
+    "lotto": "M9.1",
+    "system": "TMACS",
+    "codice_impianto": "16086",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655541",
+    "updated_at": "2026-02-09T14:47:18.655543"
+  },
+  {
+    "id": "266",
+    "name": "266-Largo Don Guanella",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16044",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655592",
+    "updated_at": "2026-02-09T14:47:18.655594"
+  },
+  {
+    "id": "267",
+    "name": "267-Porta Capena",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1051",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655646",
+    "updated_at": "2026-02-09T14:47:18.655647"
+  },
+  {
+    "id": "272",
+    "name": "272-Marco Polo/Beccari",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1138",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655693",
+    "updated_at": "2026-02-09T14:47:18.655695"
+  },
+  {
+    "id": "276",
+    "name": "276-Greca/Bocca della Verità",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1020",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=no, sens=4.0, cabl=ok, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655741",
+    "updated_at": "2026-02-09T14:47:18.655742"
+  },
+  {
+    "id": "278",
+    "name": "278-Largo Vittime del Terrorismo/Caracalla",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1153",
+    "num_radars": 5,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=5.0, cabl=, blocc=5",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655789",
+    "updated_at": "2026-02-09T14:47:18.655791"
+  },
+  {
+    "id": "301",
+    "name": "301-Marconi/Grimaldi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15004",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655836",
+    "updated_at": "2026-02-09T14:47:18.655838"
+  },
+  {
+    "id": "302",
+    "name": "302-Cassia/Flaminia/C.so Francia",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20008",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655883",
+    "updated_at": "2026-02-09T14:47:18.655885"
+  },
+  {
+    "id": "405",
+    "name": "405-Portuense/Vigna Pia",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15071",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655933",
+    "updated_at": "2026-02-09T14:47:18.655934"
+  },
+  {
+    "id": "406",
+    "name": "406-Portuense/Imbrecciato",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15080",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.655984",
+    "updated_at": "2026-02-09T14:47:18.655985"
+  },
+  {
+    "id": "407",
+    "name": "407-Portuense/Belluzzo",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15076",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=2.0, cabl=, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656051",
+    "updated_at": "2026-02-09T14:47:18.656053"
+  },
+  {
+    "id": "412",
+    "name": "412-L.re Cadorna/Morra di Lavriano",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20061",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656106",
+    "updated_at": "2026-02-09T14:47:18.656108"
+  },
+  {
+    "id": "413",
+    "name": "413-L.re M.llo Diaz/Largo M.llo Diaz",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "20036",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656175",
+    "updated_at": "2026-02-09T14:47:18.656177"
+  },
+  {
+    "id": "414",
+    "name": "414-L.re della Vittoria/Timavo",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17061",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656236",
+    "updated_at": "2026-02-09T14:47:18.656237"
+  },
+  {
+    "id": "415",
+    "name": "415-Cipro/Ammiragli",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17047",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656289",
+    "updated_at": "2026-02-09T14:47:18.656290"
+  },
+  {
+    "id": "416",
+    "name": "416-Anastasio II/Uscita Centro Commerciale",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18098",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656340",
+    "updated_at": "2026-02-09T14:47:18.656341"
+  },
+  {
+    "id": "417",
+    "name": "417-Angelo Emo/Capolinea Bus",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18099",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656392",
+    "updated_at": "2026-02-09T14:47:18.656393"
+  },
+  {
+    "id": "418",
+    "name": "418-Trionfale/Università Sacro Cuore",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19077",
+    "num_radars": 2,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=2.0, cabl=, blocc=2",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656441",
+    "updated_at": "2026-02-09T14:47:18.656443"
+  },
+  {
+    "id": "429",
+    "name": "429-Piazzale degli Eroi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17007",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=4.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656489",
+    "updated_at": "2026-02-09T14:47:18.656490"
+  },
+  {
+    "id": "430",
+    "name": "430-Piazza S.Croce Gerusalemme",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1058",
+    "num_radars": 3,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=3",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656534",
+    "updated_at": "2026-02-09T14:47:18.656535"
+  },
+  {
+    "id": "431",
+    "name": "431-Piazza S.Croce Gerusalemme/Sessoriana",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1059",
+    "num_radars": 4,
+    "installation": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "compl=, sens=3.0, cabl=, blocc=4",
+      "blocked_conduits": true
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656584",
+    "updated_at": "2026-02-09T14:47:18.656585"
+  },
+  {
+    "id": "432",
+    "name": "432-Trionfale/Ipogeo degli Ottavi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19062",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656635",
+    "updated_at": "2026-02-09T14:47:18.656636"
+  },
+  {
+    "id": "433",
+    "name": "433-Pineta Sacchetti/Calasanziane",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19055",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=2.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656688",
+    "updated_at": "2026-02-09T14:47:18.656689"
+  },
+  {
+    "id": "434",
+    "name": "434-Battistini/Forte Braschi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19015",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656738",
+    "updated_at": "2026-02-09T14:47:18.656739"
+  },
+  {
+    "id": "435",
+    "name": "435-Battistini/Monti di Primavalle",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19017",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656786",
+    "updated_at": "2026-02-09T14:47:18.656787"
+  },
+  {
+    "id": "436",
+    "name": "436-Trionfale/Fratelli Gualandi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19006",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656846",
+    "updated_at": "2026-02-09T14:47:18.656848"
+  },
+  {
+    "id": "437",
+    "name": "437-Boccea/Don Carlo Gnocchi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18038",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656898",
+    "updated_at": "2026-02-09T14:47:18.656900"
+  },
+  {
+    "id": "438",
+    "name": "438-Boccea/Bra",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "18019",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.656960",
+    "updated_at": "2026-02-09T14:47:18.656962"
+  },
+  {
+    "id": "439",
+    "name": "439-Torrevecchia/Cardinale Costantini",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19028",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657012",
+    "updated_at": "2026-02-09T14:47:18.657013"
+  },
+  {
+    "id": "440",
+    "name": "440-Torrevecchia/Aloisi Masella",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19029",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657094",
+    "updated_at": "2026-02-09T14:47:18.657096"
+  },
+  {
+    "id": "441",
+    "name": "441-Cernaia/Volturno",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1023",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657149",
+    "updated_at": "2026-02-09T14:47:18.657150"
+  },
+  {
+    "id": "442",
+    "name": "442-Cernaia/Goito",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1024",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657216",
+    "updated_at": "2026-02-09T14:47:18.657218"
+  },
+  {
+    "id": "444",
+    "name": "444-Piazza Antonio Meucci/Oderisi da Gubbio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "15014",
+    "num_radars": 3,
+    "installation": {
+      "status": "not_started",
+      "status_detail": "NO_DATA",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657289",
+    "updated_at": "2026-02-09T14:47:18.657291"
+  },
+  {
+    "id": "445",
+    "name": "445-Merulana/Macchiavelli",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1218",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "compl=ok, sens=4.0, cabl=ok, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657360",
+    "updated_at": "2026-02-09T14:47:18.657362"
+  },
+  {
+    "id": "446",
+    "name": "446-Largo Brancaccio",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1104",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=ok, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657410",
+    "updated_at": "2026-02-09T14:47:18.657412"
+  },
+  {
+    "id": "447",
+    "name": "447-Piazza Indipendenza/S.Martino della Battaglia",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1093",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657461",
+    "updated_at": "2026-02-09T14:47:18.657462"
+  },
+  {
+    "id": "448",
+    "name": "448-Manzoni/Conte Verde",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1044",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657511",
+    "updated_at": "2026-02-09T14:47:18.657513"
+  },
+  {
+    "id": "449",
+    "name": "449-Largo del Tritone",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "1003",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657559",
+    "updated_at": "2026-02-09T14:47:18.657561"
+  },
+  {
+    "id": "450",
+    "name": "450-Flaminia/Piazza dei Carracci",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "2092",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657610",
+    "updated_at": "2026-02-09T14:47:18.657612"
+  },
+  {
+    "id": "451",
+    "name": "451-Bernardo Ramazzini/Folchi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16026",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657660",
+    "updated_at": "2026-02-09T14:47:18.657661"
+  },
+  {
+    "id": "452",
+    "name": "452-Bernardo Ramazzini/Val Tellina",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "16027",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=4.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657710",
+    "updated_at": "2026-02-09T14:47:18.657712"
+  },
+  {
+    "id": "453",
+    "name": "453-Piazza Cavour/Cicerone",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "17114",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "compl=, sens=, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657764",
+    "updated_at": "2026-02-09T14:47:18.657766"
+  },
+  {
+    "id": "454",
+    "name": "454-Pineta Sacchetti/S.Cleto Papa",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19013",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657825",
+    "updated_at": "2026-02-09T14:47:18.657827"
+  },
+  {
+    "id": "455",
+    "name": "455-Pineta Sacchetti/Marconi",
+    "lotto": "M9.1",
+    "system": "OMNIA",
+    "codice_impianto": "19014",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "compl=, sens=3.0, cabl=, blocc=",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657877",
+    "updated_at": "2026-02-09T14:47:18.657878"
+  },
+  {
+    "id": "136",
+    "name": "136-Piazzale Flaminio/G.B. Vico",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2198",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=Da inviare"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657931",
+    "updated_at": "2026-02-09T14:47:18.657934"
+  },
+  {
+    "id": "141",
+    "name": "141-Ponte Duca d'Aosta/P.zza Mancini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2064",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-07-31 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.657999",
+    "updated_at": "2026-02-09T14:47:18.658001"
+  },
+  {
+    "id": "142",
+    "name": "142-P.zza Gentile da Fabriano",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2077",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-06-19 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658087",
+    "updated_at": "2026-02-09T14:47:18.658089"
+  },
+  {
+    "id": "145",
+    "name": "145-Salaria/Somalia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2045",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-05 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658145",
+    "updated_at": "2026-02-09T14:47:18.658147"
+  },
+  {
+    "id": "146",
+    "name": "146-Salaria/Priscilla",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2044",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-12 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658200",
+    "updated_at": "2026-02-09T14:47:18.658202"
+  },
+  {
+    "id": "147",
+    "name": "147-Salaria/Panama/Chiana",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2057",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-06-20 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658253",
+    "updated_at": "2026-02-09T14:47:18.658254"
+  },
+  {
+    "id": "148",
+    "name": "148-Regina Margherita/Salaria/Liegi",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2052",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-05 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658317",
+    "updated_at": "2026-02-09T14:47:18.658319"
+  },
+  {
+    "id": "149",
+    "name": "149-Parioli/Stoppani",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2059",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-21 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658370",
+    "updated_at": "2026-02-09T14:47:18.658372"
+  },
+  {
+    "id": "150",
+    "name": "150-Piazza Ungheria/Liegi",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2059",
+    "num_radars": 5,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-21 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658425",
+    "updated_at": "2026-02-09T14:47:18.658427"
+  },
+  {
+    "id": "151",
+    "name": "151-Rossini/Paisiello",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2033",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658475",
+    "updated_at": "2026-02-09T14:47:18.658476"
+  },
+  {
+    "id": "152",
+    "name": "152-Piazza Pitagora/Stoppani",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2031",
+    "num_radars": 5,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658528",
+    "updated_at": "2026-02-09T14:47:18.658530"
+  },
+  {
+    "id": "153",
+    "name": "153-Parioli/Boccioni",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "2027",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658580",
+    "updated_at": "2026-02-09T14:47:18.658581"
+  },
+  {
+    "id": "154",
+    "name": "154-Regina Margherita/Nomentana",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "3008",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-26 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658627",
+    "updated_at": "2026-02-09T14:47:18.658629"
+  },
+  {
+    "id": "155",
+    "name": "155-Nomentana/XXI Aprile",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3007",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658676",
+    "updated_at": "2026-02-09T14:47:18.658677"
+  },
+  {
+    "id": "156",
+    "name": "156-Regina Margherita/Morgagni",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "3017",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-07-10 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658724",
+    "updated_at": "2026-02-09T14:47:18.658726"
+  },
+  {
+    "id": "157",
+    "name": "157-Regina Margherita/UniversitÃ",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "3015",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-07-12 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658786",
+    "updated_at": "2026-02-09T14:47:18.658788"
+  },
+  {
+    "id": "158",
+    "name": "158-Regina Elena/Verano",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "3019",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-07-04 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658839",
+    "updated_at": "2026-02-09T14:47:18.658841"
+  },
+  {
+    "id": "159",
+    "name": "159-Verano/De Lollis",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "3027",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-07-04 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658890",
+    "updated_at": "2026-02-09T14:47:18.658892"
+  },
+  {
+    "id": "163",
+    "name": "163-Nomentana/Graf/Kant",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "4027",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-06-13 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "NO_INFO",
+      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658945",
+    "updated_at": "2026-02-09T14:47:18.658947"
+  },
+  {
+    "id": "164",
+    "name": "164-Tiburtina/Portonaccio",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5002",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-09-28 00:00:00, radar=4.0, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "AUT=SI, ATTIVITA=AUT da aggiornare"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.658997",
+    "updated_at": "2026-02-09T14:47:18.658999"
+  },
+  {
+    "id": "165",
+    "name": "165-Taranto/Aosta/Monza",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9006",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2024-01-09 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659066",
+    "updated_at": "2026-02-09T14:47:18.659068"
+  },
+  {
+    "id": "167",
+    "name": "167-Monti TIburtini/Lanciani",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3033",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-28 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659133",
+    "updated_at": "2026-02-09T14:47:18.659135"
+  },
+  {
+    "id": "168",
+    "name": "168-Nomentana/Gorizia/Nibby",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3005",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659465",
+    "updated_at": "2026-02-09T14:47:18.659469"
+  },
+  {
+    "id": "169",
+    "name": "169-Nomentana/Trieste/Spallanzani",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3009",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-09-26 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659534",
+    "updated_at": "2026-02-09T14:47:18.659536"
+  },
+  {
+    "id": "170",
+    "name": "170-Nomentana/S.Angela Merici",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2023",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659585",
+    "updated_at": "2026-02-09T14:47:18.659587"
+  },
+  {
+    "id": "171",
+    "name": "171-Nomentana/Val d'Aosta",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4021",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-09-25 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659635",
+    "updated_at": "2026-02-09T14:47:18.659636"
+  },
+  {
+    "id": "172",
+    "name": "172-Nomentana/Sempione",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4003",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-09-25 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659692",
+    "updated_at": "2026-02-09T14:47:18.659693"
+  },
+  {
+    "id": "173",
+    "name": "173-Monti Tiburtini/Durantini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "5006",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-09-28 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659741",
+    "updated_at": "2026-02-09T14:47:18.659743"
+  },
+  {
+    "id": "174",
+    "name": "174-Tiburtina/Ottoboni",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5012",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659792",
+    "updated_at": "2026-02-09T14:47:18.659794"
+  },
+  {
+    "id": "175",
+    "name": "175-Tiburtina/Casal Bruciato",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5004",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, AUT con versione recente pertanto bisognerebbe preparare solo la configurazione"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659842",
+    "updated_at": "2026-02-09T14:47:18.659844"
+  },
+  {
+    "id": "176",
+    "name": "176-Tiburtina/Galla Placidia/Durantini",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5003",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659890",
+    "updated_at": "2026-02-09T14:47:18.659891"
+  },
+  {
+    "id": "177",
+    "name": "177-Tiburtina/Monti Tiburtini dir. Rebibbia",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5070",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659938",
+    "updated_at": "2026-02-09T14:47:18.659940"
+  },
+  {
+    "id": "178",
+    "name": "178-Tiburtina/Monti Tiburtini dir. Portonaccio",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5009",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.659987",
+    "updated_at": "2026-02-09T14:47:18.659989"
+  },
+  {
+    "id": "179",
+    "name": "179-Tiburtina/S.M. Soccorso",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "5010",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "ASSIGNED",
+      "data": "status=Ass.FM/MC, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660060",
+    "updated_at": "2026-02-09T14:47:18.660063"
+  },
+  {
+    "id": "182",
+    "name": "182-Togliatti/Prenestina",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "7005",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660131",
+    "updated_at": "2026-02-09T14:47:18.660133"
+  },
+  {
+    "id": "183",
+    "name": "183-Jonio/Col di Rezia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4014",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=Da inviare"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660198",
+    "updated_at": "2026-02-09T14:47:18.660200"
+  },
+  {
+    "id": "184",
+    "name": "184-Piazza Primoli",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4031",
+    "num_radars": 6,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-06-14 00:00:00, radar=6.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660252",
+    "updated_at": "2026-02-09T14:47:18.660253"
+  },
+  {
+    "id": "192",
+    "name": "192-Casilina/Torre Spaccata/Tor Tre Teste",
+    "lotto": "M9.2",
+    "system": "TMACS",
+    "codice_impianto": "8009",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-08-08 00:00:00, radar=, centr=SI TMACS",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "AUT=NO, ATTIVITA=Installare AUT"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660302",
+    "updated_at": "2026-02-09T14:47:18.660304"
+  },
+  {
+    "id": "195",
+    "name": "195-Tor de Schiavi/Anagni/Delpino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "6018",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2024-04-08 00:00:00, radar=3.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660353",
+    "updated_at": "2026-02-09T14:47:18.660355"
+  },
+  {
+    "id": "199",
+    "name": "199-Casilina/Pigneto",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "6020",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2024-04-15 00:00:00, radar=3.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660400",
+    "updated_at": "2026-02-09T14:47:18.660402"
+  },
+  {
+    "id": "200",
+    "name": "200-Spezia/Nola/Monza",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9024",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=RadarINST"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660458",
+    "updated_at": "2026-02-09T14:47:18.660461"
+  },
+  {
+    "id": "201",
+    "name": "201-Spezia/Caltagirone",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9028",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=RadarINST"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660514",
+    "updated_at": "2026-02-09T14:47:18.660515"
+  },
+  {
+    "id": "205",
+    "name": "205-Piazza Tuscolo",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9043",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660567",
+    "updated_at": "2026-02-09T14:47:18.660569"
+  },
+  {
+    "id": "221",
+    "name": "221-Grotta Perfetta/Ambrosini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11021",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660616",
+    "updated_at": "2026-02-09T14:47:18.660617"
+  },
+  {
+    "id": "222",
+    "name": "222-Grotta Perfetta/Calderon de la Barca",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11049",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660663",
+    "updated_at": "2026-02-09T14:47:18.660664"
+  },
+  {
+    "id": "224",
+    "name": "224-Ardeatina/Fotografia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11092",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-06-21 00:00:00, radar=3.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660711",
+    "updated_at": "2026-02-09T14:47:18.660712"
+  },
+  {
+    "id": "225",
+    "name": "225-Sette Chiese/Bompiani",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11059",
+    "num_radars": 2,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660758",
+    "updated_at": "2026-02-09T14:47:18.660760"
+  },
+  {
+    "id": "242",
+    "name": "242-Appia Pignatelli/S.Tarcisio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10054",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2024-04-16 00:00:00, radar=3.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660804",
+    "updated_at": "2026-02-09T14:47:18.660806"
+  },
+  {
+    "id": "269",
+    "name": "269-Ostiense/Porto Fluviale/Matteucci",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11014",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-12-12 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660855",
+    "updated_at": "2026-02-09T14:47:18.660857"
+  },
+  {
+    "id": "270",
+    "name": "270-Ostiense/Spizzichina",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11037",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-12-19 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660906",
+    "updated_at": "2026-02-09T14:47:18.660908"
+  },
+  {
+    "id": "271",
+    "name": "271-Ostiense/S.Paolo/Rocco",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "11015",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-12-19 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.660962",
+    "updated_at": "2026-02-09T14:47:18.660964"
+  },
+  {
+    "id": "273",
+    "name": "273-Cilicia/Piazza Galeria",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9047",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-18 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_FOR_APPROVAL",
+      "data": "status=aff.GO, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661011",
+    "updated_at": "2026-02-09T14:47:18.661012"
+  },
+  {
+    "id": "284",
+    "name": "284-Piazza di Porta Pia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3011",
+    "num_radars": 5,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661124",
+    "updated_at": "2026-02-09T14:47:18.661127"
+  },
+  {
+    "id": "285",
+    "name": "285-Appia/Alberone",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9036",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-18 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661193",
+    "updated_at": "2026-02-09T14:47:18.661196"
+  },
+  {
+    "id": "287",
+    "name": "287-Tuscolana/Arco di Travertino/Porta Furba",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9005",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661266",
+    "updated_at": "2026-02-09T14:47:18.661269"
+  },
+  {
+    "id": "288",
+    "name": "288-Tuscolana/Cave",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9014",
+    "num_radars": 5,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661338",
+    "updated_at": "2026-02-09T14:47:18.661340"
+  },
+  {
+    "id": "289",
+    "name": "289-Tuscolana/Monselice/Gela",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9011",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-12 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661410",
+    "updated_at": "2026-02-09T14:47:18.661413"
+  },
+  {
+    "id": "290",
+    "name": "290-Tuscolana/Nocera Umbra/Furio Camillo",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9013",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-12 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661461",
+    "updated_at": "2026-02-09T14:47:18.661462"
+  },
+  {
+    "id": "292",
+    "name": "292-Appia/Arco di Travertino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9001",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661518",
+    "updated_at": "2026-02-09T14:47:18.661521"
+  },
+  {
+    "id": "293",
+    "name": "293-Tuscolana/Capannelle",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10002",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-18 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661591",
+    "updated_at": "2026-02-09T14:47:18.661593"
+  },
+  {
+    "id": "294",
+    "name": "294-Tuscolana/Pulvillo/Labieno",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10026",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661644",
+    "updated_at": "2026-02-09T14:47:18.661645"
+  },
+  {
+    "id": "295",
+    "name": "295-Tuscolana/Giulio Agricola",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10006",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661692",
+    "updated_at": "2026-02-09T14:47:18.661693"
+  },
+  {
+    "id": "296",
+    "name": "296-Tuscolana/Lucio Sestio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10008",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661740",
+    "updated_at": "2026-02-09T14:47:18.661741"
+  },
+  {
+    "id": "297",
+    "name": "297-Tuscolana/Quadraro",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10013",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661788",
+    "updated_at": "2026-02-09T14:47:18.661790"
+  },
+  {
+    "id": "298",
+    "name": "298-Tuscolana/Buon Consiglio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10010",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661834",
+    "updated_at": "2026-02-09T14:47:18.661836"
+  },
+  {
+    "id": "299",
+    "name": "299-Tuscolana/Metro Porta Furba",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10012",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-03 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661881",
+    "updated_at": "2026-02-09T14:47:18.661883"
+  },
+  {
+    "id": "300",
+    "name": "300-Appia/Capannellle",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10019",
+    "num_radars": 6,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-02 00:00:00, radar=6.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661936",
+    "updated_at": "2026-02-09T14:47:18.661939"
+  },
+  {
+    "id": "303",
+    "name": "303-Appia Nuova/Appia Pignatelli",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10022",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.661990",
+    "updated_at": "2026-02-09T14:47:18.661992"
+  },
+  {
+    "id": "304",
+    "name": "304-Appia Nuova/Quarto Miglio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10014",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662063",
+    "updated_at": "2026-02-09T14:47:18.662065"
+  },
+  {
+    "id": "305",
+    "name": "305-Appia Nuova/Quadraro",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10017",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662118",
+    "updated_at": "2026-02-09T14:47:18.662120"
+  },
+  {
+    "id": "306",
+    "name": "306-Ponte Matteotti/L.re Navi",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2019",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-09-09 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662168",
+    "updated_at": "2026-02-09T14:47:18.662170"
+  },
+  {
+    "id": "307",
+    "name": "307-Ponte Risorgimento/P.le Belle Arti",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2009",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-06-19 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662225",
+    "updated_at": "2026-02-09T14:47:18.662226"
+  },
+  {
+    "id": "401",
+    "name": "401-Nomentana/Villini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "3097",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-06 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662284",
+    "updated_at": "2026-02-09T14:47:18.662287"
+  },
+  {
+    "id": "402",
+    "name": "402-Val di Cogne/Val di Lanzo",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4123",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-06 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662345",
+    "updated_at": "2026-02-09T14:47:18.662348"
+  },
+  {
+    "id": "403",
+    "name": "403-Tirreno/Valle Scrivia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4124",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-06 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662407",
+    "updated_at": "2026-02-09T14:47:18.662409"
+  },
+  {
+    "id": "404",
+    "name": "404-Piazza Capri",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4006",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-06 00:00:00, radar=4.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662456",
+    "updated_at": "2026-02-09T14:47:18.662458"
+  },
+  {
+    "id": "408",
+    "name": "408-M.llo Pilsudski/S.Valentino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2079",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-10 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662506",
+    "updated_at": "2026-02-09T14:47:18.662507"
+  },
+  {
+    "id": "409",
+    "name": "409-Piazza Fiume/Calabria",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2011",
+    "num_radars": 6,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-12-29 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "blocked",
+      "status_detail": "BLOCKED",
+      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "blocked",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662552",
+    "updated_at": "2026-02-09T14:47:18.662554"
+  },
+  {
+    "id": "410",
+    "name": "410-Nomentana/Val dOssola",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4140",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-10 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "status=ok, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662613",
+    "updated_at": "2026-02-09T14:47:18.662615"
+  },
+  {
+    "id": "411",
+    "name": "411-Monti Tiburtini/Feronia",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "5106",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-11 00:00:00, radar=2.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "Idoneo"
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662670",
+    "updated_at": "2026-02-09T14:47:18.662672"
+  },
+  {
+    "id": "419",
+    "name": "419-Pinciana/Puccini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2028",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2024-01-11 00:00:00, radar=1.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662721",
+    "updated_at": "2026-02-09T14:47:18.662722"
+  },
+  {
+    "id": "420",
+    "name": "420-Pinciana/Allegri",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2029",
+    "num_radars": 5,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-11-14 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662770",
+    "updated_at": "2026-02-09T14:47:18.662771"
+  },
+  {
+    "id": "421",
+    "name": "421-C.so Italia/Po",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2066",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-12-27 00:00:00, radar=4.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662823",
+    "updated_at": "2026-02-09T14:47:18.662824"
+  },
+  {
+    "id": "422",
+    "name": "422-C.so Italia/Puccini",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2083",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2023-11-14 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662871",
+    "updated_at": "2026-02-09T14:47:18.662873"
+  },
+  {
+    "id": "423",
+    "name": "423-Salaria/Aeroporto Urbe",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "4020",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-11-02 00:00:00, radar=2.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662919",
+    "updated_at": "2026-02-09T14:47:18.662921"
+  },
+  {
+    "id": "424",
+    "name": "424-Portonaccio/Silvio Latino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "6061",
+    "num_radars": 2,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-25 00:00:00, radar=2.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.662969",
+    "updated_at": "2026-02-09T14:47:18.662971"
+  },
+  {
+    "id": "425",
+    "name": "425-Prenestina/Centro Servizi Prenestino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "7057",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663018",
+    "updated_at": "2026-02-09T14:47:18.663019"
+  },
+  {
+    "id": "426",
+    "name": "426-Togliatti/Centro Servizi Prenestino",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "7060",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663084",
+    "updated_at": "2026-02-09T14:47:18.663086"
+  },
+  {
+    "id": "427",
+    "name": "427-Arco di Travertino/Carroceto",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9081",
+    "num_radars": 4,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-27 00:00:00, radar=4.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663139",
+    "updated_at": "2026-02-09T14:47:18.663141"
+  },
+  {
+    "id": "428",
+    "name": "428-Tuscolana/Occorsio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10099",
+    "num_radars": 3,
+    "installation": {
+      "status": "completed",
+      "status_detail": "COMPLETE",
+      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "status=DaFare, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "not_started",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663195",
+    "updated_at": "2026-02-09T14:47:18.663197"
+  },
+  {
+    "id": "443",
+    "name": "443-Appia Pignatelli/Erode Attico",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "10007",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-10 00:00:00, radar=, centr=OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663252",
+    "updated_at": "2026-02-09T14:47:18.663253"
+  },
+  {
+    "id": "456",
+    "name": "456-Piazza Porta Maggiore",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "1117",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663304",
+    "updated_at": "2026-02-09T14:47:18.663306"
+  },
+  {
+    "id": "457",
+    "name": "457-Piazzale Labicano",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "9004",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663374",
+    "updated_at": "2026-02-09T14:47:18.663376"
+  },
+  {
+    "id": "458",
+    "name": "458-Prenestina/Portonaccio",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "6008",
+    "num_radars": 6,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=2025-12-10 00:00:00, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "READY_TO_SEND",
+      "data": "status=daINVIARE, plan=Invio_12/25"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663448",
+    "updated_at": "2026-02-09T14:47:18.663450"
+  },
+  {
+    "id": "459",
+    "name": "459-Prenestina/Tor de Schiavi",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "6019",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "SENT",
+      "data": "status=INVIATA, plan=SI"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663500",
+    "updated_at": "2026-02-09T14:47:18.663501"
+  },
+  {
+    "id": "460",
+    "name": "460-Piazza Gondar",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2016",
+    "num_radars": 4,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "STARTED",
+      "data": "data=, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663548",
+    "updated_at": "2026-02-09T14:47:18.663550"
+  },
+  {
+    "id": "461",
+    "name": "461-Corso Trieste/Chiana",
+    "lotto": "M9.2",
+    "system": "OMNIA",
+    "codice_impianto": "2074",
+    "num_radars": 3,
+    "installation": {
+      "status": "in_progress",
+      "status_detail": "IN_PROGRESS",
+      "data": "data=ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione, radar=, centr=SI OMNIA",
+      "blocked_conduits": false
+    },
+    "configuration": {
+      "status": "in_progress",
+      "status_detail": "PENDING_VERIFICATION",
+      "data": "status=DA VRF, plan=Da inviare"
+    },
+    "connection": {
+      "status": "not_started",
+      "status_detail": "MISSING_DATA",
+      "data": null
+    },
+    "validation": {
+      "status": "not_started",
+      "status_detail": "NOT_STARTED",
+      "data": "vrf="
+    },
+    "overall_status": "in_progress",
+    "coordinates": null,
+    "inconsistencies": [],
+    "notes": null,
+    "created_at": "2026-02-09T14:47:18.663596",
+    "updated_at": "2026-02-09T14:47:18.663598"
+  }
+],
+    summary: {
+  "total_intersections": 220,
+  "total_radars": 773,
+  "fully_working": 0,
+  "by_lotto": {
+    "M9.1": {
+      "intersections": 123,
+      "radars": 425
+    },
+    "M9.2": {
+      "intersections": 97,
+      "radars": 348
+    }
+  },
+  "by_system": {
+    "TMACS": {
+      "intersections": 55,
+      "radars": 199
+    },
+    "OMNIA": {
+      "intersections": 165,
+      "radars": 574
+    }
+  },
+  "by_stage": {
+    "installation": {
+      "completed": 65,
+      "in_progress": 88,
+      "blocked": 66,
+      "not_started": 1
+    },
+    "configuration": {
+      "completed": 11,
+      "in_progress": 127,
+      "blocked": 0,
+      "not_started": 82
+    },
+    "connection": {
+      "completed": 0,
+      "in_progress": 49,
+      "blocked": 108,
+      "not_started": 63
+    },
+    "validation": {
+      "completed": 0,
+      "in_progress": 1,
+      "blocked": 0,
+      "not_started": 219
+    }
+  }
+}
 };
