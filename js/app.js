@@ -515,137 +515,222 @@ const App = {
     },
 
     /**
-     * Create detailed content for modal with all substages
+     * Create detailed content for modal with ALL fields from Excel - EDITABLE
      */
     createDetailContent(intersection) {
         const inst = intersection.installation || {};
         const conf = intersection.configuration || {};
         const conn = intersection.connection || {};
         const val = intersection.validation || {};
+        const lotto = intersection.lotto || '';
+        const isM91 = lotto === 'M9.1';
+        const isOmnia = (intersection.system || '').toUpperCase() === 'OMNIA';
 
         return `
-            <div class="detail-grid">
+            <div class="detail-grid editable">
                 <!-- General Information -->
                 <div class="detail-section">
                     <h4>General Information</h4>
                     <div class="detail-row"><span class="detail-label">Code</span><span class="detail-value">${intersection.id}</span></div>
-                    <div class="detail-row"><span class="detail-label">Name</span><span class="detail-value">${intersection.name}</span></div>
-                    <div class="detail-row"><span class="detail-label">Lotto</span><span class="detail-value">${intersection.lotto || '-'}</span></div>
+                    <div class="detail-row"><span class="detail-label">Name</span><span class="detail-value">${this.escapeHtml(intersection.name)}</span></div>
+                    <div class="detail-row"><span class="detail-label">Codice Impianto</span><span class="detail-value">${intersection.codice_impianto || '-'}</span></div>
+                    <div class="detail-row"><span class="detail-label">Lotto</span><span class="detail-value">${lotto || '-'}</span></div>
                     <div class="detail-row"><span class="detail-label">System</span><span class="detail-value">${intersection.system || '-'}</span></div>
-                    <div class="detail-row"><span class="detail-label">Radars</span><span class="detail-value">${intersection.num_radars || 0}</span></div>
-                    <div class="detail-row"><span class="detail-label">Overall Status</span><span class="detail-value"><span class="status-badge status-${intersection.overall_status}">${this.formatStatus(intersection.overall_status)}</span></span></div>
+                    <div class="detail-row"><span class="detail-label">N. Dispositivi</span><span class="detail-value">${intersection.num_radars || 0}</span></div>
+                    <div class="detail-row">
+                        <span class="detail-label">Overall Status</span>
+                        <span class="detail-value"><span class="status-badge status-${intersection.overall_status}">${this.formatStatus(intersection.overall_status)}</span></span>
+                    </div>
                 </div>
 
                 <!-- Installation Stage -->
-                <div class="detail-section">
-                    <h4>Installation <span class="status-badge status-${inst.status}">${this.formatStatus(inst.status)}</span></h4>
-                    <div class="detail-row"><span class="detail-label">Planimetry Received</span><span class="detail-value">${this.formatValue(inst.planimetry_received)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Cable Passage</span><span class="detail-value">${this.formatValue(inst.cable_passage)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Planimetry Sent to RSM</span><span class="detail-value">${this.formatValue(inst.planimetry_sent_rsm)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Sensor Installation</span><span class="detail-value">${this.formatValue(inst.sensor_installation)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Regulator Wiring</span><span class="detail-value">${this.formatValue(inst.regulator_wiring)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Screenshot</span><span class="detail-value">${this.formatValue(inst.screenshot)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Completed</span><span class="detail-value">${this.formatValue(inst.completed)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Documentation Sent</span><span class="detail-value">${this.formatValue(inst.documentation_sent)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Completion Date</span><span class="detail-value">${this.formatValue(inst.completion_date)}</span></div>
-                    ${inst.blocked_conduits ? `
-                    <div class="detail-row text-danger"><span class="detail-label">Blocked Conduits</span><span class="detail-value">Yes</span></div>
-                    <div class="detail-row"><span class="detail-label">Solution</span><span class="detail-value">${this.formatValue(inst.blocked_solution)}</span></div>
-                    ` : ''}
+                <div class="detail-section full-width">
+                    <h4>Installation <span class="status-badge status-${inst.status}">${this.formatStatus(inst.status)}</span> <small>(${inst.status_detail || '-'})</small></h4>
+
+                    ${isM91 ? `
+                    <div class="detail-subsection">
+                        <h5>Lotto 1 Data</h5>
+                        ${this.createEditableRow('L1 Match', 'inst_l1_match', inst.l1_match)}
+                        ${this.createEditableRow('Planimetrie', 'inst_l1_planimetrie', inst.l1_planimetrie)}
+                        ${this.createEditableRow('Passaggio Cavi', 'inst_l1_passaggio_cavi', inst.l1_passaggio_cavi)}
+                        ${this.createEditableRow('Install. Sensori', 'inst_l1_install_sensori', inst.l1_install_sensori)}
+                        ${this.createEditableRow('Cablaggio', 'inst_l1_cablaggio', inst.l1_cablaggio)}
+                        ${this.createEditableRow('Screenshot', 'inst_l1_screenshot', inst.l1_screenshot)}
+                        ${this.createEditableRow('Completato', 'inst_l1_completato', inst.l1_completato)}
+                        ${this.createEditableRow('Doc. Inviata', 'inst_l1_doc_inviata', inst.l1_doc_inviata)}
+                        ${this.createEditableRow('Data Completamento', 'inst_l1_data_compl', inst.l1_data_compl, 'date')}
+                    </div>
+                    ` : `
+                    <div class="detail-subsection">
+                        <h5>Lotto 2 Data</h5>
+                        ${this.createEditableRow('L2 Match', 'inst_l2_match', inst.l2_match)}
+                        ${this.createEditableRow('Data Installazione', 'inst_l2_data_installaz', inst.l2_data_installaz, 'date')}
+                        ${this.createEditableRow('Config RSM', 'inst_l2_config_rsm', inst.l2_config_rsm)}
+                        ${this.createEditableRow('Config Instal', 'inst_l2_config_instal', inst.l2_config_instal)}
+                        ${this.createEditableRow('Planimetria', 'inst_l2_planimetria', inst.l2_planimetria)}
+                        ${this.createEditableRow('N. Radar Finiti', 'inst_l2_n_radar_finiti', inst.l2_n_radar_finiti)}
+                        ${this.createEditableRow('Centralizzati', 'inst_l2_centralizzati', inst.l2_centralizzati)}
+                    </div>
+                    `}
+
+                    <div class="detail-subsection">
+                        <h5>Blocking Info</h5>
+                        ${this.createEditableRow('Disp. Bloccati', 'inst_disp_bloccati', inst.disp_inst_bloccati)}
+                        ${this.createEditableRow('Disp. da Inst.', 'inst_disp_da_inst', inst.disp_da_inst)}
+                        ${this.createEditableRow('Soluzione Bloccati', 'inst_soluzione_bloccati', inst.soluzione_bloccati, 'textarea')}
+                    </div>
                 </div>
 
                 <!-- Configuration Stage -->
                 <div class="detail-section">
-                    <h4>Configuration <span class="status-badge status-${conf.status}">${this.formatStatus(conf.status)}</span></h4>
-                    <div class="detail-row"><span class="detail-label">Config Sent</span><span class="detail-value">${this.formatValue(conf.config_sent)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Config Status</span><span class="detail-value">${this.formatValue(conf.config_status)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Config Installed</span><span class="detail-value">${this.formatValue(conf.config_installed)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Base Config</span><span class="detail-value">${this.formatValue(conf.base_config)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Definitive Config</span><span class="detail-value">${this.formatValue(conf.definitive_config)}</span></div>
+                    <h4>Configuration <span class="status-badge status-${conf.status}">${this.formatStatus(conf.status)}</span> <small>(${conf.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Plan/Cfg Inviate', 'cfg_plan_inviate', conf.plan_cfg_inviate)}
+                    ${this.createEditableRow('Cfg Def Status', 'cfg_def_status', conf.cfg_def_status)}
+                    ${this.createEditableRow('Cfg Def Inst', 'cfg_def_inst', conf.cfg_def_inst)}
                 </div>
 
                 <!-- Connection Stage -->
                 <div class="detail-section">
-                    <h4>Connection <span class="status-badge status-${conn.status}">${this.formatStatus(conn.status)}</span></h4>
-                    <div class="detail-row"><span class="detail-label">UTC Table</span><span class="detail-value">${this.formatValue(conn.utc_table)}</span></div>
-                    <div class="detail-row"><span class="detail-label">UTC Interface</span><span class="detail-value">${this.formatValue(conn.utc_interface)}</span></div>
-                    <div class="detail-row"><span class="detail-label">SPOT Status</span><span class="detail-value">${this.formatValue(conn.spot_status)}</span></div>
-                    <div class="detail-row"><span class="detail-label">AUT Status</span><span class="detail-value">${this.formatValue(conn.aut_status)}</span></div>
-                    <div class="detail-row"><span class="detail-label">SCAE Panel</span><span class="detail-value">${this.formatValue(conn.scae_panel)}</span></div>
+                    <h4>Connection <span class="status-badge status-${conn.status}">${this.formatStatus(conn.status)}</span> <small>(${conn.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Da Centr. AUT', 'conn_da_centr_aut', conn.da_centr_aut)}
+                    ${this.createEditableRow('Tabella IF UTC', 'conn_tabella_utc', conn.tabella_if_utc)}
+                    ${this.createEditableRow('Inst. Interfaccia UTC', 'conn_inst_if_utc', conn.inst_interfaccia_utc)}
+
+                    ${isOmnia ? `
+                    <div class="detail-subsection">
+                        <h5>SWARCO/Omnia</h5>
+                        ${this.createEditableRow('SPOT Status', 'conn_swarco_spot_status', conn.swarco_spot_status)}
+                        ${this.createEditableRow('SPOT Firmware', 'conn_swarco_spot_firmware', conn.swarco_spot_firmware)}
+                    </div>
+                    ` : `
+                    <div class="detail-subsection">
+                        <h5>Semaforica/Tmacs</h5>
+                        ${this.createEditableRow('AUT', 'conn_sema_aut', conn.sema_aut)}
+                        ${this.createEditableRow('Attività', 'conn_sema_attivita', conn.sema_attivita)}
+                    </div>
+                    `}
                 </div>
 
                 <!-- Validation Stage -->
                 <div class="detail-section">
-                    <h4>Validation <span class="status-badge status-${val.status}">${this.formatStatus(val.status)}</span></h4>
-                    <div class="detail-row"><span class="detail-label">Data Verified</span><span class="detail-value">${this.formatValue(val.data_verified)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Sending to DataLake</span><span class="detail-value">${this.formatValue(val.sending_to_datalake)}</span></div>
-                    <div class="detail-row"><span class="detail-label">Traffic Data Verified</span><span class="detail-value">${this.formatValue(val.traffic_data_verified)}</span></div>
+                    <h4>Validation <span class="status-badge status-${val.status}">${this.formatStatus(val.status)}</span> <small>(${val.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Verifica Dati', 'val_vrf_dati', val.vrf_dati)}
                 </div>
-
-                <!-- Radars -->
-                ${intersection.radars && intersection.radars.length > 0 ? `
-                <div class="detail-section full-width">
-                    <h4>Individual Radars</h4>
-                    <div class="radar-grid">
-                        ${intersection.radars.map((radar, i) => `
-                            <div class="radar-item">
-                                <strong>Radar ${i + 1}</strong>
-                                <div>ID: ${radar.id || '-'}</div>
-                                <div>IP: ${radar.ip || '-'}</div>
-                                <div>Position: ${radar.position || '-'}</div>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-                ` : ''}
-
-                <!-- Files -->
-                <div class="detail-section">
-                    <h4>Files</h4>
-                    <div class="detail-row">
-                        <span class="detail-label">Planimetry</span>
-                        <span class="detail-value">
-                            ${intersection.files?.planimetry ?
-                                `<a href="${intersection.files.planimetry}" target="_blank">View</a>` :
-                                'Not uploaded'}
-                        </span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Photos</span>
-                        <span class="detail-value">${intersection.files?.photos?.length || 0} files</span>
-                    </div>
-                </div>
-
-                <!-- Issues -->
-                ${intersection.inconsistencies && intersection.inconsistencies.length > 0 ? `
-                <div class="detail-section full-width">
-                    <h4 class="text-warning">Data Issues</h4>
-                    ${intersection.inconsistencies.map(issue => `
-                        <div class="issue-item">
-                            <span class="issue-type-badge">${issue.type.replace(/_/g, ' ')}</span>
-                            <span>${issue.message || ''}</span>
-                        </div>
-                    `).join('')}
-                </div>
-                ` : ''}
 
                 <!-- Notes -->
                 <div class="detail-section full-width">
                     <h4>Notes</h4>
-                    <textarea id="detail-notes" rows="3">${intersection.notes || ''}</textarea>
+                    ${this.createEditableRow('Note Principali', 'note_main', intersection.note_main, 'textarea')}
+                    ${this.createEditableRow('Note Aggiuntive', 'notes', intersection.notes, 'textarea')}
                 </div>
 
                 <!-- Actions -->
                 <div class="detail-section full-width">
-                    <h4>Quick Actions</h4>
+                    <h4>Actions</h4>
                     <div class="action-buttons">
-                        <button class="btn btn-secondary" onclick="TasksManager.createTaskForIntersection('${intersection.id}')">Create Task</button>
+                        <button class="btn btn-primary" onclick="App.saveAllChanges('${intersection.id}')">Save All Changes</button>
                         <button class="btn btn-secondary" onclick="MapManager.focusIntersection('${intersection.id}'); App.closeModals(); App.switchTab('map');">Show on Map</button>
                         <button class="btn btn-secondary" onclick="App.showPlanimetry('${intersection.id}')">View Planimetry</button>
                     </div>
                 </div>
             </div>
         `;
+    },
+
+    /**
+     * Create an editable row with label and input
+     */
+    createEditableRow(label, fieldId, value, inputType = 'text') {
+        const displayValue = this.formatValue(value);
+        const inputValue = value !== null && value !== undefined ? value : '';
+
+        if (inputType === 'textarea') {
+            return `
+                <div class="detail-row editable-row">
+                    <span class="detail-label">${label}</span>
+                    <textarea id="edit_${fieldId}" class="edit-input" rows="2">${this.escapeHtml(String(inputValue))}</textarea>
+                </div>
+            `;
+        } else if (inputType === 'date') {
+            return `
+                <div class="detail-row editable-row">
+                    <span class="detail-label">${label}</span>
+                    <input type="text" id="edit_${fieldId}" class="edit-input" value="${this.escapeHtml(String(inputValue))}" placeholder="YYYY-MM-DD">
+                </div>
+            `;
+        } else {
+            return `
+                <div class="detail-row editable-row">
+                    <span class="detail-label">${label}</span>
+                    <input type="text" id="edit_${fieldId}" class="edit-input" value="${this.escapeHtml(String(inputValue))}">
+                </div>
+            `;
+        }
+    },
+
+    /**
+     * Save all changes from the detail modal
+     */
+    saveAllChanges(intersectionId) {
+        const intersection = DataManager.getIntersection(intersectionId);
+        if (!intersection) return;
+
+        // Collect all edited values
+        const updates = {
+            installation: { ...intersection.installation },
+            configuration: { ...intersection.configuration },
+            connection: { ...intersection.connection },
+            validation: { ...intersection.validation }
+        };
+
+        // Installation fields
+        const instFields = [
+            'l1_match', 'l1_planimetrie', 'l1_passaggio_cavi', 'l1_install_sensori',
+            'l1_cablaggio', 'l1_screenshot', 'l1_completato', 'l1_doc_inviata', 'l1_data_compl',
+            'l2_match', 'l2_data_installaz', 'l2_config_rsm', 'l2_config_instal',
+            'l2_planimetria', 'l2_n_radar_finiti', 'l2_centralizzati',
+            'disp_bloccati', 'disp_da_inst', 'soluzione_bloccati'
+        ];
+        instFields.forEach(field => {
+            const el = document.getElementById(`edit_inst_${field}`);
+            if (el) updates.installation[field] = el.value || null;
+        });
+
+        // Configuration fields
+        const cfgFields = ['plan_inviate', 'def_status', 'def_inst'];
+        cfgFields.forEach(field => {
+            const el = document.getElementById(`edit_cfg_${field}`);
+            if (el) {
+                const key = field === 'plan_inviate' ? 'plan_cfg_inviate' : `cfg_${field}`;
+                updates.configuration[key] = el.value || null;
+            }
+        });
+
+        // Connection fields
+        const connFields = ['da_centr_aut', 'tabella_utc', 'inst_if_utc',
+                           'swarco_spot_status', 'swarco_spot_firmware',
+                           'sema_aut', 'sema_attivita'];
+        connFields.forEach(field => {
+            const el = document.getElementById(`edit_conn_${field}`);
+            if (el) updates.connection[field.replace('tabella_utc', 'tabella_if_utc').replace('inst_if_utc', 'inst_interfaccia_utc')] = el.value || null;
+        });
+
+        // Validation fields
+        const valEl = document.getElementById('edit_val_vrf_dati');
+        if (valEl) updates.validation.vrf_dati = valEl.value || null;
+
+        // Notes
+        const noteMainEl = document.getElementById('edit_note_main');
+        const notesEl = document.getElementById('edit_notes');
+        if (noteMainEl) updates.note_main = noteMainEl.value || null;
+        if (notesEl) updates.notes = notesEl.value || null;
+
+        // Update the intersection
+        DataManager.updateIntersection(intersectionId, updates);
+
+        this.showNotification('All changes saved successfully!', 'success');
+        this.closeModals();
+        this.renderCurrentTab();
     },
 
     /**

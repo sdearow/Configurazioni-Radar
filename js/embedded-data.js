@@ -1,7 +1,8 @@
 /**
  * Embedded Data - Generated from intersection status analysis
- * Generated: 2026-02-09 14:54:11
+ * Generated: 2026-02-09 15:56:23
  * Total intersections: 220
+ * Includes ALL fields from Excel for editing
  */
 
 const EMBEDDED_DATA = {
@@ -10,7701 +11,13861 @@ const EMBEDDED_DATA = {
     "id": "101",
     "name": "101-Cassia/Grottarossa",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "20034",
+    "system": "Tmacs",
+    "codice_impianto": 20034,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Cassia/Grottarossa",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-26 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 3,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.723927",
-    "updated_at": "2026-02-09T14:54:11.723937"
+    "created_at": "2026-02-09T15:56:23.414052",
+    "updated_at": "2026-02-09T15:56:23.414061"
   },
   {
     "id": "102",
     "name": "102-Trionfale/Barellai",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19066",
+    "system": "Omnia",
+    "codice_impianto": 19066,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=2.0, cabl=, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Trionfale/Barellai",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724006",
-    "updated_at": "2026-02-09T14:54:11.724008"
+    "created_at": "2026-02-09T15:56:23.414163",
+    "updated_at": "2026-02-09T15:56:23.414165"
   },
   {
     "id": "105",
     "name": "105-Cassia Nuova/Fabbroni/Pareto",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20029",
+    "system": "Omnia",
+    "codice_impianto": 20029,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Cassia Nuova/Fabbroni/Pareto",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-08-02 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724058",
-    "updated_at": "2026-02-09T14:54:11.724060"
+    "created_at": "2026-02-09T15:56:23.414252",
+    "updated_at": "2026-02-09T15:56:23.414253"
   },
   {
     "id": "106",
     "name": "106-Flaminia Nuova/Valdagno",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20012",
+    "system": "Omnia",
+    "codice_impianto": 20012,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Flaminia Nuova/Valdagno",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "parziale",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-14 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 3,
+      "soluzione_bloccati": "Scavo su marciapiede corto"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724106",
-    "updated_at": "2026-02-09T14:54:11.724107"
+    "created_at": "2026-02-09T15:56:23.414353",
+    "updated_at": "2026-02-09T15:56:23.414355"
   },
   {
     "id": "108",
     "name": "108-C.so Francia/Vigna Stelluti",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20028",
+    "system": "Omnia",
+    "codice_impianto": 20028,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "C.so Francia/Vigna Stelluti",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-13 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724168",
-    "updated_at": "2026-02-09T14:54:11.724170"
+    "created_at": "2026-02-09T15:56:23.414448",
+    "updated_at": "2026-02-09T15:56:23.414449"
   },
   {
     "id": "109",
     "name": "109-Pineta Sacchetti/Pascucci",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19057",
+    "system": "Omnia",
+    "codice_impianto": 19057,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Pineta Sacchetti/Pascucci",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "30/10/20223",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724215",
-    "updated_at": "2026-02-09T14:54:11.724216"
+    "created_at": "2026-02-09T15:56:23.414533",
+    "updated_at": "2026-02-09T15:56:23.414535"
   },
   {
     "id": "112",
     "name": "112-Pineta Sacchetti/Forte Braschi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19054",
+    "system": "Omnia",
+    "codice_impianto": 19054,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Pineta Sacchetti/Forte Braschi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-30 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724260",
-    "updated_at": "2026-02-09T14:54:11.724261"
+    "created_at": "2026-02-09T15:56:23.414623",
+    "updated_at": "2026-02-09T15:56:23.414625"
   },
   {
     "id": "113",
     "name": "113-Pineta Sacchetti/Tardini",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18039",
+    "system": "Omnia",
+    "codice_impianto": 18039,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Pineta Sacchetti/Tardini",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-25 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724307",
-    "updated_at": "2026-02-09T14:54:11.724309"
+    "created_at": "2026-02-09T15:56:23.414719",
+    "updated_at": "2026-02-09T15:56:23.414720"
   },
   {
     "id": "114",
     "name": "114-Boccea/Cornelia/Giureconsulti",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18009",
+    "system": "Omnia",
+    "codice_impianto": 18009,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Boccea/Cornelia/Giureconsulti",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-26 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 3,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724351",
-    "updated_at": "2026-02-09T14:54:11.724352"
+    "created_at": "2026-02-09T15:56:23.414807",
+    "updated_at": "2026-02-09T15:56:23.414809"
   },
   {
     "id": "115",
     "name": "115-Aurelia/Cornelia/Irnerio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18015",
+    "system": "Omnia",
+    "codice_impianto": 18015,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Aurelia/Cornelia/Irnerio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724394",
-    "updated_at": "2026-02-09T14:54:11.724396"
+    "created_at": "2026-02-09T15:56:23.414894",
+    "updated_at": "2026-02-09T15:56:23.414895"
   },
   {
     "id": "116",
     "name": "116-P.zza Villa Carpegna/Madonna del Riposo",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18074",
+    "system": "Omnia",
+    "codice_impianto": 18074,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "P.zza Villa Carpegna/Madonna del Riposo",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-05-30 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ok",
+      "inst_interfaccia_utc": "Inv.SWARCO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724445",
-    "updated_at": "2026-02-09T14:54:11.724447"
+    "created_at": "2026-02-09T15:56:23.414985",
+    "updated_at": "2026-02-09T15:56:23.414987"
   },
   {
     "id": "117",
     "name": "117-Gregorio VII/Villa Carpegna",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18016",
+    "system": "Omnia",
+    "codice_impianto": 18016,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Gregorio VII/Villa Carpegna",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-06-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ok",
+      "inst_interfaccia_utc": "INST.",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf=VRF UTC"
+      "vrf_dati": "VRF UTC"
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724503",
-    "updated_at": "2026-02-09T14:54:11.724505"
+    "created_at": "2026-02-09T15:56:23.415071",
+    "updated_at": "2026-02-09T15:56:23.415072"
   },
   {
     "id": "118",
     "name": "118-Boccea/Gregorio XIII",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18080",
+    "system": "Omnia",
+    "codice_impianto": 18080,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=2.0, cabl=, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Boccea/Gregorio XIII",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724548",
-    "updated_at": "2026-02-09T14:54:11.724550"
+    "created_at": "2026-02-09T15:56:23.415159",
+    "updated_at": "2026-02-09T15:56:23.415161"
   },
   {
     "id": "119",
     "name": "119-Boccea/Battistini",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18042",
+    "system": "Omnia",
+    "codice_impianto": 18042,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Boccea/Battistini",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-07-04 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724592",
-    "updated_at": "2026-02-09T14:54:11.724593"
+    "created_at": "2026-02-09T15:56:23.415240",
+    "updated_at": "2026-02-09T15:56:23.415242"
   },
   {
     "id": "120",
     "name": "120-Boccea/Torrevecchia",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18020",
+    "system": "Omnia",
+    "codice_impianto": 18020,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Boccea/Torrevecchia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-06-26 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724636",
-    "updated_at": "2026-02-09T14:54:11.724637"
+    "created_at": "2026-02-09T15:56:23.415380",
+    "updated_at": "2026-02-09T15:56:23.415382"
   },
   {
     "id": "121",
     "name": "121-Pio XI/Anastasio II",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18005",
+    "system": "Omnia",
+    "codice_impianto": 18005,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Via Anastasio II - Pio XI",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-28 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar (2/4) su altro sbraccio"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724678",
-    "updated_at": "2026-02-09T14:54:11.724680"
+    "created_at": "2026-02-09T15:56:23.415472",
+    "updated_at": "2026-02-09T15:56:23.415474"
   },
   {
     "id": "122",
     "name": "122-Pio XI/Gregorio VII",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18022",
+    "system": "Omnia",
+    "codice_impianto": 18022,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Pio XI/Gregorio VII",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-24 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724724",
-    "updated_at": "2026-02-09T14:54:11.724725"
+    "created_at": "2026-02-09T15:56:23.415555",
+    "updated_at": "2026-02-09T15:56:23.415557"
   },
   {
     "id": "123",
     "name": "123-Anastasio II",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18002",
+    "system": "Omnia",
+    "codice_impianto": 18002,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Anastasio II",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724768",
-    "updated_at": "2026-02-09T14:54:11.724769"
+    "created_at": "2026-02-09T15:56:23.415639",
+    "updated_at": "2026-02-09T15:56:23.415645"
   },
   {
     "id": "124",
     "name": "124-Anastasio II/Savorelli",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18001",
+    "system": "Omnia",
+    "codice_impianto": 18001,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Anastasio II/Savorelli",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724812",
-    "updated_at": "2026-02-09T14:54:11.724814"
+    "created_at": "2026-02-09T15:56:23.415737",
+    "updated_at": "2026-02-09T15:56:23.415739"
   },
   {
     "id": "125",
     "name": "125-Gregorio VII/Monte del Gallo",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "18037",
+    "system": "Tmacs",
+    "codice_impianto": 18037,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=, cabl=, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Gregorio VII/Monte del Gallo",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724856",
-    "updated_at": "2026-02-09T14:54:11.724857"
+    "created_at": "2026-02-09T15:56:23.415825",
+    "updated_at": "2026-02-09T15:56:23.415826"
   },
   {
     "id": "126",
     "name": "126-Largo Porta Cavalleggeri",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "18004",
+    "system": "Tmacs",
+    "codice_impianto": 18004,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Largo Porta Cavalleggeri",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-05 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar (2/4) su altre paline"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": "ok",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "Inviati file configurazione a Semaforica",
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724902",
-    "updated_at": "2026-02-09T14:54:11.724904"
+    "created_at": "2026-02-09T15:56:23.415910",
+    "updated_at": "2026-02-09T15:56:23.415911"
   },
   {
     "id": "127",
     "name": "127-Piazza della Rovere",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1031",
+    "system": "Tmacs",
+    "codice_impianto": 1031,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazzale della Rovere",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-06 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.724951",
-    "updated_at": "2026-02-09T14:54:11.724952"
+    "created_at": "2026-02-09T15:56:23.415991",
+    "updated_at": "2026-02-09T15:56:23.415992"
   },
   {
     "id": "128",
     "name": "128-L.re Sangallo/Ponte PASA",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1055",
+    "system": "Tmacs",
+    "codice_impianto": 1055,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "L.re Sangallo/Ponte PASA",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-07-16 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725003",
-    "updated_at": "2026-02-09T14:54:11.725005"
+    "created_at": "2026-02-09T15:56:23.416078",
+    "updated_at": "2026-02-09T15:56:23.416080"
   },
   {
     "id": "129",
     "name": "129-L.re Fiorentini/Ponte V.E. II",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1077",
+    "system": "Tmacs",
+    "codice_impianto": 1077,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "L.re Fiorentini/Ponte V.E. II",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale ripassare",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-07 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725049",
-    "updated_at": "2026-02-09T14:54:11.725050"
+    "created_at": "2026-02-09T15:56:23.416159",
+    "updated_at": "2026-02-09T15:56:23.416161"
   },
   {
     "id": "130",
     "name": "130-L.re in Sassia/Ponte V.E.II",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "17017",
+    "system": "Tmacs",
+    "codice_impianto": 17017,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "L.re in Sassia/Ponte V.E.II",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-08 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725093",
-    "updated_at": "2026-02-09T14:54:11.725095"
+    "created_at": "2026-02-09T15:56:23.416244",
+    "updated_at": "2026-02-09T15:56:23.416245"
   },
   {
     "id": "132",
     "name": "132-Piazza Adriana/Crescenzio",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "17024",
+    "system": "Tmacs",
+    "codice_impianto": 17024,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=, blocc=5",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazza Adriana/Crescenzio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "galleria",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-03 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725158",
-    "updated_at": "2026-02-09T14:54:11.725160"
+    "created_at": "2026-02-09T15:56:23.416373",
+    "updated_at": "2026-02-09T15:56:23.416375"
   },
   {
     "id": "133",
     "name": "133-Ponte Umberto I/P.zza Tribunali",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "17016",
+    "system": "Tmacs",
+    "codice_impianto": 17016,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Ponte Umberto I/P.zza Tribunali",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-06 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725205",
-    "updated_at": "2026-02-09T14:54:11.725206"
+    "created_at": "2026-02-09T15:56:23.416465",
+    "updated_at": "2026-02-09T15:56:23.416466"
   },
   {
     "id": "134",
     "name": "134-Ponte Umberto I/Zanardelli",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1073",
+    "system": "Tmacs",
+    "codice_impianto": 1073,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Ponte Umberto I/Zanardelli",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-08 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725248",
-    "updated_at": "2026-02-09T14:54:11.725249"
+    "created_at": "2026-02-09T15:56:23.416548",
+    "updated_at": "2026-02-09T15:56:23.416549"
   },
   {
     "id": "135",
     "name": "135-Ponte Regina Margherita/L.re in Augusta",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "2035",
+    "system": "Tmacs",
+    "codice_impianto": 2035,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Ponte Regina Margherita/L.re in Augusta",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-15 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725291",
-    "updated_at": "2026-02-09T14:54:11.725293"
+    "created_at": "2026-02-09T15:56:23.416633",
+    "updated_at": "2026-02-09T15:56:23.416634"
   },
   {
     "id": "137",
     "name": "137-P.le Clodio Est",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17041",
+    "system": "Omnia",
+    "codice_impianto": 17041,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "P.le Clodio Est",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-06-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725338",
-    "updated_at": "2026-02-09T14:54:11.725339"
+    "created_at": "2026-02-09T15:56:23.416729",
+    "updated_at": "2026-02-09T15:56:23.416731"
   },
   {
     "id": "138",
     "name": "138-P.le Clodio Ovest",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17041",
+    "system": "Omnia",
+    "codice_impianto": 17041,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "P.le Clodio Ovest",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-06-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725444",
-    "updated_at": "2026-02-09T14:54:11.725446"
+    "created_at": "2026-02-09T15:56:23.416853",
+    "updated_at": "2026-02-09T15:56:23.416854"
   },
   {
     "id": "139",
     "name": "139-P.le Maresciallo Giardino/L.re della Vittoria",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17010",
+    "system": "Omnia",
+    "codice_impianto": 17010,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "P.le Maresciallo Giardino/L.re della Vittoria",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa 2/3",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "parziale",
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-15 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 5,
+      "soluzione_bloccati": "Spostamento radar (1/5) su altro sbraccio"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725494",
-    "updated_at": "2026-02-09T14:54:11.725496"
+    "created_at": "2026-02-09T15:56:23.416939",
+    "updated_at": "2026-02-09T15:56:23.416940"
   },
   {
     "id": "140",
     "name": "140-Ponte Duca d'Aosta/Stadio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20009",
+    "system": "Omnia",
+    "codice_impianto": 20009,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Ponte Duca d'Aosta - Stadio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-07-05 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725542",
-    "updated_at": "2026-02-09T14:54:11.725543"
+    "created_at": "2026-02-09T15:56:23.417032",
+    "updated_at": "2026-02-09T15:56:23.417034"
   },
   {
     "id": "143",
     "name": "143-C.so Francia/Flaminia",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20095",
+    "system": "Omnia",
+    "codice_impianto": 20095,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Corso Francia - Flaminia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-07-03 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725587",
-    "updated_at": "2026-02-09T14:54:11.725588"
+    "created_at": "2026-02-09T15:56:23.417116",
+    "updated_at": "2026-02-09T15:56:23.417117"
   },
   {
     "id": "144",
     "name": "144-Ponte Milvio/Tor di Quinto",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20010",
+    "system": "Omnia",
+    "codice_impianto": 20010,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Ponte Milvio/Tor di Quinto",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-06 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar (1/4) su altro sbraccio"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725632",
-    "updated_at": "2026-02-09T14:54:11.725633"
+    "created_at": "2026-02-09T15:56:23.417201",
+    "updated_at": "2026-02-09T15:56:23.417202"
   },
   {
     "id": "204",
     "name": "204-P.le Appio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "9042",
+    "system": "Omnia",
+    "codice_impianto": 9042,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "P.le Appio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-31 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 5,
+      "soluzione_bloccati": "Spostamento radar (3/5) su paline"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725678",
-    "updated_at": "2026-02-09T14:54:11.725679"
+    "created_at": "2026-02-09T15:56:23.417309",
+    "updated_at": "2026-02-09T15:56:23.417311"
   },
   {
     "id": "206",
     "name": "206-Porta S.Giovanni/E.Filiberto",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1054",
+    "system": "Omnia",
+    "codice_impianto": 1054,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Porta S.Giovanni/E.Filiberto",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-02 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725723",
-    "updated_at": "2026-02-09T14:54:11.725724"
+    "created_at": "2026-02-09T15:56:23.417406",
+    "updated_at": "2026-02-09T15:56:23.417407"
   },
   {
     "id": "207",
     "name": "207-S.Giovanni Laterano/Merulana",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1062",
+    "system": "Omnia",
+    "codice_impianto": 1062,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "S.Giovanni Laterano/Merulana",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2025-05-17 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725766",
-    "updated_at": "2026-02-09T14:54:11.725768"
+    "created_at": "2026-02-09T15:56:23.417489",
+    "updated_at": "2026-02-09T15:56:23.417491"
   },
   {
     "id": "208",
     "name": "208-Porta Metronia",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1052",
+    "system": "Tmacs",
+    "codice_impianto": 1052,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Porta Metronia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-01 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725809",
-    "updated_at": "2026-02-09T14:54:11.725810"
+    "created_at": "2026-02-09T15:56:23.417569",
+    "updated_at": "2026-02-09T15:56:23.417570"
   },
   {
     "id": "209",
     "name": "209-Caracalla/Colombo/Druso",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1048",
+    "system": "Tmacs",
+    "codice_impianto": 1048,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Via Cristoforo Colombo - Via Druso",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-08-28 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725851",
-    "updated_at": "2026-02-09T14:54:11.725852"
+    "created_at": "2026-02-09T15:56:23.417660",
+    "updated_at": "2026-02-09T15:56:23.417662"
   },
   {
     "id": "210",
     "name": "210-Colombo/Porta Ardeatina",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "1004",
+    "system": "Tmacs",
+    "codice_impianto": 1004,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Porta Ardeatina",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-22 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725893",
-    "updated_at": "2026-02-09T14:54:11.725894"
+    "created_at": "2026-02-09T15:56:23.417746",
+    "updated_at": "2026-02-09T15:56:23.417747"
   },
   {
     "id": "211",
     "name": "211-Colombo/Navigatori",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11005",
+    "system": "Tmacs",
+    "codice_impianto": 11005,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Navigatori",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-08-07 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725935",
-    "updated_at": "2026-02-09T14:54:11.725936"
+    "created_at": "2026-02-09T15:56:23.417830",
+    "updated_at": "2026-02-09T15:56:23.417832"
   },
   {
     "id": "212",
     "name": "212-Colombo/Laurentina",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11002",
+    "system": "Tmacs",
+    "codice_impianto": 11002,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Laurentina",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "RISTRUTTURATO 01/2026",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-23 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 5,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "VERIFICARE SE RADAR COLLEGATI DOPO RISTRUTT.",
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.725977",
-    "updated_at": "2026-02-09T14:54:11.725979"
+    "created_at": "2026-02-09T15:56:23.417911",
+    "updated_at": "2026-02-09T15:56:23.417913"
   },
   {
     "id": "213",
     "name": "213-Colombo/CiviltÃ  del Lavoro",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12001",
+    "system": "Tmacs",
+    "codice_impianto": 12001,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/CiviltÃ  del Lavoro",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-15 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su paline"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726020",
-    "updated_at": "2026-02-09T14:54:11.726021"
+    "created_at": "2026-02-09T15:56:23.417993",
+    "updated_at": "2026-02-09T15:56:23.417994"
   },
   {
     "id": "214",
     "name": "214-Colombo/Genocchi",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11006",
+    "system": "Tmacs",
+    "codice_impianto": 11006,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Genocchi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-20 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 5,
+      "soluzione_bloccati": "Spostamento radar (3/5) su altro sbraccio o paline o su altro IS"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "VERIFICA CON LOTTO1 QUALI COLLEGATI",
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726068",
-    "updated_at": "2026-02-09T14:54:11.726071"
+    "created_at": "2026-02-09T15:56:23.418077",
+    "updated_at": "2026-02-09T15:56:23.418079"
   },
   {
     "id": "215",
     "name": "215-Colombo/Agiati",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11009",
+    "system": "Tmacs",
+    "codice_impianto": 11009,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Agiati",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-19 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar (1/4) su altro sbraccio"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726129",
-    "updated_at": "2026-02-09T14:54:11.726131"
+    "created_at": "2026-02-09T15:56:23.418161",
+    "updated_at": "2026-02-09T15:56:23.418163"
   },
   {
     "id": "216",
     "name": "216-Colombo/Leonori",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11010",
+    "system": "Tmacs",
+    "codice_impianto": 11010,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Leonori",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-14 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "?!?!?!?"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726176",
-    "updated_at": "2026-02-09T14:54:11.726177"
+    "created_at": "2026-02-09T15:56:23.418243",
+    "updated_at": "2026-02-09T15:56:23.418244"
   },
   {
     "id": "217",
     "name": "217-Colombo/Europa",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12002",
+    "system": "Tmacs",
+    "codice_impianto": 12002,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Europa",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": null,
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2025-02-07 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": 2,
+      "soluzione_bloccati": "Spostamento radar non collegati su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726219",
-    "updated_at": "2026-02-09T14:54:11.726221"
+    "created_at": "2026-02-09T15:56:23.418351",
+    "updated_at": "2026-02-09T15:56:23.418353"
   },
   {
     "id": "218",
     "name": "218-Colombo/Umanesimo dir. GRA",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12060",
+    "system": "Tmacs",
+    "codice_impianto": 12060,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Umanesimo dir. GRA",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "parziale",
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-25 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726261",
-    "updated_at": "2026-02-09T14:54:11.726263"
+    "created_at": "2026-02-09T15:56:23.418441",
+    "updated_at": "2026-02-09T15:56:23.418442"
   },
   {
     "id": "219",
     "name": "219-Colombo/Umanesimo dir. Centro",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12062",
+    "system": "Tmacs",
+    "codice_impianto": 12062,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Umanesimo dir. Centro",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-21 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar (2/3) su altre paline"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "Verificare numero radar, su mappa Lotto1 trovati 3",
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726303",
-    "updated_at": "2026-02-09T14:54:11.726304"
+    "created_at": "2026-02-09T15:56:23.418524",
+    "updated_at": "2026-02-09T15:56:23.418525"
   },
   {
     "id": "220",
     "name": "220-Colombo/Oceani",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12055",
+    "system": "Tmacs",
+    "codice_impianto": 12055,
     "num_radars": 6,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=6.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Colombo/Oceani",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 6,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-25 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 6,
+      "soluzione_bloccati": "DA RISTRUTTURARE IIN OFFERTA TECNICA / PROGETTO BLACKPOINTS"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726345",
-    "updated_at": "2026-02-09T14:54:11.726346"
+    "created_at": "2026-02-09T15:56:23.418604",
+    "updated_at": "2026-02-09T15:56:23.418606"
   },
   {
     "id": "226",
     "name": "226-Laurentina/Umanesimo",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12020",
+    "system": "Tmacs",
+    "codice_impianto": 12020,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Laurentina/Umanesimo",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-14 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726389",
-    "updated_at": "2026-02-09T14:54:11.726390"
+    "created_at": "2026-02-09T15:56:23.418689",
+    "updated_at": "2026-02-09T15:56:23.418691"
   },
   {
     "id": "227",
     "name": "227-Laurentina/Vigna Murata",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12005",
+    "system": "Tmacs",
+    "codice_impianto": 12005,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Laurentina/Vigna Murata",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-19 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "?!?!?!?"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726438",
-    "updated_at": "2026-02-09T14:54:11.726440"
+    "created_at": "2026-02-09T15:56:23.418775",
+    "updated_at": "2026-02-09T15:56:23.418777"
   },
   {
     "id": "228",
     "name": "228-Laurentina/Serafico",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12010",
+    "system": "Tmacs",
+    "codice_impianto": 12010,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Laurentina/Serafico",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-15 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 3,
+      "soluzione_bloccati": "Spostamento radar (1/3) su altro sbraccio"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726485",
-    "updated_at": "2026-02-09T14:54:11.726486"
+    "created_at": "2026-02-09T15:56:23.418857",
+    "updated_at": "2026-02-09T15:56:23.418858"
   },
   {
     "id": "229",
     "name": "229-Laurentina/Ardigò",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "11026",
+    "system": "Tmacs",
+    "codice_impianto": 11026,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Laurentina/Ardigò",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "parziale",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-19 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": 1,
+      "soluzione_bloccati": "Spostamento radar (1/3) su altro sbraccio"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726529",
-    "updated_at": "2026-02-09T14:54:11.726530"
+    "created_at": "2026-02-09T15:56:23.418939",
+    "updated_at": "2026-02-09T15:56:23.418940"
   },
   {
     "id": "230",
     "name": "230-Laurentina/Silone",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12047",
+    "system": "Tmacs",
+    "codice_impianto": 12047,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Laurentina/Silone",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-18 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726573",
-    "updated_at": "2026-02-09T14:54:11.726574"
+    "created_at": "2026-02-09T15:56:23.419021",
+    "updated_at": "2026-02-09T15:56:23.419023"
   },
   {
     "id": "231",
     "name": "231-Laurentina/Acqua Acetosa Ostiense",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12030",
+    "system": "Tmacs",
+    "codice_impianto": 12030,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Laurentina/Acqua Acetosa Ostiense",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "parziale",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-19 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": 2,
+      "soluzione_bloccati": "Spostamento radar (2/4) su altre paline"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726617",
-    "updated_at": "2026-02-09T14:54:11.726618"
+    "created_at": "2026-02-09T15:56:23.419105",
+    "updated_at": "2026-02-09T15:56:23.419107"
   },
   {
     "id": "232",
     "name": "232-Laurentina/Tor Pagnotta",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "12104",
+    "system": "Tmacs",
+    "codice_impianto": 12104,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Laurentina/Tor Pagnotta",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-09-21 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726660",
-    "updated_at": "2026-02-09T14:54:11.726662"
+    "created_at": "2026-02-09T15:56:23.419188",
+    "updated_at": "2026-02-09T15:56:23.419190"
   },
   {
     "id": "234",
     "name": "234-Colli Portuensi/Morelli",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16033",
+    "system": "Omnia",
+    "codice_impianto": 16033,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Colli Portuensi/Morelli",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726705",
-    "updated_at": "2026-02-09T14:54:11.726706"
+    "created_at": "2026-02-09T15:56:23.419269",
+    "updated_at": "2026-02-09T15:56:23.419270"
   },
   {
     "id": "235",
     "name": "235-Colli Portuensi/Monteverde",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16022",
+    "system": "Omnia",
+    "codice_impianto": 16022,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Colli Portuensi/Monteverde",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726746",
-    "updated_at": "2026-02-09T14:54:11.726747"
+    "created_at": "2026-02-09T15:56:23.419386",
+    "updated_at": "2026-02-09T15:56:23.419388"
   },
   {
     "id": "236",
     "name": "236-Colli Portuensi/Gianicolense",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16009",
+    "system": "Omnia",
+    "codice_impianto": 16009,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Colli Portuensi/Gianicolense",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2024-05-09 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ok",
+      "inst_interfaccia_utc": "Inv.SWARCO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726790",
-    "updated_at": "2026-02-09T14:54:11.726791"
+    "created_at": "2026-02-09T15:56:23.419475",
+    "updated_at": "2026-02-09T15:56:23.419476"
   },
   {
     "id": "238",
     "name": "238-Gianicolense/Monteverde",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16006",
+    "system": "Omnia",
+    "codice_impianto": 16006,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Gianicolense/Monteverde",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2024-04-22 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ok",
+      "inst_interfaccia_utc": "Inv.SWARCO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726834",
-    "updated_at": "2026-02-09T14:54:11.726835"
+    "created_at": "2026-02-09T15:56:23.419558",
+    "updated_at": "2026-02-09T15:56:23.419560"
   },
   {
     "id": "239",
     "name": "239-Gianicolense/Dunant",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16004",
+    "system": "Omnia",
+    "codice_impianto": 16004,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "PARTIAL",
-      "data": "compl=parziale, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Gianicolense/Dunant",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "parziale",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2024-04-19 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726876",
-    "updated_at": "2026-02-09T14:54:11.726877"
+    "created_at": "2026-02-09T15:56:23.419646",
+    "updated_at": "2026-02-09T15:56:23.419648"
   },
   {
     "id": "240",
     "name": "240-Piazzale Biondo",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16015",
+    "system": "Omnia",
+    "codice_impianto": 16015,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Piazzale Biondo",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2024-11-06 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726919",
-    "updated_at": "2026-02-09T14:54:11.726920"
+    "created_at": "2026-02-09T15:56:23.419732",
+    "updated_at": "2026-02-09T15:56:23.419733"
   },
   {
     "id": "241",
     "name": "241-Piazzale della Radio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15009",
+    "system": "Omnia",
+    "codice_impianto": 15009,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazzale della Radio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.726960",
-    "updated_at": "2026-02-09T14:54:11.726961"
+    "created_at": "2026-02-09T15:56:23.419825",
+    "updated_at": "2026-02-09T15:56:23.419826"
   },
   {
     "id": "243",
     "name": "243-Marconi/L.re Pietrapapa",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15006",
+    "system": "Omnia",
+    "codice_impianto": 15006,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Marconi/L.re Pietrapapa",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727001",
-    "updated_at": "2026-02-09T14:54:11.727003"
+    "created_at": "2026-02-09T15:56:23.419909",
+    "updated_at": "2026-02-09T15:56:23.419911"
   },
   {
     "id": "244",
     "name": "244-Marconi/Edison",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "11012",
+    "system": "Omnia",
+    "codice_impianto": 11012,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Marconi/Edison",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-09 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727044",
-    "updated_at": "2026-02-09T14:54:11.727045"
+    "created_at": "2026-02-09T15:56:23.419991",
+    "updated_at": "2026-02-09T15:56:23.419992"
   },
   {
     "id": "245",
     "name": "245-Marconi/Temistocle Calzecchi Onesti",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "11040",
+    "system": "Omnia",
+    "codice_impianto": 11040,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Marconi/Temistocle Calzecchi Onesti",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-06 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727086",
-    "updated_at": "2026-02-09T14:54:11.727088"
+    "created_at": "2026-02-09T15:56:23.420071",
+    "updated_at": "2026-02-09T15:56:23.420072"
   },
   {
     "id": "246",
     "name": "246-Marconi/Bortolotti",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "11019",
+    "system": "Omnia",
+    "codice_impianto": 11019,
     "num_radars": 7,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=7.0, cabl=ok, blocc=7",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Marconi/Bortolotti",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 7,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-09 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "7",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727152",
-    "updated_at": "2026-02-09T14:54:11.727155"
+    "created_at": "2026-02-09T15:56:23.420150",
+    "updated_at": "2026-02-09T15:56:23.420151"
   },
   {
     "id": "248",
     "name": "248-Marconi/Metro",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "12044",
+    "system": "Omnia",
+    "codice_impianto": 12044,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Marconi/Metro",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2024-04-17 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727209",
-    "updated_at": "2026-02-09T14:54:11.727211"
+    "created_at": "2026-02-09T15:56:23.420231",
+    "updated_at": "2026-02-09T15:56:23.420232"
   },
   {
     "id": "250",
     "name": "250-Trastevere/Induno",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1001",
+    "system": "Omnia",
+    "codice_impianto": 1001,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Trastevere/Induno",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-30 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727252",
-    "updated_at": "2026-02-09T14:54:11.727254"
+    "created_at": "2026-02-09T15:56:23.420366",
+    "updated_at": "2026-02-09T15:56:23.420368"
   },
   {
     "id": "251",
     "name": "251-Trastevere/Glorioso",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1070",
+    "system": "Omnia",
+    "codice_impianto": 1070,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Trastevere/Glorioso",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-25 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 3,
+      "soluzione_bloccati": "Spostamento radar (2/3) su altre paline"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727301",
-    "updated_at": "2026-02-09T14:54:11.727302"
+    "created_at": "2026-02-09T15:56:23.420455",
+    "updated_at": "2026-02-09T15:56:23.420456"
   },
   {
     "id": "252",
     "name": "252-Portuense/Porta Portese",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1053",
+    "system": "Omnia",
+    "codice_impianto": 1053,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Piazza di porta Portese",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-01-31 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727345",
-    "updated_at": "2026-02-09T14:54:11.727347"
+    "created_at": "2026-02-09T15:56:23.420545",
+    "updated_at": "2026-02-09T15:56:23.420551"
   },
   {
     "id": "256",
     "name": "256-Portuense/Folchi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15016",
+    "system": "Omnia",
+    "codice_impianto": 15016,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Portuense/Folchi",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727404",
-    "updated_at": "2026-02-09T14:54:11.727406"
+    "created_at": "2026-02-09T15:56:23.420646",
+    "updated_at": "2026-02-09T15:56:23.420648"
   },
   {
     "id": "257",
     "name": "257-Portuense/Ramazzini",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15011",
+    "system": "Omnia",
+    "codice_impianto": 15011,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Portuense/Ramazzini",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-16 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727455",
-    "updated_at": "2026-02-09T14:54:11.727457"
+    "created_at": "2026-02-09T15:56:23.420733",
+    "updated_at": "2026-02-09T15:56:23.420734"
   },
   {
     "id": "261",
     "name": "261-Casetta Mattei/Poggio Verde",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15065",
+    "system": "Omnia",
+    "codice_impianto": 15065,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Casetta Mattei/Poggio Verde",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727501",
-    "updated_at": "2026-02-09T14:54:11.727502"
+    "created_at": "2026-02-09T15:56:23.420826",
+    "updated_at": "2026-02-09T15:56:23.420828"
   },
   {
     "id": "262",
     "name": "262-Bravetta/Scaligeri",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "16041",
+    "system": "Tmacs",
+    "codice_impianto": 16041,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Bravetta/Scaligeri",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 2,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727545",
-    "updated_at": "2026-02-09T14:54:11.727546"
+    "created_at": "2026-02-09T15:56:23.420910",
+    "updated_at": "2026-02-09T15:56:23.420911"
   },
   {
     "id": "263",
     "name": "263-Bravetta/Silvestri/Consolata",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "16067",
+    "system": "Tmacs",
+    "codice_impianto": 16067,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=4",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Bravetta/Silvestri/Consolata",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-10-30 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727589",
-    "updated_at": "2026-02-09T14:54:11.727590"
+    "created_at": "2026-02-09T15:56:23.421010",
+    "updated_at": "2026-02-09T15:56:23.421012"
   },
   {
     "id": "264",
     "name": "264-Pisana/Grimaldi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16091",
+    "system": "Omnia",
+    "codice_impianto": 16091,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Pisana/Grimaldi",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 2,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727630",
-    "updated_at": "2026-02-09T14:54:11.727632"
+    "created_at": "2026-02-09T15:56:23.421105",
+    "updated_at": "2026-02-09T15:56:23.421106"
   },
   {
     "id": "265",
     "name": "265-Bravetta/Feltreschi",
     "lotto": "M9.1",
-    "system": "TMACS",
-    "codice_impianto": "16086",
+    "system": "Tmacs",
+    "codice_impianto": 16086,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Bravetta/Feltreschi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-06-28 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727673",
-    "updated_at": "2026-02-09T14:54:11.727674"
+    "created_at": "2026-02-09T15:56:23.421189",
+    "updated_at": "2026-02-09T15:56:23.421190"
   },
   {
     "id": "266",
     "name": "266-Largo Don Guanella",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16044",
+    "system": "Omnia",
+    "codice_impianto": 16044,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Largo Don Guanella",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-10-30 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727715",
-    "updated_at": "2026-02-09T14:54:11.727716"
+    "created_at": "2026-02-09T15:56:23.421273",
+    "updated_at": "2026-02-09T15:56:23.421274"
   },
   {
     "id": "267",
     "name": "267-Porta Capena",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1051",
+    "system": "Omnia",
+    "codice_impianto": 1051,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Porta Capena",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727760",
-    "updated_at": "2026-02-09T14:54:11.727761"
+    "created_at": "2026-02-09T15:56:23.421397",
+    "updated_at": "2026-02-09T15:56:23.421399"
   },
   {
     "id": "272",
     "name": "272-Marco Polo/Beccari",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1138",
+    "system": "Omnia",
+    "codice_impianto": 1138,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Marco Polo/Beccari",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727802",
-    "updated_at": "2026-02-09T14:54:11.727803"
+    "created_at": "2026-02-09T15:56:23.421485",
+    "updated_at": "2026-02-09T15:56:23.421486"
   },
   {
     "id": "276",
     "name": "276-Greca/Bocca della Verità",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1020",
+    "system": "Omnia",
+    "codice_impianto": 1020,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=no, sens=4.0, cabl=ok, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Greca/Bocca della Verità",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "non passa",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "no",
+      "l1_completato": "no",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-07-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727844",
-    "updated_at": "2026-02-09T14:54:11.727845"
+    "created_at": "2026-02-09T15:56:23.421567",
+    "updated_at": "2026-02-09T15:56:23.421568"
   },
   {
     "id": "278",
     "name": "278-Largo Vittime del Terrorismo/Caracalla",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1153",
+    "system": "Omnia",
+    "codice_impianto": 1153,
     "num_radars": 5,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=5.0, cabl=, blocc=5",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Largo Vittime del Terrorismo/Caracalla",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 5,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-08-23 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727887",
-    "updated_at": "2026-02-09T14:54:11.727888"
+    "created_at": "2026-02-09T15:56:23.421660",
+    "updated_at": "2026-02-09T15:56:23.421662"
   },
   {
     "id": "301",
     "name": "301-Marconi/Grimaldi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15004",
+    "system": "Omnia",
+    "codice_impianto": 15004,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=ok, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Marconi/Grimaldi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727929",
-    "updated_at": "2026-02-09T14:54:11.727930"
+    "created_at": "2026-02-09T15:56:23.421746",
+    "updated_at": "2026-02-09T15:56:23.421748"
   },
   {
     "id": "302",
     "name": "302-Cassia/Flaminia/C.so Francia",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20008",
+    "system": "Omnia",
+    "codice_impianto": 20008,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=BLOCCATI",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Cassia/Flaminia/C.so Francia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-04 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Scavo su marciapiede corto"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.727970",
-    "updated_at": "2026-02-09T14:54:11.727972"
+    "created_at": "2026-02-09T15:56:23.421826",
+    "updated_at": "2026-02-09T15:56:23.421828"
   },
   {
     "id": "405",
     "name": "405-Portuense/Vigna Pia",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15071",
+    "system": "Omnia",
+    "codice_impianto": 15071,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Portruense - Vigna Pia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-13 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728011",
-    "updated_at": "2026-02-09T14:54:11.728012"
+    "created_at": "2026-02-09T15:56:23.421908",
+    "updated_at": "2026-02-09T15:56:23.421909"
   },
   {
     "id": "406",
     "name": "406-Portuense/Imbrecciato",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15080",
+    "system": "Omnia",
+    "codice_impianto": 15080,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Portuense - Imbrecciato",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-17 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728053",
-    "updated_at": "2026-02-09T14:54:11.728054"
+    "created_at": "2026-02-09T15:56:23.421991",
+    "updated_at": "2026-02-09T15:56:23.421992"
   },
   {
     "id": "407",
     "name": "407-Portuense/Belluzzo",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15076",
+    "system": "Omnia",
+    "codice_impianto": 15076,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=2.0, cabl=, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Portuense - Belluzzo",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728096",
-    "updated_at": "2026-02-09T14:54:11.728098"
+    "created_at": "2026-02-09T15:56:23.422070",
+    "updated_at": "2026-02-09T15:56:23.422071"
   },
   {
     "id": "412",
     "name": "412-L.re Cadorna/Morra di Lavriano",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20061",
+    "system": "Omnia",
+    "codice_impianto": 20061,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "L.Re Cadorna - Morra di Lavriano",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728149",
-    "updated_at": "2026-02-09T14:54:11.728151"
+    "created_at": "2026-02-09T15:56:23.422151",
+    "updated_at": "2026-02-09T15:56:23.422153"
   },
   {
     "id": "413",
     "name": "413-L.re M.llo Diaz/Largo M.llo Diaz",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "20036",
+    "system": "Omnia",
+    "codice_impianto": 20036,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "L.RE Diaz - Largo Mllo Diaz",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "parziale",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728198",
-    "updated_at": "2026-02-09T14:54:11.728199"
+    "created_at": "2026-02-09T15:56:23.422229",
+    "updated_at": "2026-02-09T15:56:23.422231"
   },
   {
     "id": "414",
     "name": "414-L.re della Vittoria/Timavo",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17061",
+    "system": "Omnia",
+    "codice_impianto": 17061,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "l.Re della Vittoria - Timavo",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "SFILARE PS PER ALZATA",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728253",
-    "updated_at": "2026-02-09T14:54:11.728255"
+    "created_at": "2026-02-09T15:56:23.422353",
+    "updated_at": "2026-02-09T15:56:23.422355"
   },
   {
     "id": "415",
     "name": "415-Cipro/Ammiragli",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17047",
+    "system": "Omnia",
+    "codice_impianto": 17047,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Cipro - Ammiragli",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728301",
-    "updated_at": "2026-02-09T14:54:11.728303"
+    "created_at": "2026-02-09T15:56:23.422449",
+    "updated_at": "2026-02-09T15:56:23.422451"
   },
   {
     "id": "416",
     "name": "416-Anastasio II/Uscita Centro Commerciale",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18098",
+    "system": "Omnia",
+    "codice_impianto": 18098,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Anastasio II - Centro comm.",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-10-17 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728345",
-    "updated_at": "2026-02-09T14:54:11.728346"
+    "created_at": "2026-02-09T15:56:23.422535",
+    "updated_at": "2026-02-09T15:56:23.422536"
   },
   {
     "id": "417",
     "name": "417-Angelo Emo/Capolinea Bus",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18099",
+    "system": "Omnia",
+    "codice_impianto": 18099,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=2.0, cabl=ok, blocc=2",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Emo - Bus",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2023-10-17 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728389",
-    "updated_at": "2026-02-09T14:54:11.728390"
+    "created_at": "2026-02-09T15:56:23.422619",
+    "updated_at": "2026-02-09T15:56:23.422620"
   },
   {
     "id": "418",
     "name": "418-Trionfale/Università Sacro Cuore",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19077",
+    "system": "Omnia",
+    "codice_impianto": 19077,
     "num_radars": 2,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=2.0, cabl=, blocc=2",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Trionfale - Università Sacro Cuore",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-10-27 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728437",
-    "updated_at": "2026-02-09T14:54:11.728439"
+    "created_at": "2026-02-09T15:56:23.422708",
+    "updated_at": "2026-02-09T15:56:23.422710"
   },
   {
     "id": "429",
     "name": "429-Piazzale degli Eroi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17007",
+    "system": "Omnia",
+    "codice_impianto": 17007,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=4.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazzale degli Eroi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728484",
-    "updated_at": "2026-02-09T14:54:11.728486"
+    "created_at": "2026-02-09T15:56:23.422796",
+    "updated_at": "2026-02-09T15:56:23.422798"
   },
   {
     "id": "430",
     "name": "430-Piazza S.Croce Gerusalemme",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1058",
+    "system": "Omnia",
+    "codice_impianto": 1058,
     "num_radars": 3,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=3",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazza Santa croce in Gerusalemme",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728528",
-    "updated_at": "2026-02-09T14:54:11.728530"
+    "created_at": "2026-02-09T15:56:23.422881",
+    "updated_at": "2026-02-09T15:56:23.422882"
   },
   {
     "id": "431",
     "name": "431-Piazza S.Croce Gerusalemme/Sessoriana",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1059",
+    "system": "Omnia",
+    "codice_impianto": 1059,
     "num_radars": 4,
     "installation": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "compl=, sens=3.0, cabl=, blocc=4",
-      "blocked_conduits": true
+      "blocked_conduits": true,
+      "l1_match": "Piazza Santa croce in Gerusalemme",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-11-10 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728573",
-    "updated_at": "2026-02-09T14:54:11.728574"
+    "created_at": "2026-02-09T15:56:23.422963",
+    "updated_at": "2026-02-09T15:56:23.422964"
   },
   {
     "id": "432",
     "name": "432-Trionfale/Ipogeo degli Ottavi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19062",
+    "system": "Omnia",
+    "codice_impianto": 19062,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.54)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728617",
-    "updated_at": "2026-02-09T14:54:11.728619"
+    "created_at": "2026-02-09T15:56:23.423043",
+    "updated_at": "2026-02-09T15:56:23.423045"
   },
   {
     "id": "433",
     "name": "433-Pineta Sacchetti/Calasanziane",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19055",
+    "system": "Omnia",
+    "codice_impianto": 19055,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=2.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Pineta Sacchetti/Calasenziane",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 2,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-12 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 2,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728667",
-    "updated_at": "2026-02-09T14:54:11.728669"
+    "created_at": "2026-02-09T15:56:23.423125",
+    "updated_at": "2026-02-09T15:56:23.423126"
   },
   {
     "id": "434",
     "name": "434-Battistini/Forte Braschi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19015",
+    "system": "Omnia",
+    "codice_impianto": 19015,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.67)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728712",
-    "updated_at": "2026-02-09T14:54:11.728713"
+    "created_at": "2026-02-09T15:56:23.423210",
+    "updated_at": "2026-02-09T15:56:23.423211"
   },
   {
     "id": "435",
     "name": "435-Battistini/Monti di Primavalle",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19017",
+    "system": "Omnia",
+    "codice_impianto": 19017,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Pineta Sacchetti/Monti di Primavalle",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-12 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728755",
-    "updated_at": "2026-02-09T14:54:11.728756"
+    "created_at": "2026-02-09T15:56:23.423325",
+    "updated_at": "2026-02-09T15:56:23.423328"
   },
   {
     "id": "436",
     "name": "436-Trionfale/Fratelli Gualandi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19006",
+    "system": "Omnia",
+    "codice_impianto": 19006,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.67)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728798",
-    "updated_at": "2026-02-09T14:54:11.728800"
+    "created_at": "2026-02-09T15:56:23.423432",
+    "updated_at": "2026-02-09T15:56:23.423433"
   },
   {
     "id": "437",
     "name": "437-Boccea/Don Carlo Gnocchi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18038",
+    "system": "Omnia",
+    "codice_impianto": 18038,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.60)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728842",
-    "updated_at": "2026-02-09T14:54:11.728843"
+    "created_at": "2026-02-09T15:56:23.423515",
+    "updated_at": "2026-02-09T15:56:23.423517"
   },
   {
     "id": "438",
     "name": "438-Boccea/Bra",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "18019",
+    "system": "Omnia",
+    "codice_impianto": 18019,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.67)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 2,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Omnia",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728886",
-    "updated_at": "2026-02-09T14:54:11.728887"
+    "created_at": "2026-02-09T15:56:23.423600",
+    "updated_at": "2026-02-09T15:56:23.423601"
   },
   {
     "id": "439",
     "name": "439-Torrevecchia/Cardinale Costantini",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19028",
+    "system": "Omnia",
+    "codice_impianto": 19028,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.51)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728930",
-    "updated_at": "2026-02-09T14:54:11.728931"
+    "created_at": "2026-02-09T15:56:23.423708",
+    "updated_at": "2026-02-09T15:56:23.423710"
   },
   {
     "id": "440",
     "name": "440-Torrevecchia/Aloisi Masella",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19029",
+    "system": "Omnia",
+    "codice_impianto": 19029,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.52)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.728972",
-    "updated_at": "2026-02-09T14:54:11.728974"
+    "created_at": "2026-02-09T15:56:23.423804",
+    "updated_at": "2026-02-09T15:56:23.423805"
   },
   {
     "id": "441",
     "name": "441-Cernaia/Volturno",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1023",
+    "system": "Omnia",
+    "codice_impianto": 1023,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Via Cernaia - Via Volturno",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729016",
-    "updated_at": "2026-02-09T14:54:11.729017"
+    "created_at": "2026-02-09T15:56:23.423889",
+    "updated_at": "2026-02-09T15:56:23.423890"
   },
   {
     "id": "442",
     "name": "442-Cernaia/Goito",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1024",
+    "system": "Omnia",
+    "codice_impianto": 1024,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Via Cernaia - Via Goito",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-11 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729059",
-    "updated_at": "2026-02-09T14:54:11.729060"
+    "created_at": "2026-02-09T15:56:23.423970",
+    "updated_at": "2026-02-09T15:56:23.423972"
   },
   {
     "id": "444",
     "name": "444-Piazza Antonio Meucci/Oderisi da Gubbio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "15014",
+    "system": "Omnia",
+    "codice_impianto": 15014,
     "num_radars": 3,
     "installation": {
       "status": "not_started",
       "status_detail": "NO_DATA",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729106",
-    "updated_at": "2026-02-09T14:54:11.729108"
+    "created_at": "2026-02-09T15:56:23.424052",
+    "updated_at": "2026-02-09T15:56:23.424054"
   },
   {
     "id": "445",
     "name": "445-Merulana/Macchiavelli",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1218",
+    "system": "Omnia",
+    "codice_impianto": 1218,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "compl=ok, sens=4.0, cabl=ok, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Via Merulana - Via Macchiavelli",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": "ok",
+      "l1_completato": "ok",
+      "l1_doc_inviata": "ok",
+      "l1_data_compl": "2025-12-12 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729163",
-    "updated_at": "2026-02-09T14:54:11.729164"
+    "created_at": "2026-02-09T15:56:23.424141",
+    "updated_at": "2026-02-09T15:56:23.424142"
   },
   {
     "id": "446",
     "name": "446-Largo Brancaccio",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1104",
+    "system": "Omnia",
+    "codice_impianto": 1104,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=ok, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Largo Brancaccio",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": "ok",
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-12 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729208",
-    "updated_at": "2026-02-09T14:54:11.729210"
+    "created_at": "2026-02-09T15:56:23.424225",
+    "updated_at": "2026-02-09T15:56:23.424226"
   },
   {
     "id": "447",
     "name": "447-Piazza Indipendenza/S.Martino della Battaglia",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1093",
+    "system": "Omnia",
+    "codice_impianto": 1093,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Piazza Indipendenza - San Martino della Battaglia",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-14 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729253",
-    "updated_at": "2026-02-09T14:54:11.729254"
+    "created_at": "2026-02-09T15:56:23.424343",
+    "updated_at": "2026-02-09T15:56:23.424345"
   },
   {
     "id": "448",
     "name": "448-Manzoni/Conte Verde",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1044",
+    "system": "Omnia",
+    "codice_impianto": 1044,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Manzoni - Conte verde",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "no",
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-14 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729299",
-    "updated_at": "2026-02-09T14:54:11.729300"
+    "created_at": "2026-02-09T15:56:23.424432",
+    "updated_at": "2026-02-09T15:56:23.424434"
   },
   {
     "id": "449",
     "name": "449-Largo del Tritone",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "1003",
+    "system": "Omnia",
+    "codice_impianto": 1003,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.55)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729349",
-    "updated_at": "2026-02-09T14:54:11.729351"
+    "created_at": "2026-02-09T15:56:23.424515",
+    "updated_at": "2026-02-09T15:56:23.424516"
   },
   {
     "id": "450",
     "name": "450-Flaminia/Piazza dei Carracci",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "2092",
+    "system": "Omnia",
+    "codice_impianto": 2092,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.55)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729393",
-    "updated_at": "2026-02-09T14:54:11.729394"
+    "created_at": "2026-02-09T15:56:23.424596",
+    "updated_at": "2026-02-09T15:56:23.424597"
   },
   {
     "id": "451",
     "name": "451-Bernardo Ramazzini/Folchi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16026",
+    "system": "Omnia",
+    "codice_impianto": 16026,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Ramazzini/Folchi",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729444",
-    "updated_at": "2026-02-09T14:54:11.729445"
+    "created_at": "2026-02-09T15:56:23.424687",
+    "updated_at": "2026-02-09T15:56:23.424689"
   },
   {
     "id": "452",
     "name": "452-Bernardo Ramazzini/Val Tellina",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "16027",
+    "system": "Omnia",
+    "codice_impianto": 16027,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=4.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Ramazzini/Valtellina",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": 4,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729492",
-    "updated_at": "2026-02-09T14:54:11.729493"
+    "created_at": "2026-02-09T15:56:23.424773",
+    "updated_at": "2026-02-09T15:56:23.424774"
   },
   {
     "id": "453",
     "name": "453-Piazza Cavour/Cicerone",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "17114",
+    "system": "Omnia",
+    "codice_impianto": 17114,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "compl=, sens=, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "UNCERTAIN (0.62)",
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729536",
-    "updated_at": "2026-02-09T14:54:11.729538"
+    "created_at": "2026-02-09T15:56:23.424858",
+    "updated_at": "2026-02-09T15:56:23.424859"
   },
   {
     "id": "454",
     "name": "454-Pineta Sacchetti/S.Cleto Papa",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19013",
+    "system": "Omnia",
+    "codice_impianto": 19013,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Pineta Sacchetti/San Cleto Papa",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "si",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2025-12-15 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729584",
-    "updated_at": "2026-02-09T14:54:11.729585"
+    "created_at": "2026-02-09T15:56:23.424941",
+    "updated_at": "2026-02-09T15:56:23.424943"
   },
   {
     "id": "455",
     "name": "455-Pineta Sacchetti/Marconi",
     "lotto": "M9.1",
-    "system": "OMNIA",
-    "codice_impianto": "19014",
+    "system": "Omnia",
+    "codice_impianto": 19014,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "compl=, sens=3.0, cabl=, blocc=",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": "Pineta Sacchetti/Tardini",
+      "l1_planimetrie": "si",
+      "l1_passaggio_cavi": "ok",
+      "l1_install_sensori": 3,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": "2023-09-25 00:00:00",
+      "l2_match": null,
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": null,
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729627",
-    "updated_at": "2026-02-09T14:54:11.729628"
+    "created_at": "2026-02-09T15:56:23.425028",
+    "updated_at": "2026-02-09T15:56:23.425029"
   },
   {
     "id": "136",
     "name": "136-Piazzale Flaminio/G.B. Vico",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2198",
+    "system": "Tmacs",
+    "codice_impianto": 2198,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazzale Flaminio/G.B. Vico   cod. imp. 02198",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "TMACS",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729669",
-    "updated_at": "2026-02-09T14:54:11.729670"
+    "created_at": "2026-02-09T15:56:23.425109",
+    "updated_at": "2026-02-09T15:56:23.425111"
   },
   {
     "id": "141",
     "name": "141-Ponte Duca d'Aosta/P.zza Mancini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2064",
+    "system": "Omnia",
+    "codice_impianto": 2064,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-07-31 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Ponte Duca D'aosta - Piazza Mancini cod. imp. 02064",
+      "l2_data_installaz": "2023-07-31 00:00:00",
+      "l2_config_rsm": "2023-07-28 00:00:00",
+      "l2_config_instal": "2023-07-31 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "Cfg. Radar e IP da verificare dopo Inst.Interfaccia",
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729714",
-    "updated_at": "2026-02-09T14:54:11.729715"
+    "created_at": "2026-02-09T15:56:23.425194",
+    "updated_at": "2026-02-09T15:56:23.425195"
   },
   {
     "id": "142",
     "name": "142-P.zza Gentile da Fabriano",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2077",
+    "system": "Omnia",
+    "codice_impianto": 2077,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-06-19 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Gentile Da Fabriano cod. imp. 02077",
+      "l2_data_installaz": "2023-06-19 00:00:00",
+      "l2_config_rsm": "2023-06-13 00:00:00",
+      "l2_config_instal": "2023-06-19 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "INST."
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": "Cfg. Radar e IP da verificare dopo Inst.Interfaccia",
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729757",
-    "updated_at": "2026-02-09T14:54:11.729758"
+    "created_at": "2026-02-09T15:56:23.425278",
+    "updated_at": "2026-02-09T15:56:23.425279"
   },
   {
     "id": "145",
     "name": "145-Salaria/Somalia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2045",
+    "system": "Omnia",
+    "codice_impianto": 2045,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-05 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Salaria - Somalia cod. imp. 02045",
+      "l2_data_installaz": "2023-09-05 00:00:00",
+      "l2_config_rsm": "2023-09-04 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729803",
-    "updated_at": "2026-02-09T14:54:11.729804"
+    "created_at": "2026-02-09T15:56:23.425395",
+    "updated_at": "2026-02-09T15:56:23.425397"
   },
   {
     "id": "146",
     "name": "146-Salaria/Priscilla",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2044",
+    "system": "Omnia",
+    "codice_impianto": 2044,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-12 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Salaria - Priscilla cod. imp. 02044",
+      "l2_data_installaz": "2023-09-12 00:00:00",
+      "l2_config_rsm": "2023-09-04 00:00:00",
+      "l2_config_instal": "ristrutturato da configurare",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729846",
-    "updated_at": "2026-02-09T14:54:11.729847"
+    "created_at": "2026-02-09T15:56:23.425484",
+    "updated_at": "2026-02-09T15:56:23.425486"
   },
   {
     "id": "147",
     "name": "147-Salaria/Panama/Chiana",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2057",
+    "system": "Omnia",
+    "codice_impianto": 2057,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-06-20 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Salaria - Panama cod. imp. 02057",
+      "l2_data_installaz": "2023-06-20 00:00:00",
+      "l2_config_rsm": "2023-06-13 00:00:00",
+      "l2_config_instal": "2024-01-11 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729887",
-    "updated_at": "2026-02-09T14:54:11.729888"
+    "created_at": "2026-02-09T15:56:23.425568",
+    "updated_at": "2026-02-09T15:56:23.425569"
   },
   {
     "id": "148",
     "name": "148-Regina Margherita/Salaria/Liegi",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2052",
+    "system": "Tmacs",
+    "codice_impianto": 2052,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-05 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Regina Margherita - Salaria cod. imp. 02052",
+      "l2_data_installaz": "2023-09-05 00:00:00",
+      "l2_config_rsm": "2023-09-04 00:00:00",
+      "l2_config_instal": "ristrutturato da configurare",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729930",
-    "updated_at": "2026-02-09T14:54:11.729931"
+    "created_at": "2026-02-09T15:56:23.425657",
+    "updated_at": "2026-02-09T15:56:23.425663"
   },
   {
     "id": "149",
     "name": "149-Parioli/Stoppani",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2059",
+    "system": "Tmacs",
+    "codice_impianto": 2059,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-21 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Ungheria cod. imp. 02059",
+      "l2_data_installaz": "2023-09-21 00:00:00",
+      "l2_config_rsm": "2023-09-14 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.729975",
-    "updated_at": "2026-02-09T14:54:11.729976"
+    "created_at": "2026-02-09T15:56:23.425746",
+    "updated_at": "2026-02-09T15:56:23.425747"
   },
   {
     "id": "150",
     "name": "150-Piazza Ungheria/Liegi",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2059",
+    "system": "Tmacs",
+    "codice_impianto": 2059,
     "num_radars": 5,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-21 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Ungheria cod. imp. 02059",
+      "l2_data_installaz": "2023-09-21 00:00:00",
+      "l2_config_rsm": "2023-09-14 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730018",
-    "updated_at": "2026-02-09T14:54:11.730020"
+    "created_at": "2026-02-09T15:56:23.425828",
+    "updated_at": "2026-02-09T15:56:23.425829"
   },
   {
     "id": "151",
     "name": "151-Rossini/Paisiello",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2033",
+    "system": "Tmacs",
+    "codice_impianto": 2033,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Rossini - Paisiello cod. imp. 02033",
+      "l2_data_installaz": "2023-09-18 00:00:00",
+      "l2_config_rsm": "2023-09-14 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730060",
-    "updated_at": "2026-02-09T14:54:11.730061"
+    "created_at": "2026-02-09T15:56:23.425910",
+    "updated_at": "2026-02-09T15:56:23.425912"
   },
   {
     "id": "152",
     "name": "152-Piazza Pitagora/Stoppani",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2031",
+    "system": "Tmacs",
+    "codice_impianto": 2031,
     "num_radars": 5,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Pitagora cod. imp. 02031",
+      "l2_data_installaz": "2023-09-18 00:00:00",
+      "l2_config_rsm": "2023-09-14 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730104",
-    "updated_at": "2026-02-09T14:54:11.730105"
+    "created_at": "2026-02-09T15:56:23.425991",
+    "updated_at": "2026-02-09T15:56:23.425992"
   },
   {
     "id": "153",
     "name": "153-Parioli/Boccioni",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "2027",
+    "system": "Tmacs",
+    "codice_impianto": 2027,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-18 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Parioli - Boccioni cod. imp. 02027",
+      "l2_data_installaz": "2023-09-18 00:00:00",
+      "l2_config_rsm": "2023-09-14 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730159",
-    "updated_at": "2026-02-09T14:54:11.730161"
+    "created_at": "2026-02-09T15:56:23.426068",
+    "updated_at": "2026-02-09T15:56:23.426069"
   },
   {
     "id": "154",
     "name": "154-Regina Margherita/Nomentana",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "3008",
+    "system": "Tmacs",
+    "codice_impianto": 3008,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-26 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Regina Margherita/Nomentana    cod. imp. 03008",
+      "l2_data_installaz": "2023-09-26 00:00:00",
+      "l2_config_rsm": "2023-09-15 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730205",
-    "updated_at": "2026-02-09T14:54:11.730207"
+    "created_at": "2026-02-09T15:56:23.426148",
+    "updated_at": "2026-02-09T15:56:23.426149"
   },
   {
     "id": "155",
     "name": "155-Nomentana/XXI Aprile",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3007",
+    "system": "Omnia",
+    "codice_impianto": 3007,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Xxi Aprile    cod. imp. 03007",
+      "l2_data_installaz": "2023-09-25 00:00:00",
+      "l2_config_rsm": "2023-09-15 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730249",
-    "updated_at": "2026-02-09T14:54:11.730250"
+    "created_at": "2026-02-09T15:56:23.426227",
+    "updated_at": "2026-02-09T15:56:23.426229"
   },
   {
     "id": "156",
     "name": "156-Regina Margherita/Morgagni",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "3017",
+    "system": "Tmacs",
+    "codice_impianto": 3017,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-07-10 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Regina Margherita - Morgagni cod. imp. 03017",
+      "l2_data_installaz": "2023-07-10 00:00:00",
+      "l2_config_rsm": "2023-07-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730294",
-    "updated_at": "2026-02-09T14:54:11.730295"
+    "created_at": "2026-02-09T15:56:23.426344",
+    "updated_at": "2026-02-09T15:56:23.426346"
   },
   {
     "id": "157",
     "name": "157-Regina Margherita/UniversitÃ",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "3015",
+    "system": "Tmacs",
+    "codice_impianto": 3015,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-07-12 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Regina Elena - Università cod. imp. 03015",
+      "l2_data_installaz": "2023-07-12 00:00:00",
+      "l2_config_rsm": "2023-07-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730340",
-    "updated_at": "2026-02-09T14:54:11.730341"
+    "created_at": "2026-02-09T15:56:23.426436",
+    "updated_at": "2026-02-09T15:56:23.426437"
   },
   {
     "id": "158",
     "name": "158-Regina Elena/Verano",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "3019",
+    "system": "Tmacs",
+    "codice_impianto": 3019,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-07-04 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Regina Elena - P.Le San Lorenzo cod. imp. 03019",
+      "l2_data_installaz": "2023-07-04 00:00:00",
+      "l2_config_rsm": "2023-07-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730391",
-    "updated_at": "2026-02-09T14:54:11.730392"
+    "created_at": "2026-02-09T15:56:23.426524",
+    "updated_at": "2026-02-09T15:56:23.426526"
   },
   {
     "id": "159",
     "name": "159-Verano/De Lollis",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "3027",
+    "system": "Tmacs",
+    "codice_impianto": 3027,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-07-04 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina - V.Lo Verano cod. imp. 03027",
+      "l2_data_installaz": "2023-07-04 00:00:00",
+      "l2_config_rsm": "2023-07-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730447",
-    "updated_at": "2026-02-09T14:54:11.730449"
+    "created_at": "2026-02-09T15:56:23.426611",
+    "updated_at": "2026-02-09T15:56:23.426612"
   },
   {
     "id": "163",
     "name": "163-Nomentana/Graf/Kant",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "4027",
+    "system": "Tmacs",
+    "codice_impianto": 4027,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-06-13 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana-Graf-Kant cod. imp. 04027",
+      "l2_data_installaz": "2023-06-13 00:00:00",
+      "l2_config_rsm": "2023-06-07 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "NO_INFO",
-      "data": "AUT=SI, ATTIVITA=Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "Configurare AUT da remoto/Configurare AUT in lab/Sostituire AUT?!?!"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730502",
-    "updated_at": "2026-02-09T14:54:11.730503"
+    "created_at": "2026-02-09T15:56:23.426700",
+    "updated_at": "2026-02-09T15:56:23.426702"
   },
   {
     "id": "164",
     "name": "164-Tiburtina/Portonaccio",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5002",
+    "system": "Tmacs",
+    "codice_impianto": 5002,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-09-28 00:00:00, radar=4.0, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Portonaccio     cod. imp. 05002",
+      "l2_data_installaz": "2023-09-28 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "BLOCCATI",
+      "disp_da_inst": 4,
+      "soluzione_bloccati": "Spostamento radar su altro IS (Scavi su strada lunghi)"
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "AUT=SI, ATTIVITA=AUT da aggiornare"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da aggiornare"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730547",
-    "updated_at": "2026-02-09T14:54:11.730548"
+    "created_at": "2026-02-09T15:56:23.426791",
+    "updated_at": "2026-02-09T15:56:23.426792"
   },
   {
     "id": "165",
     "name": "165-Taranto/Aosta/Monza",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9006",
+    "system": "Omnia",
+    "codice_impianto": 9006,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2024-01-09 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Taranto Monza Aosta cod. imp. 09006",
+      "l2_data_installaz": "2024-01-09 00:00:00",
+      "l2_config_rsm": "2023-10-19 00:00:00",
+      "l2_config_instal": "2024-01-10 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730587",
-    "updated_at": "2026-02-09T14:54:11.730588"
+    "created_at": "2026-02-09T15:56:23.426874",
+    "updated_at": "2026-02-09T15:56:23.426875"
   },
   {
     "id": "167",
     "name": "167-Monti TIburtini/Lanciani",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3033",
+    "system": "Omnia",
+    "codice_impianto": 3033,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-28 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Monti Tiburtini/Lanciani    cod. imp. 03033",
+      "l2_data_installaz": "2023-09-28 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730630",
-    "updated_at": "2026-02-09T14:54:11.730631"
+    "created_at": "2026-02-09T15:56:23.426955",
+    "updated_at": "2026-02-09T15:56:23.426957"
   },
   {
     "id": "168",
     "name": "168-Nomentana/Gorizia/Nibby",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3005",
+    "system": "Omnia",
+    "codice_impianto": 3005,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Gorizia/Nibby     cod. imp. 03005",
+      "l2_data_installaz": "2023-09-25 00:00:00",
+      "l2_config_rsm": "2023-09-20 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.730985",
-    "updated_at": "2026-02-09T14:54:11.730987"
+    "created_at": "2026-02-09T15:56:23.427359",
+    "updated_at": "2026-02-09T15:56:23.427364"
   },
   {
     "id": "169",
     "name": "169-Nomentana/Trieste/Spallanzani",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3009",
+    "system": "Omnia",
+    "codice_impianto": 3009,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-09-26 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Trieste/Spallanzani     cod. imp. 03009",
+      "l2_data_installaz": "2023-09-26 00:00:00",
+      "l2_config_rsm": "2023-09-21 00:00:00",
+      "l2_config_instal": "2023-12-29 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731039",
-    "updated_at": "2026-02-09T14:54:11.731041"
+    "created_at": "2026-02-09T15:56:23.427483",
+    "updated_at": "2026-02-09T15:56:23.427485"
   },
   {
     "id": "170",
     "name": "170-Nomentana/S.Angela Merici",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2023",
+    "system": "Omnia",
+    "codice_impianto": 2023,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-25 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/S.Angela Merici    cod. imp. 02023",
+      "l2_data_installaz": "2023-09-25 00:00:00",
+      "l2_config_rsm": "2023-09-20 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731082",
-    "updated_at": "2026-02-09T14:54:11.731083"
+    "created_at": "2026-02-09T15:56:23.427581",
+    "updated_at": "2026-02-09T15:56:23.427583"
   },
   {
     "id": "171",
     "name": "171-Nomentana/Val d'Aosta",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4021",
+    "system": "Omnia",
+    "codice_impianto": 4021,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-09-25 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Val D'aosta    cod. imp. 04021",
+      "l2_data_installaz": "2023-09-25 00:00:00",
+      "l2_config_rsm": "2023-09-20 00:00:00",
+      "l2_config_instal": "2024-01-02 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731138",
-    "updated_at": "2026-02-09T14:54:11.731140"
+    "created_at": "2026-02-09T15:56:23.427673",
+    "updated_at": "2026-02-09T15:56:23.427675"
   },
   {
     "id": "172",
     "name": "172-Nomentana/Sempione",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4003",
+    "system": "Omnia",
+    "codice_impianto": 4003,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-09-25 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Sempione     cod. imp. 04003",
+      "l2_data_installaz": "2023-09-25 00:00:00",
+      "l2_config_rsm": "2023-09-20 00:00:00",
+      "l2_config_instal": "2024-03-20 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731191",
-    "updated_at": "2026-02-09T14:54:11.731192"
+    "created_at": "2026-02-09T15:56:23.427759",
+    "updated_at": "2026-02-09T15:56:23.427760"
   },
   {
     "id": "173",
     "name": "173-Monti Tiburtini/Durantini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "5006",
+    "system": "Omnia",
+    "codice_impianto": 5006,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-09-28 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Monti Tiburtini/Durantini    cod. imp. 05006",
+      "l2_data_installaz": "2023-09-28 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": "2023-12-20 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731236",
-    "updated_at": "2026-02-09T14:54:11.731238"
+    "created_at": "2026-02-09T15:56:23.427840",
+    "updated_at": "2026-02-09T15:56:23.427841"
   },
   {
     "id": "174",
     "name": "174-Tiburtina/Ottoboni",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5012",
+    "system": "Tmacs",
+    "codice_impianto": 5012,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Ottoboni     cod. imp. 05012",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da SOSTITUIRE - troppo vecchia"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731281",
-    "updated_at": "2026-02-09T14:54:11.731282"
+    "created_at": "2026-02-09T15:56:23.427921",
+    "updated_at": "2026-02-09T15:56:23.427923"
   },
   {
     "id": "175",
     "name": "175-Tiburtina/Casal Bruciato",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5004",
+    "system": "Tmacs",
+    "codice_impianto": 5004,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Casal Bruciato    cod. imp. 05004",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, AUT con versione recente pertanto bisognerebbe preparare solo la configurazione"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da aggiornare, AUT con versione recente pertanto bisognerebbe preparare solo la configurazione"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731325",
-    "updated_at": "2026-02-09T14:54:11.731326"
+    "created_at": "2026-02-09T15:56:23.428034",
+    "updated_at": "2026-02-09T15:56:23.428036"
   },
   {
     "id": "176",
     "name": "176-Tiburtina/Galla Placidia/Durantini",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5003",
+    "system": "Tmacs",
+    "codice_impianto": 5003,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Galla Placidia/Durantini    cod. imp. 05003",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da SOSTITUIRE - troppo vecchia"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731368",
-    "updated_at": "2026-02-09T14:54:11.731369"
+    "created_at": "2026-02-09T15:56:23.428121",
+    "updated_at": "2026-02-09T15:56:23.428122"
   },
   {
     "id": "177",
     "name": "177-Tiburtina/Monti Tiburtini dir. Rebibbia",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5070",
+    "system": "Tmacs",
+    "codice_impianto": 5070,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Monti Tiburtini Dir. Rebibbia  cod. imp. 05070",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=SI, ATTIVITA=AUT da SOSTITUIRE - troppo vecchia"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da SOSTITUIRE - troppo vecchia"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731410",
-    "updated_at": "2026-02-09T14:54:11.731412"
+    "created_at": "2026-02-09T15:56:23.428203",
+    "updated_at": "2026-02-09T15:56:23.428204"
   },
   {
     "id": "178",
     "name": "178-Tiburtina/Monti Tiburtini dir. Portonaccio",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5009",
+    "system": "Tmacs",
+    "codice_impianto": 5009,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/Monti Tiburtini Dir. Portonaccio  cod. imp. 05009",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731467",
-    "updated_at": "2026-02-09T14:54:11.731470"
+    "created_at": "2026-02-09T15:56:23.428317",
+    "updated_at": "2026-02-09T15:56:23.428319"
   },
   {
     "id": "179",
     "name": "179-Tiburtina/S.M. Soccorso",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "5010",
+    "system": "Tmacs",
+    "codice_impianto": 5010,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-27 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tiburtina/S.M. Soccorso    cod. imp. 05010",
+      "l2_data_installaz": "2023-09-27 00:00:00",
+      "l2_config_rsm": "2023-09-22 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "ASSIGNED",
-      "data": "status=Ass.FM/MC, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "Ass.FM/MC",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "AUT=SI, ATTIVITA=AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
+      "da_centr_aut": "AUT",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "SI",
+      "sema_attivita": "AUT da aggiornare, pilota il regolatore pertanto durante l’operazione di aggiornamento è necessaria la presenza di un operatore a campo"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731518",
-    "updated_at": "2026-02-09T14:54:11.731520"
+    "created_at": "2026-02-09T15:56:23.428420",
+    "updated_at": "2026-02-09T15:56:23.428422"
   },
   {
     "id": "182",
     "name": "182-Togliatti/Prenestina",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "7005",
+    "system": "Omnia",
+    "codice_impianto": 7005,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Togliatti/Prenestina     cod. imp. 07005",
+      "l2_data_installaz": null,
+      "l2_config_rsm": "2024-04-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731565",
-    "updated_at": "2026-02-09T14:54:11.731566"
+    "created_at": "2026-02-09T15:56:23.428503",
+    "updated_at": "2026-02-09T15:56:23.428504"
   },
   {
     "id": "183",
     "name": "183-Jonio/Col di Rezia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4014",
+    "system": "Omnia",
+    "codice_impianto": 4014,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Jonio - Col Di Rezia cod. imp. 04014",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731606",
-    "updated_at": "2026-02-09T14:54:11.731607"
+    "created_at": "2026-02-09T15:56:23.428584",
+    "updated_at": "2026-02-09T15:56:23.428585"
   },
   {
     "id": "184",
     "name": "184-Piazza Primoli",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4031",
+    "system": "Omnia",
+    "codice_impianto": 4031,
     "num_radars": 6,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-06-14 00:00:00, radar=6.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Primoli cod. imp. 04031",
+      "l2_data_installaz": "2023-06-14 00:00:00",
+      "l2_config_rsm": "2023-06-07 00:00:00",
+      "l2_config_instal": "2023-11-28 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 6,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "6",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731646",
-    "updated_at": "2026-02-09T14:54:11.731647"
+    "created_at": "2026-02-09T15:56:23.428671",
+    "updated_at": "2026-02-09T15:56:23.428673"
   },
   {
     "id": "192",
     "name": "192-Casilina/Torre Spaccata/Tor Tre Teste",
     "lotto": "M9.2",
-    "system": "TMACS",
-    "codice_impianto": "8009",
+    "system": "Tmacs",
+    "codice_impianto": 8009,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-08-08 00:00:00, radar=, centr=SI TMACS",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Casilina - Torre Spaccata cod. imp. 08009",
+      "l2_data_installaz": "2023-08-08 00:00:00",
+      "l2_config_rsm": "2023-07-28 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI TMACS",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "AUT=NO, ATTIVITA=Installare AUT"
+      "da_centr_aut": "AUT da install.",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": "NO",
+      "sema_attivita": "Installare AUT"
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731689",
-    "updated_at": "2026-02-09T14:54:11.731691"
+    "created_at": "2026-02-09T15:56:23.428757",
+    "updated_at": "2026-02-09T15:56:23.428759"
   },
   {
     "id": "195",
     "name": "195-Tor de Schiavi/Anagni/Delpino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "6018",
+    "system": "Omnia",
+    "codice_impianto": 6018,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2024-04-08 00:00:00, radar=3.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tor De Schiavi/Anagni/Delpino   cod. imp. 06018",
+      "l2_data_installaz": "2024-04-08 00:00:00",
+      "l2_config_rsm": "2024-04-03 00:00:00",
+      "l2_config_instal": "2024-04-08 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE - NO SIM",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731734",
-    "updated_at": "2026-02-09T14:54:11.731736"
+    "created_at": "2026-02-09T15:56:23.428838",
+    "updated_at": "2026-02-09T15:56:23.428839"
   },
   {
     "id": "199",
     "name": "199-Casilina/Pigneto",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "6020",
+    "system": "Omnia",
+    "codice_impianto": 6020,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2024-04-15 00:00:00, radar=3.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Casilina - Pignato cod. imp. 06020",
+      "l2_data_installaz": "2024-04-15 00:00:00",
+      "l2_config_rsm": "2024-04-03 00:00:00",
+      "l2_config_instal": "2024-04-15 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731779",
-    "updated_at": "2026-02-09T14:54:11.731780"
+    "created_at": "2026-02-09T15:56:23.428925",
+    "updated_at": "2026-02-09T15:56:23.428926"
   },
   {
     "id": "200",
     "name": "200-Spezia/Nola/Monza",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9024",
+    "system": "Omnia",
+    "codice_impianto": 9024,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Spezia/Nola/Monza     cod. imp. 09024",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=RadarINST"
+      "plan_cfg_inviate": "RadarINST",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731822",
-    "updated_at": "2026-02-09T14:54:11.731823"
+    "created_at": "2026-02-09T15:56:23.429007",
+    "updated_at": "2026-02-09T15:56:23.429008"
   },
   {
     "id": "201",
     "name": "201-Spezia/Caltagirone",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9028",
+    "system": "Omnia",
+    "codice_impianto": 9028,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Spezia/Caltagirone     cod. imp. 09028",
+      "l2_data_installaz": "2023-09-29 00:00:00",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=RadarINST"
+      "plan_cfg_inviate": "RadarINST",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731864",
-    "updated_at": "2026-02-09T14:54:11.731865"
+    "created_at": "2026-02-09T15:56:23.429087",
+    "updated_at": "2026-02-09T15:56:23.429088"
   },
   {
     "id": "205",
     "name": "205-Piazza Tuscolo",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9043",
+    "system": "Omnia",
+    "codice_impianto": 9043,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Tuscolo    cod. imp. 09043",
+      "l2_data_installaz": "2025-12-17 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731909",
-    "updated_at": "2026-02-09T14:54:11.731910"
+    "created_at": "2026-02-09T15:56:23.429169",
+    "updated_at": "2026-02-09T15:56:23.429171"
   },
   {
     "id": "221",
     "name": "221-Grotta Perfetta/Ambrosini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11021",
+    "system": "Omnia",
+    "codice_impianto": 11021,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Grotta Perfetta/Ambrosini    cod. imp. 11021",
+      "l2_data_installaz": "2025-12-11 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731953",
-    "updated_at": "2026-02-09T14:54:11.731954"
+    "created_at": "2026-02-09T15:56:23.429253",
+    "updated_at": "2026-02-09T15:56:23.429254"
   },
   {
     "id": "222",
     "name": "222-Grotta Perfetta/Calderon de la Barca",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11049",
+    "system": "Omnia",
+    "codice_impianto": 11049,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Grotta Perfetta/Calderon De La Barca cod. imp. 11049",
+      "l2_data_installaz": "2025-12-11 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.731994",
-    "updated_at": "2026-02-09T14:54:11.731996"
+    "created_at": "2026-02-09T15:56:23.429367",
+    "updated_at": "2026-02-09T15:56:23.429369"
   },
   {
     "id": "224",
     "name": "224-Ardeatina/Fotografia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11092",
+    "system": "Omnia",
+    "codice_impianto": 11092,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-06-21 00:00:00, radar=3.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Ardeatina - Fotografia cod. imp. 11092",
+      "l2_data_installaz": "2023-06-21 00:00:00",
+      "l2_config_rsm": "2023-06-13 00:00:00",
+      "l2_config_instal": "2023-11-30 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732036",
-    "updated_at": "2026-02-09T14:54:11.732038"
+    "created_at": "2026-02-09T15:56:23.429460",
+    "updated_at": "2026-02-09T15:56:23.429461"
   },
   {
     "id": "225",
     "name": "225-Sette Chiese/Bompiani",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11059",
+    "system": "Omnia",
+    "codice_impianto": 11059,
     "num_radars": 2,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-11 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Sette Chiese/Bompiani    cod. imp. 11059",
+      "l2_data_installaz": "2025-12-11 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 2,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732079",
-    "updated_at": "2026-02-09T14:54:11.732081"
+    "created_at": "2026-02-09T15:56:23.429542",
+    "updated_at": "2026-02-09T15:56:23.429544"
   },
   {
     "id": "242",
     "name": "242-Appia Pignatelli/S.Tarcisio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10054",
+    "system": "Omnia",
+    "codice_impianto": 10054,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2024-04-16 00:00:00, radar=3.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Pignatelli/S.Tarcisio    cod. imp. 10054",
+      "l2_data_installaz": "2024-04-16 00:00:00",
+      "l2_config_rsm": "2024-04-03 00:00:00",
+      "l2_config_instal": "2024-04-15 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732133",
-    "updated_at": "2026-02-09T14:54:11.732134"
+    "created_at": "2026-02-09T15:56:23.429623",
+    "updated_at": "2026-02-09T15:56:23.429625"
   },
   {
     "id": "269",
     "name": "269-Ostiense/Porto Fluviale/Matteucci",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11014",
+    "system": "Omnia",
+    "codice_impianto": 11014,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-12-12 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Ostiense Porto Fluviale  cod. imp. 11014",
+      "l2_data_installaz": "2023-12-12 00:00:00",
+      "l2_config_rsm": "2023-10-19 00:00:00",
+      "l2_config_instal": "2023-12-13 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732183",
-    "updated_at": "2026-02-09T14:54:11.732184"
+    "created_at": "2026-02-09T15:56:23.429709",
+    "updated_at": "2026-02-09T15:56:23.429711"
   },
   {
     "id": "270",
     "name": "270-Ostiense/Spizzichina",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11037",
+    "system": "Omnia",
+    "codice_impianto": 11037,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-12-19 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Ostiense Spizzichino cod. imp. 11037",
+      "l2_data_installaz": "2023-12-19 00:00:00",
+      "l2_config_rsm": "2023-10-19 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732225",
-    "updated_at": "2026-02-09T14:54:11.732226"
+    "created_at": "2026-02-09T15:56:23.429795",
+    "updated_at": "2026-02-09T15:56:23.429796"
   },
   {
     "id": "271",
     "name": "271-Ostiense/S.Paolo/Rocco",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "11015",
+    "system": "Omnia",
+    "codice_impianto": 11015,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-12-19 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Ostiense San Paolo cod. imp. 11015",
+      "l2_data_installaz": "2023-12-19 00:00:00",
+      "l2_config_rsm": "2023-10-19 00:00:00",
+      "l2_config_instal": "2023-12-18 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732270",
-    "updated_at": "2026-02-09T14:54:11.732271"
+    "created_at": "2026-02-09T15:56:23.429877",
+    "updated_at": "2026-02-09T15:56:23.429879"
   },
   {
     "id": "273",
     "name": "273-Cilicia/Piazza Galeria",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9047",
+    "system": "Omnia",
+    "codice_impianto": 9047,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-18 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Cilicia/Piazza Galeria    cod. imp. 09047",
+      "l2_data_installaz": "2025-12-18 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_FOR_APPROVAL",
-      "data": "status=aff.GO, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "aff.GO",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732312",
-    "updated_at": "2026-02-09T14:54:11.732314"
+    "created_at": "2026-02-09T15:56:23.429957",
+    "updated_at": "2026-02-09T15:56:23.429959"
   },
   {
     "id": "284",
     "name": "284-Piazza di Porta Pia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3011",
+    "system": "Omnia",
+    "codice_impianto": 3011,
     "num_radars": 5,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Di Porta Pia  cod. imp. 03011",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 5,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732353",
-    "updated_at": "2026-02-09T14:54:11.732354"
+    "created_at": "2026-02-09T15:56:23.430042",
+    "updated_at": "2026-02-09T15:56:23.430044"
   },
   {
     "id": "285",
     "name": "285-Appia/Alberone",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9036",
+    "system": "Omnia",
+    "codice_impianto": 9036,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-18 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia/Alberone     cod. imp. 09036",
+      "l2_data_installaz": "2025-12-18 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732395",
-    "updated_at": "2026-02-09T14:54:11.732397"
+    "created_at": "2026-02-09T15:56:23.430124",
+    "updated_at": "2026-02-09T15:56:23.430125"
   },
   {
     "id": "287",
     "name": "287-Tuscolana/Arco di Travertino/Porta Furba",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9005",
+    "system": "Omnia",
+    "codice_impianto": 9005,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Arco Di Travertino/Porta Furba  cod. imp. 09005",
+      "l2_data_installaz": "2023-10-03 00:00:00",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732440",
-    "updated_at": "2026-02-09T14:54:11.732442"
+    "created_at": "2026-02-09T15:56:23.430204",
+    "updated_at": "2026-02-09T15:56:23.430206"
   },
   {
     "id": "288",
     "name": "288-Tuscolana/Cave",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9014",
+    "system": "Omnia",
+    "codice_impianto": 9014,
     "num_radars": 5,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Cave     cod. imp. 09014",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732486",
-    "updated_at": "2026-02-09T14:54:11.732487"
+    "created_at": "2026-02-09T15:56:23.430318",
+    "updated_at": "2026-02-09T15:56:23.430320"
   },
   {
     "id": "289",
     "name": "289-Tuscolana/Monselice/Gela",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9011",
+    "system": "Omnia",
+    "codice_impianto": 9011,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-12 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Monselice/Gela     cod. imp. 09011",
+      "l2_data_installaz": "2025-12-12 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732534",
-    "updated_at": "2026-02-09T14:54:11.732536"
+    "created_at": "2026-02-09T15:56:23.430433",
+    "updated_at": "2026-02-09T15:56:23.430434"
   },
   {
     "id": "290",
     "name": "290-Tuscolana/Nocera Umbra/Furio Camillo",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9013",
+    "system": "Omnia",
+    "codice_impianto": 9013,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-12 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Nocera Umbra/Furio Camillo   cod. imp. 09013",
+      "l2_data_installaz": "2025-12-12 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732580",
-    "updated_at": "2026-02-09T14:54:11.732581"
+    "created_at": "2026-02-09T15:56:23.430516",
+    "updated_at": "2026-02-09T15:56:23.430517"
   },
   {
     "id": "292",
     "name": "292-Appia/Arco di Travertino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9001",
+    "system": "Omnia",
+    "codice_impianto": 9001,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Arco Di Travertini cod. imp. 09001",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732626",
-    "updated_at": "2026-02-09T14:54:11.732628"
+    "created_at": "2026-02-09T15:56:23.430598",
+    "updated_at": "2026-02-09T15:56:23.430599"
   },
   {
     "id": "293",
     "name": "293-Tuscolana/Capannelle",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10002",
+    "system": "Omnia",
+    "codice_impianto": 10002,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-18 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana - Capanelle cod. imp. 10002",
+      "l2_data_installaz": "2025-12-18 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente"
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": "SPOT PRESENTE? - NO SIM?",
+      "swarco_spot_firmware": "Impianto aggiunto ad Omnia ma SPOT  non presente o SIM non presente",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732668",
-    "updated_at": "2026-02-09T14:54:11.732670"
+    "created_at": "2026-02-09T15:56:23.430692",
+    "updated_at": "2026-02-09T15:56:23.430694"
   },
   {
     "id": "294",
     "name": "294-Tuscolana/Pulvillo/Labieno",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10026",
+    "system": "Omnia",
+    "codice_impianto": 10026,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Pulvillo/Labieno     cod. imp. 10026",
+      "l2_data_installaz": "2023-09-29 00:00:00",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732710",
-    "updated_at": "2026-02-09T14:54:11.732711"
+    "created_at": "2026-02-09T15:56:23.430784",
+    "updated_at": "2026-02-09T15:56:23.430786"
   },
   {
     "id": "295",
     "name": "295-Tuscolana/Giulio Agricola",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10006",
+    "system": "Omnia",
+    "codice_impianto": 10006,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-29 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Giulio Agricola    cod. imp. 10006",
+      "l2_data_installaz": "2023-09-29 00:00:00",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732753",
-    "updated_at": "2026-02-09T14:54:11.732754"
+    "created_at": "2026-02-09T15:56:23.430879",
+    "updated_at": "2026-02-09T15:56:23.430881"
   },
   {
     "id": "296",
     "name": "296-Tuscolana/Lucio Sestio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10008",
+    "system": "Omnia",
+    "codice_impianto": 10008,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Lucio Sestio    cod. imp. 10008",
+      "l2_data_installaz": "2023-10-03 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732794",
-    "updated_at": "2026-02-09T14:54:11.732795"
+    "created_at": "2026-02-09T15:56:23.430975",
+    "updated_at": "2026-02-09T15:56:23.430976"
   },
   {
     "id": "297",
     "name": "297-Tuscolana/Quadraro",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10013",
+    "system": "Omnia",
+    "codice_impianto": 10013,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-10-03 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Quadraro     cod. imp. 10013",
+      "l2_data_installaz": "2023-10-03 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732835",
-    "updated_at": "2026-02-09T14:54:11.732837"
+    "created_at": "2026-02-09T15:56:23.431058",
+    "updated_at": "2026-02-09T15:56:23.431060"
   },
   {
     "id": "298",
     "name": "298-Tuscolana/Buon Consiglio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10010",
+    "system": "Omnia",
+    "codice_impianto": 10010,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Buon Consiglio    cod. imp. 10010",
+      "l2_data_installaz": "2023-10-02 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": "2023-12-04 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732876",
-    "updated_at": "2026-02-09T14:54:11.732877"
+    "created_at": "2026-02-09T15:56:23.431150",
+    "updated_at": "2026-02-09T15:56:23.431151"
   },
   {
     "id": "299",
     "name": "299-Tuscolana/Metro Porta Furba",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10012",
+    "system": "Omnia",
+    "codice_impianto": 10012,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-03 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana/Metro Porta Furba/Fulvi   cod. imp. 10012",
+      "l2_data_installaz": "2023-10-03 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": "2024-01-04 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732917",
-    "updated_at": "2026-02-09T14:54:11.732918"
+    "created_at": "2026-02-09T15:56:23.431238",
+    "updated_at": "2026-02-09T15:56:23.431239"
   },
   {
     "id": "300",
     "name": "300-Appia/Capannellle",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10019",
+    "system": "Omnia",
+    "codice_impianto": 10019,
     "num_radars": 6,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-02 00:00:00, radar=6.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia/Capannellle     cod. imp. 10019",
+      "l2_data_installaz": "2023-10-02 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": "2023-12-06 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 6,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "6",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.732962",
-    "updated_at": "2026-02-09T14:54:11.732963"
+    "created_at": "2026-02-09T15:56:23.431358",
+    "updated_at": "2026-02-09T15:56:23.431360"
   },
   {
     "id": "303",
     "name": "303-Appia Nuova/Appia Pignatelli",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10022",
+    "system": "Omnia",
+    "codice_impianto": 10022,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Nuova Appia Pignatelli cod. imp. 10022",
+      "l2_data_installaz": "ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733003",
-    "updated_at": "2026-02-09T14:54:11.733004"
+    "created_at": "2026-02-09T15:56:23.431457",
+    "updated_at": "2026-02-09T15:56:23.431458"
   },
   {
     "id": "304",
     "name": "304-Appia Nuova/Quarto Miglio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10014",
+    "system": "Omnia",
+    "codice_impianto": 10014,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Nuova/Quarto Miglio   cod. imp. 10014",
+      "l2_data_installaz": "2023-10-02 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": "2023-12-06 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733045",
-    "updated_at": "2026-02-09T14:54:11.733046"
+    "created_at": "2026-02-09T15:56:23.431549",
+    "updated_at": "2026-02-09T15:56:23.431551"
   },
   {
     "id": "305",
     "name": "305-Appia Nuova/Quadraro",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10017",
+    "system": "Omnia",
+    "codice_impianto": 10017,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-02 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Nuova/Quadraro    cod. imp. 10017",
+      "l2_data_installaz": "2023-10-02 00:00:00",
+      "l2_config_rsm": "2023-10-02 00:00:00",
+      "l2_config_instal": "2023-12-01 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733087",
-    "updated_at": "2026-02-09T14:54:11.733089"
+    "created_at": "2026-02-09T15:56:23.431644",
+    "updated_at": "2026-02-09T15:56:23.431649"
   },
   {
     "id": "306",
     "name": "306-Ponte Matteotti/L.re Navi",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2019",
+    "system": "Omnia",
+    "codice_impianto": 2019,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-09-09 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Lgt Delle Navi - Ponte Matteotti cod. imp. 02019",
+      "l2_data_installaz": "2023-09-09 00:00:00",
+      "l2_config_rsm": "2023-07-28 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": "si",
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733140",
-    "updated_at": "2026-02-09T14:54:11.733142"
+    "created_at": "2026-02-09T15:56:23.431734",
+    "updated_at": "2026-02-09T15:56:23.431735"
   },
   {
     "id": "307",
     "name": "307-Ponte Risorgimento/P.le Belle Arti",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2009",
+    "system": "Omnia",
+    "codice_impianto": 2009,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-06-19 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Belle Arti-Ponte Risorgimento cod. imp. 02009",
+      "l2_data_installaz": "2023-06-19 00:00:00",
+      "l2_config_rsm": "2023-06-13 00:00:00",
+      "l2_config_instal": "2023-11-29 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733191",
-    "updated_at": "2026-02-09T14:54:11.733192"
+    "created_at": "2026-02-09T15:56:23.431817",
+    "updated_at": "2026-02-09T15:56:23.431818"
   },
   {
     "id": "401",
     "name": "401-Nomentana/Villini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "3097",
+    "system": "Omnia",
+    "codice_impianto": 3097,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-06 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Villini cod. imp. 03097",
+      "l2_data_installaz": "2023-10-06 00:00:00",
+      "l2_config_rsm": "2023-10-05 00:00:00",
+      "l2_config_instal": "2023-12-21 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733236",
-    "updated_at": "2026-02-09T14:54:11.733237"
+    "created_at": "2026-02-09T15:56:23.431896",
+    "updated_at": "2026-02-09T15:56:23.431898"
   },
   {
     "id": "402",
     "name": "402-Val di Cogne/Val di Lanzo",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4123",
+    "system": "Omnia",
+    "codice_impianto": 4123,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-06 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Val Di Cogne/Val Di Lanzo cod. imp. 04123",
+      "l2_data_installaz": "2023-10-06 00:00:00",
+      "l2_config_rsm": "2023-10-05 00:00:00",
+      "l2_config_instal": "2023-12-07 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733277",
-    "updated_at": "2026-02-09T14:54:11.733279"
+    "created_at": "2026-02-09T15:56:23.431975",
+    "updated_at": "2026-02-09T15:56:23.431977"
   },
   {
     "id": "403",
     "name": "403-Tirreno/Valle Scrivia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4124",
+    "system": "Omnia",
+    "codice_impianto": 4124,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-06 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tirreno - Valle Scirvia cod. imp. 04124",
+      "l2_data_installaz": "2023-10-06 00:00:00",
+      "l2_config_rsm": "2023-10-05 00:00:00",
+      "l2_config_instal": "2023-10-16 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733323",
-    "updated_at": "2026-02-09T14:54:11.733324"
+    "created_at": "2026-02-09T15:56:23.432060",
+    "updated_at": "2026-02-09T15:56:23.432061"
   },
   {
     "id": "404",
     "name": "404-Piazza Capri",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4006",
+    "system": "Omnia",
+    "codice_impianto": 4006,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-06 00:00:00, radar=4.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Capri cod. imp. 04006",
+      "l2_data_installaz": "2023-10-06 00:00:00",
+      "l2_config_rsm": "2023-10-05 00:00:00",
+      "l2_config_instal": "2023-10-13 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Impossibile connettersi con SSH. Serve verifica sul posto"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Impossibile connettersi con SSH. Serve verifica sul posto",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733365",
-    "updated_at": "2026-02-09T14:54:11.733367"
+    "created_at": "2026-02-09T15:56:23.432143",
+    "updated_at": "2026-02-09T15:56:23.432144"
   },
   {
     "id": "408",
     "name": "408-M.llo Pilsudski/S.Valentino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2079",
+    "system": "Omnia",
+    "codice_impianto": 2079,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-10 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "M.Llo Pilsudski/S.Valentino cod. imp. 02079",
+      "l2_data_installaz": "2023-10-10 00:00:00",
+      "l2_config_rsm": "2023-10-09 00:00:00",
+      "l2_config_instal": "2023-10-13 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733407",
-    "updated_at": "2026-02-09T14:54:11.733408"
+    "created_at": "2026-02-09T15:56:23.432223",
+    "updated_at": "2026-02-09T15:56:23.432224"
   },
   {
     "id": "409",
     "name": "409-Piazza Fiume/Calabria",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2011",
+    "system": "Omnia",
+    "codice_impianto": 2011,
     "num_radars": 6,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-12-29 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Fiume cod. imp. 02011",
+      "l2_data_installaz": "2023-12-29 00:00:00",
+      "l2_config_rsm": "2023-10-09 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "6",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "blocked",
       "status_detail": "BLOCKED",
-      "data": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Non Idoneo - SHDSL da aggiornare - SOSTITUZIONE",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "blocked",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733456",
-    "updated_at": "2026-02-09T14:54:11.733458"
+    "created_at": "2026-02-09T15:56:23.432366",
+    "updated_at": "2026-02-09T15:56:23.432369"
   },
   {
     "id": "410",
     "name": "410-Nomentana/Val dOssola",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4140",
+    "system": "Omnia",
+    "codice_impianto": 4140,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-10 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Nomentana/Val D'ossola cod. imp. 04140",
+      "l2_data_installaz": "2023-10-10 00:00:00",
+      "l2_config_rsm": "2023-10-09 00:00:00",
+      "l2_config_instal": "2023-10-10 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "status=ok, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "ok",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733506",
-    "updated_at": "2026-02-09T14:54:11.733507"
+    "created_at": "2026-02-09T15:56:23.432466",
+    "updated_at": "2026-02-09T15:56:23.432467"
   },
   {
     "id": "411",
     "name": "411-Monti Tiburtini/Feronia",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "5106",
+    "system": "Omnia",
+    "codice_impianto": 5106,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-11 00:00:00, radar=2.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Monti Tiburtini/Feronia cod. imp. 05106",
+      "l2_data_installaz": "2023-10-11 00:00:00",
+      "l2_config_rsm": "2023-10-09 00:00:00",
+      "l2_config_instal": "2023-10-11 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "Idoneo"
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": "Idoneo",
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733548",
-    "updated_at": "2026-02-09T14:54:11.733550"
+    "created_at": "2026-02-09T15:56:23.432564",
+    "updated_at": "2026-02-09T15:56:23.432566"
   },
   {
     "id": "419",
     "name": "419-Pinciana/Puccini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2028",
+    "system": "Omnia",
+    "codice_impianto": 2028,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2024-01-11 00:00:00, radar=1.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Pinciana - Puccini cod. imp. 02028",
+      "l2_data_installaz": "2024-01-11 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 1,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733596",
-    "updated_at": "2026-02-09T14:54:11.733597"
+    "created_at": "2026-02-09T15:56:23.432657",
+    "updated_at": "2026-02-09T15:56:23.432659"
   },
   {
     "id": "420",
     "name": "420-Pinciana/Allegri",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2029",
+    "system": "Omnia",
+    "codice_impianto": 2029,
     "num_radars": 5,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-11-14 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Pinciana - Allegri cod. imp. 02029",
+      "l2_data_installaz": "2023-11-14 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "5",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733648",
-    "updated_at": "2026-02-09T14:54:11.733649"
+    "created_at": "2026-02-09T15:56:23.432744",
+    "updated_at": "2026-02-09T15:56:23.432745"
   },
   {
     "id": "421",
     "name": "421-C.so Italia/Po",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2066",
+    "system": "Omnia",
+    "codice_impianto": 2066,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-12-27 00:00:00, radar=4.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Corso D'italia Po cod. imp. 02066",
+      "l2_data_installaz": "2023-12-27 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-12-27 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733698",
-    "updated_at": "2026-02-09T14:54:11.733699"
+    "created_at": "2026-02-09T15:56:23.432829",
+    "updated_at": "2026-02-09T15:56:23.432830"
   },
   {
     "id": "422",
     "name": "422-C.so Italia/Puccini",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2083",
+    "system": "Omnia",
+    "codice_impianto": 2083,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2023-11-14 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Corso D'italia Puccini cod. imp. 02083",
+      "l2_data_installaz": "2023-11-14 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733738",
-    "updated_at": "2026-02-09T14:54:11.733740"
+    "created_at": "2026-02-09T15:56:23.432908",
+    "updated_at": "2026-02-09T15:56:23.432909"
   },
   {
     "id": "423",
     "name": "423-Salaria/Aeroporto Urbe",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "4020",
+    "system": "Omnia",
+    "codice_impianto": 4020,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-11-02 00:00:00, radar=2.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Salaria Urbe cod. imp. 04020",
+      "l2_data_installaz": "2023-11-02 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-11-02 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733781",
-    "updated_at": "2026-02-09T14:54:11.733783"
+    "created_at": "2026-02-09T15:56:23.432992",
+    "updated_at": "2026-02-09T15:56:23.432993"
   },
   {
     "id": "424",
     "name": "424-Portonaccio/Silvio Latino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "6061",
+    "system": "Omnia",
+    "codice_impianto": 6061,
     "num_radars": 2,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-25 00:00:00, radar=2.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Portonacio Silvio Latino cod. imp. 06061",
+      "l2_data_installaz": "2023-10-25 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-10-30 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 2,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "2",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733826",
-    "updated_at": "2026-02-09T14:54:11.733827"
+    "created_at": "2026-02-09T15:56:23.433076",
+    "updated_at": "2026-02-09T15:56:23.433077"
   },
   {
     "id": "425",
     "name": "425-Prenestina/Centro Servizi Prenestino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "7057",
+    "system": "Omnia",
+    "codice_impianto": 7057,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Prenestina Centro Servizi cod. imp. 07057",
+      "l2_data_installaz": "2023-10-26 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-12-04 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733867",
-    "updated_at": "2026-02-09T14:54:11.733868"
+    "created_at": "2026-02-09T15:56:23.433161",
+    "updated_at": "2026-02-09T15:56:23.433163"
   },
   {
     "id": "426",
     "name": "426-Togliatti/Centro Servizi Prenestino",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "7060",
+    "system": "Omnia",
+    "codice_impianto": 7060,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Togliatti - Centro Servizi cod. imp. 07060",
+      "l2_data_installaz": "2023-10-26 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-12-04 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733910",
-    "updated_at": "2026-02-09T14:54:11.733911"
+    "created_at": "2026-02-09T15:56:23.433263",
+    "updated_at": "2026-02-09T15:56:23.433264"
   },
   {
     "id": "427",
     "name": "427-Arco di Travertino/Carroceto",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9081",
+    "system": "Omnia",
+    "codice_impianto": 9081,
     "num_radars": 4,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-27 00:00:00, radar=4.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Arco Di Travertino Carroceto cod. imp. 09081",
+      "l2_data_installaz": "2023-10-27 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-11-02 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 4,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "4",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.733956",
-    "updated_at": "2026-02-09T14:54:11.733957"
+    "created_at": "2026-02-09T15:56:23.433363",
+    "updated_at": "2026-02-09T15:56:23.433365"
   },
   {
     "id": "428",
     "name": "428-Tuscolana/Occorsio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10099",
+    "system": "Omnia",
+    "codice_impianto": 10099,
     "num_radars": 3,
     "installation": {
       "status": "completed",
       "status_detail": "COMPLETE",
-      "data": "data=2023-10-26 00:00:00, radar=3.0, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Tuscolana - Occorsio cod. imp. 10099",
+      "l2_data_installaz": "2023-10-26 00:00:00",
+      "l2_config_rsm": "2023-10-17 00:00:00",
+      "l2_config_instal": "2023-11-02 00:00:00",
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": 3,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "status=DaFare, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "DaFare",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "not_started",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734001",
-    "updated_at": "2026-02-09T14:54:11.734002"
+    "created_at": "2026-02-09T15:56:23.433467",
+    "updated_at": "2026-02-09T15:56:23.433469"
   },
   {
     "id": "443",
     "name": "443-Appia Pignatelli/Erode Attico",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "10007",
+    "system": "Omnia",
+    "codice_impianto": 10007,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-10 00:00:00, radar=, centr=OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Appia Pignatelli/Erode Attico cod. imp. 10007",
+      "l2_data_installaz": "2025-12-10 00:00:00",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": "Centralizzato",
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734048",
-    "updated_at": "2026-02-09T14:54:11.734049"
+    "created_at": "2026-02-09T15:56:23.433558",
+    "updated_at": "2026-02-09T15:56:23.433560"
   },
   {
     "id": "456",
     "name": "456-Piazza Porta Maggiore",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "1117",
+    "system": "Omnia",
+    "codice_impianto": 1117,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Porta Maggiore cod. imp. 01117",
+      "l2_data_installaz": "2025-12-17 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734091",
-    "updated_at": "2026-02-09T14:54:11.734093"
+    "created_at": "2026-02-09T15:56:23.433658",
+    "updated_at": "2026-02-09T15:56:23.433660"
   },
   {
     "id": "457",
     "name": "457-Piazzale Labicano",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "9004",
+    "system": "Omnia",
+    "codice_impianto": 9004,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-17 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazzale Labicano cod. imp. 09004",
+      "l2_data_installaz": "2025-12-17 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734146",
-    "updated_at": "2026-02-09T14:54:11.734148"
+    "created_at": "2026-02-09T15:56:23.433763",
+    "updated_at": "2026-02-09T15:56:23.433765"
   },
   {
     "id": "458",
     "name": "458-Prenestina/Portonaccio",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "6008",
+    "system": "Omnia",
+    "codice_impianto": 6008,
     "num_radars": 6,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=2025-12-10 00:00:00, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Prenestina/Portonaccio cod. imp. 06008",
+      "l2_data_installaz": "2025-12-10 00:00:00",
+      "l2_config_rsm": "2025-12-01 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 6,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "READY_TO_SEND",
-      "data": "status=daINVIARE, plan=Invio_12/25"
+      "plan_cfg_inviate": "Invio_12/25",
+      "cfg_def_status": "daINVIARE",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": "ass.Mauro",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734193",
-    "updated_at": "2026-02-09T14:54:11.734194"
+    "created_at": "2026-02-09T15:56:23.433850",
+    "updated_at": "2026-02-09T15:56:23.433851"
   },
   {
     "id": "459",
     "name": "459-Prenestina/Tor de Schiavi",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "6019",
+    "system": "Omnia",
+    "codice_impianto": 6019,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Prenestina/Tor De Schiavi cod. imp. 06019",
+      "l2_data_installaz": null,
+      "l2_config_rsm": "2024-04-03 00:00:00",
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": "3",
+      "disp_da_inst": null,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "SENT",
-      "data": "status=INVIATA, plan=SI"
+      "plan_cfg_inviate": "SI",
+      "cfg_def_status": "INVIATA",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": "daCOMPL",
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734237",
-    "updated_at": "2026-02-09T14:54:11.734239"
+    "created_at": "2026-02-09T15:56:23.433930",
+    "updated_at": "2026-02-09T15:56:23.433931"
   },
   {
     "id": "460",
     "name": "460-Piazza Gondar",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2016",
+    "system": "Omnia",
+    "codice_impianto": 2016,
     "num_radars": 4,
     "installation": {
       "status": "in_progress",
       "status_detail": "STARTED",
-      "data": "data=, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Piazza Gondar cod. imp. 02016",
+      "l2_data_installaz": null,
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 4,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734282",
-    "updated_at": "2026-02-09T14:54:11.734283"
+    "created_at": "2026-02-09T15:56:23.434015",
+    "updated_at": "2026-02-09T15:56:23.434016"
   },
   {
     "id": "461",
     "name": "461-Corso Trieste/Chiana",
     "lotto": "M9.2",
-    "system": "OMNIA",
-    "codice_impianto": "2074",
+    "system": "Omnia",
+    "codice_impianto": 2074,
     "num_radars": 3,
     "installation": {
       "status": "in_progress",
       "status_detail": "IN_PROGRESS",
-      "data": "data=ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione, radar=, centr=SI OMNIA",
-      "blocked_conduits": false
+      "blocked_conduits": false,
+      "l1_match": null,
+      "l1_planimetrie": null,
+      "l1_passaggio_cavi": null,
+      "l1_install_sensori": null,
+      "l1_cablaggio": null,
+      "l1_screenshot": null,
+      "l1_completato": null,
+      "l1_doc_inviata": null,
+      "l1_data_compl": null,
+      "l2_match": "Corso Trieste/Chiana cod. imp. 02074",
+      "l2_data_installaz": "ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione",
+      "l2_config_rsm": null,
+      "l2_config_instal": null,
+      "l2_planimetria": null,
+      "l2_n_radar_finiti": null,
+      "l2_centralizzati": "SI OMNIA",
+      "disp_inst_bloccati": null,
+      "disp_da_inst": 3,
+      "soluzione_bloccati": null
     },
     "configuration": {
       "status": "in_progress",
       "status_detail": "PENDING_VERIFICATION",
-      "data": "status=DA VRF, plan=Da inviare"
+      "plan_cfg_inviate": "Da inviare",
+      "cfg_def_status": "DA VRF",
+      "cfg_def_inst": "NO"
     },
     "connection": {
       "status": "not_started",
       "status_detail": "MISSING_DATA",
-      "data": null
+      "da_centr_aut": null,
+      "tabella_if_utc": null,
+      "inst_interfaccia_utc": "NO",
+      "swarco_spot_status": null,
+      "swarco_spot_firmware": null,
+      "sema_aut": null,
+      "sema_attivita": null
     },
     "validation": {
       "status": "not_started",
       "status_detail": "NOT_STARTED",
-      "data": "vrf="
+      "vrf_dati": null
     },
+    "note_main": null,
     "overall_status": "in_progress",
     "coordinates": null,
+    "coordinates_manual": false,
     "inconsistencies": [],
     "notes": null,
-    "created_at": "2026-02-09T14:54:11.734325",
-    "updated_at": "2026-02-09T14:54:11.734327"
+    "created_at": "2026-02-09T15:56:23.434096",
+    "updated_at": "2026-02-09T15:56:23.434098"
   }
 ],
     summary: {
@@ -7722,11 +13883,11 @@ const EMBEDDED_DATA = {
     }
   },
   "by_system": {
-    "TMACS": {
+    "Tmacs": {
       "intersections": 55,
       "radars": 199
     },
-    "OMNIA": {
+    "Omnia": {
       "intersections": 165,
       "radars": 574
     }
