@@ -217,13 +217,9 @@ def interpret_connection_tmacs(codice_impianto, sema_lookup):
         return 'UNKNOWN', info_str
 
 def interpret_validation(row):
-    """Interpret VALIDATION status"""
-    vrf = safe_str(row.get('VRF_DATI'))
-
-    if vrf and ('vrf' in vrf.lower() or 'utc' in vrf.lower()):
-        return 'IN_VERIFICATION'
-    else:
-        return 'NOT_STARTED'
+    """Interpret VALIDATION status - currently all not started"""
+    # All validation is not started until we have actual verification data
+    return 'NOT_STARTED'
 
 def main():
     print("Loading data sources...")
