@@ -1,0 +1,4681 @@
+INTERSECTION STATUS ANALYSIS
+========================================================================================================================
+
+[101] Cassia/Grottarossa
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Cassia/Grottarossa
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-26 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 3.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[102] Trionfale/Barellai
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Trionfale/Barellai
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[105] Cassia Nuova/Fabbroni/Pareto
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Cassia Nuova/Fabbroni/Pareto
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-08-02 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[106] Flaminia Nuova/Valdagno
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Flaminia Nuova/Valdagno
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-14 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 3.0
+        SOLUZIONE_BLOCCATI: Scavo su marciapiede corto
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[108] C.so Francia/Vigna Stelluti
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: C.so Francia/Vigna Stelluti
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-13 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[109] Pineta Sacchetti/Pascucci
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Pineta Sacchetti/Pascucci
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 30/10/20223
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[112] Pineta Sacchetti/Forte Braschi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Pineta Sacchetti/Forte Braschi
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-30 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[113] Pineta Sacchetti/Tardini
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Pineta Sacchetti/Tardini
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-25 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[114] Boccea/Cornelia/Giureconsulti
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Boccea/Cornelia/Giureconsulti
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-26 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 3.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[115] Aurelia/Cornelia/Irnerio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Aurelia/Cornelia/Irnerio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-27 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[116] P.zza Villa Carpegna/Madonna del Riposo
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: P.zza Villa Carpegna/Madonna del Riposo
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-05-30 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: INST.
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ok
+        INST_INTERFACCIA_UTC: Inv.SWARCO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[117] Gregorio VII/Villa Carpegna
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Gregorio VII/Villa Carpegna
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-06-27 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: INST.
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ok
+        INST_INTERFACCIA_UTC: INST.
+    VALIDATION:    IN_VERIFICATION
+        VRF_DATI: VRF UTC
+
+--------------------------------------------------------------------------------
+
+[118] Boccea/Gregorio XIII
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Boccea/Gregorio XIII
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[119] Boccea/Battistini
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Boccea/Battistini
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-07-04 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[120] Boccea/Torrevecchia
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Boccea/Torrevecchia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-06-26 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[121] Pio XI/Anastasio II
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Via Anastasio II - Pio XI
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-28 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (2/4) su altro sbraccio
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[122] Pio XI/Gregorio VII
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Pio XI/Gregorio VII
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-24 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[123] Anastasio II
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Anastasio II
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[124] Anastasio II/Savorelli
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Anastasio II/Savorelli
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[125] Gregorio VII/Monte del Gallo
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Gregorio VII/Monte del Gallo
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[126] Largo Porta Cavalleggeri
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Largo Porta Cavalleggeri
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-05 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (2/4) su altre paline
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        TABELLA_IF_UTC: ok
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[127] Piazza della Rovere
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazzale della Rovere
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-06 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[128] L.re Sangallo/Ponte PASA
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: L.re Sangallo/Ponte PASA
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-07-16 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[129] L.re Fiorentini/Ponte V.E. II
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: L.re Fiorentini/Ponte V.E. II
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale ripassare
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-07 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[130] L.re in Sassia/Ponte V.E.II
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: L.re in Sassia/Ponte V.E.II
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-08 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[132] Piazza Adriana/Crescenzio
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazza Adriana/Crescenzio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: galleria
+        L1_INSTALL_SENSORI: 5.0
+        L1_DATA_COMPL: 2023-11-03 00:00:00
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[133] Ponte Umberto I/P.zza Tribunali
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Ponte Umberto I/P.zza Tribunali
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-06 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[134] Ponte Umberto I/Zanardelli
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Ponte Umberto I/Zanardelli
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-08 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[135] Ponte Regina Margherita/L.re in Augusta
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Ponte Regina Margherita/L.re in Augusta
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-11-15 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[137] P.le Clodio Est
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: P.le Clodio Est
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-06-27 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[138] P.le Clodio Ovest
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: P.le Clodio Ovest
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-06-27 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[139] P.le Maresciallo Giardino/L.re della Vittoria
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: P.le Maresciallo Giardino/L.re della Vittoria
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa 2/3
+        L1_INSTALL_SENSORI: 5.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-15 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 5.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (1/5) su altro sbraccio
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[140] Ponte Duca d'Aosta/Stadio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Ponte Duca d'Aosta - Stadio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-07-05 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[143] C.so Francia/Flaminia
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Corso Francia - Flaminia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-07-03 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[144] Ponte Milvio/Tor di Quinto
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Ponte Milvio/Tor di Quinto
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-11-06 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (1/4) su altro sbraccio
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[204] P.le Appio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: P.le Appio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 5.0
+        L1_DATA_COMPL: 2023-10-31 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 5.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (3/5) su paline
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[206] Porta S.Giovanni/E.Filiberto
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Porta S.Giovanni/E.Filiberto
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-11-02 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[207] S.Giovanni Laterano/Merulana
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: S.Giovanni Laterano/Merulana
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2025-05-17 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[208] Porta Metronia
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Porta Metronia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-01 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[209] Caracalla/Colombo/Druso
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Via Cristoforo Colombo - Via Druso
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-08-28 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[210] Colombo/Porta Ardeatina
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Porta Ardeatina
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-22 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[211] Colombo/Navigatori
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Navigatori
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-08-07 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[212] Colombo/Laurentina
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Laurentina
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: RISTRUTTURATO 01/2026
+        L1_INSTALL_SENSORI: 5.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-23 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 5.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[213] Colombo/CiviltÃ  del Lavoro
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/CiviltÃ  del Lavoro
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-15 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su paline
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[214] Colombo/Genocchi
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Genocchi
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 5.0
+        L1_DATA_COMPL: 2023-09-20 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 5.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (3/5) su altro sbraccio o paline o su altro IS
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[215] Colombo/Agiati
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Agiati
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-19 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (1/4) su altro sbraccio
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[216] Colombo/Leonori
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Leonori
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-14 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: ?!?!?!?
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[217] Colombo/Europa
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Europa
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2025-02-07 00:00:00
+        DISP_INST_BLOCCATI: 2
+        DISP_DA_INST: 2.0
+        SOLUZIONE_BLOCCATI: Spostamento radar non collegati su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[218] Colombo/Umanesimo dir. GRA
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Umanesimo dir. GRA
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-25 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[219] Colombo/Umanesimo dir. Centro
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Umanesimo dir. Centro
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-09-21 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (2/3) su altre paline
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[220] Colombo/Oceani
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 6
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Colombo/Oceani
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 6.0
+        L1_DATA_COMPL: 2023-09-25 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 6.0
+        SOLUZIONE_BLOCCATI: DA RISTRUTTURARE IIN OFFERTA TECNICA / PROGETTO BLACKPOINTS
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[226] Laurentina/Umanesimo
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Laurentina/Umanesimo
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-14 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[227] Laurentina/Vigna Murata
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Laurentina/Vigna Murata
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-19 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: ?!?!?!?
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[228] Laurentina/Serafico
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Laurentina/Serafico
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-15 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 3.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (1/3) su altro sbraccio
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[229] Laurentina/Ardigò
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Laurentina/Ardigò
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-19 00:00:00
+        DISP_INST_BLOCCATI: 2
+        DISP_DA_INST: 1.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (1/3) su altro sbraccio
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[230] Laurentina/Silone
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Laurentina/Silone
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-18 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[231] Laurentina/Acqua Acetosa Ostiense
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Laurentina/Acqua Acetosa Ostiense
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-19 00:00:00
+        DISP_INST_BLOCCATI: 2
+        DISP_DA_INST: 2.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (2/4) su altre paline
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[232] Laurentina/Tor Pagnotta
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Laurentina/Tor Pagnotta
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-09-21 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[234] Colli Portuensi/Morelli
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Colli Portuensi/Morelli
+        L1_PLANIMETRIE: si
+        L1_INSTALL_SENSORI: 3.0
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[235] Colli Portuensi/Monteverde
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Colli Portuensi/Monteverde
+        L1_PLANIMETRIE: si
+        L1_INSTALL_SENSORI: 4.0
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[236] Colli Portuensi/Gianicolense
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Colli Portuensi/Gianicolense
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2024-05-09 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: INST.
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ok
+        INST_INTERFACCIA_UTC: Inv.SWARCO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[238] Gianicolense/Monteverde
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Gianicolense/Monteverde
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2024-04-22 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: INST.
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ok
+        INST_INTERFACCIA_UTC: Inv.SWARCO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[239] Gianicolense/Dunant
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Gianicolense/Dunant
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: parziale
+        L1_DATA_COMPL: 2024-04-19 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[240] Piazzale Biondo
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Piazzale Biondo
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2024-11-06 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[241] Piazzale della Radio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazzale della Radio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-10 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[243] Marconi/L.re Pietrapapa
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Marconi/L.re Pietrapapa
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-10 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[244] Marconi/Edison
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Marconi/Edison
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-09 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[245] Marconi/Temistocle Calzecchi Onesti
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Marconi/Temistocle Calzecchi Onesti
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-06 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[246] Marconi/Bortolotti
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 7
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Marconi/Bortolotti
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 7.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-09 00:00:00
+        DISP_INST_BLOCCATI: 7
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[248] Marconi/Metro
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Marconi/Metro
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2024-04-17 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[250] Trastevere/Induno
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Trastevere/Induno
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-30 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[251] Trastevere/Glorioso
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Trastevere/Glorioso
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-25 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 3.0
+        SOLUZIONE_BLOCCATI: Spostamento radar (2/3) su altre paline
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[252] Portuense/Porta Portese
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Piazza di porta Portese
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-01-31 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[256] Portuense/Folchi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Portuense/Folchi
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[257] Portuense/Ramazzini
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Portuense/Ramazzini
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-16 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[261] Casetta Mattei/Poggio Verde
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Casetta Mattei/Poggio Verde
+        L1_PLANIMETRIE: si
+        L1_INSTALL_SENSORI: 3.0
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[262] Bravetta/Scaligeri
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 2
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: Bravetta/Scaligeri
+        DISP_DA_INST: 2.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[263] Bravetta/Silvestri/Consolata
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Bravetta/Silvestri/Consolata
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-10-30 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[264] Pisana/Grimaldi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: Pisana/Grimaldi
+        DISP_DA_INST: 2.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[265] Bravetta/Feltreschi
+    Lotto: M9.1 | Sistema: Tmacs | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Bravetta/Feltreschi
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-06-28 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[266] Largo Don Guanella
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Largo Don Guanella
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-10-30 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[267] Porta Capena
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Porta Capena
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[272] Marco Polo/Beccari
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: Marco Polo/Beccari
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[276] Greca/Bocca della Verità
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Greca/Bocca della Verità
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: non passa
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: no
+        L1_DATA_COMPL: 2023-07-10 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[278] Largo Vittime del Terrorismo/Caracalla
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Largo Vittime del Terrorismo/Caracalla
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 5.0
+        L1_DATA_COMPL: 2023-08-23 00:00:00
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[301] Marconi/Grimaldi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Marconi/Grimaldi
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-10 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[302] Cassia/Flaminia/C.so Francia
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Cassia/Flaminia/C.so Francia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-09-04 00:00:00
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Scavo su marciapiede corto
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[405] Portuense/Vigna Pia
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Portruense - Vigna Pia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-13 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[406] Portuense/Imbrecciato
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Portuense - Imbrecciato
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-17 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[407] Portuense/Belluzzo
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Portuense - Belluzzo
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_DATA_COMPL: 2023-10-11 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[412] L.re Cadorna/Morra di Lavriano
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: L.Re Cadorna - Morra di Lavriano
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2023-10-11 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[413] L.re M.llo Diaz/Largo M.llo Diaz
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: L.RE Diaz - Largo Mllo Diaz
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: parziale
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-11 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[414] L.re della Vittoria/Timavo
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: l.Re della Vittoria - Timavo
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: SFILARE PS PER ALZATA
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-10-11 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[415] Cipro/Ammiragli
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Cipro - Ammiragli
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2023-10-27 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[416] Anastasio II/Uscita Centro Commerciale
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Anastasio II - Centro comm.
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-10-17 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[417] Angelo Emo/Capolinea Bus
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Emo - Bus
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2023-10-17 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[418] Trionfale/Università Sacro Cuore
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Trionfale - Università Sacro Cuore
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 2.0
+        L1_DATA_COMPL: 2023-10-27 00:00:00
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[429] Piazzale degli Eroi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazzale degli Eroi
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 4.0
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[430] Piazza S.Croce Gerusalemme
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazza Santa croce in Gerusalemme
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-11-10 00:00:00
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[431] Piazza S.Croce Gerusalemme/Sessoriana
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L1_MATCH: Piazza Santa croce in Gerusalemme
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-11-10 00:00:00
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[432] Trionfale/Ipogeo degli Ottavi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.54)
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[433] Pineta Sacchetti/Calasanziane
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Pineta Sacchetti/Calasenziane
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 2.0
+        L1_DATA_COMPL: 2025-12-12 00:00:00
+        DISP_DA_INST: 2.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[434] Battistini/Forte Braschi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.67)
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[435] Battistini/Monti di Primavalle
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Pineta Sacchetti/Monti di Primavalle
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2025-12-12 00:00:00
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[436] Trionfale/Fratelli Gualandi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.67)
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[437] Boccea/Don Carlo Gnocchi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.60)
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[438] Boccea/Bra
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.67)
+        DISP_DA_INST: 2.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    OMNIA_PENDING
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Omnia
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[439] Torrevecchia/Cardinale Costantini
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.51)
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[440] Torrevecchia/Aloisi Masella
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.52)
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[441] Cernaia/Volturno
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Via Cernaia - Via Volturno
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2025-12-11 00:00:00
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[442] Cernaia/Goito
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Via Cernaia - Via Goito
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2025-12-11 00:00:00
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[444] Piazza Antonio Meucci/Oderisi da Gubbio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NO_DATA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[445] Merulana/Macchiavelli
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L1_MATCH: Via Merulana - Via Macchiavelli
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_COMPLETATO: ok
+        L1_DATA_COMPL: 2025-12-12 00:00:00
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[446] Largo Brancaccio
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Largo Brancaccio
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 4.0
+        L1_CABLAGGIO: ok
+        L1_DATA_COMPL: 2025-12-12 00:00:00
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[447] Piazza Indipendenza/S.Martino della Battaglia
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Piazza Indipendenza - San Martino della Battaglia
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2025-12-14 00:00:00
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[448] Manzoni/Conte Verde
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Manzoni - Conte verde
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: no
+        L1_INSTALL_SENSORI: 4.0
+        L1_DATA_COMPL: 2025-12-14 00:00:00
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[449] Largo del Tritone
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.55)
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[450] Flaminia/Piazza dei Carracci
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.55)
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[451] Bernardo Ramazzini/Folchi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Ramazzini/Folchi
+        L1_PLANIMETRIE: si
+        L1_INSTALL_SENSORI: 4.0
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[452] Bernardo Ramazzini/Val Tellina
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Ramazzini/Valtellina
+        L1_PLANIMETRIE: si
+        L1_INSTALL_SENSORI: 4.0
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[453] Piazza Cavour/Cicerone
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  NOT_STARTED
+        L1_MATCH: UNCERTAIN (0.62)
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[454] Pineta Sacchetti/S.Cleto Papa
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Pineta Sacchetti/San Cleto Papa
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: si
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2025-12-15 00:00:00
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[455] Pineta Sacchetti/Marconi
+    Lotto: M9.1 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L1_MATCH: Pineta Sacchetti/Tardini
+        L1_PLANIMETRIE: si
+        L1_PASSAGGIO_CAVI: ok
+        L1_INSTALL_SENSORI: 3.0
+        L1_DATA_COMPL: 2023-09-25 00:00:00
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[136] Piazzale Flaminio/G.B. Vico
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  STARTED
+        L2_MATCH: Piazzale Flaminio/G.B. Vico   cod. imp. 02198
+        L2_CENTRALIZZATI: TMACS
+        DISP_DA_INST: 3.0
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[141] Ponte Duca d'Aosta/P.zza Mancini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Ponte Duca D'aosta - Piazza Mancini cod. imp. 02064
+        L2_DATA_INSTALLAZ: 2023-07-31 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: INST.
+        L2_CONFIG_RSM: 2023-07-28 00:00:00
+        L2_CONFIG_INSTAL: 2023-07-31 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[142] P.zza Gentile da Fabriano
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Piazza Gentile Da Fabriano cod. imp. 02077
+        L2_DATA_INSTALLAZ: 2023-06-19 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: INST.
+        L2_CONFIG_RSM: 2023-06-13 00:00:00
+        L2_CONFIG_INSTAL: 2023-06-19 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[145] Salaria/Somalia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Salaria - Somalia cod. imp. 02045
+        L2_DATA_INSTALLAZ: 2023-09-05 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-04 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[146] Salaria/Priscilla
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Salaria - Priscilla cod. imp. 02044
+        L2_DATA_INSTALLAZ: 2023-09-12 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-04 00:00:00
+        L2_CONFIG_INSTAL: ristrutturato da configurare
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[147] Salaria/Panama/Chiana
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Salaria - Panama cod. imp. 02057
+        L2_DATA_INSTALLAZ: 2023-06-20 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-06-13 00:00:00
+        L2_CONFIG_INSTAL: 2024-01-11 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[148] Regina Margherita/Salaria/Liegi
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Regina Margherita - Salaria cod. imp. 02052
+        L2_DATA_INSTALLAZ: 2023-09-05 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-04 00:00:00
+        L2_CONFIG_INSTAL: ristrutturato da configurare
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[149] Parioli/Stoppani
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 2
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Piazza Ungheria cod. imp. 02059
+        L2_DATA_INSTALLAZ: 2023-09-21 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-14 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[150] Piazza Ungheria/Liegi
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Piazza Ungheria cod. imp. 02059
+        L2_DATA_INSTALLAZ: 2023-09-21 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-14 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[151] Rossini/Paisiello
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Rossini - Paisiello cod. imp. 02033
+        L2_DATA_INSTALLAZ: 2023-09-18 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-14 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[152] Piazza Pitagora/Stoppani
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Piazza Pitagora cod. imp. 02031
+        L2_DATA_INSTALLAZ: 2023-09-18 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-14 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[153] Parioli/Boccioni
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Parioli - Boccioni cod. imp. 02027
+        L2_DATA_INSTALLAZ: 2023-09-18 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-14 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[154] Regina Margherita/Nomentana
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Regina Margherita/Nomentana    cod. imp. 03008
+        L2_DATA_INSTALLAZ: 2023-09-26 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-15 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[155] Nomentana/XXI Aprile
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Nomentana/Xxi Aprile    cod. imp. 03007
+        L2_DATA_INSTALLAZ: 2023-09-25 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-15 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[156] Regina Margherita/Morgagni
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Regina Margherita - Morgagni cod. imp. 03017
+        L2_DATA_INSTALLAZ: 2023-07-10 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-03 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[157] Regina Margherita/UniversitÃ
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Regina Elena - Università cod. imp. 03015
+        L2_DATA_INSTALLAZ: 2023-07-12 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-03 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[158] Regina Elena/Verano
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Regina Elena - P.Le San Lorenzo cod. imp. 03019
+        L2_DATA_INSTALLAZ: 2023-07-04 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-03 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[159] Verano/De Lollis
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina - V.Lo Verano cod. imp. 03027
+        L2_DATA_INSTALLAZ: 2023-07-04 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-03 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[163] Nomentana/Graf/Kant
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Nomentana-Graf-Kant cod. imp. 04027
+        L2_DATA_INSTALLAZ: 2023-06-13 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-06-07 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[164] Tiburtina/Portonaccio
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tiburtina/Portonaccio     cod. imp. 05002
+        L2_DATA_INSTALLAZ: 2023-09-28 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: BLOCCATI
+        DISP_DA_INST: 4.0
+        SOLUZIONE_BLOCCATI: Spostamento radar su altro IS (Scavi su strada lunghi)
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[165] Taranto/Aosta/Monza
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Taranto Monza Aosta cod. imp. 09006
+        L2_DATA_INSTALLAZ: 2024-01-09 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-19 00:00:00
+        L2_CONFIG_INSTAL: 2024-01-10 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[167] Monti TIburtini/Lanciani
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Monti Tiburtini/Lanciani    cod. imp. 03033
+        L2_DATA_INSTALLAZ: 2023-09-28 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[168] Nomentana/Gorizia/Nibby
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Nomentana/Gorizia/Nibby     cod. imp. 03005
+        L2_DATA_INSTALLAZ: 2023-09-25 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-20 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[169] Nomentana/Trieste/Spallanzani
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Nomentana/Trieste/Spallanzani     cod. imp. 03009
+        L2_DATA_INSTALLAZ: 2023-09-26 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-21 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-29 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[170] Nomentana/S.Angela Merici
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Nomentana/S.Angela Merici    cod. imp. 02023
+        L2_DATA_INSTALLAZ: 2023-09-25 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-20 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[171] Nomentana/Val d'Aosta
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Nomentana/Val D'aosta    cod. imp. 04021
+        L2_DATA_INSTALLAZ: 2023-09-25 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-20 00:00:00
+        L2_CONFIG_INSTAL: 2024-01-02 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[172] Nomentana/Sempione
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Nomentana/Sempione     cod. imp. 04003
+        L2_DATA_INSTALLAZ: 2023-09-25 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-20 00:00:00
+        L2_CONFIG_INSTAL: 2024-03-20 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[173] Monti Tiburtini/Durantini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Monti Tiburtini/Durantini    cod. imp. 05006
+        L2_DATA_INSTALLAZ: 2023-09-28 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-20 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[174] Tiburtina/Ottoboni
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/Ottoboni     cod. imp. 05012
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[175] Tiburtina/Casal Bruciato
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/Casal Bruciato    cod. imp. 05004
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[176] Tiburtina/Galla Placidia/Durantini
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/Galla Placidia/Durantini    cod. imp. 05003
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[177] Tiburtina/Monti Tiburtini dir. Rebibbia
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/Monti Tiburtini Dir. Rebibbia  cod. imp. 05070
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[178] Tiburtina/Monti Tiburtini dir. Portonaccio
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/Monti Tiburtini Dir. Portonaccio  cod. imp. 05009
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[179] Tiburtina/S.M. Soccorso
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tiburtina/S.M. Soccorso    cod. imp. 05010
+        L2_DATA_INSTALLAZ: 2023-09-27 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: ASSIGNED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: Ass.FM/MC
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-09-22 00:00:00
+    CONNECTION:    AUT_CONFIGURED
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT
+        SEMA_AUT: SI
+        SEMA_STATUS: AUT_OK
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[182] Togliatti/Prenestina
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Togliatti/Prenestina     cod. imp. 07005
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2024-04-03 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[183] Jonio/Col di Rezia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  STARTED
+        L2_MATCH: Jonio - Col Di Rezia cod. imp. 04014
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[184] Piazza Primoli
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 6
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Piazza Primoli cod. imp. 04031
+        L2_DATA_INSTALLAZ: 2023-06-14 00:00:00
+        L2_N_RADAR_FINITI: 6.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 6
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-06-07 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-28 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[192] Casilina/Torre Spaccata/Tor Tre Teste
+    Lotto: M9.2 | Sistema: Tmacs | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Casilina - Torre Spaccata cod. imp. 08009
+        L2_DATA_INSTALLAZ: 2023-08-08 00:00:00
+        L2_CENTRALIZZATI: SI TMACS
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-28 00:00:00
+    CONNECTION:    AUT_PENDING_INSTALL
+        SISTEMA: Tmacs
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: AUT da install.
+        SEMA_AUT: NO
+        SEMA_STATUS: AUT_MISSING
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[195] Tor de Schiavi/Anagni/Delpino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tor De Schiavi/Anagni/Delpino   cod. imp. 06018
+        L2_DATA_INSTALLAZ: 2024-04-08 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2024-04-03 00:00:00
+        L2_CONFIG_INSTAL: 2024-04-08 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE - NO SIM
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[199] Casilina/Pigneto
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Casilina - Pignato cod. imp. 06020
+        L2_DATA_INSTALLAZ: 2024-04-15 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2024-04-03 00:00:00
+        L2_CONFIG_INSTAL: 2024-04-15 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[200] Spezia/Nola/Monza
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  STARTED
+        L2_MATCH: Spezia/Nola/Monza     cod. imp. 09024
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: RadarINST
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[201] Spezia/Caltagirone
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Spezia/Caltagirone     cod. imp. 09028
+        L2_DATA_INSTALLAZ: 2023-09-29 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: RadarINST
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[205] Piazza Tuscolo
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Piazza Tuscolo    cod. imp. 09043
+        L2_DATA_INSTALLAZ: 2025-12-17 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[221] Grotta Perfetta/Ambrosini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Grotta Perfetta/Ambrosini    cod. imp. 11021
+        L2_DATA_INSTALLAZ: 2025-12-11 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[222] Grotta Perfetta/Calderon de la Barca
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Grotta Perfetta/Calderon De La Barca cod. imp. 11049
+        L2_DATA_INSTALLAZ: 2025-12-11 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[224] Ardeatina/Fotografia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Ardeatina - Fotografia cod. imp. 11092
+        L2_DATA_INSTALLAZ: 2023-06-21 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-06-13 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-30 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[225] Sette Chiese/Bompiani
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Sette Chiese/Bompiani    cod. imp. 11059
+        L2_DATA_INSTALLAZ: 2025-12-11 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_DA_INST: 2.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[242] Appia Pignatelli/S.Tarcisio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Appia Pignatelli/S.Tarcisio    cod. imp. 10054
+        L2_DATA_INSTALLAZ: 2024-04-16 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2024-04-03 00:00:00
+        L2_CONFIG_INSTAL: 2024-04-15 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[269] Ostiense/Porto Fluviale/Matteucci
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Ostiense Porto Fluviale  cod. imp. 11014
+        L2_DATA_INSTALLAZ: 2023-12-12 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-19 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-13 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[270] Ostiense/Spizzichina
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Ostiense Spizzichino cod. imp. 11037
+        L2_DATA_INSTALLAZ: 2023-12-19 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-19 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[271] Ostiense/S.Paolo/Rocco
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Ostiense San Paolo cod. imp. 11015
+        L2_DATA_INSTALLAZ: 2023-12-19 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-19 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-18 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[273] Cilicia/Piazza Galeria
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Cilicia/Piazza Galeria    cod. imp. 09047
+        L2_DATA_INSTALLAZ: 2025-12-18 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_FOR_APPROVAL
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: aff.GO
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[284] Piazza di Porta Pia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  STARTED
+        L2_MATCH: Piazza Di Porta Pia  cod. imp. 03011
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 5.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[285] Appia/Alberone
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Appia/Alberone     cod. imp. 09036
+        L2_DATA_INSTALLAZ: 2025-12-18 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[287] Tuscolana/Arco di Travertino/Porta Furba
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana/Arco Di Travertino/Porta Furba  cod. imp. 09005
+        L2_DATA_INSTALLAZ: 2023-10-03 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[288] Tuscolana/Cave
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tuscolana/Cave     cod. imp. 09014
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[289] Tuscolana/Monselice/Gela
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana/Monselice/Gela     cod. imp. 09011
+        L2_DATA_INSTALLAZ: 2025-12-12 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[290] Tuscolana/Nocera Umbra/Furio Camillo
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana/Nocera Umbra/Furio Camillo   cod. imp. 09013
+        L2_DATA_INSTALLAZ: 2025-12-12 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[292] Appia/Arco di Travertino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Appia Arco Di Travertini cod. imp. 09001
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[293] Tuscolana/Capannelle
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana - Capanelle cod. imp. 10002
+        L2_DATA_INSTALLAZ: 2025-12-18 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+        SWARCO_SPOT_STATUS: SPOT PRESENTE? - NO SIM?
+        SWARCO_ISSUE: NO SIM
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[294] Tuscolana/Pulvillo/Labieno
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana/Pulvillo/Labieno     cod. imp. 10026
+        L2_DATA_INSTALLAZ: 2023-09-29 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[295] Tuscolana/Giulio Agricola
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Tuscolana/Giulio Agricola    cod. imp. 10006
+        L2_DATA_INSTALLAZ: 2023-09-29 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[296] Tuscolana/Lucio Sestio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tuscolana/Lucio Sestio    cod. imp. 10008
+        L2_DATA_INSTALLAZ: 2023-10-03 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[297] Tuscolana/Quadraro
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Tuscolana/Quadraro     cod. imp. 10013
+        L2_DATA_INSTALLAZ: 2023-10-03 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[298] Tuscolana/Buon Consiglio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tuscolana/Buon Consiglio    cod. imp. 10010
+        L2_DATA_INSTALLAZ: 2023-10-02 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-04 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[299] Tuscolana/Metro Porta Furba
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tuscolana/Metro Porta Furba/Fulvi   cod. imp. 10012
+        L2_DATA_INSTALLAZ: 2023-10-03 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+        L2_CONFIG_INSTAL: 2024-01-04 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[300] Appia/Capannellle
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 6
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Appia/Capannellle     cod. imp. 10019
+        L2_DATA_INSTALLAZ: 2023-10-02 00:00:00
+        L2_N_RADAR_FINITI: 6.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 6
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-06 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[303] Appia Nuova/Appia Pignatelli
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Appia Nuova Appia Pignatelli cod. imp. 10022
+        L2_DATA_INSTALLAZ: ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[304] Appia Nuova/Quarto Miglio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Appia Nuova/Quarto Miglio   cod. imp. 10014
+        L2_DATA_INSTALLAZ: 2023-10-02 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-06 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[305] Appia Nuova/Quadraro
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Appia Nuova/Quadraro    cod. imp. 10017
+        L2_DATA_INSTALLAZ: 2023-10-02 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-02 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[306] Ponte Matteotti/L.re Navi
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Lgt Delle Navi - Ponte Matteotti cod. imp. 02019
+        L2_DATA_INSTALLAZ: 2023-09-09 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-07-28 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[307] Ponte Risorgimento/P.le Belle Arti
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Belle Arti-Ponte Risorgimento cod. imp. 02009
+        L2_DATA_INSTALLAZ: 2023-06-19 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-06-13 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-29 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[401] Nomentana/Villini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Nomentana/Villini cod. imp. 03097
+        L2_DATA_INSTALLAZ: 2023-10-06 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-05 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-21 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[402] Val di Cogne/Val di Lanzo
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Val Di Cogne/Val Di Lanzo cod. imp. 04123
+        L2_DATA_INSTALLAZ: 2023-10-06 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-05 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-07 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[403] Tirreno/Valle Scrivia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tirreno - Valle Scirvia cod. imp. 04124
+        L2_DATA_INSTALLAZ: 2023-10-06 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-05 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-16 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[404] Piazza Capri
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Piazza Capri cod. imp. 04006
+        L2_DATA_INSTALLAZ: 2023-10-06 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-05 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-13 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[408] M.llo Pilsudski/S.Valentino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: M.Llo Pilsudski/S.Valentino cod. imp. 02079
+        L2_DATA_INSTALLAZ: 2023-10-10 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-09 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-13 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[409] Piazza Fiume/Calabria
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 6
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Piazza Fiume cod. imp. 02011
+        L2_DATA_INSTALLAZ: 2023-12-29 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 6
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-09 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[410] Nomentana/Val dOssola
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Nomentana/Val D'ossola cod. imp. 04140
+        L2_DATA_INSTALLAZ: 2023-10-10 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: COMPLETE
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: ok
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-09 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-10 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[411] Monti Tiburtini/Feronia
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Monti Tiburtini/Feronia cod. imp. 05106
+        L2_DATA_INSTALLAZ: 2023-10-11 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-09 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-11 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[419] Pinciana/Puccini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Pinciana - Puccini cod. imp. 02028
+        L2_DATA_INSTALLAZ: 2024-01-11 00:00:00
+        L2_N_RADAR_FINITI: 1.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[420] Pinciana/Allegri
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 5
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Pinciana - Allegri cod. imp. 02029
+        L2_DATA_INSTALLAZ: 2023-11-14 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 5
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[421] C.so Italia/Po
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Corso D'italia Po cod. imp. 02066
+        L2_DATA_INSTALLAZ: 2023-12-27 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-27 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[422] C.so Italia/Puccini
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Corso D'italia Puccini cod. imp. 02083
+        L2_DATA_INSTALLAZ: 2023-11-14 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[423] Salaria/Aeroporto Urbe
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Salaria Urbe cod. imp. 04020
+        L2_DATA_INSTALLAZ: 2023-11-02 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-02 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[424] Portonaccio/Silvio Latino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 2
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Portonacio Silvio Latino cod. imp. 06061
+        L2_DATA_INSTALLAZ: 2023-10-25 00:00:00
+        L2_N_RADAR_FINITI: 2.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 2
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-10-30 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[425] Prenestina/Centro Servizi Prenestino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Prenestina Centro Servizi cod. imp. 07057
+        L2_DATA_INSTALLAZ: 2023-10-26 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-04 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[426] Togliatti/Centro Servizi Prenestino
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Togliatti - Centro Servizi cod. imp. 07060
+        L2_DATA_INSTALLAZ: 2023-10-26 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-12-04 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[427] Arco di Travertino/Carroceto
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Arco Di Travertino Carroceto cod. imp. 09081
+        L2_DATA_INSTALLAZ: 2023-10-27 00:00:00
+        L2_N_RADAR_FINITI: 4.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 4
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-02 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[428] Tuscolana/Occorsio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  COMPLETE
+        L2_MATCH: Tuscolana - Occorsio cod. imp. 10099
+        L2_DATA_INSTALLAZ: 2023-10-26 00:00:00
+        L2_N_RADAR_FINITI: 3.0
+        L2_CENTRALIZZATI: OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: NOT_STARTED
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: DaFare
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2023-10-17 00:00:00
+        L2_CONFIG_INSTAL: 2023-11-02 00:00:00
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[443] Appia Pignatelli/Erode Attico
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Appia Pignatelli/Erode Attico cod. imp. 10007
+        L2_DATA_INSTALLAZ: 2025-12-10 00:00:00
+        L2_CENTRALIZZATI: OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+    CONNECTION:    CENTRALIZED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+        DA_CENTR_AUT: Centralizzato
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[456] Piazza Porta Maggiore
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Piazza Porta Maggiore cod. imp. 01117
+        L2_DATA_INSTALLAZ: 2025-12-17 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[457] Piazzale Labicano
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Piazzale Labicano cod. imp. 09004
+        L2_DATA_INSTALLAZ: 2025-12-17 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[458] Prenestina/Portonaccio
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 6
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Prenestina/Portonaccio cod. imp. 06008
+        L2_DATA_INSTALLAZ: 2025-12-10 00:00:00
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 6.0
+    CONFIGURATION: READY_TO_SEND
+        PLAN_CFG_INVIATE: Invio_12/25
+        CFG_DEF_STATUS: daINVIARE
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2025-12-01 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: ass.Mauro
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[459] Prenestina/Tor de Schiavi
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  BLOCKED
+        L2_MATCH: Prenestina/Tor De Schiavi cod. imp. 06019
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_INST_BLOCCATI: 3
+    CONFIGURATION: SENT
+        PLAN_CFG_INVIATE: SI
+        CFG_DEF_STATUS: INVIATA
+        CFG_DEF_INST: NO
+        L2_CONFIG_RSM: 2024-04-03 00:00:00
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        TABELLA_IF_UTC: daCOMPL
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[460] Piazza Gondar
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 4
+    INSTALLATION:  STARTED
+        L2_MATCH: Piazza Gondar cod. imp. 02016
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 4.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
+[461] Corso Trieste/Chiana
+    Lotto: M9.2 | Sistema: Omnia | Dispositivi: 3
+    INSTALLATION:  IN_PROGRESS
+        L2_MATCH: Corso Trieste/Chiana cod. imp. 02074
+        L2_DATA_INSTALLAZ: ristrutturato, da passare cavo e montare radar, mancano planimetria e configurazione
+        L2_CENTRALIZZATI: SI OMNIA
+        DISP_DA_INST: 3.0
+    CONFIGURATION: PENDING_VERIFICATION
+        PLAN_CFG_INVIATE: Da inviare
+        CFG_DEF_STATUS: DA VRF
+        CFG_DEF_INST: NO
+    CONNECTION:    NOT_STARTED
+        SISTEMA: Omnia
+        INST_INTERFACCIA_UTC: NO
+    VALIDATION:    NOT_STARTED
+
+--------------------------------------------------------------------------------
+
