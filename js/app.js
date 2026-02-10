@@ -161,6 +161,19 @@ const App = {
         document.getElementById('task-stage')?.addEventListener('change', (e) => {
             this.populateSubstages(e.target.value, 'task-substage');
         });
+
+        // Validation tab events
+        document.getElementById('run-validation-btn')?.addEventListener('click', () => {
+            this.runValidation();
+        });
+
+        document.getElementById('export-validation-btn')?.addEventListener('click', () => {
+            this.exportValidationReport();
+        });
+
+        document.getElementById('validation-filter')?.addEventListener('change', () => {
+            this.filterValidationResults();
+        });
     },
 
     /**
@@ -221,6 +234,9 @@ const App = {
                 break;
             case 'dashboard':
                 this.renderDashboard();
+                break;
+            case 'validation':
+                this.renderValidation();
                 break;
             case 'list':
                 this.renderList();
@@ -790,6 +806,216 @@ const App = {
 
         document.body.appendChild(notification);
         setTimeout(() => notification.remove(), 3000);
+    },
+
+    /**
+     * Render validation tab
+     */
+    renderValidation() {
+        // Run validation automatically when tab is shown
+        if (typeof DataValidator !== 'undefined') {
+            this.runValidation();
+        }
+    },
+
+    /**
+     * Run data validation and display results
+     */
+    runValidation() {
+        if (typeof DataValidator === 'undefined') {
+            console.error('DataValidator not loaded');
+            return;
+        }
+
+        const results = DataValidator.validateAll();
+
+        // Update summary cards
+        document.getElementById('validation-critical').textContent = results.summary.critical;
+        document.getElementById('validation-warning').textContent = results.summary.warning;
+        document.getElementById('validation-info').textContent = results.summary.info;
+        document.getElementById('validation-completeness').textContent = results.summary.completeness.average + '%';
+
+        // Store results for filtering
+        this.validationResults = results;
+
+        // Render issues list
+        this.renderValidationIssues(results.issues);
+
+        // Render completeness table
+        this.renderCompletenessTable(results.completenessScores);
+
+        this.showNotification(`Validazione completata: ${results.summary.total_issues} problemi trovati`, 'info');
+    },
+
+    /**
+     * Render validation issues list
+     */
+    renderValidationIssues(issues) {
+        const container = document.getElementById('validation-issues-list');
+        if (!container) return;
+
+        if (issues.length === 0) {
+            container.innerHTML = '<p class="empty-state success">Nessun problema trovato! I dati sono consistenti.</p>';
+            return;
+        }
+
+        const severityIcons = {
+            critical: '🔴',
+            warning: '🟡',
+            info: '🔵'
+        };
+
+        const severityLabels = {
+            critical: 'Critico',
+            warning: 'Avviso',
+            info: 'Info'
+        };
+
+        const typeLabels = {
+            status_logic: 'Logica Stato',
+            missing_blocking_info: 'Info Blocco Mancante',
+            missing_coordinates: 'Coordinate Mancanti',
+            missing_codice_impianto: 'Codice Impianto Mancante',
+            missing_lotto: 'Lotto Mancante',
+            missing_system: 'Sistema Mancante',
+            missing_radar_count: 'Conteggio Radar Mancante',
+            missing_l1_match: 'Match L1 Mancante',
+            missing_l2_match: 'Match L2 Mancante',
+            missing_swarco_data: 'Dati SWARCO Mancanti',
+            missing_semaforica_data: 'Dati Semaforica Mancanti',
+            low_completeness: 'Bassa Completezza',
+            duplicate_name: 'Nome Duplicato',
+            duplicate_codice: 'Codice Duplicato',
+            similar_name: 'Nome Simile',
+            lotto_mismatch: 'Incongruenza Lotto',
+            system_mismatch: 'Incongruenza Sistema',
+            radar_count_mismatch: 'Conteggio Radar Incongruente'
+        };
+
+        container.innerHTML = issues.map(issue => `
+            <div class="validation-issue severity-${issue.severity}">
+                <div class="issue-header">
+                    <span class="issue-severity">${severityIcons[issue.severity]} ${severityLabels[issue.severity]}</span>
+                    <span class="issue-type-badge">${typeLabels[issue.type] || issue.type}</span>
+                </div>
+                <div class="issue-intersection">
+                    <strong>${issue.intersection_id}</strong> - ${this.escapeHtml(issue.intersection_name)}
+                </div>
+                <div class="issue-title">${issue.title}</div>
+                <div class="issue-message">${issue.message}</div>
+                <div class="issue-actions">
+                    <button class="btn btn-small btn-primary" onclick="App.showIntersectionDetail('${issue.intersection_id}')">Vedi Dettagli</button>
+                    <button class="btn btn-small btn-secondary" onclick="MapManager.focusIntersection('${issue.intersection_id}'); App.switchTab('map');">Mostra su Mappa</button>
+                </div>
+            </div>
+        `).join('');
+    },
+
+    /**
+     * Filter validation results
+     */
+    filterValidationResults() {
+        if (!this.validationResults) return;
+
+        const filter = document.getElementById('validation-filter').value;
+        let filtered = this.validationResults.issues;
+
+        if (filter) {
+            if (['critical', 'warning', 'info'].includes(filter)) {
+                filtered = filtered.filter(i => i.severity === filter);
+            } else {
+                filtered = filtered.filter(i => i.type === filter);
+            }
+        }
+
+        this.renderValidationIssues(filtered);
+    },
+
+    /**
+     * Render completeness table
+     */
+    renderCompletenessTable(scores) {
+        const tbody = document.getElementById('completeness-tbody');
+        if (!tbody) return;
+
+        const intersections = DataManager.getIntersections();
+
+        // Sort by overall completeness (ascending - lowest first)
+        const sorted = intersections
+            .map(i => ({
+                intersection: i,
+                scores: scores[i.id] || { general: 0, installation: 0, configuration: 0, connection: 0, overall: 0 }
+            }))
+            .sort((a, b) => a.scores.overall - b.scores.overall);
+
+        tbody.innerHTML = sorted.map(({ intersection, scores }) => {
+            const getColor = (pct) => {
+                if (pct >= 80) return '#22c55e';
+                if (pct >= 60) return '#3b82f6';
+                if (pct >= 40) return '#f59e0b';
+                return '#ef4444';
+            };
+
+            return `
+                <tr>
+                    <td>${intersection.id}</td>
+                    <td>${this.escapeHtml(intersection.name)}</td>
+                    <td><span class="completeness-badge" style="background:${getColor(scores.general)}">${scores.general}%</span></td>
+                    <td><span class="completeness-badge" style="background:${getColor(scores.installation)}">${scores.installation}%</span></td>
+                    <td><span class="completeness-badge" style="background:${getColor(scores.configuration)}">${scores.configuration}%</span></td>
+                    <td><span class="completeness-badge" style="background:${getColor(scores.connection)}">${scores.connection}%</span></td>
+                    <td><span class="completeness-badge large" style="background:${getColor(scores.overall)}">${scores.overall}%</span></td>
+                    <td><button class="btn btn-small btn-primary" onclick="App.showIntersectionDetail('${intersection.id}')">Modifica</button></td>
+                </tr>
+            `;
+        }).join('');
+    },
+
+    /**
+     * Export validation report to Excel
+     */
+    exportValidationReport() {
+        if (typeof DataValidator === 'undefined' || !this.validationResults) {
+            this.showNotification('Esegui prima la validazione', 'error');
+            return;
+        }
+
+        // Create workbook with multiple sheets
+        const wb = XLSX.utils.book_new();
+
+        // Sheet 1: Summary
+        const summaryData = [
+            ['Report Validazione Dati - Configurazioni Radar'],
+            ['Data:', new Date().toLocaleDateString('it-IT')],
+            [],
+            ['Riepilogo Problemi'],
+            ['Critici', this.validationResults.summary.critical],
+            ['Avvisi', this.validationResults.summary.warning],
+            ['Info', this.validationResults.summary.info],
+            ['Totale', this.validationResults.summary.total_issues],
+            [],
+            ['Completezza Dati'],
+            ['Media', this.validationResults.summary.completeness.average + '%'],
+            ['Bassa (<50%)', this.validationResults.summary.completeness.low_count],
+            ['Alta (>80%)', this.validationResults.summary.completeness.high_count]
+        ];
+        const wsSummary = XLSX.utils.aoa_to_sheet(summaryData);
+        XLSX.utils.book_append_sheet(wb, wsSummary, 'Riepilogo');
+
+        // Sheet 2: All Issues
+        const issuesRows = DataValidator.exportToExcel();
+        const wsIssues = XLSX.utils.aoa_to_sheet(issuesRows);
+        XLSX.utils.book_append_sheet(wb, wsIssues, 'Problemi');
+
+        // Sheet 3: Completeness Scores
+        const completenessRows = DataValidator.exportCompletenessToExcel();
+        const wsCompleteness = XLSX.utils.aoa_to_sheet(completenessRows);
+        XLSX.utils.book_append_sheet(wb, wsCompleteness, 'Completezza');
+
+        // Download
+        XLSX.writeFile(wb, `validazione_dati_${new Date().toISOString().slice(0, 10)}.xlsx`);
+
+        this.showNotification('Report esportato con successo', 'success');
     },
 
     /**
