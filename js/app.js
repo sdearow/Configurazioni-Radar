@@ -530,107 +530,107 @@ const App = {
             <div class="detail-grid editable">
                 <!-- General Information -->
                 <div class="detail-section">
-                    <h4>General Information</h4>
-                    <div class="detail-row"><span class="detail-label">Code</span><span class="detail-value">${intersection.id}</span></div>
-                    <div class="detail-row"><span class="detail-label">Name</span><span class="detail-value">${this.escapeHtml(intersection.name)}</span></div>
+                    <h4>Informazioni Generali</h4>
+                    <div class="detail-row"><span class="detail-label">Codice Postazione</span><span class="detail-value">${intersection.id}</span></div>
+                    <div class="detail-row"><span class="detail-label">Nome Postazione</span><span class="detail-value">${this.escapeHtml(intersection.name)}</span></div>
                     <div class="detail-row"><span class="detail-label">Codice Impianto</span><span class="detail-value">${intersection.codice_impianto || '-'}</span></div>
                     <div class="detail-row"><span class="detail-label">Lotto</span><span class="detail-value">${lotto || '-'}</span></div>
-                    <div class="detail-row"><span class="detail-label">System</span><span class="detail-value">${intersection.system || '-'}</span></div>
-                    <div class="detail-row"><span class="detail-label">N. Dispositivi</span><span class="detail-value">${intersection.num_radars || 0}</span></div>
+                    <div class="detail-row"><span class="detail-label">Sistema</span><span class="detail-value">${intersection.system || '-'}</span></div>
+                    <div class="detail-row"><span class="detail-label">Numero Dispositivi</span><span class="detail-value">${intersection.num_radars || 0}</span></div>
                     <div class="detail-row">
-                        <span class="detail-label">Overall Status</span>
+                        <span class="detail-label">Stato Complessivo</span>
                         <span class="detail-value"><span class="status-badge status-${intersection.overall_status}">${this.formatStatus(intersection.overall_status)}</span></span>
                     </div>
                 </div>
 
                 <!-- Installation Stage -->
                 <div class="detail-section full-width">
-                    <h4>Installation <span class="status-badge status-${inst.status}">${this.formatStatus(inst.status)}</span> <small>(${inst.status_detail || '-'})</small></h4>
+                    <h4>Installazione <span class="status-badge status-${inst.status}">${this.formatStatus(inst.status)}</span> <small>(${inst.status_detail || '-'})</small></h4>
 
                     ${isM91 ? `
                     <div class="detail-subsection">
-                        <h5>Lotto 1 Data</h5>
-                        ${this.createEditableRow('L1 Match', 'inst_l1_match', inst.l1_match)}
-                        ${this.createEditableRow('Planimetrie', 'inst_l1_planimetrie', inst.l1_planimetrie)}
-                        ${this.createEditableRow('Passaggio Cavi', 'inst_l1_passaggio_cavi', inst.l1_passaggio_cavi)}
-                        ${this.createEditableRow('Install. Sensori', 'inst_l1_install_sensori', inst.l1_install_sensori)}
-                        ${this.createEditableRow('Cablaggio', 'inst_l1_cablaggio', inst.l1_cablaggio)}
-                        ${this.createEditableRow('Screenshot', 'inst_l1_screenshot', inst.l1_screenshot)}
-                        ${this.createEditableRow('Completato', 'inst_l1_completato', inst.l1_completato)}
-                        ${this.createEditableRow('Doc. Inviata', 'inst_l1_doc_inviata', inst.l1_doc_inviata)}
+                        <h5>Dati Lotto 1</h5>
+                        ${this.createEditableRow('Corrispondenza Lotto 1', 'inst_l1_match', inst.l1_match)}
+                        ${this.createEditableRow('Planimetrie Ricevute', 'inst_l1_planimetrie', inst.l1_planimetrie)}
+                        ${this.createEditableRow('Verifica Passaggio Cavi', 'inst_l1_passaggio_cavi', inst.l1_passaggio_cavi)}
+                        ${this.createEditableRow('Installazione Sensori', 'inst_l1_install_sensori', inst.l1_install_sensori)}
+                        ${this.createEditableRow('Cablaggio Regolatore', 'inst_l1_cablaggio', inst.l1_cablaggio)}
+                        ${this.createEditableRow('Screenshot Configurazione', 'inst_l1_screenshot', inst.l1_screenshot)}
+                        ${this.createEditableRow('Installazione Completata', 'inst_l1_completato', inst.l1_completato)}
+                        ${this.createEditableRow('Documentazione Inviata', 'inst_l1_doc_inviata', inst.l1_doc_inviata)}
                         ${this.createEditableRow('Data Completamento', 'inst_l1_data_compl', inst.l1_data_compl, 'date')}
                     </div>
                     ` : `
                     <div class="detail-subsection">
-                        <h5>Lotto 2 Data</h5>
-                        ${this.createEditableRow('L2 Match', 'inst_l2_match', inst.l2_match)}
+                        <h5>Dati Lotto 2</h5>
+                        ${this.createEditableRow('Corrispondenza Lotto 2', 'inst_l2_match', inst.l2_match)}
                         ${this.createEditableRow('Data Installazione', 'inst_l2_data_installaz', inst.l2_data_installaz, 'date')}
-                        ${this.createEditableRow('Config RSM', 'inst_l2_config_rsm', inst.l2_config_rsm)}
-                        ${this.createEditableRow('Config Instal', 'inst_l2_config_instal', inst.l2_config_instal)}
+                        ${this.createEditableRow('Configurazione RSM', 'inst_l2_config_rsm', inst.l2_config_rsm)}
+                        ${this.createEditableRow('Configurazione Installata', 'inst_l2_config_instal', inst.l2_config_instal)}
                         ${this.createEditableRow('Planimetria', 'inst_l2_planimetria', inst.l2_planimetria)}
-                        ${this.createEditableRow('N. Radar Finiti', 'inst_l2_n_radar_finiti', inst.l2_n_radar_finiti)}
-                        ${this.createEditableRow('Centralizzati', 'inst_l2_centralizzati', inst.l2_centralizzati)}
+                        ${this.createEditableRow('Numero Radar Completati', 'inst_l2_n_radar_finiti', inst.l2_n_radar_finiti)}
+                        ${this.createEditableRow('Radar Centralizzati', 'inst_l2_centralizzati', inst.l2_centralizzati)}
                     </div>
                     `}
 
                     <div class="detail-subsection">
-                        <h5>Blocking Info</h5>
-                        ${this.createEditableRow('Disp. Bloccati', 'inst_disp_bloccati', inst.disp_inst_bloccati)}
-                        ${this.createEditableRow('Disp. da Inst.', 'inst_disp_da_inst', inst.disp_da_inst)}
-                        ${this.createEditableRow('Soluzione Bloccati', 'inst_soluzione_bloccati', inst.soluzione_bloccati, 'textarea')}
+                        <h5>Informazioni Blocco</h5>
+                        ${this.createEditableRow('Dispositivi Bloccati', 'inst_disp_bloccati', inst.disp_inst_bloccati)}
+                        ${this.createEditableRow('Dispositivi da Installare', 'inst_disp_da_inst', inst.disp_da_inst)}
+                        ${this.createEditableRow('Soluzione per Blocco', 'inst_soluzione_bloccati', inst.soluzione_bloccati, 'textarea')}
                     </div>
                 </div>
 
                 <!-- Configuration Stage -->
                 <div class="detail-section">
-                    <h4>Configuration <span class="status-badge status-${conf.status}">${this.formatStatus(conf.status)}</span> <small>(${conf.status_detail || '-'})</small></h4>
-                    ${this.createEditableRow('Plan/Cfg Inviate', 'cfg_plan_inviate', conf.plan_cfg_inviate)}
-                    ${this.createEditableRow('Cfg Def Status', 'cfg_def_status', conf.cfg_def_status)}
-                    ${this.createEditableRow('Cfg Def Inst', 'cfg_def_inst', conf.cfg_def_inst)}
+                    <h4>Configurazione <span class="status-badge status-${conf.status}">${this.formatStatus(conf.status)}</span> <small>(${conf.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Planimetria e Configurazione Inviate', 'cfg_plan_inviate', conf.plan_cfg_inviate)}
+                    ${this.createEditableRow('Stato Configurazione Definitiva', 'cfg_def_status', conf.cfg_def_status)}
+                    ${this.createEditableRow('Configurazione Definitiva Installata', 'cfg_def_inst', conf.cfg_def_inst)}
                 </div>
 
                 <!-- Connection Stage -->
                 <div class="detail-section">
-                    <h4>Connection <span class="status-badge status-${conn.status}">${this.formatStatus(conn.status)}</span> <small>(${conn.status_detail || '-'})</small></h4>
-                    ${this.createEditableRow('Da Centr. AUT', 'conn_da_centr_aut', conn.da_centr_aut)}
-                    ${this.createEditableRow('Tabella IF UTC', 'conn_tabella_utc', conn.tabella_if_utc)}
-                    ${this.createEditableRow('Inst. Interfaccia UTC', 'conn_inst_if_utc', conn.inst_interfaccia_utc)}
+                    <h4>Connessione <span class="status-badge status-${conn.status}">${this.formatStatus(conn.status)}</span> <small>(${conn.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Da Centralizzare in AUT', 'conn_da_centr_aut', conn.da_centr_aut)}
+                    ${this.createEditableRow('Tabella Interfaccia UTC', 'conn_tabella_utc', conn.tabella_if_utc)}
+                    ${this.createEditableRow('Interfaccia UTC Installata', 'conn_inst_if_utc', conn.inst_interfaccia_utc)}
 
                     ${isOmnia ? `
                     <div class="detail-subsection">
                         <h5>SWARCO/Omnia</h5>
-                        ${this.createEditableRow('SPOT Status', 'conn_swarco_spot_status', conn.swarco_spot_status)}
-                        ${this.createEditableRow('SPOT Firmware', 'conn_swarco_spot_firmware', conn.swarco_spot_firmware)}
+                        ${this.createEditableRow('Stato SPOT', 'conn_swarco_spot_status', conn.swarco_spot_status)}
+                        ${this.createEditableRow('Firmware SPOT', 'conn_swarco_spot_firmware', conn.swarco_spot_firmware)}
                     </div>
                     ` : `
                     <div class="detail-subsection">
                         <h5>Semaforica/Tmacs</h5>
-                        ${this.createEditableRow('AUT', 'conn_sema_aut', conn.sema_aut)}
-                        ${this.createEditableRow('Attività', 'conn_sema_attivita', conn.sema_attivita)}
+                        ${this.createEditableRow('Autorizzazione AUT', 'conn_sema_aut', conn.sema_aut)}
+                        ${this.createEditableRow('Attività Pendenti', 'conn_sema_attivita', conn.sema_attivita)}
                     </div>
                     `}
                 </div>
 
                 <!-- Validation Stage -->
                 <div class="detail-section">
-                    <h4>Validation <span class="status-badge status-${val.status}">${this.formatStatus(val.status)}</span> <small>(${val.status_detail || '-'})</small></h4>
-                    ${this.createEditableRow('Verifica Dati', 'val_vrf_dati', val.vrf_dati)}
+                    <h4>Validazione <span class="status-badge status-${val.status}">${this.formatStatus(val.status)}</span> <small>(${val.status_detail || '-'})</small></h4>
+                    ${this.createEditableRow('Verifica Dati Traffico', 'val_vrf_dati', val.vrf_dati)}
                 </div>
 
                 <!-- Notes -->
                 <div class="detail-section full-width">
-                    <h4>Notes</h4>
+                    <h4>Note</h4>
                     ${this.createEditableRow('Note Principali', 'note_main', intersection.note_main, 'textarea')}
                     ${this.createEditableRow('Note Aggiuntive', 'notes', intersection.notes, 'textarea')}
                 </div>
 
                 <!-- Actions -->
                 <div class="detail-section full-width">
-                    <h4>Actions</h4>
+                    <h4>Azioni</h4>
                     <div class="action-buttons">
-                        <button class="btn btn-primary" onclick="App.saveAllChanges('${intersection.id}')">Save All Changes</button>
-                        <button class="btn btn-secondary" onclick="MapManager.focusIntersection('${intersection.id}'); App.closeModals(); App.switchTab('map');">Show on Map</button>
-                        <button class="btn btn-secondary" onclick="App.showPlanimetry('${intersection.id}')">View Planimetry</button>
+                        <button class="btn btn-primary" onclick="App.saveAllChanges('${intersection.id}')">Salva Modifiche</button>
+                        <button class="btn btn-secondary" onclick="MapManager.focusIntersection('${intersection.id}'); App.closeModals(); App.switchTab('map');">Mostra su Mappa</button>
+                        <button class="btn btn-secondary" onclick="App.showPlanimetry('${intersection.id}')">Vedi Planimetria</button>
                     </div>
                 </div>
             </div>
@@ -728,7 +728,7 @@ const App = {
         // Update the intersection
         DataManager.updateIntersection(intersectionId, updates);
 
-        this.showNotification('All changes saved successfully!', 'success');
+        this.showNotification('Modifiche salvate con successo!', 'success');
         this.closeModals();
         this.renderCurrentTab();
     },
