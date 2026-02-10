@@ -35,12 +35,13 @@
 
     <!-- Navigation -->
     <nav class="nav-tabs">
-        <button class="nav-tab active" data-tab="map">Map View</button>
-        <button class="nav-tab" data-tab="dashboard">Progress Dashboard</button>
-        <button class="nav-tab" data-tab="list">Intersection List</button>
-        <button class="nav-tab" data-tab="issues">Data Issues</button>
-        <button class="nav-tab" data-tab="tasks">Tasks</button>
-        <button class="nav-tab" data-tab="export">Export</button>
+        <button class="nav-tab active" data-tab="map">Mappa</button>
+        <button class="nav-tab" data-tab="dashboard">Dashboard</button>
+        <button class="nav-tab" data-tab="validation">Validazione Dati</button>
+        <button class="nav-tab" data-tab="list">Lista Intersezioni</button>
+        <button class="nav-tab" data-tab="issues">Problemi</button>
+        <button class="nav-tab" data-tab="tasks">Attivita</button>
+        <button class="nav-tab" data-tab="export">Esporta</button>
     </nav>
 
     <!-- Main Content -->
@@ -196,28 +197,141 @@
 
                 <!-- Stage Status Chart -->
                 <div class="dashboard-card full-width">
-                    <h3>Stage Status Breakdown</h3>
+                    <h3>Stato per Fase</h3>
                     <div class="chart-container wide">
                         <canvas id="chart-stage-status"></canvas>
                     </div>
                 </div>
 
+                <!-- Funnel Chart -->
+                <div class="dashboard-card full-width">
+                    <div class="chart-container wide">
+                        <canvas id="chart-funnel"></canvas>
+                    </div>
+                </div>
+
+                <!-- Completeness and Blocking Charts -->
+                <div class="dashboard-card chart-card">
+                    <div class="chart-container compact">
+                        <canvas id="chart-completeness"></canvas>
+                    </div>
+                </div>
+
+                <div class="dashboard-card chart-card">
+                    <div class="chart-container compact">
+                        <canvas id="chart-blocking"></canvas>
+                    </div>
+                </div>
+
                 <!-- Issues Summary -->
                 <div class="dashboard-card full-width">
-                    <h3>Issues Summary</h3>
+                    <h3>Riepilogo Problemi</h3>
                     <div class="issues-summary">
                         <div class="issue-stat">
                             <span class="issue-count blocked" id="blocked-count">0</span>
-                            <span class="issue-label">Blocked</span>
+                            <span class="issue-label">Bloccate</span>
                         </div>
                         <div class="issue-stat">
                             <span class="issue-count warning" id="data-issues-count">0</span>
-                            <span class="issue-label">Data Issues</span>
+                            <span class="issue-label">Problemi Dati</span>
                         </div>
                         <div class="issue-stat">
                             <span class="issue-count info" id="geocoding-issues-count">0</span>
-                            <span class="issue-label">Geocoding Issues</span>
+                            <span class="issue-label">Geocoding</span>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data Validation Tab -->
+        <section id="validation-tab" class="tab-content">
+            <div class="validation-container">
+                <!-- Validation Summary Cards -->
+                <div class="validation-summary">
+                    <div class="validation-card critical">
+                        <div class="validation-icon">!</div>
+                        <div class="validation-info">
+                            <span class="validation-count" id="validation-critical">0</span>
+                            <span class="validation-label">Critici</span>
+                        </div>
+                    </div>
+                    <div class="validation-card warning">
+                        <div class="validation-icon">⚠</div>
+                        <div class="validation-info">
+                            <span class="validation-count" id="validation-warning">0</span>
+                            <span class="validation-label">Avvisi</span>
+                        </div>
+                    </div>
+                    <div class="validation-card info">
+                        <div class="validation-icon">i</div>
+                        <div class="validation-info">
+                            <span class="validation-count" id="validation-info">0</span>
+                            <span class="validation-label">Info</span>
+                        </div>
+                    </div>
+                    <div class="validation-card completeness">
+                        <div class="validation-icon">%</div>
+                        <div class="validation-info">
+                            <span class="validation-count" id="validation-completeness">0%</span>
+                            <span class="validation-label">Completezza Media</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Validation Actions -->
+                <div class="validation-toolbar">
+                    <button class="btn btn-primary" id="run-validation-btn">Esegui Validazione</button>
+                    <button class="btn btn-secondary" id="export-validation-btn">Esporta Report Excel</button>
+                    <select id="validation-filter">
+                        <option value="">Tutti i Problemi</option>
+                        <option value="critical">Solo Critici</option>
+                        <option value="warning">Solo Avvisi</option>
+                        <option value="info">Solo Info</option>
+                        <option value="status_logic">Logica Stato</option>
+                        <option value="missing_coordinates">Coordinate Mancanti</option>
+                        <option value="missing_codice_impianto">Codice Impianto Mancante</option>
+                        <option value="duplicate_codice">Codici Duplicati</option>
+                        <option value="lotto_mismatch">Incongruenza Lotto</option>
+                        <option value="system_mismatch">Incongruenza Sistema</option>
+                        <option value="radar_count_mismatch">Conteggio Radar</option>
+                        <option value="low_completeness">Bassa Completezza</option>
+                    </select>
+                </div>
+
+                <!-- Validation Results -->
+                <div class="validation-results">
+                    <h3>Risultati Validazione</h3>
+                    <div id="validation-issues-list" class="validation-issues-list">
+                        <p class="empty-state">Clicca "Esegui Validazione" per verificare i dati</p>
+                    </div>
+                </div>
+
+                <!-- Completeness Table -->
+                <div class="validation-completeness">
+                    <h3>Completezza Dati per Intersezione</h3>
+                    <div class="completeness-legend">
+                        <span class="legend-item"><span class="dot" style="background:#22c55e"></span> Ottimo (80-100%)</span>
+                        <span class="legend-item"><span class="dot" style="background:#3b82f6"></span> Buono (60-79%)</span>
+                        <span class="legend-item"><span class="dot" style="background:#f59e0b"></span> Medio (40-59%)</span>
+                        <span class="legend-item"><span class="dot" style="background:#ef4444"></span> Basso (0-39%)</span>
+                    </div>
+                    <div class="table-container" style="max-height: 400px; overflow-y: auto;">
+                        <table class="data-table" id="completeness-table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nome</th>
+                                    <th>Generale</th>
+                                    <th>Installazione</th>
+                                    <th>Configurazione</th>
+                                    <th>Connessione</th>
+                                    <th>Totale</th>
+                                    <th>Azioni</th>
+                                </tr>
+                            </thead>
+                            <tbody id="completeness-tbody"></tbody>
+                        </table>
                     </div>
                 </div>
             </div>
@@ -527,6 +641,7 @@
     <!-- Application Scripts -->
     <script src="js/embedded-data.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/validation.js"></script>
     <script src="js/map.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/tasks.js"></script>
