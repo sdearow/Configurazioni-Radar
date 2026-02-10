@@ -16,6 +16,20 @@ const DataValidator = {
 
         const intersections = DataManager.getIntersections();
 
+        // Debug: log data structure
+        console.log('Validation: Found', intersections.length, 'intersections');
+        if (intersections.length > 0) {
+            const sample = intersections[0];
+            console.log('Sample intersection structure:', {
+                id: sample.id,
+                hasInstallation: !!sample.installation,
+                installationStatus: sample.installation?.status,
+                hasConfiguration: !!sample.configuration,
+                hasConnection: !!sample.connection,
+                hasValidation: !!sample.validation
+            });
+        }
+
         intersections.forEach(intersection => {
             // Run all validation checks
             this.validateStatusLogic(intersection);

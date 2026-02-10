@@ -174,6 +174,13 @@ const App = {
         document.getElementById('validation-filter')?.addEventListener('change', () => {
             this.filterValidationResults();
         });
+
+        document.getElementById('reset-data-btn')?.addEventListener('click', async () => {
+            if (confirm('Questo cancellerà tutte le modifiche locali e ricaricherà i dati originali. Continuare?')) {
+                await DataManager.reset();
+                window.location.reload();
+            }
+        });
     },
 
     /**
