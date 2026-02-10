@@ -181,6 +181,17 @@ const App = {
                 window.location.reload();
             }
         });
+
+        // Geocoding events
+        document.getElementById('run-geocoding-btn')?.addEventListener('click', () => {
+            this.runBatchGeocoding();
+        });
+
+        document.getElementById('stop-geocoding-btn')?.addEventListener('click', () => {
+            if (typeof Geocoder !== 'undefined') {
+                Geocoder.isRunning = false;
+            }
+        });
     },
 
     /**
@@ -823,6 +834,89 @@ const App = {
         if (typeof DataValidator !== 'undefined') {
             this.runValidation();
         }
+        // Update geocoding stats
+        this.updateGeocodingStats();
+    },
+
+    /**
+     * Update geocoding statistics display
+     */
+    updateGeocodingStats() {
+        const intersections = DataManager.getIntersections();
+        const withCoords = intersections.filter(i => i.coordinates).length;
+        const withoutCoords = intersections.filter(i => !i.coordinates).length;
+        const uncertain = intersections.filter(i =>
+            i.coordinates && i.geocode_confidence && i.geocode_confidence !== 'high'
+        ).length;
+
+        document.getElementById('geocoding-with-coords').textContent = withCoords;
+        document.getElementById('geocoding-without-coords').textContent = withoutCoords;
+        document.getElementById('geocoding-uncertain').textContent = uncertain;
+    },
+
+    /**
+     * Run batch geocoding
+     */
+    async runBatchGeocoding() {
+        if (typeof Geocoder === 'undefined') {
+            this.showNotification('Geocoder not loaded', 'error');
+            return;
+        }
+
+        const progressEl = document.getElementById('geocoding-progress');
+        const progressFill = document.getElementById('geocoding-progress-fill');
+        const progressText = document.getElementById('geocoding-progress-text');
+        const progressCurrent = document.getElementById('geocoding-current');
+        const resultsEl = document.getElementById('geocoding-results');
+        const runBtn = document.getElementById('run-geocoding-btn');
+        const stopBtn = document.getElementById('stop-geocoding-btn');
+
+        // Show progress UI
+        progressEl.style.display = 'block';
+        resultsEl.style.display = 'none';
+        runBtn.style.display = 'none';
+        stopBtn.style.display = 'inline-block';
+
+        try {
+            const result = await Geocoder.runBatchGeocoding((current, total, name) => {
+                const pct = Math.round((current / total) * 100);
+                progressFill.style.width = `${pct}%`;
+                progressText.textContent = `${current} / ${total}`;
+                progressCurrent.textContent = name;
+            });
+
+            // Show results
+            resultsEl.style.display = 'block';
+            resultsEl.innerHTML = `
+                <h4>Risultati Geocodifica</h4>
+                <div class="geocoding-summary">
+                    <span class="geocoding-stat high">Alta confidenza: ${result.high}</span>
+                    <span class="geocoding-stat medium">Media: ${result.medium}</span>
+                    <span class="geocoding-stat low">Bassa: ${result.low}</span>
+                    <span class="geocoding-stat failed">Falliti: ${result.failed}</span>
+                </div>
+                ${result.failed > 0 ? `
+                    <div class="geocoding-failed">
+                        <strong>Intersezioni non trovate (richiedono posizionamento manuale):</strong>
+                        <ul>${result.failedNames.map(n => `<li>${n}</li>`).join('')}</ul>
+                    </div>
+                ` : '<p class="success">Tutte le intersezioni sono state geocodificate!</p>'}
+            `;
+
+            this.showNotification(`Geocodifica completata: ${result.high + result.medium + result.low} trovate, ${result.failed} fallite`, 'success');
+
+            // Refresh map
+            this.renderMap();
+            this.updateGeocodingStats();
+
+        } catch (e) {
+            console.error('Geocoding error:', e);
+            this.showNotification('Errore durante la geocodifica', 'error');
+        }
+
+        // Reset UI
+        runBtn.style.display = 'inline-block';
+        stopBtn.style.display = 'none';
     },
 
     /**
