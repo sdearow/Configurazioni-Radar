@@ -308,6 +308,29 @@
                     </div>
                 </div>
 
+                <!-- Geocoding Section -->
+                <div class="validation-geocoding">
+                    <h3>Geocodifica Intersezioni</h3>
+                    <p>Usa OpenStreetMap per trovare automaticamente le coordinate delle intersezioni.</p>
+                    <div class="geocoding-stats">
+                        <span id="geocoding-with-coords">0</span> con coordinate |
+                        <span id="geocoding-without-coords">0</span> senza coordinate |
+                        <span id="geocoding-uncertain">0</span> da verificare
+                    </div>
+                    <div class="geocoding-toolbar">
+                        <button class="btn btn-primary" id="run-geocoding-btn">Avvia Geocodifica Automatica</button>
+                        <button class="btn btn-secondary" id="stop-geocoding-btn" style="display:none;">Ferma</button>
+                    </div>
+                    <div id="geocoding-progress" class="geocoding-progress" style="display:none;">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="geocoding-progress-fill" style="width: 0%"></div>
+                        </div>
+                        <div class="progress-text" id="geocoding-progress-text">0 / 0</div>
+                        <div class="progress-current" id="geocoding-current"></div>
+                    </div>
+                    <div id="geocoding-results" class="geocoding-results" style="display:none;"></div>
+                </div>
+
                 <!-- Completeness Table -->
                 <div class="validation-completeness">
                     <h3>Completezza Dati per Intersezione</h3>
@@ -643,6 +666,7 @@
     <script src="js/embedded-data.js"></script>
     <script src="js/data.js"></script>
     <script src="js/validation.js"></script>
+    <script src="js/geocoder.js"></script>
     <script src="js/map.js"></script>
     <script src="js/charts.js"></script>
     <script src="js/tasks.js"></script>

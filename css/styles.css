@@ -1879,3 +1879,245 @@ textarea.edit-input {
         min-width: 100%;
     }
 }
+
+/* ========================================
+   GEOCODING SECTION STYLES
+   ======================================== */
+
+.validation-geocoding {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.validation-geocoding h3 {
+    margin: 0 0 1rem 0;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Geocoding Stats Grid */
+.geocoding-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.geocoding-stat {
+    background: var(--bg-color);
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.geocoding-stat .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.geocoding-stat .stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 0.25rem;
+}
+
+.geocoding-stat.success .stat-value {
+    color: var(--success-color);
+}
+
+.geocoding-stat.warning .stat-value {
+    color: var(--warning-color);
+}
+
+.geocoding-stat.danger .stat-value {
+    color: var(--danger-color);
+}
+
+.geocoding-stat.info .stat-value {
+    color: var(--info-color);
+}
+
+/* Geocoding Actions */
+.geocoding-actions {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Geocoding Progress */
+.geocoding-progress {
+    background: var(--bg-color);
+    border-radius: 6px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.geocoding-progress .progress-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.geocoding-progress .progress-status {
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.geocoding-progress .progress-count {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.geocoding-progress .progress-bar {
+    height: 8px;
+    background: var(--border-color);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+}
+
+.geocoding-progress .progress-fill {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 4px;
+    transition: width 0.3s ease;
+}
+
+.geocoding-progress .progress-current {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+/* Geocoding Results */
+.geocoding-results {
+    margin-top: 1rem;
+}
+
+.geocoding-results h4 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+}
+
+.geocoding-results-summary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.result-badge {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.result-badge.high {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.result-badge.medium {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.result-badge.low {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.result-badge.failed {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.result-count {
+    font-weight: 700;
+}
+
+/* Confidence indicators on map markers */
+.geocode-high {
+    border: 3px solid #22c55e !important;
+}
+
+.geocode-medium {
+    border: 3px solid #3b82f6 !important;
+}
+
+.geocode-low {
+    border: 3px dashed #f59e0b !important;
+}
+
+.geocode-failed {
+    border: 3px dashed #ef4444 !important;
+}
+
+/* Geocoding status in list/detail views */
+.geocode-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.15rem 0.4rem;
+    border-radius: 3px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.geocode-status.high {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.geocode-status.medium {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.geocode-status.low {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.geocode-status.manual {
+    background: #f3e8ff;
+    color: #6b21a8;
+}
+
+/* Responsive adjustments for geocoding */
+@media (max-width: 900px) {
+    .geocoding-stats,
+    .geocoding-results-summary {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .geocoding-stats,
+    .geocoding-results-summary {
+        grid-template-columns: 1fr;
+    }
+
+    .geocoding-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
