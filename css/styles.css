@@ -1509,3 +1509,93 @@ body {
     margin-bottom: 0.5rem;
     color: var(--text-muted);
 }
+
+/* Editable Detail Sheets Styles */
+.detail-grid.editable .detail-section {
+    margin-bottom: 1rem;
+}
+
+.detail-subsection {
+    margin-top: 0.75rem;
+    padding-left: 0.5rem;
+    border-left: 3px solid var(--border-color);
+}
+
+.detail-subsection h5 {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.editable-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.editable-row .detail-label {
+    min-width: 140px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+}
+
+.edit-input {
+    flex: 1;
+    padding: 0.4rem 0.6rem;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.edit-input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+.edit-input:hover {
+    border-color: var(--secondary-color);
+}
+
+textarea.edit-input {
+    resize: vertical;
+    min-height: 50px;
+}
+
+.detail-section h4 small {
+    font-weight: normal;
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+}
+
+/* Modal improvements for editable content */
+.modal-body {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.detail-grid.editable {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.detail-grid.editable .full-width {
+    grid-column: span 2;
+}
+
+@media (max-width: 900px) {
+    .detail-grid.editable {
+        grid-template-columns: 1fr;
+    }
+
+    .detail-grid.editable .full-width {
+        grid-column: span 1;
+    }
+}
