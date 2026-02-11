@@ -560,8 +560,17 @@ const App = {
         const isM91 = lotto === 'M9.1';
         const isOmnia = (intersection.system || '').toUpperCase() === 'OMNIA';
 
+        // Generate status description
+        const statusDescription = this.generateStatusDescription(intersection);
+
         return `
             <div class="detail-grid editable">
+                <!-- Status Description -->
+                <div class="detail-section full-width status-description-section">
+                    <h4>Descrizione Stato</h4>
+                    <div class="status-description-text">${statusDescription}</div>
+                </div>
+
                 <!-- General Information -->
                 <div class="detail-section">
                     <h4>Informazioni Generali</h4>
@@ -579,7 +588,7 @@ const App = {
 
                 <!-- Installation Stage -->
                 <div class="detail-section full-width">
-                    <h4>Installazione <span class="status-badge status-${inst.status}">${this.formatStatus(inst.status)}</span> <small>(${inst.status_detail || '-'})</small></h4>
+                    <h4>Installazione ${this.createStatusDropdown('installation', inst.status)} <small>(${inst.status_detail || '-'})</small></h4>
 
                     ${isM91 ? `
                     <div class="detail-subsection">
@@ -617,7 +626,7 @@ const App = {
 
                 <!-- Configuration Stage -->
                 <div class="detail-section">
-                    <h4>Configurazione <span class="status-badge status-${conf.status}">${this.formatStatus(conf.status)}</span> <small>(${conf.status_detail || '-'})</small></h4>
+                    <h4>Configurazione ${this.createStatusDropdown('configuration', conf.status)} <small>(${conf.status_detail || '-'})</small></h4>
                     ${this.createEditableRow('Planimetria e Configurazione Inviate', 'cfg_plan_inviate', conf.plan_cfg_inviate)}
                     ${this.createEditableRow('Stato Configurazione Definitiva', 'cfg_def_status', conf.cfg_def_status)}
                     ${this.createEditableRow('Configurazione Definitiva Installata', 'cfg_def_inst', conf.cfg_def_inst)}
@@ -625,7 +634,7 @@ const App = {
 
                 <!-- Connection Stage -->
                 <div class="detail-section">
-                    <h4>Connessione <span class="status-badge status-${conn.status}">${this.formatStatus(conn.status)}</span> <small>(${conn.status_detail || '-'})</small></h4>
+                    <h4>Connessione ${this.createStatusDropdown('connection', conn.status)} <small>(${conn.status_detail || '-'})</small></h4>
                     ${this.createEditableRow('Da Centralizzare in AUT', 'conn_da_centr_aut', conn.da_centr_aut)}
                     ${this.createEditableRow('Tabella Interfaccia UTC', 'conn_tabella_utc', conn.tabella_if_utc)}
                     ${this.createEditableRow('Interfaccia UTC Installata', 'conn_inst_if_utc', conn.inst_interfaccia_utc)}
@@ -647,7 +656,7 @@ const App = {
 
                 <!-- Validation Stage -->
                 <div class="detail-section">
-                    <h4>Validazione <span class="status-badge status-${val.status}">${this.formatStatus(val.status)}</span> <small>(${val.status_detail || '-'})</small></h4>
+                    <h4>Validazione ${this.createStatusDropdown('validation', val.status)} <small>(${val.status_detail || '-'})</small></h4>
                     ${this.createEditableRow('Verifica Dati Traffico', 'val_vrf_dati', val.vrf_dati)}
                 </div>
 
@@ -669,6 +678,174 @@ const App = {
                 </div>
             </div>
         `;
+    },
+
+    /**
+     * Create a status dropdown for a stage
+     */
+    createStatusDropdown(stage, currentStatus) {
+        const statuses = [
+            { value: 'not_started', label: 'Non Iniziato', class: 'status-not_started' },
+            { value: 'in_progress', label: 'In Corso', class: 'status-in_progress' },
+            { value: 'blocked', label: 'Bloccato', class: 'status-blocked' },
+            { value: 'completed', label: 'Completato', class: 'status-completed' }
+        ];
+
+        const options = statuses.map(s =>
+            `<option value="${s.value}" ${s.value === currentStatus ? 'selected' : ''}>${s.label}</option>`
+        ).join('');
+
+        return `
+            <select id="status_${stage}" class="status-dropdown status-${currentStatus}" onchange="App.updateStatusDropdownStyle(this)">
+                ${options}
+            </select>
+        `;
+    },
+
+    /**
+     * Update status dropdown styling when value changes
+     */
+    updateStatusDropdownStyle(select) {
+        select.className = 'status-dropdown status-' + select.value;
+    },
+
+    /**
+     * Generate a text description of the intersection status
+     */
+    generateStatusDescription(intersection) {
+        const inst = intersection.installation || {};
+        const conf = intersection.configuration || {};
+        const conn = intersection.connection || {};
+        const val = intersection.validation || {};
+        const lotto = intersection.lotto || 'non specificato';
+        const system = intersection.system || 'non specificato';
+        const numRadars = intersection.num_radars || 0;
+
+        const statusLabels = {
+            'completed': 'completata',
+            'in_progress': 'in corso',
+            'blocked': 'bloccata',
+            'not_started': 'non iniziata'
+        };
+
+        const getStatusLabel = (status) => statusLabels[status] || 'sconosciuto';
+
+        // Build description parts
+        let parts = [];
+
+        // Header with basic info
+        parts.push(`L'intersezione "${intersection.name}" (${intersection.id}) appartiene al ${lotto} e utilizza il sistema ${system}.`);
+        parts.push(`Sono previsti ${numRadars} dispositivi radar.`);
+
+        // Overall status
+        const overallStatus = intersection.overall_status || 'not_started';
+        if (overallStatus === 'completed') {
+            parts.push(`L'intersezione è completamente operativa con tutte le fasi completate.`);
+        } else if (overallStatus === 'blocked') {
+            parts.push(`L'intersezione è attualmente bloccata e richiede intervento.`);
+        } else {
+            parts.push(`L'intersezione è attualmente in fase di lavorazione.`);
+        }
+
+        // Installation status
+        parts.push('');
+        parts.push(`<strong>Installazione:</strong> ${getStatusLabel(inst.status)}.`);
+        if (inst.status === 'completed') {
+            if (inst.l1_data_compl || inst.l2_data_installaz) {
+                parts.push(`Completata in data ${inst.l1_data_compl || inst.l2_data_installaz}.`);
+            }
+        } else if (inst.status === 'blocked') {
+            if (inst.disp_inst_bloccati) {
+                parts.push(`Dispositivi bloccati: ${inst.disp_inst_bloccati}.`);
+            }
+            if (inst.soluzione_bloccati) {
+                parts.push(`Soluzione proposta: ${inst.soluzione_bloccati}.`);
+            }
+        } else if (inst.status === 'in_progress') {
+            if (inst.disp_da_inst) {
+                parts.push(`Dispositivi ancora da installare: ${inst.disp_da_inst}.`);
+            }
+        }
+
+        // Configuration status
+        parts.push('');
+        parts.push(`<strong>Configurazione:</strong> ${getStatusLabel(conf.status)}.`);
+        if (conf.status === 'completed') {
+            parts.push(`La configurazione definitiva è stata installata.`);
+        } else if (conf.status === 'in_progress') {
+            if (conf.plan_cfg_inviate) {
+                parts.push(`Planimetria e configurazione inviate.`);
+            }
+            if (conf.cfg_def_status) {
+                parts.push(`Stato configurazione definitiva: ${conf.cfg_def_status}.`);
+            }
+        }
+
+        // Connection status
+        parts.push('');
+        parts.push(`<strong>Connessione:</strong> ${getStatusLabel(conn.status)}.`);
+        if (conn.status === 'completed') {
+            parts.push(`L'intersezione è connessa e centralizzata.`);
+        } else if (conn.status === 'in_progress') {
+            if (conn.tabella_if_utc) {
+                parts.push(`Tabella interfaccia UTC: ${conn.tabella_if_utc}.`);
+            }
+            if (system.toUpperCase() === 'OMNIA' && conn.swarco_spot_status) {
+                parts.push(`Stato SPOT: ${conn.swarco_spot_status}.`);
+            }
+            if (system.toUpperCase() === 'TMACS' && conn.sema_aut) {
+                parts.push(`Autorizzazione AUT: ${conn.sema_aut}.`);
+            }
+        }
+
+        // Validation status
+        parts.push('');
+        parts.push(`<strong>Validazione:</strong> ${getStatusLabel(val.status)}.`);
+        if (val.status === 'completed') {
+            parts.push(`I dati di traffico sono stati verificati e l'intersezione è operativa.`);
+        } else if (val.status === 'in_progress') {
+            if (val.vrf_dati) {
+                parts.push(`Verifica dati: ${val.vrf_dati}.`);
+            }
+        }
+
+        // Notes
+        if (intersection.note_main || intersection.notes) {
+            parts.push('');
+            parts.push(`<strong>Note:</strong> ${intersection.note_main || ''} ${intersection.notes || ''}`);
+        }
+
+        return parts.join(' ').replace(/  +/g, ' ').replace(/ \. /g, '. ');
+    },
+
+    /**
+     * Calculate overall status based on individual stage statuses
+     */
+    calculateOverallStatus(instStatus, confStatus, connStatus, valStatus) {
+        const statuses = [instStatus, confStatus, connStatus, valStatus];
+
+        // If any is blocked, overall is blocked
+        if (statuses.includes('blocked')) {
+            return 'blocked';
+        }
+
+        // If all are completed, overall is completed
+        if (statuses.every(s => s === 'completed')) {
+            return 'completed';
+        }
+
+        // If any is in_progress, overall is in_progress
+        if (statuses.includes('in_progress')) {
+            return 'in_progress';
+        }
+
+        // If all are not_started, overall is not_started
+        if (statuses.every(s => s === 'not_started')) {
+            return 'not_started';
+        }
+
+        // Mixed states (some completed, some not_started) = in_progress
+        return 'in_progress';
     },
 
     /**
@@ -716,6 +893,25 @@ const App = {
             connection: { ...intersection.connection },
             validation: { ...intersection.validation }
         };
+
+        // Save stage statuses from dropdowns
+        const instStatusEl = document.getElementById('status_installation');
+        const confStatusEl = document.getElementById('status_configuration');
+        const connStatusEl = document.getElementById('status_connection');
+        const valStatusEl = document.getElementById('status_validation');
+
+        if (instStatusEl) updates.installation.status = instStatusEl.value;
+        if (confStatusEl) updates.configuration.status = confStatusEl.value;
+        if (connStatusEl) updates.connection.status = connStatusEl.value;
+        if (valStatusEl) updates.validation.status = valStatusEl.value;
+
+        // Recalculate overall status based on stage statuses
+        updates.overall_status = this.calculateOverallStatus(
+            updates.installation.status,
+            updates.configuration.status,
+            updates.connection.status,
+            updates.validation.status
+        );
 
         // Installation fields
         const instFields = [

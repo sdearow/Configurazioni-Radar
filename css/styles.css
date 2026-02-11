@@ -1881,6 +1881,72 @@ textarea.edit-input {
 }
 
 /* ========================================
+   STATUS DROPDOWN & DESCRIPTION STYLES
+   ======================================== */
+
+/* Status Dropdown */
+.status-dropdown {
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-left: 0.5rem;
+    transition: all 0.2s;
+}
+
+.status-dropdown:focus {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.status-dropdown.status-completed {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-dropdown.status-in_progress {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.status-dropdown.status-blocked {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.status-dropdown.status-not_started {
+    background: #f3f4f6;
+    color: #6b7280;
+}
+
+/* Status Description Section */
+.status-description-section {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    border: 1px solid #bae6fd;
+}
+
+.status-description-section h4 {
+    color: #0369a1;
+    margin-bottom: 0.75rem;
+}
+
+.status-description-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #334155;
+    padding: 1rem;
+    background: white;
+    border-radius: 6px;
+    border: 1px solid #e2e8f0;
+}
+
+.status-description-text strong {
+    color: #1e40af;
+}
+
+/* ========================================
    GEOCODING SECTION STYLES
    ======================================== */
 
