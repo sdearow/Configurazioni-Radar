@@ -40,16 +40,30 @@ const ExportManager = {
         // Site visit select
         const siteVisitSelect = document.getElementById('export-intersection-select');
         if (siteVisitSelect) {
-            siteVisitSelect.innerHTML = '<option value="">Select intersection...</option>' +
-                intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name || 'Unknown'}</option>`).join('');
+            siteVisitSelect.innerHTML = '<option value="">Seleziona intersezione...</option>' +
+                intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name || 'Sconosciuto'}</option>`).join('');
         }
 
         // Import intersection select
         const importSelect = document.getElementById('import-intersection-select');
         if (importSelect) {
-            importSelect.innerHTML = '<option value="">Select intersection...</option>' +
-                intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name || 'Unknown'}</option>`).join('');
+            importSelect.innerHTML = '<option value="">Seleziona intersezione...</option>' +
+                intersections.map(i => `<option value="${i.id}">${i.id} - ${i.name || 'Sconosciuto'}</option>`).join('');
         }
+    },
+
+    /**
+     * Populate intersection select (alias for compatibility)
+     */
+    populateIntersectionSelect() {
+        this.populateIntersectionSelects();
+    },
+
+    /**
+     * Get stage status safely from nested structure
+     */
+    getStageStatus(intersection, stage) {
+        return intersection[stage]?.status || 'not_started';
     },
 
     /**
@@ -59,70 +73,91 @@ const ExportManager = {
         const intersections = DataManager.getIntersections();
 
         // Main data sheet with all stage statuses
-        const mainData = intersections.map(i => ({
-            'Code': i.id,
-            'Name': i.name || '',
-            'Lotto': i.lotto || '',
-            'System': i.system || '',
-            'Num Radars': i.num_radars || 0,
-            'Latitude': i.latitude || '',
-            'Longitude': i.longitude || '',
-            // Stage statuses
-            'Installation Status': this.formatStatus(i.installation_status),
-            'Configuration Status': this.formatStatus(i.configuration_status),
-            'Connection Status': this.formatStatus(i.connection_status),
-            'Validation Status': this.formatStatus(i.validation_status),
-            // Installation substages
-            'Planimetrie Ricevute': i.installation?.planimetrie_ricevute || '',
-            'Passaggio Cavi': i.installation?.passaggio_cavi || '',
-            'Planimetria Scavi Inviata': i.installation?.planimetria_scavi_inviata || '',
-            'Installazione Sensori': i.installation?.installazione_sensori || '',
-            'Cablaggio Regolatore': i.installation?.cablaggio_regolatore || '',
-            'Screenshot': i.installation?.screenshot || '',
-            'Installation Completato': i.installation?.completato || '',
-            'Documentazione Inviata': i.installation?.documentazione_inviata || '',
-            'Data Completamento': i.installation?.data_completamento || '',
-            // Configuration substages
-            'Configurazione Base': i.configuration?.base || '',
-            'Config Definitiva Assegnata': i.configuration?.definitiva_assegnata || '',
-            'Config Definitiva Da Verificare': i.configuration?.definitiva_da_verificare || '',
-            'Config Implementata Sito': i.configuration?.implementata_sito || '',
-            // Connection substages
-            'SPOT Status': i.connection?.spot_status || '',
-            'AUT Status': i.connection?.aut_status || '',
-            'Tabella Interfaccia UTC': i.connection?.tabella_interfaccia_utc || '',
-            'Connessione UTC Attiva': i.connection?.connessione_utc_attiva || '',
-            // Validation substages
-            'Data Lake Sending': i.validation?.data_lake_sending || '',
-            'Verifica Dati Traffic': i.validation?.verifica_dati_traffic || '',
-            'Interfaccia Visum Optima': i.validation?.interfaccia_visum_optima || '',
-            // Files and notes
-            'Planimetry File': i.planimetry_file || '',
-            'Photo Files': i.photo_files?.join('; ') || '',
-            'Notes': i.notes || '',
-            'Issues Count': i.inconsistencies?.length || 0
-        }));
+        const mainData = intersections.map(i => {
+            const inst = i.installation || {};
+            const conf = i.configuration || {};
+            const conn = i.connection || {};
+            const val = i.validation || {};
+            const coords = i.coordinates || {};
+
+            return {
+                'Codice': i.id,
+                'Nome': i.name || '',
+                'Lotto': i.lotto || '',
+                'Sistema': i.system || '',
+                'Codice Impianto': i.codice_impianto || '',
+                'Num Radar': i.num_radars || 0,
+                'Latitudine': coords.lat || '',
+                'Longitudine': coords.lng || '',
+                'Stato Complessivo': this.formatStatus(i.overall_status),
+                // Stage statuses
+                'Stato Installazione': this.formatStatus(inst.status),
+                'Stato Configurazione': this.formatStatus(conf.status),
+                'Stato Connessione': this.formatStatus(conn.status),
+                'Stato Validazione': this.formatStatus(val.status),
+                // Installation - Lotto 1
+                'L1 Match': inst.l1_match || '',
+                'L1 Planimetrie': inst.l1_planimetrie || '',
+                'L1 Passaggio Cavi': inst.l1_passaggio_cavi || '',
+                'L1 Installazione Sensori': inst.l1_install_sensori || '',
+                'L1 Cablaggio': inst.l1_cablaggio || '',
+                'L1 Screenshot': inst.l1_screenshot || '',
+                'L1 Completato': inst.l1_completato || '',
+                'L1 Doc Inviata': inst.l1_doc_inviata || '',
+                'L1 Data Completamento': inst.l1_data_compl || '',
+                // Installation - Lotto 2
+                'L2 Match': inst.l2_match || '',
+                'L2 Data Installazione': inst.l2_data_installaz || '',
+                'L2 Config RSM': inst.l2_config_rsm || '',
+                'L2 Config Installata': inst.l2_config_instal || '',
+                'L2 Planimetria': inst.l2_planimetria || '',
+                'L2 N Radar Finiti': inst.l2_n_radar_finiti || '',
+                'L2 Centralizzati': inst.l2_centralizzati || '',
+                // Installation - Blocking info
+                'Dispositivi Bloccati': inst.disp_inst_bloccati || '',
+                'Dispositivi Da Installare': inst.disp_da_inst || '',
+                'Soluzione Bloccati': inst.soluzione_bloccati || '',
+                // Configuration
+                'Plan/Cfg Inviate': conf.plan_cfg_inviate || '',
+                'Cfg Definitiva Status': conf.cfg_def_status || '',
+                'Cfg Definitiva Installata': conf.cfg_def_inst || '',
+                // Connection
+                'Da Centralizzare AUT': conn.da_centr_aut || '',
+                'Tabella IF UTC': conn.tabella_if_utc || '',
+                'Interfaccia UTC Installata': conn.inst_interfaccia_utc || '',
+                'SWARCO SPOT Status': conn.swarco_spot_status || '',
+                'SWARCO SPOT Firmware': conn.swarco_spot_firmware || '',
+                'Semaforica AUT': conn.sema_aut || '',
+                'Semaforica Attivita': conn.sema_attivita || '',
+                // Validation
+                'Verifica Dati': val.vrf_dati || '',
+                // Notes
+                'Note Principali': i.note_main || '',
+                'Note': i.notes || '',
+                'Problemi': i.inconsistencies?.length || 0
+            };
+        });
 
         // Create workbook
         const wb = XLSX.utils.book_new();
         const ws = XLSX.utils.json_to_sheet(mainData);
-        XLSX.utils.book_append_sheet(wb, ws, 'Intersections');
+        XLSX.utils.book_append_sheet(wb, ws, 'Intersezioni');
 
         // Tasks sheet
         const tasks = DataManager.getTasks();
         if (tasks.length > 0) {
             const tasksData = tasks.map(t => ({
                 'ID': t.id,
-                'Title': t.title,
-                'Description': t.description || '',
-                'Intersection': t.intersection_id || '',
-                'Stage': t.stage || '',
-                'Substage': t.substage || '',
-                'Assignee': t.assignee || '',
-                'Status': t.status,
-                'Priority': t.priority,
-                'Created': t.created_at,
-                'Updated': t.updated_at
+                'Titolo': t.title,
+                'Descrizione': t.description || '',
+                'Intersezione': t.intersection_id || '',
+                'Fase': t.stage || '',
+                'Sottofase': t.substage || '',
+                'Assegnatario': t.assignee || '',
+                'Stato': t.status,
+                'Priorita': t.priority,
+                'Creato': t.created_at,
+                'Aggiornato': t.updated_at
             }));
             const tasksWs = XLSX.utils.json_to_sheet(tasksData);
             XLSX.utils.book_append_sheet(wb, tasksWs, 'Tasks');
@@ -134,13 +169,13 @@ const ExportManager = {
             if (i.inconsistencies && i.inconsistencies.length > 0) {
                 i.inconsistencies.forEach(inc => {
                     issues.push({
-                        'Intersection Code': i.id,
-                        'Intersection Name': i.name || '',
-                        'Issue Type': inc.type,
-                        'Message': inc.message || '',
-                        'Field': inc.field || '',
-                        'Expected Value': inc.main_value || '',
-                        'Actual Value': inc.lotto_value || ''
+                        'Codice Intersezione': i.id,
+                        'Nome Intersezione': i.name || '',
+                        'Tipo Problema': inc.type,
+                        'Messaggio': inc.message || '',
+                        'Campo': inc.field || '',
+                        'Valore Atteso': inc.main_value || '',
+                        'Valore Effettivo': inc.lotto_value || ''
                     });
                 });
             }
@@ -148,11 +183,11 @@ const ExportManager = {
 
         if (issues.length > 0) {
             const issuesWs = XLSX.utils.json_to_sheet(issues);
-            XLSX.utils.book_append_sheet(wb, issuesWs, 'Issues');
+            XLSX.utils.book_append_sheet(wb, issuesWs, 'Problemi');
         }
 
         // Download
-        const filename = `radar_full_export_${new Date().toISOString().split('T')[0]}.xlsx`;
+        const filename = `radar_export_completo_${new Date().toISOString().split('T')[0]}.xlsx`;
         XLSX.writeFile(wb, filename);
     },
 
@@ -166,25 +201,32 @@ const ExportManager = {
         const intersections = DataManager.getIntersections();
 
         doc.setFontSize(18);
-        doc.text('Radar Project - Full Export', 148, 15, { align: 'center' });
+        doc.text('Progetto Radar - Export Completo', 148, 15, { align: 'center' });
         doc.setFontSize(10);
-        doc.text(`Generated: ${new Date().toLocaleString('it-IT')}`, 148, 22, { align: 'center' });
+        doc.text(`Generato: ${new Date().toLocaleString('it-IT')}`, 148, 22, { align: 'center' });
 
         // Summary table
-        const tableData = intersections.map(i => [
-            i.id,
-            (i.name || '').substring(0, 25),
-            i.lotto || '',
-            i.num_radars || 0,
-            this.formatStatus(i.installation_status),
-            this.formatStatus(i.configuration_status),
-            this.formatStatus(i.connection_status),
-            this.formatStatus(i.validation_status)
-        ]);
+        const tableData = intersections.map(i => {
+            const inst = i.installation || {};
+            const conf = i.configuration || {};
+            const conn = i.connection || {};
+            const val = i.validation || {};
+
+            return [
+                i.id,
+                (i.name || '').substring(0, 25),
+                i.lotto || '',
+                i.num_radars || 0,
+                this.formatStatus(inst.status),
+                this.formatStatus(conf.status),
+                this.formatStatus(conn.status),
+                this.formatStatus(val.status)
+            ];
+        });
 
         doc.autoTable({
             startY: 30,
-            head: [['Code', 'Name', 'Lotto', 'Radars', 'Installation', 'Configuration', 'Connection', 'Validation']],
+            head: [['Codice', 'Nome', 'Lotto', 'Radar', 'Installazione', 'Configurazione', 'Connessione', 'Validazione']],
             body: tableData,
             styles: { fontSize: 8 },
             headStyles: { fillColor: [37, 99, 235] },
@@ -192,7 +234,7 @@ const ExportManager = {
         });
 
         // Download
-        const filename = `radar_full_export_${new Date().toISOString().split('T')[0]}.pdf`;
+        const filename = `radar_export_completo_${new Date().toISOString().split('T')[0]}.pdf`;
         doc.save(filename);
     },
 
@@ -202,27 +244,35 @@ const ExportManager = {
     exportSiteVisitSheet() {
         const select = document.getElementById('export-intersection-select');
         if (!select || !select.value) {
-            alert('Please select an intersection');
+            alert('Seleziona un\'intersezione');
             return;
         }
 
         const intersection = DataManager.getIntersection(select.value);
         if (!intersection) {
-            alert('Intersection not found');
+            alert('Intersezione non trovata');
             return;
         }
 
         const { jsPDF } = window.jspdf;
         const doc = new jsPDF();
 
+        const inst = intersection.installation || {};
+        const conf = intersection.configuration || {};
+        const conn = intersection.connection || {};
+        const val = intersection.validation || {};
+        const coords = intersection.coordinates || {};
+        const isM91 = intersection.lotto === 'M9.1';
+        const isOmnia = (intersection.system || '').toUpperCase() === 'OMNIA';
+
         // Title
         doc.setFontSize(18);
-        doc.text('Site Visit Sheet', 105, 15, { align: 'center' });
+        doc.text('Scheda Sopralluogo', 105, 15, { align: 'center' });
 
         doc.setFontSize(14);
-        doc.text(intersection.name || 'Unknown', 105, 25, { align: 'center' });
+        doc.text(intersection.name || 'Sconosciuto', 105, 25, { align: 'center' });
         doc.setFontSize(10);
-        doc.text(`Code: ${intersection.id}`, 105, 32, { align: 'center' });
+        doc.text(`Codice: ${intersection.id}`, 105, 32, { align: 'center' });
 
         let y = 45;
 
@@ -271,28 +321,41 @@ const ExportManager = {
         };
 
         // General Information
-        addSection('General Information');
+        addSection('Informazioni Generali');
         addLine('Lotto', intersection.lotto);
-        addLine('System', intersection.system);
-        addLine('Number of Radars', intersection.num_radars);
-        addLine('Coordinates', `${intersection.latitude || 'N/A'}, ${intersection.longitude || 'N/A'}`);
+        addLine('Sistema', intersection.system);
+        addLine('Codice Impianto', intersection.codice_impianto);
+        addLine('Numero Radar', intersection.num_radars);
+        addLine('Coordinate', coords.lat && coords.lng ? `${coords.lat}, ${coords.lng}` : 'N/A');
 
         y += 3;
-        addSection('Stage Status Overview');
-        addStatusBadge('Installation', intersection.installation_status);
-        addStatusBadge('Configuration', intersection.configuration_status);
-        addStatusBadge('Connection', intersection.connection_status);
-        addStatusBadge('Validation', intersection.validation_status);
+        addSection('Stato Fasi');
+        addStatusBadge('Installazione', inst.status);
+        addStatusBadge('Configurazione', conf.status);
+        addStatusBadge('Connessione', conn.status);
+        addStatusBadge('Validazione', val.status);
 
         y += 3;
-        addSection('Installation Details');
-        addLine('Planimetrie Ricevute', intersection.installation?.planimetrie_ricevute);
-        addLine('Passaggio Cavi', intersection.installation?.passaggio_cavi);
-        addLine('Installazione Sensori', intersection.installation?.installazione_sensori);
-        addLine('Cablaggio Regolatore', intersection.installation?.cablaggio_regolatore);
-        addLine('Screenshot', intersection.installation?.screenshot);
-        addLine('Documentazione Inviata', intersection.installation?.documentazione_inviata);
-        addLine('Data Completamento', intersection.installation?.data_completamento);
+        addSection('Dettagli Installazione');
+        if (isM91) {
+            addLine('L1 Planimetrie', inst.l1_planimetrie);
+            addLine('L1 Passaggio Cavi', inst.l1_passaggio_cavi);
+            addLine('L1 Installazione Sensori', inst.l1_install_sensori);
+            addLine('L1 Cablaggio', inst.l1_cablaggio);
+            addLine('L1 Screenshot', inst.l1_screenshot);
+            addLine('L1 Doc Inviata', inst.l1_doc_inviata);
+            addLine('L1 Data Completamento', inst.l1_data_compl);
+        } else {
+            addLine('L2 Data Installazione', inst.l2_data_installaz);
+            addLine('L2 Config RSM', inst.l2_config_rsm);
+            addLine('L2 Config Installata', inst.l2_config_instal);
+            addLine('L2 Planimetria', inst.l2_planimetria);
+            addLine('L2 N Radar Finiti', inst.l2_n_radar_finiti);
+            addLine('L2 Centralizzati', inst.l2_centralizzati);
+        }
+        addLine('Dispositivi Bloccati', inst.disp_inst_bloccati);
+        addLine('Dispositivi Da Installare', inst.disp_da_inst);
+        addLine('Soluzione Bloccati', inst.soluzione_bloccati);
 
         // Check if we need a new page
         if (y > 240) {
@@ -301,18 +364,23 @@ const ExportManager = {
         }
 
         y += 3;
-        addSection('Configuration Details');
-        addLine('Configurazione Base', intersection.configuration?.base);
-        addLine('Config Definitiva Assegnata', intersection.configuration?.definitiva_assegnata);
-        addLine('Config Definitiva Da Verificare', intersection.configuration?.definitiva_da_verificare);
-        addLine('Config Implementata Sito', intersection.configuration?.implementata_sito);
+        addSection('Dettagli Configurazione');
+        addLine('Plan/Cfg Inviate', conf.plan_cfg_inviate);
+        addLine('Cfg Definitiva Status', conf.cfg_def_status);
+        addLine('Cfg Definitiva Installata', conf.cfg_def_inst);
 
         y += 3;
-        addSection('Connection Details');
-        addLine('SPOT Status', intersection.connection?.spot_status);
-        addLine('AUT Status', intersection.connection?.aut_status);
-        addLine('Tabella Interfaccia UTC', intersection.connection?.tabella_interfaccia_utc);
-        addLine('Connessione UTC Attiva', intersection.connection?.connessione_utc_attiva);
+        addSection('Dettagli Connessione');
+        addLine('Da Centralizzare AUT', conn.da_centr_aut);
+        addLine('Tabella IF UTC', conn.tabella_if_utc);
+        addLine('Interfaccia UTC Installata', conn.inst_interfaccia_utc);
+        if (isOmnia) {
+            addLine('SWARCO SPOT Status', conn.swarco_spot_status);
+            addLine('SWARCO SPOT Firmware', conn.swarco_spot_firmware);
+        } else {
+            addLine('Semaforica AUT', conn.sema_aut);
+            addLine('Semaforica Attivita', conn.sema_attivita);
+        }
 
         // Check if we need a new page
         if (y > 240) {
@@ -321,31 +389,16 @@ const ExportManager = {
         }
 
         y += 3;
-        addSection('Validation Details');
-        addLine('Data Lake Sending', intersection.validation?.data_lake_sending);
-        addLine('Verifica Dati Traffic', intersection.validation?.verifica_dati_traffic);
-        addLine('Interfaccia Visum/Optima', intersection.validation?.interfaccia_visum_optima);
-
-        // Files section
-        if (intersection.planimetry_file || (intersection.photo_files && intersection.photo_files.length > 0)) {
-            y += 3;
-            addSection('Attached Files');
-            if (intersection.planimetry_file) {
-                addLine('Planimetry', intersection.planimetry_file);
-            }
-            if (intersection.photo_files && intersection.photo_files.length > 0) {
-                intersection.photo_files.forEach((photo, idx) => {
-                    addLine(`Photo ${idx + 1}`, photo);
-                });
-            }
-        }
+        addSection('Dettagli Validazione');
+        addLine('Verifica Dati', val.vrf_dati);
 
         // Notes section
-        if (intersection.notes) {
+        if (intersection.note_main || intersection.notes) {
             y += 3;
-            addSection('Notes');
+            addSection('Note');
             doc.setFont(undefined, 'normal');
-            const splitNotes = doc.splitTextToSize(intersection.notes, 170);
+            const notesText = [intersection.note_main, intersection.notes].filter(Boolean).join('\n');
+            const splitNotes = doc.splitTextToSize(notesText, 170);
             doc.text(splitNotes, 20, y);
             y += splitNotes.length * 5;
         }
@@ -362,7 +415,7 @@ const ExportManager = {
             doc.setTextColor(255, 255, 255);
             doc.setFontSize(12);
             doc.setFont(undefined, 'bold');
-            doc.text('Data Issues', 20, y);
+            doc.text('Problemi Dati', 20, y);
             doc.setTextColor(0, 0, 0);
             y += 10;
             doc.setFontSize(9);
@@ -381,14 +434,14 @@ const ExportManager = {
             y = 20;
         }
         y += 10;
-        addSection('Field Work Checklist');
+        addSection('Checklist Sopralluogo');
         const checklistItems = [
-            'Verify physical installation',
-            'Check sensor positions',
-            'Test connections',
-            'Document with photos',
-            'Update configuration',
-            'Signature: ________________'
+            'Verifica installazione fisica',
+            'Controlla posizione sensori',
+            'Test connessioni',
+            'Documentazione fotografica',
+            'Aggiorna configurazione',
+            'Firma: ________________'
         ];
         checklistItems.forEach(item => {
             doc.rect(20, y - 3, 4, 4);
@@ -399,11 +452,11 @@ const ExportManager = {
         // Footer
         doc.setFontSize(8);
         doc.setTextColor(128, 128, 128);
-        doc.text(`Generated: ${new Date().toLocaleString('it-IT')}`, 20, 285);
-        doc.text('Radar Installation Project Management', 105, 285, { align: 'center' });
+        doc.text(`Generato: ${new Date().toLocaleString('it-IT')}`, 20, 285);
+        doc.text('Gestione Progetto Installazione Radar', 105, 285, { align: 'center' });
 
         // Save
-        doc.save(`site_visit_${intersection.id}_${new Date().toISOString().split('T')[0]}.pdf`);
+        doc.save(`scheda_sopralluogo_${intersection.id}_${new Date().toISOString().split('T')[0]}.pdf`);
     },
 
     /**
@@ -427,12 +480,16 @@ const ExportManager = {
         }
 
         if (blockedOnly) {
-            filtered = filtered.filter(i =>
-                i.installation_status === 'blocked' ||
-                i.configuration_status === 'blocked' ||
-                i.connection_status === 'blocked' ||
-                i.validation_status === 'blocked'
-            );
+            filtered = filtered.filter(i => {
+                const inst = i.installation || {};
+                const conf = i.configuration || {};
+                const conn = i.connection || {};
+                const val = i.validation || {};
+                return inst.status === 'blocked' ||
+                    conf.status === 'blocked' ||
+                    conn.status === 'blocked' ||
+                    val.status === 'blocked';
+            });
         }
 
         if (issuesOnly) {
@@ -440,29 +497,36 @@ const ExportManager = {
         }
 
         if (filtered.length === 0) {
-            alert('No intersections match the selected filters');
+            alert('Nessuna intersezione corrisponde ai filtri selezionati');
             return;
         }
 
         // Export filtered data
-        const data = filtered.map(i => ({
-            'Code': i.id,
-            'Name': i.name || '',
-            'Lotto': i.lotto || '',
-            'System': i.system || '',
-            'Radars': i.num_radars || 0,
-            'Installation': this.formatStatus(i.installation_status),
-            'Configuration': this.formatStatus(i.configuration_status),
-            'Connection': this.formatStatus(i.connection_status),
-            'Validation': this.formatStatus(i.validation_status),
-            'Issues': i.inconsistencies?.length || 0
-        }));
+        const data = filtered.map(i => {
+            const inst = i.installation || {};
+            const conf = i.configuration || {};
+            const conn = i.connection || {};
+            const val = i.validation || {};
+
+            return {
+                'Codice': i.id,
+                'Nome': i.name || '',
+                'Lotto': i.lotto || '',
+                'Sistema': i.system || '',
+                'Radar': i.num_radars || 0,
+                'Installazione': this.formatStatus(inst.status),
+                'Configurazione': this.formatStatus(conf.status),
+                'Connessione': this.formatStatus(conn.status),
+                'Validazione': this.formatStatus(val.status),
+                'Problemi': i.inconsistencies?.length || 0
+            };
+        });
 
         const wb = XLSX.utils.book_new();
         const ws = XLSX.utils.json_to_sheet(data);
-        XLSX.utils.book_append_sheet(wb, ws, 'Filtered Export');
+        XLSX.utils.book_append_sheet(wb, ws, 'Export Filtrato');
 
-        XLSX.writeFile(wb, `radar_filtered_export_${new Date().toISOString().split('T')[0]}.xlsx`);
+        XLSX.writeFile(wb, `radar_export_filtrato_${new Date().toISOString().split('T')[0]}.xlsx`);
     },
 
     /**
@@ -471,14 +535,14 @@ const ExportManager = {
     importFiles() {
         const select = document.getElementById('import-intersection-select');
         if (!select || !select.value) {
-            alert('Please select an intersection');
+            alert('Seleziona un\'intersezione');
             return;
         }
 
         const intersectionId = select.value;
         const intersection = DataManager.getIntersection(intersectionId);
         if (!intersection) {
-            alert('Intersection not found');
+            alert('Intersezione non trovata');
             return;
         }
 
@@ -505,14 +569,14 @@ const ExportManager = {
         }
 
         if (Object.keys(updates).length === 0) {
-            alert('Please select at least one file to import');
+            alert('Seleziona almeno un file da importare');
             return;
         }
 
         // Update intersection with file references
         DataManager.updateIntersection(intersectionId, updates);
 
-        alert('File references added successfully!\n\nNote: In a production environment, files would be uploaded to a server. Currently storing file path references only.');
+        alert('Riferimenti file aggiunti con successo!\n\nNota: In un ambiente di produzione, i file verrebbero caricati su un server. Attualmente vengono memorizzati solo i riferimenti ai percorsi.');
 
         // Clear inputs
         if (planimetryInput) planimetryInput.value = '';
@@ -524,12 +588,12 @@ const ExportManager = {
      */
     formatStatus(status) {
         const labels = {
-            completed: 'Completed',
-            in_progress: 'In Progress',
-            blocked: 'Blocked',
-            not_started: 'Not Started'
+            completed: 'Completato',
+            in_progress: 'In Corso',
+            blocked: 'Bloccato',
+            not_started: 'Non Iniziato'
         };
-        return labels[status] || status || 'Unknown';
+        return labels[status] || status || 'Sconosciuto';
     },
 
     /**
@@ -544,10 +608,10 @@ const ExportManager = {
             if (file) {
                 try {
                     await DataManager.restoreBackup(file);
-                    alert('Data restored successfully! Refreshing...');
+                    alert('Dati ripristinati con successo! Aggiornamento...');
                     window.location.reload();
                 } catch (err) {
-                    alert('Error restoring backup: ' + err.message);
+                    alert('Errore nel ripristino del backup: ' + err.message);
                 }
             }
         };
